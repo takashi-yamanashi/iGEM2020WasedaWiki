@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -56,13 +56,13 @@
       >
         <v-icon>mdi-menu</v-icon>
       </v-btn>
-    </v-app-bar>
+     </v-app-bar> -->
     <v-main>
-      <v-container>
+      <v-container fluid ma-0 pa-0 fill-height>
         <nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       v-model="rightDrawer"
       :right="right"
       temporary
@@ -78,12 +78,23 @@
           <v-list-item-title>Switch drawer (click me)</v-list-item-title>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
+
     <v-footer
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <!-- <span>&copy; {{ new Date().getFullYear() }}</span> -->
+
+      <v-container>
+        <v-row align="center" justify="center">
+          <v-col align="center" justify="center">
+            <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
+          </v-col>
+        </v-row>
+      </v-container>
+      
+
     </v-footer>
   </v-app>
 </template>
