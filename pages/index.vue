@@ -1,6 +1,6 @@
 <template>
 <v-container fluid ma-0 pa-0 fill-height class="top_bg"> 
-  <v-container>
+  <v-container fluid ma-0 pa-0>
     <v-row fluid ma-5 pa-5 mb-2 justify="center" align="end" class="top_bg_top1">
         
           <v-col ma-5 align="left" class="top_bg_top1_left">
@@ -22,9 +22,9 @@
   </v-container>
 
 
-  <v-container>
+  <v-container fluid pa-0 class="top_bg_top2"> 
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="12">
+      <v-col cols="12" sm="8" md="6">
         <img>
         <div class="text-center">
           <!-- <logo />
@@ -36,7 +36,24 @@
           </v-card-title>
           <v-card-text>
             <p>
-              Text
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text <br><br>
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text  <br><br>
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              
+              Text Text Text Text Text Text Text Text <br>
             </p>
           </v-card-text>
     
@@ -81,9 +98,9 @@
     </v-row>
   </v-container>
 
-  <v-container>
+  <v-container fluid pa-0 class="top_bg_top3_5"> 
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="12">
+      <v-col cols="12" sm="8" md="6">
         <img>
         <div class="text-center">
           <!-- <logo />
@@ -95,7 +112,24 @@
           </v-card-title>
           <v-card-text>
             <p>
-              Text
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text <br><br>
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text  <br><br>
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              
+              Text Text Text Text Text Text Text Text <br>
             </p>
           </v-card-text>
           <v-card-actions>
@@ -113,9 +147,9 @@
     </v-row>
   </v-container>
 
-    <v-container>
+    <v-container fluid pa-0 class="top_bg_top3_5">
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="12">
+      <v-col cols="12" sm="8" md="6">
         <img>
         <div class="text-center">
           <!-- <logo />
@@ -123,11 +157,28 @@
         </div>
         <v-card light>
           <v-card-title class="headline">
-    
+            IFFL
           </v-card-title>
           <v-card-text>
             <p>
-              Text
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text <br><br>
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text  <br><br>
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              
+              Text Text Text Text Text Text Text Text <br>
             </p>
           </v-card-text>
           <v-card-actions>
@@ -146,9 +197,9 @@
   </v-container>
 
 
-  <v-container>
+  <v-container fluid pa-0 class="top_bg_top3_5">
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="12">
+      <v-col cols="12" sm="8" md="6">
         <img>
         <div class="text-center">
           <!-- <logo />
@@ -160,7 +211,24 @@
           </v-card-title>
           <v-card-text>
             <p>
-              Text
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text <br><br>
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text  <br><br>
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              
+              Text Text Text Text Text Text Text Text <br>
             </p>
           </v-card-text>
     
@@ -179,9 +247,9 @@
     </v-row>
   </v-container>
 
-   <v-container>
+   <v-container fluid pa-0 class="top_bg_top6">
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="12">
+      <v-col cols="12" sm="8" md="6">
         <img>
         <div class="text-center">
           <!-- <logo />
@@ -193,7 +261,24 @@
           </v-card-title>
           <v-card-text>
             <p>
-              Text
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text <br><br>
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text Text Text Text Text  <br><br>
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              Text Text Text Text Text Text Text Text 
+              
+              Text Text Text Text Text Text Text Text <br>
             </p>
           </v-card-text>
     
@@ -230,7 +315,8 @@ export default {
 
 <style lang="scss" scoped>
 .top_bg {
-  background-image: url("https://2020.igem.org/wiki/images/0/0e/T--Waseda--TopPageBackgroundWashi.svg");
+  background-image: url("https://2020.igem.org/wiki/images/1/13/T--Waseda--TopPageBackgroundWashi.png");
+  background-repeat: repeat;
   &_top1{
     padding:20px 3% 0 3%;
     &_left {
@@ -239,6 +325,18 @@ export default {
     &_right {
       padding-bottom:10px;
     }
+  }
+  &_top2{
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3) 0% 0% no-repeat padding-box;
+  }
+  &_top3_5{
+    margin: 20px 0;
+    background: rgba(37, 121, 255, 0.3) 0% 0% no-repeat padding-box;
+  }
+  &_top6{
+    margin: 20px 0 40px 0;
+    background: rgba(87, 126, 11, 0.35) 0% 0% no-repeat padding-box;
   }
 }
 .top_title {
