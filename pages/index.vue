@@ -8,7 +8,7 @@
           </v-col>
 
           <v-col col="2" ma-5 align="right">
-            <v-row class="top_bg_top1_right">>
+            <v-row class="top_bg_top1_right">
               <img class="image_def" src="https://2020.igem.org/wiki/images/f/ff/T--Waseda--raijinSamurai.svg">
             </v-row>
             <v-row>
@@ -277,7 +277,8 @@ export default {
 
 <style lang="scss" scoped>
 .top_bg {
-  background-image: url("https://2020.igem.org/wiki/images/1/13/T--Waseda--TopPageBackgroundWashi.png");
+  margin-bottom: 50%;
+  background-image: url("https://2020.igem.org/wiki/images/c/cf/T--Waseda--TopPageBackgroundWashi.jpg");
   background-size: 100% auto;
   background-repeat: repeat;
   &_top1 {
