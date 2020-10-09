@@ -70,38 +70,41 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    
     filenames: {
       app: () => '[name].js',
       chunk: () => '[name].js',
-      content: () => '[name].json', // 追加 1601947341
+      // content: () => '[name].json', //add 1601947341
       css: () => '[name].js',
       img: () => '[path][name].[ext]',
       font: () => '[path][name].[ext]',
       video: () => '[path][name].[ext]'
     },
   },
+  generate: {
+    subFolders: false
+  },
+  
 
-    hooks: {
-      generate: {
-        page (page) {
-          const cheerio = require('cheerio')
-          const $ = cheerio.load(page.html, { decodeEntities: false })
+  hooks: {
+    generate: {
+      page (page) {
+        const cheerio = require('cheerio')
+        const $ = cheerio.load(page.html, { decodeEntities: false })
           
-          const attrs = [
-            'data-n-head-ssr',
-            'data-n-head',
-            'data-hid',
-            'data-vue-ssr-id',
-            'data-server-rendered',
-          ]
+        const attrs = [
+          'data-n-head-ssr',
+          'data-n-head',
+          'data-hid',
+          'data-vue-ssr-id',
+          'data-server-rendered',
+        ]
           
-          attrs.forEach(value => {
-            $('*[' + value + ']').removeAttr(value)
-          })
+        attrs.forEach(value => {
+          $('*[' + value + ']').removeAttr(value)
+        })
           
-          page.html = $.html()
-        },
+        page.html = $.html()
       },
-    }
+    },
+  }
 }
