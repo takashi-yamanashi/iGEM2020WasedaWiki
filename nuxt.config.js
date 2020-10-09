@@ -80,5 +80,28 @@ export default {
       font: () => '[path][name].[ext]',
       video: () => '[path][name].[ext]'
     },
-  }
+  },
+
+    hooks: {
+      generate: {
+        page (page) {
+          const cheerio = require('cheerio')
+          const $ = cheerio.load(page.html, { decodeEntities: false })
+          
+          const attrs = [
+            'data-n-head-ssr',
+            'data-n-head',
+            'data-hid',
+            'data-vue-ssr-id',
+            'data-server-rendered',
+          ]
+          
+          attrs.forEach(value => {
+            $('*[' + value + ']').removeAttr(value)
+          })
+          
+          page.html = $.html()
+        },
+      },
+    }
 }
