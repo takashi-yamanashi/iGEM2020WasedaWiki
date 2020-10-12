@@ -14,8 +14,11 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  router: {
+    base: '/Team:Waseda'
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -27,7 +30,7 @@ export default {
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+  components: false,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
@@ -73,17 +76,16 @@ export default {
     filenames: {
       app: () => '[name].js',
       chunk: () => '[name].js',
-      // content: () => '[name].json', //add 1601947341
-      css: () => '[name].js',
+      css: () => '[name].css',
       img: () => '[path][name].[ext]',
       font: () => '[path][name].[ext]',
       video: () => '[path][name].[ext]'
     },
   },
   generate: {
-    subFolders: false
+    subFolders: false,
+    // fallback: true
   },
-  
 
   hooks: {
     generate: {
@@ -100,11 +102,12 @@ export default {
         ]
           
         attrs.forEach(value => {
-          $('*[' + value + ']').removeAttr(value)
+          $('*[' + value + ']').removeAttr(value) 
+          
         })
           
         page.html = $.html()
       },
     },
-  }
+  },
 }
