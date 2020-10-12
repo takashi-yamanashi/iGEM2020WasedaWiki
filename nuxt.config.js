@@ -6,8 +6,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - wiki',
-    title: 'wiki',
+    titleTemplate: '%s - iGEM Waseda',
+    title: '2020Wiki',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -106,5 +106,10 @@ export default {
         page.html = $.html()
       },
     },
-  }
+  },
+
+  // for iGEM
+  // router: {
+  //   base: '/Team:Waseda'
+  // },
 }
