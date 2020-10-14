@@ -22,3 +22,13 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 Deploy (netlify)
 https://tender-sammet-44e510.netlify.app/
 
+# iGEM Sever Deploy
+```bash
+# rewrite for iGEM Format
+$ deploy_igem_server.py
+
+# Deploy iGEM Server
+$ conversion_to_igemformat.py
+```
+
+Please check this : https://2020.igem.org/Team:Waseda
