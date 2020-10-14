@@ -109,7 +109,7 @@ export default {
   },
 
   // for iGEM
-  // router: {
-  //   base: '/Team:Waseda'
-  // },
+  router: {
+    base: '/Team:Waseda'
+  },
 }
