@@ -22,7 +22,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 Deploy (netlify)
 https://tender-sammet-44e510.netlify.app/
 
-# iGEM Sever Deploy
+# iGEM Server Deploy
 ```bash
 # rewrite for iGEM Format
 $ deploy_igem_server.py
