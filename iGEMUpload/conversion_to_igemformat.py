@@ -18,11 +18,20 @@ def rewrite_jsload(all_file_name):
         with open(file_name, 'r') as s:
             f = s.read()
     #         replace point 1
-            after1_f = f.replace('plugin.js"', 'plugin')
+            after1_f = f.replace('plugin.js', 'plugin')
         #         replace point 2
-            after2_f = after1_f.replace('.js"', 'JS?action=raw&amp;ctype=text/javascript"')
+            after2_f = after1_f.replace('.js" as="script"', 'JS&action=raw&ctype=text/javascript" as="script"')
+#         replace point 2.1
+            after21_f = after2_f.replace('.js" defer', 'JS?action=raw&amp;ctype=text/javascript" defer as="script"')
+
+#         replace point 2.2
+            after22_f = after21_f.replace('"payload.js"', '"payloadJS&action=raw&ctype=text/javascript"')
+
+#         replace point 2.3
+            after23_f = after22_f.replace('+".js"', '+"JS?action=raw"')
+    
         #         replace point 3
-            after3_f = after2_f.replace('<!DOCTYPE html>', '')
+            after3_f = after23_f.replace('<!DOCTYPE html>', '')
 
         #         replace point 4
             after4_f = after3_f.replace(db_hash, 'b25b294c')#b25b294c User specified hash

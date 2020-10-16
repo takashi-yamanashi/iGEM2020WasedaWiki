@@ -129,3 +129,6 @@ export default {
   }
 }
 </script>
+<style>
+#sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
+</style>
