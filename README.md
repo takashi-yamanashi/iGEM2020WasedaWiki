@@ -19,10 +19,11 @@ $ yarn generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-Deploy (netlify)
+Deploy (netlify) connected main branch
 https://tender-sammet-44e510.netlify.app/
 
 # iGEM Server Deploy
+Branch : igem_server
 ```bash
 # rewrite for iGEM Format
 $ python deploy_igem_server.py
