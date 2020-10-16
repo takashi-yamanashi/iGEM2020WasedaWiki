@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer app　v-model="drawer" temporary　clipped>
-      <v-list>
+      <v-list left>
         <v-list-item :to="'/'" router exact>
                 <v-list-item-action>
                   <v-icon>mdi-apps</v-icon>
@@ -34,9 +34,10 @@
 
 <!-- this is navigation  bar -->
     <v-app-bar app  inverted-scroll　clipped-left>
-      <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer=!drawer" v-if="xs|sm"></v-app-bar-nav-icon>
       <v-toolbar-title>Navigation</v-toolbar-title>
-      <v-toolbar-items v-for="(item, i) in items" :key="i">
+      <v-spacer></v-spacer>
+      <v-toolbar-items v-for="(item, i) in items" :key="i" v-if!="xs|sm">
           <v-menu offset-y>
             <template v-slot:activator="{on}">
             <v-btn v-on="on" text>{{ item.title }}<v-icon>{{ item.icon }}</v-icon></v-btn>
