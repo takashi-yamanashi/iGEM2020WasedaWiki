@@ -2,20 +2,32 @@
   <v-app>
     <v-navigation-drawer app　v-model="drawer" temporary　clipped>
       <v-list>
-        <v-list-item
-              v-for="(item, i) in items"
-              :key="i"
-              :to="item.to"
-              router
-              exact
-        >
-        <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
+        <v-list-item :to="'/'" router exact>
+                <v-list-item-action>
+                  <v-icon>mdi-apps</v-icon>
+                </v-list-item-action>
+                <v-list-item-content>
+                  <v-list-item-title v-text="'Home'" />
+                </v-list-item-content>
+              </v-list-item>
+              <v-list-group 
+                v-for="(nav_list, i) in items" 
+                :key="i" 
+                :prepend-icon="nav_list.icon" 
+                no-action 
+                :append-icon="nav_list.lists ? undefined : ''"
+                > 
+            <template v-slot:activator>
+              <v-list-item-content>
+                <v-list-item-title>{{ nav_list.title }}</v-list-item-title>
+              </v-list-item-content>
+            </template>
+            <v-list-item v-for="(list, j) in nav_list.lists" :key="j" :to="list.to" router>
+              <v-list-item-content>
+                <v-list-item-title>{{ list.title }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list-group>
       </v-list>
 
     </v-navigation-drawer>
@@ -23,7 +35,30 @@
 <!-- this is navigation  bar -->
     <v-app-bar app  inverted-scroll　clipped-left>
       <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Nagigation</v-toolbar-title>
+      <v-toolbar-title>Navigation</v-toolbar-title>
+      <v-toolbar-items v-for="(item, i) in items" :key="i">
+          <v-menu offset-y>
+            <template v-slot:activator="{on}">
+            <v-btn v-on="on" text>{{ item.title }}<v-icon>{{ item.icon }}</v-icon></v-btn>
+            
+            </template>
+            <v-list>
+            
+              <v-list-item
+                  v-for="(list, j) in item.lists"
+                  :key="j"
+                  :to="list.to"
+                  router
+                  exact
+              >
+                
+                <v-list-item-content>
+                  <v-list-item-title v-text="list.title" />
+                </v-list-item-content>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+      </v-toolbar-items>
     </v-app-bar>
     <!-- 
   
@@ -109,26 +144,81 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
+      items:[
         {
-          icon: 'mdi-apps',
-          title: 'Home',
-          to: '/'
+          title: 'Project',
+          icon: 'mdi-speedometer',
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
+          title: 'Model',
+          icon: 'mdi-cogs' ,
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
+        },
+        {
+          title: 'Parts',
+          icon: 'mdi-palette',
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
+        },
+        {
+          title: 'HP',
+          icon: 'mdi-view-dashboard',
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
+        },
+        {
+          title: 'Team',
+          icon: 'mdi-function',
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
+        },
+        {
+          title: 'Award',
+          icon: 'mdi-vuetify',
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
+        },
+        {
+          title: 'Notebook',
+          icon: 'mdi-vuetify',
+          lists:[
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Quick Start', to: 'inspire'},
+          ]
+        },
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Vuetify.js',
+
     }
   }
 }
 </script>
 <style>
+/* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 </style>
