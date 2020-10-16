@@ -20,6 +20,7 @@ $ yarn generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 Deploy (netlify), connected main branch
+
 https://tender-sammet-44e510.netlify.app/
 
 # iGEM Server Deploy
