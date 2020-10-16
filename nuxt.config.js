@@ -112,4 +112,5 @@ export default {
   router: {
     base: '/Team:Waseda'
   },
+
 }
