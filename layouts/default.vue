@@ -34,10 +34,11 @@
 
 <!-- this is navigation  bar -->
     <v-app-bar app  inverted-scroll　clipped-left>
-      <v-app-bar-nav-icon @click="drawer=!drawer" v-if="xs|sm"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer=!drawer" v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.xs||$vuetify.breakpoint.sm)"></v-app-bar-nav-icon>
       <v-toolbar-title>Navigation</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-items v-for="(item, i) in items" :key="i" v-if!="xs|sm">
+      <template v-if="($vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
+      <v-toolbar-items v-for="(item, i) in items" :key="i">
           <v-menu offset-y>
             <template v-slot:activator="{on}">
             <v-btn v-on="on" text>{{ item.title }}<v-icon>{{ item.icon }}</v-icon></v-btn>
@@ -60,6 +61,7 @@
             </v-list>
           </v-menu>
       </v-toolbar-items>
+      </template>
     </v-app-bar>
     <!-- 
   
@@ -188,7 +190,7 @@ export default {
           lists:[
             { title: 'Quick Start', to: 'inspire'},
             { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Collaborations', to: 'Collaborations'},
           ]
         },
         {
