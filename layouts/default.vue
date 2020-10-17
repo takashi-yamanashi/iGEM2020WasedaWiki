@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer app　v-model="drawer" temporary　clipped>
+    <v-navigation-drawer app　 v-model="drawer" temporary　clipped> <!-- pt-5 = paddding-top 20px -->
       <v-list left>
         <v-list-item :to="'/'" router exact>
                 <v-list-item-action>
@@ -224,4 +224,8 @@ export default {
 <style>
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
+
+.v-toolbar__content, .v-toolbar__extension {
+    padding: 24px 16px 4px 16px;
+}
 </style>
