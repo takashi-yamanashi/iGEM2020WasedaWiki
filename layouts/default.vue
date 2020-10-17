@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer app　 v-model="drawer" temporary　clipped> <!-- pt-5 = paddding-top 20px -->
+    <v-navigation-drawer app v-model="drawer" temporary　clipped>
       <v-list left>
         <v-list-item :to="'/'" router exact>
                 <v-list-item-action>
@@ -33,9 +33,9 @@
     </v-navigation-drawer>
 
 <!-- this is navigation  bar -->
-    <v-app-bar app  inverted-scroll　clipped-left>
+    <v-app-bar app  elevation="10" prominent dense inverted-scroll clipped-left v-if="($vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
       <v-app-bar-nav-icon @click="drawer=!drawer" v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.xs||$vuetify.breakpoint.sm)"></v-app-bar-nav-icon>
-      <v-toolbar-title>Navigation</v-toolbar-title>
+      <v-toolbar-title >Navigation</v-toolbar-title>
       <v-spacer></v-spacer>
       <template v-if="($vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
       <v-toolbar-items v-for="(item, i) in items" :key="i">
@@ -62,6 +62,13 @@
           </v-menu>
       </v-toolbar-items>
       </template>
+    </v-app-bar>
+
+    <v-app-bar app  elevation="10" center clipped-cneter inverted-scroll v-else>
+      <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
+      <v-spacer></v-spacer>
+      <v-toolbar-title >Navigation</v-toolbar-title>
+      <v-spacer></v-spacer>
     </v-app-bar>
     <!-- 
   
@@ -225,7 +232,7 @@ export default {
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 
-.v-toolbar__content, .v-toolbar__extension {
-    padding: 24px 16px 4px 16px;
+.v-toolbar--dense .v-toolbar__content {
+    padding: 20px 16px 4px 16px; /* igem header 20px */
 }
 </style>

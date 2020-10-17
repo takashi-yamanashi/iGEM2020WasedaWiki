@@ -25,9 +25,18 @@ https://tender-sammet-44e510.netlify.app/
 
 # iGEM Server Deploy
 Branch : igem_server
-Uncomment '// for iGEM server' to '// ---end---'  in nuxt.config.js
+
+## environment path setting
+```bash
+export IGEM_USERNAME=youriGEMusername
+export IGEM_PASSWORD=youriGEMpassword
+```
 
 ```bash
+$ git checkour igem_server
+$ git merge main
+$ cd iGEMUpload
+
 # rewrite for iGEM Format
 $ python deploy_igem_server.py
 
