@@ -35,9 +35,12 @@ export IGEM_PASSWORD=youriGEMpassword
 ```bash
 $ git checkour igem_server
 $ git merge main
-$ cd iGEMUpload
+
+# generate static project
+$ yarn generate
 
 # rewrite for iGEM Format
+$ cd iGEMUpload
 $ python deploy_igem_server.py
 
 # Deploy iGEM Server
