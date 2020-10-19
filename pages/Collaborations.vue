@@ -7,22 +7,26 @@
                 <!-- v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.xs||$vuetify.breakpoint.sm)" -->
                 <v-col class="left_box" align="left"  v-if="($vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
                     <v-col class="sidebar" ma-0 pa-0>
-                        <v-row class="navi-image">
-                                 <svg id="mySVG">
-                                    <circle fill="none" cx="80" cy="80" r="67" stroke="#1f7a82" stroke-width="5" id="triangle" transform='rotate(270 80 80)'/>
-                                    <circle fill="#363636" cx="80" cy="80" r="58" stroke="#363636" stroke-width="5"/>
-                                    Sorry, your browser does not support inline SVG. 
-                                </svg>
-                        <img class="image_max" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+
+                        <v-row class="navi_image">
+                               <svg class="navi_icon" z-index='99'>
+                                 <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
+                                
+                                Sorry, your browser does not support inline SVG. 
+                              </svg>
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+            
                         </v-row>
 
             
-                    <v-row class="navi-text">
-                        <v-row :class="{ 'input_text': true, 'box_text': check[0] }">> area 1 </v-row>
-                        <v-row :class="{ 'input_text': true, 'box_text': check[1] }">> area 2 </v-row>
-                        <v-row :class="{ 'input_text': true, 'box_text': check[2] }">> area 3 </v-row>
-                        <v-row :class="{ 'input_text': true, 'box_text': check[3] }">> area 4 </v-row>
-                        <v-row :class="{ 'input_text': true, 'box_text': check[4] }">> area 5 </v-row>
+                    <v-row class="navi_text">
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[0] }"> Top1 1 </v-row>
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[1] }"> - Title1 2 </v-row>
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[2] }"> - Title2 3 </v-row>
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[3] }"> Top2 4 </v-row>
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[4] }"> - Title1 5 </v-row>
                         
 
                     </v-row>
@@ -33,7 +37,7 @@
                     <v-row justify="center" text-align="left">
                         
                         <v-col>
-                            <h1 class='text_h1' pushElementOffsetTop>{{sectionOffsetTop}}{{scrollY}}</h1>
+                            <h1 class='text_h1' pushElementOffsetTop>Collabratetions</h1>
                         </v-col>
                     </v-row>
                     
@@ -78,6 +82,7 @@ export default {
     return {
       fab: false,
       scrollY: 0,
+      scrollPer: 510.293,
       sectionOffsetTop: [],
       check: [false, false, false, false, false, false],
 
@@ -95,7 +100,11 @@ export default {
           this.check[j] = true
         }
       };
+      const windowHigh = document.documentElement.scrollHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh-910)));
+      // 910 is footer size
     },
+
     pushElementOffsetTop() {
       const targets = [
         'section_01', 'section_02', 'section_03', 'section_04', 'section_05', 'section_06'
@@ -158,20 +167,42 @@ export default {
 //     position: -webkit-sticky;
 //     position: sticky;
 // }
-.image_max {
-    width: 100%;
-}
+// .image_max {
+//     width: 100%;
+// }
 
 .navi {
+  &_icon {
+    width: 200px;
+    height: 200px;
+  }
 
-    &-image {
+  &_image {
         display: block;
+        position: relative;
         padding-top: 100px;
-    }
-    &-text {
+        width: 200px;
+        margin: 0 auto;
+  }
+  &_text {
         display: block;
-        background-color: black;
-    }
+        width: 200px;
+        margin: -40px auto 0 auto;
+        padding: 60px 0 40px 0;
+        border-radius: 20px;
+        background-color: white;
+  }
+  &_svg {
+      position:absolute; top:120px; left:20px; 
+      width: 160px;
+      height: 160px;
+  }
+}
+#triangle {
+  width:160px;
+  height: 160px;
+  stroke-dasharray: 510.293; 
+  // stroke-dashoffset: 420.293 - scrollY;
 }
 
 .input_box {
@@ -182,18 +213,17 @@ export default {
     padding: 50vh;
     background-color: red;
 }
-.input_text {
+.title_text {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     width:60%;
-    padding-top: 50px;
-    background-color: blue;
+    border-radius: 10px;
+    background-color: None;
+    &_active{
+      background-color: #507EA4;
+      color: white;
+      opacity: 0.5;
+    }
 }
-.box_text {
-    display: block;
-    margin: 0 auto;
-    width:60%;
-    padding-top: 50px;
-    background-color: red;
-}
+
 </style>
