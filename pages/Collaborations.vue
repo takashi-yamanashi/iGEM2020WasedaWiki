@@ -37,11 +37,11 @@
                     <v-row justify="center" text-align="left">
                         
                         <v-col>
-                            <h1 class='text_h1' pushElementOffsetTop>Collabratetions</h1>
+                            <h1 class='text_h1' pushElementOffsetTop>Collaborations</h1>
                         </v-col>
                     </v-row>
                     
-                    <v-row v-scroll="pushScrollY" id="section_01" :class="{ 'input_box': true, 'box_active': check[0] }">> area 1 </v-row>
+                    <v-row v-scroll="pushScrollY" id="Qdai" :class="{ 'input_box': true, 'box_active': check[0] }">> Qdai </v-row>
                     <v-row v-scroll="pushScrollY" id="section_02" :class="{ 'input_box': true, 'box_active': check[1] }">> area 2 </v-row>
                     <v-row v-scroll="pushScrollY" id="section_03" :class="{ 'input_box': true, 'box_active': check[2] }">> area 3 </v-row>
                     <v-row v-scroll="pushScrollY" id="section_04" :class="{ 'input_box': true, 'box_active': check[3] }">> area 4 </v-row>
@@ -61,7 +61,7 @@
                             right
                             color="primary"
                             @click="toTop">
-                            <v-icon>fas fa-angle-up</v-icon>
+                            <v-icon>mdi-arrow-up</v-icon>
                         </v-btn>
                         </transition>
                     </v-row>
@@ -107,7 +107,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'section_01', 'section_02', 'section_03', 'section_04', 'section_05', 'section_06'
+        'Qdai', 'section_02', 'section_03', 'section_04', 'section_05', 'section_06'
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
