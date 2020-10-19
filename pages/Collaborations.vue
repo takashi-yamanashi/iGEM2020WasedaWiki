@@ -22,7 +22,7 @@
 
             
                     <v-row class="navi_text">
-                        <v-row :class="{ 'title_text': true, 'title_text_active': check[0] }"> Top1 1 </v-row>
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[0] }"> Qdai</v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[1] }"> - Title1 2 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[2] }"> - Title2 3 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[3] }"> Top2 4 </v-row>
@@ -35,10 +35,14 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                     <v-row justify="center" text-align="left">
-                        
-                        <v-col>
-                            <h1 class='text_h1' pushElementOffsetTop>Collaborations</h1>
-                        </v-col>
+                        <v-row cols="12" class='h1_box'>
+                          <v-col fluid ma-0 pa-0> 
+                            <h1 class='h1_text' pushElementOffsetTop>Collaborations</h1>
+                          </v-col>
+                          <v-col class="h1_imbox" fluid ma-0 pa-0>
+                            <img z-indx="10" class='h1_image'  src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                          </v-col>
+                        </v-row>
                     </v-row>
                     
                     <v-row v-scroll="pushScrollY" id="Qdai" :class="{ 'input_box': true, 'box_active': check[0] }">> Qdai </v-row>
@@ -148,11 +152,26 @@ export default {
     padding: 80px 10%;
     background: rgba(255, 255, 255) 0% 0% no-repeat padding-box;
 }
-.text {
-    &_h1 {
-        font-size: 60px;
-        border-bottom: 5px solid black;
-    }
+.h1 {
+  &_box {
+    border-bottom: 5px solid black;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+  &_text {
+    font-size: 60px;
+    width: 100px;
+  }
+  &_imbox {
+    display: block;
+    position: relative;
+  }
+  &_image{
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height: 150px;   
+  }
 }
 // Scroll back
 .fade-enter-active, .fade-leave-active {
@@ -162,14 +181,6 @@ export default {
   opacity: 0;
   transform: scale(0);
 }
-// .position_fix {
-//     // top: 100px;
-//     position: -webkit-sticky;
-//     position: sticky;
-// }
-// .image_max {
-//     width: 100%;
-// }
 
 .navi {
   &_icon {
