@@ -8,6 +8,11 @@
                 <v-col class="left_box" align="left"  v-if="($vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
                     <v-col class="sidebar" ma-0 pa-0>
                         <v-row class="navi-image">
+                                 <svg id="mySVG">
+                                    <circle fill="none" cx="80" cy="80" r="67" stroke="#1f7a82" stroke-width="5" id="triangle" transform='rotate(270 80 80)'/>
+                                    <circle fill="#363636" cx="80" cy="80" r="58" stroke="#363636" stroke-width="5"/>
+                                    Sorry, your browser does not support inline SVG. 
+                                </svg>
                         <img class="image_max" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
                         </v-row>
 
