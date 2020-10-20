@@ -22,7 +22,7 @@
 
             
                     <v-row class="navi_text">
-                        <v-row :class="{ 'title_text': true, 'title_text_active': check[0] }"> Qdai</v-row>
+                        <a href="#Qdai"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Qai</v-row></a>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[1] }"> Title1 2 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[2] }"> Title2 3 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[3] }"> Top2 4 </v-row>
@@ -369,5 +369,25 @@ export default {
   width: 100%;
   padding: 0;
   margin: 0;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
 </style>
