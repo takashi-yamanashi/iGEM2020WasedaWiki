@@ -22,7 +22,7 @@
 
             
                     <v-row class="navi_text">
-                        <a href="#Qdai"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Qai</v-row></a>
+                        <a href="Collaborations#Qdai"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Qai</v-row></a>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[1] }"> Title1 2 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[2] }"> Title2 3 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[3] }"> Top2 4 </v-row>
@@ -36,7 +36,7 @@
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                     <v-row justify="center" text-align="left">
                         <v-row cols="12" class='h1_box'>
-                          <v-col class='h1_box_text'> 
+                          <v-col class='h1_box_text' id="Qdai"> 
                             <h1 class='h1_text' pushElementOffsetTop>Collaborations</h1>
                           </v-col>
                           <v-col class="h1_imbox" fluid ma-0 pa-0 v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
@@ -45,7 +45,7 @@
                         </v-row>
                     </v-row>
                     
-                    <v-row v-scroll="pushScrollY" id="Qdai"> 
+                    <v-row v-scroll="pushScrollY" id="Qdaitop"> 
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Qdai</h2>
                       </v-row>
@@ -240,7 +240,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'Qdai', 'section_02', 'section_03', 'section_04', 'section_05', 'section_06'
+        'Qdaitop', 'section_02', 'section_03', 'section_04', 'section_05', 'section_06'
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -292,7 +292,6 @@ export default {
   }
   &_text {
     font-size: 60px;
-    width: 100px;
   }
   &_imbox {
     display: block;

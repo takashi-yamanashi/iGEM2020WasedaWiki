@@ -159,8 +159,8 @@ export default {
           title: 'Project',
           icon: 'mdi-speedometer',
           lists:[
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Overview', to: 'inspire'},
+            { title: 'Description', to: 'Description'},
             { title: 'Quick Start', to: 'inspire'},
           ]
         },
@@ -168,9 +168,9 @@ export default {
           title: 'Model',
           icon: 'mdi-cogs' ,
           lists:[
+            { title: 'Model', to: 'Model'},
             { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Software', to: 'SoftWare'},
           ]
         },
         {
@@ -186,9 +186,9 @@ export default {
           title: 'HP',
           icon: 'mdi-view-dashboard',
           lists:[
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Human_Practices', to: 'Human_Practices'},
+            { title: 'Entrepreneurship', to: 'Entrepreneurship'},
+            { title: 'Education', to: 'Education'},
           ]
         },
         {
@@ -196,7 +196,7 @@ export default {
           icon: 'mdi-function',
           lists:[
             { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Partnership', to: 'Partnership'},
             { title: 'Collaborations', to: 'Collaborations'},
           ]
         },
