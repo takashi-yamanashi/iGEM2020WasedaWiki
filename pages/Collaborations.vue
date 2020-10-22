@@ -52,17 +52,16 @@
                       <v-row class="row_max-box">
                         <v-col >
                           <h3>About</h3>
-                            <P>text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
+                            <P>
+                              We collaborated with the Qdai Team about the modeling of the project. 
+                              The same style of project modeling could us to easily connect with each other’s projects. 
+                              Based on our knowledge, we cooperated with Qdai Team on the modeling of their project.
+                              They gave us deep insight into our models from a wet aspect and could us to create a more powerful model.
                             </p>
                           
                         </v-col>
                         <v-col >
-                          <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/65/T--Waseda--QdaiWasedaLogo.png">
                         </v-col>
                       </v-row>
                       <v-row class="row_max-box">
@@ -71,36 +70,34 @@
                         </v-col>
                         <v-col>
                           <h3>Why did we decide to do this collaboration?</h3>
-                          <P>text texttext texttext texttext texttext texttext text
-                            text texttext texttext texttext texttext texttext text
-                            text texttext texttext texttext texttext texttext texttext text
-                            text texttext texttext texttext texttext texttext texttext texttext text
-                            text texttext texttext texttext texttext texttext texttext texttext text
-                            text texttext texttext texttext texttext texttext texttext text
-                          </p>
+                          <P>
+                            We had much knowledge of modeling of quorum sensing system and creating gene circuits.
+                            However, they lacked knowledge of how to model projects based on wet systems created for real-world problems. 
+                            In synthetic biology, modeling is very important for standardization. 
+                            A good modeled project is able to be easily connected to other projects.
+                            Our goal was to solve a complex problem, and we needed to be able to connect other projects to our project.
+                            That’s why we decided to work with the Qdai team, who have a deep knowledge of wet lab and a strong focus on real-world problems.
+                            </p>
                         </v-col>
                       </v-row>
                       <v-row class="row_max-box">
                         <v-row  class="row_max-box">
                           <h3>How did we help each other?</h3>
-                            <P>text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
+                            <P> 
+                              We had a better understanding of each other’s projects through chatting and online meeting.
+                              We learned a detailed understanding of the Qdai Team’s project, “a phosphoric acid storage system”.
+                              Then, we proposed the modeling of the system. We also discussed other collaborate between our projects.
                             </p>
                         </v-row>
                       </v-row>
                       <v-row  fluid ma-0 pa-0 class="row_max-box">
                         <v-col class="row_max-box">
                           <h3>What did we learn from this collaboration?</h3>
-                            <P>text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
+                            <P>
+                              Through this collaboration, we have become very aware of the scalability of our model.
+                              We also learned about the difficulties of applying our model to the project based on wet systems, and the importance of collaboration with other teams. 
+                              Connecting our projects with the project based on wet systems for solving real-world problems has a big impact. 
+                              The first step in this process, it was very successful to collaborate with the Qdai Team.
                             </p>
                         </v-col>
               
@@ -118,12 +115,8 @@
                       <v-row class="row_max-box">
                         <v-col >
                           <h3>About</h3>
-                            <P>text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext texttext text
-                              text texttext texttext texttext texttext texttext texttext text
+                            <P>
+                             textet
                             </p>
                           
                         </v-col>
@@ -182,22 +175,7 @@
                     <v-template v-scroll="pushScrollY" id="section_06"></v-template>
                     
 
-                    <v-row>
-                        <transition name="fade">
-                        <v-btn 
-                            v-scroll="onScroll"
-                            v-show="fab"
-                            fab
-                            dark
-                            fixed
-                            bottom
-                            right
-                            color="primary"
-                            @click="toTop">
-                            <v-icon>mdi-arrow-up</v-icon>
-                        </v-btn>
-                        </transition>
-                    </v-row>
+                    
                 </v-col>
 
             </v-row>
@@ -233,9 +211,9 @@ export default {
           this.check[j] = true
         }
       };
-      const windowHigh = document.documentElement.scrollHeight;
-      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh-910)));
-      // 910 is footer size
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+
     },
 
     pushElementOffsetTop() {
@@ -249,15 +227,7 @@ export default {
       });
     },
 
-    //for btn
-    onScroll (e){
-      if (typeof window === 'undefined') return
-      const top = window.pageYOffset ||   e.target.scrollTop || 0
-      this.fab = top > 500
-    },
-    toTop () {
-      this.$vuetify.goTo(0)
-    }
+
   },
   mounted() {
     this.pushElementOffsetTop();
@@ -308,13 +278,8 @@ export default {
   font-size: 30px;
   border-bottom: 5px solid black;
 }
-// Scroll back
-.fade-enter-active, .fade-leave-active {
-  transition: 0.5s;
-} 
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-  transform: scale(0);
+.image_max {
+  width:100%;
 }
 
 .navi {
