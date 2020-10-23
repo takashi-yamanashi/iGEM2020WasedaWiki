@@ -70,41 +70,6 @@
       <v-toolbar-title><img class="navi_home_logo" src="https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png"></v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
-    <!-- 
-  
-    <v-app-bar
-      :clipped-left="clipped"
-      fixed
-      app
-    >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
-     </v-app-bar> -->
     <v-main>
       <v-container fluid ma-0 pa-0 fill-height>
         <nuxt />
@@ -127,65 +92,33 @@
             </v-row>
       </v-container>
     </v-main>
-    <!-- <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer> -->
 
-    <!-- <v-footer
-      :absolute="!fixed"
-      app
-    >
-      
 
-      <v-container>
-        <v-row align="center" justify="center">
-          <v-col align="center" justify="center">
-            <img src="https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png">
-          </v-col>
-        </v-row>
-      </v-container>
-      
-
-    </v-footer> -->
-  <v-footer
+    <v-footer
     color="primary lighten-1"
-  >
-    <v-row
-      justify="center"
-      no-gutters
     >
-      <v-btn
-        v-for="link in links"
-        :key="link"
-        color="white"
-        text
-        rounded
-        class="my-2"
+      <v-row
+        justify="center"
+        no-gutters
       >
-        {{ link }}
-      </v-btn>
-      <v-col
-        class="primary lighten-2 py-4 text-center white--text"
-        cols="12"
-      >
-        {{ new Date().getFullYear() }} — <strong>iGEM Waseda</strong>
-      </v-col>
-    </v-row>
-  </v-footer>
+        <v-btn
+          v-for="link in links"
+          :key="link"
+          color="white"
+          text
+          rounded
+          class="my-2"
+        >
+          {{ link }}
+        </v-btn>
+        <v-col
+          class="primary lighten-2 py-4 text-center white--text"
+          cols="12"
+        >
+          {{ new Date().getFullYear() }} — <strong>iGEM Waseda</strong>
+        </v-col>
+     </v-row>
+    </v-footer>
   </v-app>
 </template>
 
@@ -213,7 +146,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/3/39/T--Waseda--HeaderProject.png',
           lists:[
             { title: 'Overview', to: 'inspire'},
-            { title: 'Description', to: 'Description'},
+            // { title: 'Description', to: 'Description'},
             { title: 'Quick Start', to: 'inspire'},
           ]
         },
@@ -222,9 +155,9 @@ export default {
           icon: 'mdi-cogs' ,
           img: 'https://2020.igem.org/wiki/images/1/11/T--Waseda--HeaderModel.png',
           lists:[
-            { title: 'Model', to: 'Model'},
+            // { title: 'Model', to: 'Model'},
             { title: 'Quick Start', to: 'inspire'},
-            { title: 'Software', to: 'SoftWare'},
+            // { title: 'Software', to: 'SoftWare'},
           ]
         },
         {
@@ -242,9 +175,9 @@ export default {
           icon: 'mdi-view-dashboard',
           img: 'https://2020.igem.org/wiki/images/7/73/T--Waseda--HeaderHp.png',
           lists:[
-            { title: 'Human_Practices', to: 'Human_Practices'},
-            { title: 'Entrepreneurship', to: 'Entrepreneurship'},
-            { title: 'Education', to: 'Education'},
+            // { title: 'Human_Practices', to: 'Human_Practices'},
+            // { title: 'Entrepreneurship', to: 'Entrepreneurship'},
+            // { title: 'Education', to: 'Education'},
           ]
         },
         {
@@ -253,8 +186,8 @@ export default {
           img: 'https://2020.igem.org/wiki/images/a/ab/T--Waseda--HeaderTeam.png',
           lists:[
             { title: 'Quick Start', to: 'inspire'},
-            { title: 'Partnership', to: 'Partnership'},
-            { title: 'Collaborations', to: 'Collaborations'},
+            // { title: 'Partnership', to: 'Partnership'},
+            // { title: 'Collaborations', to: 'Collaborations'},
           ]
         },
         {
