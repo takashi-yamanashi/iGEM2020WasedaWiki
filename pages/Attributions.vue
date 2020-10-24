@@ -24,10 +24,10 @@
                     <v-row class="navi_text">
                         <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
                         <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
+                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
+                        <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
+                        <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
+                        <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
                         
 
                     </v-row>
@@ -36,9 +36,7 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                     <v-row justify="center" text-align="left">
-                        <v-row cols="12" id="WetLabTop">
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/63/T--Waseda--AttributionsTop.png">
-                        </v-row>
+                        <v-row cols="12" class="image_top" id="WetLabTop"></v-row>
                     </v-row>
                     
                     <v-row v-scroll="pushScrollY" id="WetLab"> 
@@ -136,7 +134,7 @@
                           </p>
                         </v-row>
 
-                        <v-row>
+                        <v-row id="VideoTop">
                           <P>
                             <b>Takashi Yamanashi</b><br />
                             - Electrical Engineering and Bioscience student.
@@ -172,7 +170,7 @@
                           </p>
                         </v-row>
 
-                        <v-row>
+                        <v-row id="WikiTop">
                           <P>
                             <b>Rei Abe</b><br />
                             - Medical Bioscience student.
@@ -232,7 +230,7 @@
                             She thought about the structure of wiki pages.
                           </p>
                         </v-row>
-                        <v-row>
+                        <v-row id="HPTop">
                           <P>
                             <b>Yuri Hayashi</b><br />
                             - Electrical Engineering and Bioscience student.
@@ -280,7 +278,7 @@
                           </p>
                         </v-row>
 
-                        <v-row>
+                        <v-row id="OtherTop">
                           <P>
                             <b>Saho Fujieda</b><br />
                             - Medical Bioscience student.
@@ -458,8 +456,17 @@ h2 {
   border-bottom: 5px solid black;
   margin: 20px 0;
 }
+
+
 .image_max {
   width:100%;
+}
+
+.image_top {
+  height: 0;
+  padding-top: 66%;
+  background-size: contain;
+  background-image: url("https://2020.igem.org/wiki/images/6/63/T--Waseda--AttributionsTop.png")
 }
 
 .navi {

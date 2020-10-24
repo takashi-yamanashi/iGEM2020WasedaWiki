@@ -33,7 +33,7 @@
     </v-navigation-drawer>
 
 <!-- this is navigation  bar -->
-    <v-app-bar app  elevation="10" prominent dense inverted-scroll clipped-left v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
+    <v-app-bar app  elevation="10" prominent dense clipped-left v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
       <v-app-bar-nav-icon @click="drawer=!drawer" v-if="($vuetify.breakpoint.xs||$vuetify.breakpoint.sm)"></v-app-bar-nav-icon>
       <v-toolbar-title ><img class="navi_home_logo" src="https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png"></v-toolbar-title>
       <v-spacer></v-spacer>
@@ -64,7 +64,7 @@
       </template>
     </v-app-bar>
 
-    <v-app-bar app  elevation="10" prominent dense center clipped-cneter inverted-scroll v-else>
+    <v-app-bar app  elevation="10" extend center clipped-cneter  v-else>
       <v-app-bar-nav-icon large @click="drawer=!drawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
       <v-toolbar-title><img class="navi_home_logo" src="https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png"></v-toolbar-title>
@@ -262,10 +262,10 @@ export default {
 
 .v-btn--icon.v-size--large .v-icon, .v-btn--fab.v-size--large .v-icon {
     padding:20px 0 0 10px;
-    height: 55px;
-    font-size: 55px;
+    height: 40px;
+    font-size: 40px;
     color: white;
-    width: 55px;
+    width: 40px;
 }
 
 
