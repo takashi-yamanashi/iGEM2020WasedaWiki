@@ -186,6 +186,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/a/ab/T--Waseda--HeaderTeam.png',
           lists:[
             { title: 'Quick Start', to: 'inspire'},
+            { title: 'Attributions', to: 'Attributions'},
             // { title: 'Partnership', to: 'Partnership'},
             // { title: 'Collaborations', to: 'Collaborations'},
           ]
