@@ -23,11 +23,11 @@
             
                     <v-row class="navi_text">
                         <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Software</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wet Lab</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">Wet Lab</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Wet Lab</v-row></a>
+                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
+                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
+                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
+                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
+                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
                         
 
                     </v-row>
@@ -42,45 +42,56 @@
                     </v-row>
                     
                     <v-row v-scroll="pushScrollY" id="WetLab"> 
-                      <v-row class="row_max-box">
+                      <v-col>
+                      <v-row >
                         <h2>Wet Lab</h2>
                       </v-row>
-                      <v-row class="row_max-box">
+                      <v-row >
                         <P>
                           <b>Ryo Miyachi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
-                      <v-row>
+                      <v-row >
                         <P>
                           <b>Tauro Shioi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
                       </v-row>
-                      <v-row class="row_max-box">
+                      <v-row >
                         <P>
                           <b>Takashi Yamanashi</b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
                       </v-row>
-                      <v-row> class="row_max-box"
+
+
+                      <v-row>
+                        <P>
+                          <b>Yuya Otsuki</b><br />
+                          - Electrical Engineering and Bioscience student.
+                          He was responsible for Monoterpene project and experimented in Wet Lab.
+                        </p>
+                      </v-row>
+
+                      <v-row >
                         <P>
                           <b>Kanta Suga</b><br />
                           - Electrical Engineering and Bioscience student.
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
                       </v-row>
-                      <v-row class="row_max-box" id="ModelingTop">
+                      <v-row>
                         <P>
                           <b>Kae Nakamura</b><br />
                           - Electrical Engineering and Bioscience student.
                           She was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
-                      <v-row class="row_max-box"> 
+                      <v-row id="ModelingTop"> 
                         <P>
                           <b>Saho Fujieda </b><br />
                           - Medical Bioscience student.
@@ -89,150 +100,258 @@
                       </v-row>
                       <v-row>
                         <P>
-                          <b>Takaomi Yamada </b><br />
+                          <b>Satohiro Takizawa</b><br />
                           - Medical Bioscience student. 
                           He was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
-
+                      <v-row>
+                        <P>
+                          <b>Yuji Kamei</b><br />
+                            - Electrical Engineering and Bioscience student. 
+                            He was responsible for Monoterpene and Gene circuit project and experimented in Wet Lab.
+                        </p>
+                      </v-row>
+                      
+                      </v-col>
                     </v-row>
 
                     <v-row v-scroll="pushScrollY" id="Modeling" > 
-                      <v-row class="row_max-box">
-                        <h2>Modeling</h2>
-                      </v-row>
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Takuro Shioi</b><br />
-                          - Electrical Engineering and Bioscience student.
-                          He was responsible for Gene circuit project and designed models.
-                        </p>
-                      </v-row>
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Kanta Suga</b><br />
-                          - Electrical Engineering and Bioscience student.
-                          He was responsible for IFFL project and designed models.
-                        </p>
-                      </v-row>
+                      <v-col >
+                        <v-row>
+                          <h2>Modeling & Software</h2>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Takuro Shioi</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He was responsible for Gene circuit project and designed models.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Kanta Suga</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He was responsible for IFFL project and designed models.
+                          </p>
+                        </v-row>
+
+                        <v-row>
+                          <P>
+                            <b>Takashi Yamanashi</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He developed software tools which are useful for our projects.
+                          </p>
+                        </v-row>
+
+                        <v-row>
+                          <P>
+                            <b>Tomohiro Inoue (Special support)</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He helped us developing software tools 
+                          </p>
+                        </v-row>
+
+
+                      </v-col>
                     </v-row>
                   
                     
 
-                    <v-row v-scroll="pushScrollY" id="NaviSoftware" > 
-                      <v-row class="row_max-box">
-                        <h2>Software</h2>
-                      </v-row>
+                    <v-row v-scroll="pushScrollY" id="NaviVideo" >
+                      <v-col>
+                        <v-row>
+                          <h2>Video</h2>
+                        </v-row>
 
-                      <v-row>
-                        <P>
-                          <b></b><br />
-                          
-                        </p>
-                      </v-row>
+                        <v-row>
+                          <P>
+                            <b>Kanta Suga</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He made video which explains our projects.
+                          </p>
+                        </v-row>
 
-                      <v-row>
-                        <P>
-                          <b></b><br />
-                          
-                        </p>
-                      </v-row>
+                        <v-row>
+                          <P>
+                            <b>Rei Abe</b><br />
+                            - Medical Bioscience student.
+                            She made video which explains our projects.
+                          </p>
+                        </v-row>
 
-
-
-
-                    </v-row>
-
-                    <v-row v-scroll="pushScrollY" id="NaviVideo" > 
-                      <v-row class="row_max-box">
-                        <h2>Video</h2>
-                      </v-row>
-
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Kanta Suga</b><br />
-                          - Electrical Engineering and Bioscience student.
-                          He made video which explains our projects.
-                        </p>
-                      </v-row>
-
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Rei Abe</b><br />
-                          - Medical Bioscience student.
-                          She made video which explains our projects.
-                        </p>
-                      </v-row>
-
-                      <v-row>
-                        <P>
-                          <b></b><br />
-                          
-                        </p>
-                      </v-row>
-
+                        <v-row>
+                          <P>
+                            <b>ASOBIchanson.inc (Special support)</b><br />
+                            - They helped us making video which explains our projects.
+                          </p>
+                        </v-row>
+                      </v-col>
 
                     </v-row>
 
                     <v-row v-scroll="pushScrollY" id="Wiki" >
-                      <v-row class="row_max-box">
-                        <h2>Wiki</h2>
-                      </v-row>
+                      <v-col>
+                        <v-row>
+                          <h2>Wiki</h2>
+                        </v-row>
 
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Takashi Yamanashi</b><br />
-                          - Electrical Engineering and Bioscience student.
-                          He played a central part in making wiki pages by using software tools.
-                        </p>
-                      </v-row>
+                        <v-row>
+                          <P>
+                            <b>Takashi Yamanashi</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He played a central part in making wiki pages by using software tools.
+                          </p>
+                        </v-row>
 
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Rei Abe</b><br />
-                          - Medical Bioscience student.She designed our wiki pages.
-                        </p>
-                      </v-row>
+                        <v-row>
+                          <P>
+                            <b>Rei Abe</b><br />
+                            - Medical Bioscience student.She designed our wiki pages.
+                          </p>
+                        </v-row>
 
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Everyone </b><br />
-                          - All members cooperated with each other and made wiki pages.                          
-                        </p>
-                      </v-row>
+                        <v-row>
+                          <P>
+                            <b>Yuji Kamei</b><br />
+                            - Electrical Engineering and Bioscience student. 
+                            He thought about the structure of wiki pages.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Takuma Kawabata</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He thought about the structure of wiki pages.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Aimi Watanabe </b><br />
+                            - Electrical Engineering and Bioscience student. 
+                            She thought about the structure of wiki pages.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Yuri Hayashi</b><br />
+                            - Electrical Engineering and Bioscience student.
+                             She thought about the structure of wiki pages.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Everyone </b><br />
+                            - All members cooperated with each other and made wiki pages.                          
+                          </p>
+                        </v-row>
+                      </v-col>
 
 
                     </v-row>
 
                     <v-row v-scroll="pushScrollY" id="HP" >
-                      <v-row class="row_max-box">
-                        <h2>Human Practice</h2>
-                      </v-row>
+                      <v-col>
+                        <v-row>
+                          <h2>Human Practice</h2>
+                        </v-row>
+                        
 
-                      <v-row class="row_max-box"> 
-                        <P>
-                          <b>Takashi Yamanashi</b><br />
-                          - Electrical Engineering and Bioscience student.
-                          He played a central part in making wiki pages by using software tools.
-                        </p>
-                      </v-row>
+                        <v-row>
+                          <P>
+                            <b>Yuya Otsuki</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He was responsible for Education and gave a lecture on Synthetic Biology to high school students.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Satohiro Takizawa</b><br />
+                            - Medical Bioscience student. 
+                            He was responsible for Education.
+                          </p>
+                        </v-row>
 
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Rei Abe</b><br />
-                          - Medical Bioscience student.She designed our wiki pages.
-                        </p>
-                      </v-row>
+                        <v-row> 
+                          <P>
+                            <b>Takashi Yamanashi</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He was responsible for Business model and tried to make our projects useful for society.
+                          </p>
+                        </v-row>
 
-                      <v-row class="row_max-box">
-                        <P>
-                          <b>Everyone </b><br />
-                          - All members cooperated with each other and made wiki pages.                          
-                        </p>
-                      </v-row>
-
+                        <v-row>
+                          <P>
+                            <b>Saho Fujieda</b><br />
+                            - Medical Bioscience student.
+                            She was responsible for Business model and tried to make our projects useful for society.
+                          </p>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Maximize, Inc. (Special support)</b><br />
+                            - They taught us how to plan business models and gave advise.
+                          </p>
+                        </v-row>
+                      </v-col>
 
                     </v-row>
+
+                    <v-row v-scroll="pushScrollY" id="NaviOther" > 
+                      <v-col>
+                        <v-row>
+                          <h2>Other</h2>
+                        </v-row>
+                        <v-row>
+                          <P>
+                            <b>Takashi Yamanashi</b><br />
+                            - Electrical Engineering and Bioscience student.
+                            He was responsible for Collaborations and Excellence in Another Area.
+                          </p>
+                        </v-row>
+
+                        <v-row>
+                          <P>
+                            <b>Yuji Kamei</b><br />
+                            - Electrical Engineering and Bioscience student.
+                             He came up with application which can connect DNA information and protein.
+                          </p>
+                        </v-row>
+
+
+                        <v-row>
+                          <P>
+                            <b>Rei Abe</b><br />
+                            -Medical Bioscience student. 
+                            She researched about Racemase and gave us helpful information.
+                          </p>
+                        </v-row>
+
+
+                        <v-row>
+                          <P>
+                            <b>Takaomi Yamada </b><br />
+                            - Medical Bioscience student. 
+                            He researched about Racemase and gave us helpful information.
+                          </p>
+                        </v-row>
+
+                      </v-col>
+                    </v-row>
+
+                    
+                    
+                    <v-row v-scroll="pushScrollY" id="NaviLast" > 
+                      <v-col>
+                        <v-row class="last_message">
+                            <P>
+                              'LAST Massege Here'
+                            </P>
+                        </v-row>
+                      </v-col>
+                    </v-row>
+
+                    
                     
 
                     
@@ -255,7 +374,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false],
+      check: [false, false, false, false, false, false, false, false],
 
     };
   },
@@ -278,7 +397,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviSoftware', 'NaviVideo', 'Wiki','HP'
+        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -334,9 +453,10 @@ export default {
     height: 150px;   
   }
 }
-.h2_text {
+h2 {
   font-size: 30px;
   border-bottom: 5px solid black;
+  margin: 20px 0;
 }
 .image_max {
   width:100%;
@@ -393,6 +513,10 @@ export default {
   width: 100%;
   padding: 0;
   margin: 0;
+}
+
+.last_message {
+  margin-bottom: 400px;
 }
 
 a:link {

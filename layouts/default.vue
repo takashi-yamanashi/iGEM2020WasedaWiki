@@ -101,7 +101,7 @@
         justify="center"
         no-gutters
       >
-        <v-btn
+        <!-- <v-btn
           v-for="link in links"
           :key="link"
           color="white"
@@ -110,7 +110,7 @@
           class="my-2"
         >
           {{ link }}
-        </v-btn>
+        </v-btn> -->
         <v-col
           class="primary lighten-2 py-4 text-center white--text"
           cols="12"
@@ -146,7 +146,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/3/39/T--Waseda--HeaderProject.png',
           lists:[
             { title: 'Overview', to: 'inspire'},
-            // { title: 'Description', to: 'Description'},
+            { title: 'Description', to: 'Description'},
             { title: 'Quick Start', to: 'inspire'},
           ]
         },
@@ -155,9 +155,9 @@ export default {
           icon: 'mdi-cogs' ,
           img: 'https://2020.igem.org/wiki/images/1/11/T--Waseda--HeaderModel.png',
           lists:[
-            // { title: 'Model', to: 'Model'},
+            { title: 'Model', to: 'Model'},
             { title: 'Quick Start', to: 'inspire'},
-            // { title: 'Software', to: 'SoftWare'},
+            { title: 'Software', to: 'SoftWare'},
           ]
         },
         {
@@ -175,9 +175,9 @@ export default {
           icon: 'mdi-view-dashboard',
           img: 'https://2020.igem.org/wiki/images/7/73/T--Waseda--HeaderHp.png',
           lists:[
-            // { title: 'Human_Practices', to: 'Human_Practices'},
-            // { title: 'Entrepreneurship', to: 'Entrepreneurship'},
-            // { title: 'Education', to: 'Education'},
+            { title: 'Human_Practices', to: 'Human_Practices'},
+            { title: 'Entrepreneurship', to: 'Entrepreneurship'},
+            { title: 'Education', to: 'Education'},
           ]
         },
         {
@@ -187,8 +187,8 @@ export default {
           lists:[
             { title: 'Quick Start', to: 'inspire'},
             { title: 'Attributions', to: 'Attributions'},
-            // { title: 'Partnership', to: 'Partnership'},
-            // { title: 'Collaborations', to: 'Collaborations'},
+            { title: 'Partnership', to: 'Partnership'},
+            { title: 'Collaborations', to: 'Collaborations'},
           ]
         },
         {
