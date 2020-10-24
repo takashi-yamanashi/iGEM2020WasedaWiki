@@ -36,6 +36,78 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
 
+
+                    <v-row>
+                        <v-col
+                        v-for="n in 9"
+                        :key="n"
+                        col="4"
+                        >
+
+
+                        <v-dialog
+                        v-model="dialog"
+                        width="300px"
+                        >
+                        <template v-slot:activator="{ on, attrs }">
+                            
+                            <v-btn
+                            text
+                            v-bind="attrs"
+                            v-on="on"
+                            width="300px"
+                            height="300px"
+                            >
+                            
+                            <v-img class='image_max' aspect-ratio="1" :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"></v-img>
+                            <!-- <v-img
+                            :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
+                            :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+                            aspect-ratio="1"
+                            class="grey lighten-2"
+                        > -->
+                            <template v-slot:placeholder>
+                            <v-row
+                                class="fill-height ma-0"
+                                align="center"
+                                justify="center"
+                            >
+                                <v-progress-circular
+                                indeterminate
+                                color="grey lighten-5"
+                                ></v-progress-circular>
+                            </v-row>
+                            </template>
+                        <!-- </v-img> -->
+
+                            </v-btn>
+                        </template>
+                        <v-card>
+                                <v-img
+                                class="white--text align-end"
+                                height="480px"
+                                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                >
+                                <v-card-title>Top 10 Australian beaches</v-card-title>
+                                </v-img>
+
+                                <v-card-subtitle class="pb-0">
+                                Number 10
+                                </v-card-subtitle>
+
+                                <v-card-text class="text--primary">
+                                <div>Whitehaven Beach</div>
+
+                                <div>Whitsunday Island, Whitsunday Islands</div>
+                                </v-card-text>
+
+
+                        </v-card>
+                        </v-dialog>
+
+
+                        </v-col>
+                    </v-row>
  
                 </v-col>
             </v-row>

@@ -425,7 +425,7 @@ export default {
     background-repeat: repeat;
 }
 .main_text {
-    padding: 80px 10%;
+    padding: 40px 10%;
     background: rgba(255, 255, 255) 0% 0% no-repeat padding-box;
 }
 .h1 {
@@ -478,7 +478,7 @@ h2 {
   &_image {
         display: block;
         position: relative;
-        padding-top: 100px;
+        padding-top: 20px;
         width: 200px;
         margin: 0 auto;
   }
@@ -491,7 +491,7 @@ h2 {
         background-color: white;
   }
   &_svg {
-      position:absolute; top:120px; left:20px; 
+      position:absolute; top:40px; left:20px; 
       width: 160px;
       height: 160px;
   }
