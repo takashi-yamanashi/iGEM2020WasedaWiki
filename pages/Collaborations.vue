@@ -52,7 +52,7 @@
                       <v-row class="row_max-box">
                         <v-col >
                           <h3>About</h3>
-                            <P>
+                            <P class="p_indent">
                               We collaborated with the Qdai Team about the modeling of the project. 
                               The same style of project modeling could us to easily connect with each other’s projects. 
                               Based on our knowledge, we cooperated with Qdai Team on the modeling of their project.
@@ -67,13 +67,13 @@
                       <v-row class="row_max-box">
                         <h3>Why did we decide to do this collaboration?</h3>
                         
-                          <P>
+                          <P class="p_indent">
                             We had much knowledge of modeling of quorum sensing system and creating gene circuits.
                             However, they lacked knowledge of how to model projects based on wet systems created for real-world problems. 
                             In synthetic biology, modeling is very important for standardization. 
                             A good modeled project is able to be easily connected to other projects.
                           </P>
-                          <p>  
+                          <p class="p_indent">  
                             Our goal was to solve a complex problem, and we needed to be able to connect other projects to our project.
                             That’s why we decided to work with the Qdai team, who have a deep knowledge of wet lab and a strong focus on real-world problems.
                           </p>
@@ -86,7 +86,7 @@
                           </v-col>
                           <v-col>
                             <h3>How did we help each other?</h3>
-                            <P> 
+                            <P class="p_indent"> 
                               We had a better understanding of each other’s projects through chatting and online meeting.
                               We learned a detailed understanding of the Qdai Team’s project, “a phosphoric acid storage system”.
                               Then, we proposed the modeling of the system. We also discussed other collaborate between our projects.
@@ -97,7 +97,7 @@
                       <v-row  fluid ma-0 pa-0 class="row_max-box" id="japansummermeetup">
                         <v-col class="row_max-box">
                           <h3>What did we learn from this collaboration?</h3>
-                            <P>
+                            <P class="p_indent">
                               Through this collaboration, we have become very aware of the scalability of our model.
                               We also learned about the difficulties of applying our model to the project based on wet systems, and the importance of collaboration with other teams. 
                               Connecting our projects with the project based on wet systems for solving real-world problems has a big impact. 
@@ -297,10 +297,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-p{
-  font-size: 24px;
+.p_indent {
   text-indent: 50px;
 }
+
 .left_box {
     padding :0;
 }
