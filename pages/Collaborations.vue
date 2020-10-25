@@ -7,13 +7,13 @@
                 <!-- v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.xs||$vuetify.breakpoint.sm)" -->
                 <v-col class="left_box" align="left"  v-if="($vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
                     <v-col class="sidebar" ma-0 pa-0>
+
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
                                 <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
-                      
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
                               <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
@@ -39,9 +39,9 @@
                           <v-col class='h1_box_text' id="Qdai"> 
                             <h1 class='h1_text' pushElementOffsetTop>Collaborations</h1>
                           </v-col>
-                          <v-col class="h1_imbox" fluid ma-0 pa-0 v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
+                          <!-- <v-col class="h1_imbox" fluid ma-0 pa-0 v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
                             <img z-indx="10" class='h1_image'  src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
-                          </v-col>
+                          </v-col> -->
                         </v-row>
                     </v-row>
                     
@@ -298,6 +298,7 @@ export default {
 
 <style lang="scss" scoped>
 .p_indent {
+  font-size: 24px;
   text-indent: 50px;
 }
 
@@ -320,7 +321,7 @@ export default {
   &_box {
     border-bottom: 5px solid black;
     padding-bottom: 0;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
     &_text{
       padding-bottom: 0;
     }
