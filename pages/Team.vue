@@ -62,7 +62,7 @@
                         
 
                         <v-col
-                        v-for="n in 9"
+                        v-for="n in items"
                         :key="n"
                         col="4"
                         >
@@ -70,7 +70,7 @@
 
                         <v-dialog
                         v-model="dialog"
-                        width="300px"
+                        width="500px"
                         >
                         <template v-slot:activator="{ on, attrs }">
                             
@@ -82,7 +82,7 @@
                             height="300px"
                             >
                             
-                            <v-img class='image_max' aspect-ratio="1" :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"></v-img>
+                            <v-img class='image_max' aspect-ratio="1" :src="n.img"></v-img>
                             <!-- <v-img
                             :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
                             :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
@@ -108,20 +108,20 @@
                         <v-card>
                                 <v-img
                                 class="white--text align-end"
-                                height="480px"
-                                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                height="500px"
+                                :src="n.img"
                                 >
-                                <v-card-title>Top 10 Australian beaches</v-card-title>
+                                <v-card-title>{{ n.title }}</v-card-title>
                                 </v-img>
 
                                 <v-card-subtitle class="pb-0">
-                                Number 10
+                                    <p><b> Age {{ n .age }}</b> </P>
                                 </v-card-subtitle>
 
                                 <v-card-text class="text--primary">
-                                <div>Whitehaven Beach</div>
+                                
 
-                                <div>Whitsunday Island, Whitsunday Islands</div>
+                                <div><p><b>Motivation</b><br/>{{n.des}}</p></div>
                                 </v-card-text>
 
 
@@ -132,9 +132,9 @@
                         </v-col>
                     </v-row>
 
-                    <v-row v-scroll="pushScrollY" id="NaviLast" > 
+                    <v-row > 
                       <v-col>
-                        <v-row class="last_message">
+                        <v-row class="last_message" v-scroll="pushScrollY" id="NaviLast">
                             <P>
                               <!-- 'LAST Massege Here' -->
                             </P>
@@ -159,6 +159,114 @@ export default {
       scrollPer: 510.293,
       sectionOffsetTop: [],
       check: [false, false, false],
+
+      items:[
+        {
+          title: 'Ryota Miyachi',
+          age: '22',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'iGEM is a great opportuniity to experience the importance and challenges of teamwork in an international setting and to deepen my understanding of biology and contributions of science to society.',
+          img: 'https://2020.igem.org/wiki/images/c/c4/T--Waseda--Miyachi.png',
+        },
+        {
+          title: 'Takashi Yamanashi',
+          age: '22',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'iGEM ​​looked interesting!',
+          img: 'https://2020.igem.org/wiki/images/8/82/T--Waseda--Yamanashi.png',
+        },
+        {
+          title: 'Takuro Shioi',
+          age: '22',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'I would like to team up with highly motivated members, to learn the latest biotechnology, and to communicate with aspiring foreigners.',
+          img: 'https://2020.igem.org/wiki/images/e/e3/T--Waseda--Shioi.png',
+        },
+        {
+          title: 'Kanta Suga',
+          age: '21',
+          Major: 'Electrical Engineering and Bioscience',
+          des: "I'm glad to join this year's iGEM ! I want to develop not only my wet lab skill but also modeling skill through this great competition.",
+          img: 'https://2020.igem.org/wiki/images/3/3c/T--Waseda--Suga.png',
+        },
+        {
+          title: 'Satohiro Takizawa',
+          age: '21',
+          Major: 'Medical Bioscience',
+          des: 'I wanted to experience such a international competition. I’m also interested in synthetic biology,',
+          img: 'https://2020.igem.org/wiki/images/c/c1/T--Waseda--Takizawa.png',
+        },
+        {
+          title: ' Kae Nakamura',
+          age: '20',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'I joined iGEM because I wanted to develop my knowledge around synthetic biology and meet people whose interest matches mine.',
+          img: 'https://2020.igem.org/wiki/images/9/9c/T--Waseda--Nakamura.png',
+        },
+        {
+          title: 'Takaomi Yamada',
+          age: '20',
+          Major: 'Medical Bioscience',
+          des: ' I think to participate in iGEM is a great opportunity for me to improve my experimental technique and increase my knowledge of biosynthesis, so I joined in.',
+          img: 'https://2020.igem.org/wiki/images/7/7a/T--Waseda--Yamada.png',
+        },
+        {
+          title: 'Rei Abe',
+          age: '20',
+          Major: 'Medical Bioscience',
+          des: 'To improve my technical skills and to acquire experiences at biological fields',
+          img: 'https://2020.igem.org/wiki/images/4/47/T--Waseda--Abe.png',
+        },
+        {
+          title: 'Yuya Ostuki',
+          age: '20',
+          Major: 'Electrical Engineering and Bioscience',
+          des: " iGEM is a good opportunity for me to study synthetic biology. Also it's an opportunity to think about biology education as I want to be a high school teacher.",
+          img: 'https://2020.igem.org/wiki/images/9/9b/T--Waseda--Otsuki.png',
+        },
+        {
+          title: 'Saho Fujieda',
+          age: '20',
+          Major: 'Medical Bioscience',
+          des: "I am interested in synthetic biology and wanted to experience conducting experiments from scratch. I thought I could make friends who were interested in the same field on a global level.",
+          img: 'https://2020.igem.org/wiki/images/6/6f/T--Waseda--Fujieda.png',
+        },
+        {
+          title: 'Yuri Hayashi',
+          age: '19',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'iGEM gives me practical science knowledge and skills. I want to work for biology in the future.',
+          img: 'https://2020.igem.org/wiki/images/1/10/T--Waseda--Hayashi.png',
+        },
+        {
+          title: 'Kawabata Takuma',
+          age: '19',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'To improve my experimental skills and learn many things about Bioscience. To experience and come up on a global stage.',
+          img: 'https://2020.igem.org/wiki/images/8/8e/T--Waseda--Kawabata.png',
+        },
+        {
+          title: 'Aimi Watanabe',
+          age: '18',
+          Major: 'Electrical Engineering and Bioscience',
+          des: "I would like to learn bio-science and how iGEM's research is because I'm interested in biology.",
+          img: 'https://2020.igem.org/wiki/images/f/f8/T--Waseda--Watanabe.png',
+        },
+        {
+          title: 'Yuji Kamei',
+          age: '18',
+          Major: 'Electrical Engineering and Bioscience',
+          des: 'Motivation for iGEM is a chance for me to create an own project,to gain experience in the lab and to make new friends.',
+          img: 'https://2020.igem.org/wiki/images/6/6e/T--Waseda--Kamei.png',
+        },
+        {
+          title: 'iGEM Waseda',
+          age: '1',
+          Major: 'Waseda University',
+          des: 'We are first Year for iGEM !',
+          img: 'https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png',
+        },
+      ],
 
     };
   },
@@ -252,7 +360,7 @@ h2 {
   height: 0;
   padding-top: 66%;
   background-size: contain;
-  background-image: url("https://2020.igem.org/wiki/images/6/63/T--Waseda--AttributionsTop.png")
+  background-image: url("https://2020.igem.org/wiki/images/0/02/T--Waseda--Teamtoppic.png")
 }
 
 .navi {
