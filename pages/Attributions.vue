@@ -35,7 +35,7 @@
                 </v-col>
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
-                    <v-row justify="center" text-align="left">
+                    <v-row justify="center" text-align="centre">
                         <v-row cols="12" class="image_top" id="WetLabTop"></v-row>
                     </v-row>
                     
@@ -46,14 +46,14 @@
                       </v-row>
                       <v-row >
                         <P>
-                          <b>Ryo Miyachi </b><br />
+                          <b>Ryota Miyachi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row >
                         <P>
-                          <b>Tauro Shioi </b><br />
+                          <b>Takuro Shioi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
@@ -320,7 +320,7 @@
                         <v-row>
                           <P>
                             <b>Rei Abe</b><br />
-                            -Medical Bioscience student. 
+                            - Medical Bioscience student. 
                             She researched about Racemase and gave us helpful information.
                           </p>
                         </v-row>
@@ -342,8 +342,8 @@
                     <v-row v-scroll="pushScrollY" id="NaviLast" > 
                       <v-col>
                         <v-row class="last_message">
-                            <P>
-                              'LAST Massege Here'
+                            <P class="last_message_p"><b>
+                              We appreciate all the person for helping our projects !</b><br />
                             </P>
                         </v-row>
                       </v-col>
@@ -413,6 +413,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
 .left_box {
     padding :0;
 }
@@ -452,7 +457,7 @@ export default {
   }
 }
 h2 {
-  font-size: 30px;
+  font-size: 50px;
   border-bottom: 5px solid black;
   margin: 20px 0;
 }
@@ -523,7 +528,10 @@ h2 {
 }
 
 .last_message {
-  margin-bottom: 400px;
+  margin:20px 0  200px 0;
+  &_p{
+    font-size: 40px;
+  }
 }
 
 a:link {

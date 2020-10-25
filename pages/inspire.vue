@@ -94,6 +94,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+  font-size: 24px;
+}
 .left_box {
     padding :0;
 }

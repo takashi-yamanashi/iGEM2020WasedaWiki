@@ -115,12 +115,15 @@
                                 </v-img>
 
                                 <v-card-subtitle class="pb-0">
-                                    <p><b> Age {{ n .age }}</b> </P>
+                                    <p><b> Age </b>{{ n .age }}</P>
                                 </v-card-subtitle>
 
-                                <v-card-text class="text--primary">
-                                
 
+                                <v-card-text class="text--primary">
+                                <div><p><b>Major</b><br/>{{n.Major}}</p></div>
+                                </v-card-text>
+
+                                <v-card-text class="text--primary">
                                 <div><p><b>Motivation</b><br/>{{n.des}}</p></div>
                                 </v-card-text>
 
@@ -132,9 +135,9 @@
                         </v-col>
                     </v-row>
 
-                    <v-row > 
+                    <v-row v-scroll="pushScrollY" id="NaviLast"> 
                       <v-col>
-                        <v-row class="last_message" v-scroll="pushScrollY" id="NaviLast">
+                        <v-row class="last_message">
                             <P>
                               <!-- 'LAST Massege Here' -->
                             </P>
@@ -262,7 +265,7 @@ export default {
         {
           title: 'iGEM Waseda',
           age: '1',
-          Major: 'Waseda University',
+          Major: 'iGEM Waseda',
           des: 'We are first Year for iGEM !',
           img: 'https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png',
         },
@@ -307,6 +310,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+  font-size: 24px;
+}
+
 .left_box {
     padding :0;
 }
