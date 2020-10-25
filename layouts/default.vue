@@ -9,7 +9,24 @@
                 <v-list-item-content>
                   <v-list-item-title v-text="'Home'" />
                 </v-list-item-content>
-              </v-list-item>
+        </v-list-item>
+        <v-list-item :to="'/Project'" router exact>
+                <v-list-item-action>
+                  <v-icon>mdi-speedometer</v-icon>
+                </v-list-item-action>
+                <v-list-item-content>
+                  <v-list-item-title v-text="'Home'" />
+                </v-list-item-content>
+        </v-list-item>
+        <v-list-item :to="'/Parts'" router exact>
+                <v-list-item-action>
+                  <v-icon>mdi-palette</v-icon>
+                </v-list-item-action>
+                <v-list-item-content>
+                  <v-list-item-title v-text="'Home'" />
+                </v-list-item-content>
+        </v-list-item>
+
               <v-list-group 
                 v-for="(nav_list, i) in items" 
                 :key="i" 
@@ -32,12 +49,19 @@
 
     </v-navigation-drawer>
 
+
+
+
 <!-- this is navigation  bar -->
     <v-app-bar app  elevation="10" prominent dense clipped-left v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
       <v-app-bar-nav-icon @click="drawer=!drawer" v-if="($vuetify.breakpoint.xs||$vuetify.breakpoint.sm)"></v-app-bar-nav-icon>
       <v-toolbar-title ><img class="navi_home_logo" src="https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png"></v-toolbar-title>
       <v-spacer></v-spacer>
       <template v-if="($vuetify.breakpoint.md||$vuetify.breakpoint.lg||$vuetify.breakpoint.xl)">
+      <v-toolbar-items><v-btn class="navi_btn" to="/" text><img class="navi_logo" src="https://2020.igem.org/wiki/images/7/7a/T--Waseda--HeaderHome.png"></v-btn></v-toolbar-items>
+      <v-toolbar-items><v-btn class="navi_btn" to="/Project" text><img class="navi_logo" src="https://2020.igem.org/wiki/images/3/39/T--Waseda--HeaderProject.png"></v-btn></v-toolbar-items>
+      <v-toolbar-items><v-btn class="navi_btn" to="/Parts" text><img class="navi_logo" src="https://2020.igem.org/wiki/images/b/b0/T--Waseda--HeaderParts.png"></v-btn></v-toolbar-items>
+      <!-- <v-toolbar-items><v-btn class="navi_btn" to="/" text><img class="navi_logo" src="https://2020.igem.org/wiki/images/7/7a/T--Waseda--HeaderHome.png"></v-btn></v-toolbar-items> -->
       <v-toolbar-items v-for="(item, i) in items" :key="i">
           <v-menu offset-y>
             <template v-slot:activator="{on}">
@@ -132,24 +156,7 @@ export default {
       drawer: false,
       fixed: false,
       items:[
-        {
-          title: 'Home',
-          icon: 'mdi-speedometer',
-          img: 'https://2020.igem.org/wiki/images/7/7a/T--Waseda--HeaderHome.png',
-          lists:[
-            { title: 'Overview', to: '/'},
-          ]
-        },
-        {
-          title: 'Project',
-          icon: 'mdi-speedometer',
-          img: 'https://2020.igem.org/wiki/images/3/39/T--Waseda--HeaderProject.png',
-          lists:[
-            { title: 'Overview', to: 'inspire'},
-            { title: 'Description', to: 'Description'},
-            { title: 'Quick Start', to: 'inspire'},
-          ]
-        },
+
         {
           title: 'Model',
           icon: 'mdi-cogs' ,
@@ -161,9 +168,9 @@ export default {
           ]
         },
         {
-          title: 'Parts',
-          icon: 'mdi-palette',
-          img: 'https://2020.igem.org/wiki/images/b/b0/T--Waseda--HeaderParts.png',
+          title: 'Experiment',
+          icon: 'mdi-vuetify',
+          img: 'https://2020.igem.org/wiki/images/2/24/T--Waseda--button_experiment.png',
           lists:[
             { title: 'Quick Start', to: 'inspire'},
             { title: 'Quick Start', to: 'inspire'},
@@ -192,19 +199,9 @@ export default {
           ]
         },
         {
-          title: 'Award',
+          title: 'JudgeingForm',
           icon: 'mdi-vuetify',
-          img: 'https://2020.igem.org/wiki/images/5/5c/T--Waseda--HeaderAward.png',
-          lists:[
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
-          ]
-        },
-        {
-          title: 'Notebook',
-          icon: 'mdi-vuetify',
-          img: 'https://2020.igem.org/wiki/images/5/5c/T--Waseda--HeaderAward.png',
+          img: 'https://2020.igem.org/wiki/images/8/8d/T--Waseda--Judgingformbutton.png',
           lists:[
             { title: 'Quick Start', to: 'inspire'},
             { title: 'Quick Start', to: 'inspire'},
@@ -236,6 +233,10 @@ export default {
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 
+.p_indent {
+  font-size: 24px;
+  text-indent: 50px;
+}ß
 
 h2 {
   font-size: 40px;

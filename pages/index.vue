@@ -1,24 +1,13 @@
 <template>
 <v-container fluid ma-0 pa-0 fill-height class="top_bg"> 
   <v-container fluid ma-0 pa-0 class="top_bg_top1">
-    <v-row fluid ma-5 pa-5 mb-2 justify="center" align="end" class="top_bg_top1_1">
-        
-          <v-col ma-5 align="left" class="top_bg_top1_left">
-              <img  class="image_def" src="https://2020.igem.org/wiki/images/7/7f/T--Waseda--huujinnZombie.svg">
-          </v-col>
+    <v-row justify="center" align="center" class="top_bg_top1_1">
+      <v-col cols="12" sm="8" md="6" class="top_bg_top1_2">
 
-          <v-col col="2" ma-5 align="right">
-            <v-row class="top_bg_top1_right">
-              <img class="image_def" src="https://2020.igem.org/wiki/images/f/ff/T--Waseda--raijinSamurai.svg">
-            </v-row>
-            <v-row>
-              <img class="image_max" src="https://2020.igem.org/wiki/images/a/aa/T--Waseda--zombievssamurai.svg">
-            </v-row>
-          </v-col>
 
+      </v-col>
     </v-row>
-    <v-row justify="center" align="center">
-    </v-row>
+
   </v-container>
 
 
@@ -160,13 +149,9 @@
 
 
   <v-container fluid pa-0 class="top_bg_top3_5">
-    <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="6">
-        <img>
-        <div class="text-center">
-          <!-- <logo />
-          <vuetify-logo /> -->
-        </div>
+    <v-row justify="center" align="center" class="top_bg_top3_5_51">
+      <v-col cols="12" sm="8" md="6" class="top_bg_top3_5_52">
+
         <v-card light>
           <v-card-title class="headline">
             Monotelpene
@@ -279,19 +264,24 @@ export default {
   background-image: url("https://2020.igem.org/wiki/images/c/cf/T--Waseda--TopPageBackgroundWashi.jpg");
   background-size: 100% auto;
   background-repeat: repeat;
-  &_top1 {
-    background-image: url("https://2020.igem.org/wiki/images/c/cc/T--Waseda--TopichImatsuGold.png");
-    background-size: 100% auto;
-  }
-  &_top1_1{
-    padding:20px 3% 0 3%;
-    &_left {
-      padding-top:30px;
+
+  &_top1{
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3) 0% 0% no-repeat padding-box;
+    &_1{
+      height: 0;
+      margin-top: -80px;
+      padding-top: 57%;
+      background-size: contain;
+      background-image: url("https://2020.igem.org/wiki/images/9/94/T--Waseda--TopMainImage.png");
     }
-    &_right {
-      padding-bottom:10px;
+    &_2{
+      margin-top: -57%;
     }
   }
+
+
+
   &_top2{
     margin: 20px 0;
     background: rgba(0, 0, 0, 0.3) 0% 0% no-repeat padding-box;
@@ -327,6 +317,15 @@ export default {
     &_42{
       margin-top: -57%;
     }
+    &_51{
+      height: 0;
+      padding-top: 98%;
+      background-size: contain;
+      background-image: url("https://2020.igem.org/wiki/images/e/e4/T--Waseda--Tree.png");
+    }
+    &_52{
+      margin-top: -98%;
+    }
   }
   &_top6{
     margin: 20px 0 40px 0;
@@ -355,5 +354,3 @@ export default {
 }
 </style>
 
-// https://2020.igem.org/wiki/images/0/0d/T--Waseda--TopRaijinnSamuraiMonotone.svg
-// https://2020.igem.org/wiki/images/0/0f/T--Waseda--TopHuujinnZombieMonotone.svg
