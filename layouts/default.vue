@@ -185,7 +185,7 @@ export default {
           icon: 'mdi-function',
           img: 'https://2020.igem.org/wiki/images/a/ab/T--Waseda--HeaderTeam.png',
           lists:[
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Team', to: 'Team'},
             { title: 'Attributions', to: 'Attributions'},
             { title: 'Partnership', to: 'Partnership'},
             { title: 'Collaborations', to: 'Collaborations'},

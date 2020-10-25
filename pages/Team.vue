@@ -22,9 +22,9 @@
 
             
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
+                        <a href="Team#PI"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">PI</v-row></a>
+                        <a href="Team#Member"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Member</v-row></a>
+                        <!-- <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
                         <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
                         <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
                         <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
@@ -35,9 +35,32 @@
                 </v-col>
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
+                    <v-row justify="center" text-align="center" id="PI">
+                        <v-row cols="12" class="image_top" id="WetLabTop"></v-row>
+                    </v-row>
 
+                    <v-row v-scroll="pushScrollY" > 
+                      <v-col>
+                      <v-row >
+                        <h2>PI</h2>
+                      </v-row>
+                      <v-row id="Member">
+                        <P>
+                          <b>Daisuke Kiga </b><br />
+                          - Professor of Waseda University
+                        </p>
+                      </v-row>
+                      </v-col>
+                    </v-row>
 
                     <v-row>
+                        <v-col cols="12">
+                            <v-row >
+                                <h2>Member</h2>
+                            </v-row>
+                        </v-col>
+                        
+
                         <v-col
                         v-for="n in 9"
                         :key="n"
@@ -108,6 +131,16 @@
 
                         </v-col>
                     </v-row>
+
+                    <v-row v-scroll="pushScrollY" id="NaviLast" > 
+                      <v-col>
+                        <v-row class="last_message">
+                            <P>
+                              <!-- 'LAST Massege Here' -->
+                            </P>
+                        </v-row>
+                      </v-col>
+                    </v-row>
  
                 </v-col>
             </v-row>
@@ -125,7 +158,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false, false, false],
+      check: [false, false, false],
 
     };
   },
@@ -133,22 +166,22 @@ export default {
   methods: {
     pushScrollY(e) {
       this.scrollY = window.scrollY;
-    //   for (var i = 0; i < this.check.length; i++) {
-    //     this.check[i] = false
-    //   };
-    //   for (var j=0; j < this.check.length; j++) {
-    //     if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
-    //       this.check[j] = true
-    //     }
-    //   };
-    //   const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //   this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+      for (var i = 0; i < this.check.length; i++) {
+        this.check[i] = false
+      };
+      for (var j=0; j < this.check.length; j++) {
+        if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
+          this.check[j] = true
+        }
+      };
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
 
     },
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
+        'PI', 'Member', 'NaviLast'
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -159,9 +192,9 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 
@@ -274,6 +307,7 @@ h2 {
   padding: 0;
   margin: 0;
 }
+
 
 .last_message {
   margin-bottom: 400px;
