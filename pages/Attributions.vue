@@ -45,21 +45,21 @@
                         <h2>Wet Lab</h2>
                       </v-row>
                       <v-row >
-                        <P>
+                        <P margin-top="10px">
                           <b>Ryota Miyachi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row >
-                        <P>
+                        <P margin-top="10px">
                           <b>Takuro Shioi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row >
-                        <P>
+                        <P margin-top="10px">
                           <b>Takashi Yamanashi</b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Gene circuit project and experimented in Wet Lab.
@@ -68,7 +68,7 @@
 
 
                       <v-row>
-                        <P>
+                        <P margin-top="10px">
                           <b>Yuya Otsuki</b><br />
                           - Electrical Engineering and Bioscience student.
                           He was responsible for Monoterpene project and experimented in Wet Lab.
@@ -76,35 +76,35 @@
                       </v-row>
 
                       <v-row >
-                        <P>
+                        <P margin-top="10px"> 
                           <b>Kanta Suga</b><br />
                           - Electrical Engineering and Bioscience student.
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row>
-                        <P>
+                        <P margin-top="10px">
                           <b>Kae Nakamura</b><br />
                           - Electrical Engineering and Bioscience student.
                           She was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row id="ModelingTop"> 
-                        <P>
+                        <P margin-top="10px">
                           <b>Saho Fujieda </b><br />
                           - Medical Bioscience student.
                           She was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row>
-                        <P>
+                        <P margin-top="10px">
                           <b>Satohiro Takizawa</b><br />
                           - Medical Bioscience student. 
                           He was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row>
-                        <P>
+                        <P margin-top="10px">
                           <b>Yuji Kamei</b><br />
                             - Electrical Engineering and Bioscience student. 
                             He was responsible for Monoterpene and Gene circuit project and experimented in Wet Lab.
@@ -120,14 +120,14 @@
                           <h2>Modeling & Software</h2>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Takuro Shioi</b><br />
                             - Electrical Engineering and Bioscience student.
                             He was responsible for Gene circuit project and designed models.
                           </p>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Kanta Suga</b><br />
                             - Electrical Engineering and Bioscience student.
                             He was responsible for IFFL project and designed models.
@@ -135,7 +135,7 @@
                         </v-row>
 
                         <v-row id="VideoTop">
-                          <P>
+                          <P margin-top="10px">
                             <b>Takashi Yamanashi</b><br />
                             - Electrical Engineering and Bioscience student.
                             He developed software tools which are useful for our projects.
@@ -143,7 +143,7 @@
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Tomohiro Inoue (Special support)</b><br />
                             - Electrical Engineering and Bioscience student.
                             He helped us developing software tools 
@@ -163,7 +163,7 @@
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Kanta Suga</b><br />
                             - Electrical Engineering and Bioscience student.
                             He made video which explains our projects.
@@ -171,7 +171,7 @@
                         </v-row>
 
                         <v-row id="WikiTop">
-                          <P>
+                          <P margin-top="10px">
                             <b>Rei Abe</b><br />
                             - Medical Bioscience student.
                             She made video which explains our projects.
@@ -179,7 +179,7 @@
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>ASOBIchanson.inc (Special support)</b><br />
                             - They helped us making video which explains our projects.
                           </p>
@@ -195,7 +195,7 @@
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Takashi Yamanashi</b><br />
                             - Electrical Engineering and Bioscience student.
                             He played a central part in making wiki pages by using software tools.
@@ -203,42 +203,42 @@
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Rei Abe</b><br />
                             - Medical Bioscience student.She designed our wiki pages.
                           </p>
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Yuji Kamei</b><br />
                             - Electrical Engineering and Bioscience student. 
                             He thought about the structure of wiki pages.
                           </p>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px"> 
                             <b>Takuma Kawabata</b><br />
                             - Electrical Engineering and Bioscience student.
                             He thought about the structure of wiki pages.
                           </p>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Aimi Watanabe </b><br />
                             - Electrical Engineering and Bioscience student. 
                             She thought about the structure of wiki pages.
                           </p>
                         </v-row>
                         <v-row id="HPTop">
-                          <P>
+                          <P margin-top="10px">
                             <b>Yuri Hayashi</b><br />
                             - Electrical Engineering and Bioscience student.
                              She thought about the structure of wiki pages.
                           </p>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Everyone </b><br />
                             - All members cooperated with each other and made wiki pages.                          
                           </p>
@@ -256,14 +256,14 @@
                         
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Yuya Otsuki</b><br />
                             - Electrical Engineering and Bioscience student.
                             He was responsible for Education and gave a lecture on Synthetic Biology to high school students.
                           </p>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Satohiro Takizawa</b><br />
                             - Medical Bioscience student. 
                             He was responsible for Education.
@@ -271,7 +271,7 @@
                         </v-row>
 
                         <v-row> 
-                          <P>
+                          <P margin-top="10px">
                             <b>Takashi Yamanashi</b><br />
                             - Electrical Engineering and Bioscience student.
                             He was responsible for Business model and tried to make our projects useful for society.
@@ -279,14 +279,14 @@
                         </v-row>
 
                         <v-row id="OtherTop">
-                          <P>
+                          <P margin-top="10px">
                             <b>Saho Fujieda</b><br />
                             - Medical Bioscience student.
                             She was responsible for Business model and tried to make our projects useful for society.
                           </p>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Maximize, Inc. (Special support)</b><br />
                             - They taught us how to plan business models and gave advise.
                           </p>
@@ -301,7 +301,7 @@
                           <h2>Other</h2>
                         </v-row>
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Takashi Yamanashi</b><br />
                             - Electrical Engineering and Bioscience student.
                             He was responsible for Collaborations and Excellence in Another Area.
@@ -309,7 +309,7 @@
                         </v-row>
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Yuji Kamei</b><br />
                             - Electrical Engineering and Bioscience student.
                              He came up with application which can connect DNA information and protein.
@@ -318,7 +318,7 @@
 
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Rei Abe</b><br />
                             - Medical Bioscience student. 
                             She researched about Racemase and gave us helpful information.
@@ -327,7 +327,7 @@
 
 
                         <v-row>
-                          <P>
+                          <P margin-top="10px">
                             <b>Takaomi Yamada </b><br />
                             - Medical Bioscience student. 
                             He researched about Racemase and gave us helpful information.
@@ -342,7 +342,7 @@
                     <v-row v-scroll="pushScrollY" id="NaviLast" > 
                       <v-col>
                         <v-row class="last_message">
-                            <P class="last_message_p"><b>
+                            <P cmargin-top="10px" lass="last_message_p"><b>
                               We appreciate all the person for helping our projects !</b><br />
                             </P>
                         </v-row>
@@ -415,7 +415,6 @@ export default {
 <style lang="scss" scoped>
 p{
   font-size: 24px;
-  margin-top: 10px;
 }
 
 .left_box {
