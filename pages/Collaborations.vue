@@ -23,8 +23,8 @@
             
                     <v-row class="navi_text">
                         <a href="Collaborations#Qdai"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Qai</v-row></a>
-                        <v-row :class="{ 'title_text': true, 'title_text_active': check[1] }"> Title1 2 </v-row>
-                        <v-row :class="{ 'title_text': true, 'title_text_active': check[2] }"> Title2 3 </v-row>
+                        <a href="Collaborations#japansummermeetup"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }"> Summer Meetup</v-row></a>
+                        <v-row :class="{ 'title_text': true, 'title_text_active': check[2] }"> Spring Meetup</v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[3] }"> Top2 4 </v-row>
                         <v-row :class="{ 'title_text': true, 'title_text_active': check[4] }"> Title1 5 </v-row>
                         
@@ -65,32 +65,36 @@
                         </v-col>
                       </v-row>
                       <v-row class="row_max-box">
-                        <v-col>
-                          <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
-                        </v-col>
-                        <v-col>
-                          <h3>Why did we decide to do this collaboration?</h3>
+                        <h3>Why did we decide to do this collaboration?</h3>
+                        
                           <P>
                             We had much knowledge of modeling of quorum sensing system and creating gene circuits.
                             However, they lacked knowledge of how to model projects based on wet systems created for real-world problems. 
                             In synthetic biology, modeling is very important for standardization. 
                             A good modeled project is able to be easily connected to other projects.
+                          </P>
+                          <p>  
                             Our goal was to solve a complex problem, and we needed to be able to connect other projects to our project.
                             That’s why we decided to work with the Qdai team, who have a deep knowledge of wet lab and a strong focus on real-world problems.
-                            </p>
-                        </v-col>
+                          </p>
+                      
                       </v-row>
                       <v-row class="row_max-box">
                         <v-row  class="row_max-box">
-                          <h3>How did we help each other?</h3>
+                          <v-col>
+                            <img class="image_max" src="https://2020.igem.org/wiki/images/f/f4/T--Waseda--QdaiWasedaAllMember.png">
+                          </v-col>
+                          <v-col>
+                            <h3>How did we help each other?</h3>
                             <P> 
                               We had a better understanding of each other’s projects through chatting and online meeting.
                               We learned a detailed understanding of the Qdai Team’s project, “a phosphoric acid storage system”.
                               Then, we proposed the modeling of the system. We also discussed other collaborate between our projects.
-                            </p>
+                              </p>
+                          </v-col>
                         </v-row>
                       </v-row>
-                      <v-row  fluid ma-0 pa-0 class="row_max-box">
+                      <v-row  fluid ma-0 pa-0 class="row_max-box" id="japansummermeetup">
                         <v-col class="row_max-box">
                           <h3>What did we learn from this collaboration?</h3>
                             <P>
@@ -102,15 +106,12 @@
                         </v-col>
               
                       </v-row>
-                      <v-row class="row_max-box">
-                        <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
-                      </v-row>
-                      
+                     
 
                     </v-row>
                     <v-row v-scroll="pushScrollY" id="section_02" > 
                       <v-row class="row_max-box">
-                        <h2>XXXXX</h2>
+                        <h2 class="h2_text">Japan Summer Meetup</h2>
                       </v-row>
                       <v-row class="row_max-box">
                         <v-col >
@@ -169,7 +170,67 @@
                       </v-row>
                     </v-row>
                   
-                    <v-row v-scroll="pushScrollY" id="section_03" > area 3 </v-row>
+                    <v-row v-scroll="pushScrollY" id="section_03" >
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Japan Spring Meetup</h2>
+                      </v-row>
+                      <v-row class="row_max-box">
+                        <v-col >
+                          <h3>About</h3>
+                            <P>
+                             textet
+                            </p>
+                          
+                        </v-col>
+                        <v-col >
+                          <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
+                        </v-col>
+                      </v-row>
+                      <v-row class="row_max-box">
+                        <v-col>
+                          <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
+                        </v-col>
+                        <v-col>
+                          <h3>Why did we decide to do this collaboration?</h3>
+                          <P>text texttext texttext texttext texttext texttext text
+                            text texttext texttext texttext texttext texttext text
+                            text texttext texttext texttext texttext texttext texttext text
+                            text texttext texttext texttext texttext texttext texttext texttext text
+                            text texttext texttext texttext texttext texttext texttext texttext text
+                            text texttext texttext texttext texttext texttext texttext text
+                          </p>
+                        </v-col>
+                      </v-row>
+                      <v-row class="row_max-box">
+                        <v-row  class="row_max-box">
+                          <h3>How did we help each other?</h3>
+                            <P>text texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext text
+                            </p>
+                        </v-row>
+                      </v-row>
+                      <v-row  fluid ma-0 pa-0 class="row_max-box">
+                        <v-col class="row_max-box">
+                          <h3>What did we learn from this collaboration?</h3>
+                            <P>text texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext texttext text
+                              text texttext texttext texttext texttext texttext texttext text
+                            </p>
+                        </v-col>
+              
+                      </v-row>
+                      <v-row class="row_max-box">
+                        <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
+                      </v-row>
+                    </v-row>
+
                     <v-row v-scroll="pushScrollY" id="section_04" > area 4 </v-row>
                     <v-row v-scroll="pushScrollY" id="section_05" > area 5 </v-row>
                     <v-template v-scroll="pushScrollY" id="section_06"></v-template>
@@ -236,6 +297,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+  font-size: 24px;
+  text-indent: 50px;
+}
 .left_box {
     padding :0;
 }
@@ -248,7 +313,7 @@ export default {
     background-repeat: repeat;
 }
 .main_text {
-    padding: 80px 10%;
+    padding: 40px 10%;
     background: rgba(255, 255, 255) 0% 0% no-repeat padding-box;
 }
 .h1 {
@@ -275,7 +340,8 @@ export default {
   }
 }
 .h2_text {
-  font-size: 30px;
+  font-size: 50px;
+  margin-top: 20px;
   border-bottom: 5px solid black;
 }
 .image_max {
@@ -291,7 +357,7 @@ export default {
   &_image {
         display: block;
         position: relative;
-        padding-top: 100px;
+        padding-top: 20px;
         width: 200px;
         margin: 0 auto;
   }
@@ -304,7 +370,7 @@ export default {
         background-color: white;
   }
   &_svg {
-      position:absolute; top:120px; left:20px; 
+      position:absolute; top:40px; left:20px; 
       width: 160px;
       height: 160px;
   }

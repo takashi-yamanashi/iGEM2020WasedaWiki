@@ -24,10 +24,10 @@
                     <v-row class="navi_text">
                         <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
                         <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
-                        <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
+                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
+                        <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
+                        <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
+                        <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
                         
 
                     </v-row>
@@ -35,10 +35,8 @@
                 </v-col>
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
-                    <v-row justify="center" text-align="left">
-                        <v-row cols="12" id="WetLabTop">
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/63/T--Waseda--AttributionsTop.png">
-                        </v-row>
+                    <v-row justify="center" text-align="centre">
+                        <v-row cols="12" class="image_top" id="WetLabTop"></v-row>
                     </v-row>
                     
                     <v-row v-scroll="pushScrollY" id="WetLab"> 
@@ -48,14 +46,14 @@
                       </v-row>
                       <v-row >
                         <P>
-                          <b>Ryo Miyachi </b><br />
+                          <b>Ryota Miyachi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Racemase project and experimented in Wet Lab.
                         </p>
                       </v-row>
                       <v-row >
                         <P>
-                          <b>Tauro Shioi </b><br />
+                          <b>Takuro Shioi </b><br />
                           - Electrical Engineering and Bioscience student. 
                           He was responsible for Gene circuit project and experimented in Wet Lab.
                         </p>
@@ -136,7 +134,7 @@
                           </p>
                         </v-row>
 
-                        <v-row>
+                        <v-row id="VideoTop">
                           <P>
                             <b>Takashi Yamanashi</b><br />
                             - Electrical Engineering and Bioscience student.
@@ -172,7 +170,7 @@
                           </p>
                         </v-row>
 
-                        <v-row>
+                        <v-row id="WikiTop">
                           <P>
                             <b>Rei Abe</b><br />
                             - Medical Bioscience student.
@@ -232,7 +230,7 @@
                             She thought about the structure of wiki pages.
                           </p>
                         </v-row>
-                        <v-row>
+                        <v-row id="HPTop">
                           <P>
                             <b>Yuri Hayashi</b><br />
                             - Electrical Engineering and Bioscience student.
@@ -280,7 +278,7 @@
                           </p>
                         </v-row>
 
-                        <v-row>
+                        <v-row id="OtherTop">
                           <P>
                             <b>Saho Fujieda</b><br />
                             - Medical Bioscience student.
@@ -322,7 +320,7 @@
                         <v-row>
                           <P>
                             <b>Rei Abe</b><br />
-                            -Medical Bioscience student. 
+                            - Medical Bioscience student. 
                             She researched about Racemase and gave us helpful information.
                           </p>
                         </v-row>
@@ -344,8 +342,8 @@
                     <v-row v-scroll="pushScrollY" id="NaviLast" > 
                       <v-col>
                         <v-row class="last_message">
-                            <P>
-                              'LAST Massege Here'
+                            <P class="last_message_p"><b>
+                              We appreciate all the person for helping our projects !</b><br />
                             </P>
                         </v-row>
                       </v-col>
@@ -415,6 +413,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
 .left_box {
     padding :0;
 }
@@ -427,7 +430,7 @@ export default {
     background-repeat: repeat;
 }
 .main_text {
-    padding: 80px 10%;
+    padding: 40px 10%;
     background: rgba(255, 255, 255) 0% 0% no-repeat padding-box;
 }
 .h1 {
@@ -454,12 +457,21 @@ export default {
   }
 }
 h2 {
-  font-size: 30px;
+  font-size: 50px;
   border-bottom: 5px solid black;
   margin: 20px 0;
 }
+
+
 .image_max {
   width:100%;
+}
+
+.image_top {
+  height: 0;
+  padding-top: 66%;
+  background-size: contain;
+  background-image: url("https://2020.igem.org/wiki/images/6/63/T--Waseda--AttributionsTop.png")
 }
 
 .navi {
@@ -471,7 +483,7 @@ h2 {
   &_image {
         display: block;
         position: relative;
-        padding-top: 100px;
+        padding-top: 20px;
         width: 200px;
         margin: 0 auto;
   }
@@ -484,7 +496,7 @@ h2 {
         background-color: white;
   }
   &_svg {
-      position:absolute; top:120px; left:20px; 
+      position:absolute; top:40px; left:20px; 
       width: 160px;
       height: 160px;
   }
@@ -516,7 +528,10 @@ h2 {
 }
 
 .last_message {
-  margin-bottom: 400px;
+  margin:20px 0  200px 0;
+  &_p{
+    font-size: 40px;
+  }
 }
 
 a:link {
