@@ -61,7 +61,10 @@
                           
                         </v-col>
                         <v-col >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/65/T--Waseda--QdaiWasedaLogo.png">
+                          <figure>
+                            <img class="image_max" src="https://2020.igem.org/wiki/images/6/65/T--Waseda--QdaiWasedaLogo.png">
+                            <figcaption class="fig_title">Fig 7.4  Qdai-Waseda Collabration Logo</figcaption>
+                          </figure>
                         </v-col>
                       </v-row>
                       <v-row class="row_max-box">
@@ -300,6 +303,9 @@ export default {
 .p_indent {
   font-size: 24px;
   text-indent: 50px;
+}
+.fig_title {
+  text-align:center;
 }
 
 .left_box {
