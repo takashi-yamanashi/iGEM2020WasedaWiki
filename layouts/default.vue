@@ -70,7 +70,7 @@
       <v-toolbar-title><img class="navi_home_logo" src="https://2020.igem.org/wiki/images/9/9d/T--Waseda--iGEM2020lWasedaLogo.png"></v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
-    <v-main>
+    <v-main style="padding: 76px 0 0;">
       <v-container fluid ma-0 pa-0 fill-height>
         <nuxt />
 
