@@ -232,11 +232,13 @@ export default {
 <style>
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
-
+#HQ_page p {
+  font-size: initial;
+}
 .p_indent {
   font-size: 24px;
   text-indent: 50px;
-}ß
+}
 
 h2 {
   font-size: 40px;
@@ -248,6 +250,20 @@ h3 {
 p {
   font-size: 24px;
 }
+
+.image_max {
+  width:100%;
+}
+.fig_mid_width {
+  width: 100%;
+  padding: 0 20%;
+}
+.fig_full_width {
+  width: 100%;
+  padding: 0;
+}
+
+
 
 .v-toolbar--dense .v-toolbar__content {
     padding: 20px 16px 4px 16px; /* igem header 20px */

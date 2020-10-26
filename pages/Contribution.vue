@@ -34,6 +34,31 @@
                     </v-col>
                 </v-col>
 
+                 <!-- <v-row v-scroll="pushScrollY" id="Qdaitop"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Qdai</h2>
+                      </v-row>
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                        <v-col >
+                          <h3>About</h3>
+                            <P class="p_indent">
+                              We collaborated with the Qdai Team about the modeling of the project. 
+                              The same style of project modeling could us to easily connect with each other’s projects. 
+                              Based on our knowledge, we cooperated with Qdai Team on the modeling of their project.
+                              They gave us deep insight into our models from a wet aspect and could us to create a more powerful model.
+                            </p>
+                          
+                        </v-col>
+                        <v-col cols="12" sm="12" xs="12" md="12" lg="6" xl="6">
+                          <figure>
+                            <img class="image_max" src="https://2020.igem.org/wiki/images/6/65/T--Waseda--QdaiWasedaLogo.png">
+                            <figcaption class="fig_title">Fig 7.4  Qdai-Waseda Collabration Logo</figcaption>
+                          </figure>
+                        </v-col>
+                      </v-row>
+                    </v-row> -->
+
+
                 <v-col class="main_text" cols="12" lg="10" xl="10">
 
  

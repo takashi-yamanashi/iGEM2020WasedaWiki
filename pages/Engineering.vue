@@ -231,3 +231,16 @@ a:active {
 }
 </style>
 
+<v-row class="row_max-box">
+
+<v-col>
+<h3></h3>
+<p class="p_indent">
+                            
+</P>
+<p class="p_indent">  
+                            
+</p>
+
+</v-col>
+</v-row>
