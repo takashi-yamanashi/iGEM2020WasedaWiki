@@ -23,7 +23,7 @@ def rewrite_jsload(all_file_name):
             after2_f = after1_f.replace('.js" as="script"', 'JS&action=raw&ctype=text/javascript" as="script"')
 #         replace point 2.1
             after21_f = after2_f.replace('.js" defer', 'JS?action=raw&amp;ctype=text/javascript" defer as="script"')
-
+           
 #         replace point 2.2
             after22_f = after21_f.replace('"payload.js"', '"payloadJS&action=raw&ctype=text/javascript"')
 
@@ -33,8 +33,11 @@ def rewrite_jsload(all_file_name):
         #         replace point 3
             after3_f = after23_f.replace('<!DOCTYPE html>', '')
 
+
+            # for Waseda team
+            after31_f = after3_f.replace('rel=“stylesheet” type=“text/css” href=“https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css”','https://2020.igem.org/Template:Waseda/cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.minCSS&action=raw&ctype=text/css')
         #         replace point 4
-            after4_f = after3_f.replace(db_hash, 'b25b294c')#b25b294c User specified hash
+            after4_f = after31_f.replace(db_hash, 'b25b294c')#b25b294c User specified hash
 
         #         replace point 5
             after5_f = after4_f.replace(static_hash, '1602327010')#1602327010 User specified hash

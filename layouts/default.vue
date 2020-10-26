@@ -119,7 +119,7 @@
 
 
     <v-footer
-    color="primary lighten-1"
+    color="primary lighten-1" style="margin: 0 0 0 20px;"
     >
       <v-row
         justify="center"
@@ -194,8 +194,9 @@ export default {
           lists:[
             { title: 'Team', to: 'Team'},
             { title: 'Attributions', to: 'Attributions'},
-            { title: 'Partnership', to: 'Partnership'},
+            // { title: 'Partnership', to: 'Partnership'},
             { title: 'Collaborations', to: 'Collaborations'},
+            { title: 'Sponsors', to: 'Sponsors'},
           ]
         },
         {
@@ -233,7 +234,7 @@ export default {
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 #HQ_page p {
-  font-size: 24px;
+font-size: 24px;
 }
 .p_indent {
   font-size: 24px;
@@ -254,6 +255,11 @@ p {
 .image_max {
   width:100%;
 }
+.fig_sm_width {
+  width: 100%;
+  padding: 0 30%;
+}
+
 .fig_mid_width {
   width: 100%;
   padding: 0 20%;
