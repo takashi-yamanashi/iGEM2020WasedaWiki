@@ -237,6 +237,10 @@ export default {
   font-size: initial;
   font-size: 24px;
 }
+#bodyContent h1, #bodyContent h2 {
+    margin-bottom: 0;
+}
+
 .p_indent {
   font-size: 24px;
   text-indent: 50px;

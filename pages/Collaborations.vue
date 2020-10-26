@@ -132,7 +132,7 @@
                           
                         </v-col>
                         <v-col cols="12" sm="12" xs="12" md="12" lg="6" xl="6">
-                          <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
+                          <img src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--JapanteamAllLLogo.png">
                         </v-col>
                       </v-row>
                       <v-row class="row_max-box">
@@ -161,7 +161,11 @@
               
                       </v-row>
                       <v-row  fluid ma-0 pa-0 class="row_max-box">
-                         <img src="https://2020.igem.org/wiki/images/2/28/T--Waseda--japansummermeetup.png">
+                        <figure class="fig_mid_width" >
+                            <img class="image_max" src="https://2020.igem.org/wiki/images/2/28/T--Waseda--japansummermeetup.png">
+                            <figcaption class="fig_title">Fig 7.4　Japan Summer Meetup </figcaption>
+                          </figure>
+                         
                       </v-row>
 
                     </v-row>
@@ -173,14 +177,13 @@
                       <v-row class="row_max-box">
                         <v-col >
                           <h3>About</h3>
-                            <P>
-                             textet
+                            <P class="p_indent">
+                             We participated in the Japan Spring Meetup hosted by <a class="link_style" href="https://2020.igem.org/Team:Botchan_Lab_Tokyo/Collaborations"> Team Botchan Lab.!</a><br/>
+                            Good collaboration was born the event and our project was brushed up!　
                             </p>
                           
                         </v-col>
-                        <v-col >
-                          <img src="https://2020.igem.org/wiki/images/0/01/T--Waseda--iGEMwasedalogo.svg">
-                        </v-col>
+
                       </v-row>
 
                     </v-row>

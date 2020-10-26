@@ -62,8 +62,8 @@
                         
 
                         <v-col
-                        v-for="n in items"
-                        :key="n"
+                        v-for="(n, i) in items"
+                        :key="i"
                         col="4"
                         >
 
@@ -95,10 +95,7 @@
                                 align="center"
                                 justify="center"
                             >
-                                <v-progress-circular
-                                indeterminate
-                                color="grey lighten-5"
-                                ></v-progress-circular>
+                                
                             </v-row>
                             </template>
                         <!-- </v-img> -->
@@ -161,6 +158,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
+      dialog: false,
       check: [false, false, false],
 
       items:[

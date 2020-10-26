@@ -153,7 +153,7 @@
                           
                           <p class="p_indent">     
                             Finally, each of monoterpenes were quantified based on peaks of substance having 93 m/z and each monoterpene standard curves.  Taking advantage of the modularity of the combination of extracts, we confirmed whether the yield of monoterpenes could be changed by changing the mixing ratio of the extract containing the enzyme of the mevalonate pathway and the extract containing GPP synthase and monoterpene synthase.
-                              As a result, changes in the yield of monoterpenes due to the mixing ratio of the extracts were observed (Figure. 2-2-4).  The best yield of limonene per reaction solution with limonene synthase contained system was 0.978 [µmol/L], and the best yield of sabinene per reaction solution with sabinene synthase contained system was 6.13 [µmol/L].                        
+                              As a result, changes in the yield of monoterpenes due to the mixing ratio of the extracts were observed (Figure. 2-2-4).  The best yield of limonene per reaction solution with limonene synthase contained system was 0.73 µmol/L, and the best yield of sabinene per reaction solution with sabinene synthase contained system was 4.6 µmol/L.                        
                           </P>
                           <p class="p_indent">                              
                           </p>

@@ -35,7 +35,7 @@ def rewrite_jsload(all_file_name):
 
 
             # for Waseda team
-            after31_f = after3_f.replace('rel=“stylesheet” type=“text/css” href=“https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css”','https://2020.igem.org/Template:Waseda/cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.minCSS&action=raw&ctype=text/css')
+            after31_f = after3_f.replace('rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"','href="https://2020.igem.org/Template:Waseda/cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.minCSS&action=raw&ctype=text/css"')
         #         replace point 4
             after4_f = after31_f.replace(db_hash, 'b25b294c')#b25b294c User specified hash
 
