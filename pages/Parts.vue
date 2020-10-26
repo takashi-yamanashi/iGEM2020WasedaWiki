@@ -36,7 +36,7 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
 
- 
+                  
                 </v-col>
             </v-row>
         </v-container>

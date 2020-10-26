@@ -236,6 +236,10 @@ export default {
 #HQ_page p {
 font-size: 24px;
 }
+#bodyContent h1, #bodyContent h2 {
+    margin-bottom: 0;
+}
+
 .p_indent {
   font-size: 24px;
   text-indent: 50px;
@@ -267,6 +271,9 @@ p {
 .fig_full_width {
   width: 100%;
   padding: 0;
+}
+.fig_title {
+  text-align:center;
 }
 
 
