@@ -273,6 +273,9 @@ p {
   width: 100%;
   padding: 0;
 }
+.fig_title {
+  text-align:center;
+}
 
 
 
