@@ -233,7 +233,7 @@ export default {
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 #HQ_page p {
-  font-size: initial;
+  font-size: 24px;
 }
 .p_indent {
   font-size: 24px;
