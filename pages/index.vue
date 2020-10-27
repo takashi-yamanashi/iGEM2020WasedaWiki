@@ -15,7 +15,7 @@
     <v-row justify="center" align="Top"  class="top_bg_top2_1"> 
     </v-row>
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="8" md="7" lg="6" xl="6" class="top_bg_top2_2">
+      <v-col cols="12" xs="11" sm="8" md="7" lg="8" xl="7" class="top_bg_top2_2">
         <v-row>
           <video width="100%" height="auto" controls>
             <source src="https://2020.igem.org/wiki/images/d/d5/T--Waseda--StoryShortMovie.mp4" type="video/mp4">
@@ -44,11 +44,11 @@
   </v-container>
 
   <v-container fluid pa-0 class="top_bg_top3_5">
-    <v-row justify="center" align="Top" class="top_bg_top3_5_52">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center">
+    <v-row justify="center" align="Top" class="top_bg_top3_5_32">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Project Overview</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               
               
@@ -84,10 +84,10 @@
     <v-container fluid pa-0 class="top_bg_top3_5">
 
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">ZOMBIE vs. SAMURAI gene circuit</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <figure class="fig_full_width" >
               <img class="image_max" 
                   src="https://2020.igem.org/wiki/images/5/54/T--Waseda--TopFig2.png" alt="fig. 1-2  DBTL - ZOMBIE vs. SAMURAI gene circuit">
@@ -106,16 +106,16 @@
       <v-row justify="center" align="center" class="top_bg_top3_5_41"></v-row>
 
       <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center" class="top_bg_top3_5_42">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center" class="top_bg_top3_5_42">
           <h2 class="h2_text">ssrA degradation tag assay</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="8" class="top_bg_top3_5_43">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_43">
           <v-row class="row_max-box">
             <v-col>
               <p class="p_indent"><br/></p>
                 <p class="p_indent">     
                     Rapid protein degradation is required to achieve working ZOMBIE vs SRAMURAI gene circuit in a cell-free system.
-                     Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K9340025">BBa_K9340025</a> ) and test the effect of degradation tag in quorum sensing system.
+                     Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K934025">BBa_K934025</a> ) and test the effect of degradation tag in quorum sensing system.
                       We compared the fluorescence value of the GFP and tagged GFP both in vivo and in vitro. As a result, the value of tagged GFP was lower than that of normal GFP in both vivo and vitro, indication that degradation of GFP accelerated by the ssrA tag.
                   </p>
             </v-col>
@@ -124,17 +124,15 @@
 
 
 
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center" >
-          <h2 class="h2_text">ssrA degradation tag assay</h2>
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center" >
+          <h2 class="h2_text">Cross talk assay</h2>
       </v-col>
 
-        <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="8">
+        <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row class="row_max-box">
             <v-col>
                 <p class="p_indent">     
-                    Rapid protein degradation is required to achieve working ZOMBIE vs SRAMURAI gene circuit in a cell-free system.
-                     Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580025">BBa_K3580025</a> ) and test the effect of degradation tag in quorum sensing system.
-                      We compared the fluorescence value of the GFP and tagged GFP both in vivo and in vitro. As a result, the value of tagged GFP was lower than that of normal GFP in both vivo and vitro, indication that degradation of GFP accelerated by the ssrA tag.
+                    There is one more factor to be considered for a working genetic circuit. That is crosstalk between the quorum sensing (QS) systems. We tested the crosstalk between the lux and rhl QSsystem in Cell-free to see if it is an acceptable amount to accomplish the gene circuit.
                   </p>
             </v-col>
           </v-row>
@@ -147,10 +145,10 @@
     <v-container fluid pa-0 class="top_bg_top3_5">
 
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center">
-          <h2 class="h2_text">ZOMBIE vs. SAMURAI gene circuit</h2>
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
+          <h2 class="h2_text">Monoterpenes</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" class="top_bg_top3_5_52">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_52">
 
           <p class="p_indent"></p>
           <p class="p_indent">     
@@ -164,7 +162,7 @@
 
             <figure class="fig_full_width" >
               <img class="image_max" 
-                  src="https://2020.igem.org/wiki/images/a/aa/T--Waseda--TopFig3.png" alt="Fig. 1-3 Monoterpenes Overview">
+                  src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--monoterpene_2-2-1_Parts_and_metabolic_pathways_in_this_experiment_and_a_schematic_diagram_of_the_experiment.png" alt="Fig. 1-3 Monoterpenes Overview">
               <figcaption class="fig_title">Fig. 1-3 Monoterpenes Overview</figcaption>
           </figure>
 
@@ -177,10 +175,10 @@
     <v-row justify="center" align="center" class="top_bg_top3_5_51"></v-row>
     
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">IFFL</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 To construct a system in which the scent automatically change over time, we have developed a multi-target IFFL, an extension of the incoherent feed forward loop (IFFL).
@@ -204,10 +202,10 @@
 
   <v-container fluid pa-0 class="top_bg_top6">
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Racemase</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 In the zombie vs. Samurai storyline, we envisioned a scenario in which one side deprives their opponent of the food they need. That is to say, one side consumes D-amino acid and the other consumes L-amino acid derived food, and both sides converts their opponent’s amino acid to make them edible only for themselves. 
@@ -229,10 +227,10 @@
     <v-row justify="center" align="center" class="top_bg_top6_1"></v-row>
 
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Human Practices</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6">
+      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 When we started our project, we wanted to make sure that it was something that would be understood by society.  In our survey, we found that cell-free protein synthesis and synthetic biology have come to be linked in recent years.  We thought that we could tell biotechnology properly because a project in a cell-free system wouldn't be linked to bioethics. 
@@ -322,7 +320,7 @@ export default {
       background-image: url("https://2020.igem.org/wiki/images/8/86/T--Waseda--TopMonotoneRaijinOnCloud.png");
     }
     &_32{
-      margin-bottom: - 13%;
+      margin-bottom: - 20%;
     }
     &_41{
       height: 0;
@@ -331,10 +329,10 @@ export default {
       background-image: url("https://2020.igem.org/wiki/images/f/fc/T--Waseda--MonotoneHuujinnoOnCloud.png");
     }
     &_42{
-      margin-top: -20%;
+      margin-top: -21%;
     }    
     &_43{
-      margin-top: -17%;
+      margin-top: -16%;
     }
     &_51{
       height: 0;
