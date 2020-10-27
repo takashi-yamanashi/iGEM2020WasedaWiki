@@ -34,12 +34,307 @@
                     </v-col>
                 </v-col>
 
+
+
                 <v-col class="main_text" cols="12" lg="10" xl="10">
+                  
+                    <v-row justify="center" text-align="left">
+                        <v-row cols="12" class='h1_box'>
+                          <v-col class='h1_box_text'> 
+                            <h1 class='h1_text' pushElementOffsetTop>Modeliing</h1>
+                          </v-col>
+                        </v-row>
+                    </v-row>
+                    
+                    <v-row v-scroll="pushScrollY" id="OverviewTop"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Zombie vs Samurai circuit</h2>
+                      </v-row>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/4a/T--Waseda--zombi_R_NoAHL_Nopro_image.PNG" alt="Fig.4-1-1 Zombie vs Samurai circuit">
+                        <figcaption class="fig_title">Fig.4-1-1 Zombie vs Samurai circuit</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent"> 
+                            Our Zombie vs Samurai Circuit is as shown in Fig.4-1-1. To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms.
+                             The ideal results for the war between Samurai and Zombie are in the Fig.4-1-2. This ideal result has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication.
+                              Since the nullcline indicates the concentration when it does not change with time, the number of shared points of the two nullclines corresponds to the number of stable states.
+                             As shown in Fig.4-1-2, there are three shared points on the nullcline, two of them are stable equilibrium points and the system is bistable.                           
+                          </P>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/5/53/T--Waseda--idealnullcline_timecourase.png" alt="Fig.4-1-2 the ideal results of our gene circuit">
+                        <figcaption class="fig_title">Fig.4-1-2 the ideal results of our gene circuit</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent"> 
+                            Before modeling of in vitro systems with cell-cell communication, we established differential-equation (1) to (6) based modeling for the same circuit which works in living E coli cells because of accumulated cases for such in vivo models.
+                             We formulated equations assuming that the system has a sufficient amount of R protein and the concentration of I protein activates the corresponding promoter directly (Fig.4-1-3). The meaning of each parameter is as shown in Table.4-1-1.                            
+                          </P>
+                          <p class="p_indent">    
+                            ddt[lacI]=a1zn1Kn11+zn1+a2Kn22Kn22+[CI]n2−dlac[lacI]     (1)<br/>
+                            </p>
+                          <p class="p_indent"> 
+                            ddt[CI]=a3wn3Kn33+wn3+a4Kn44Kn44+[lacI]n4−dCI[CI]   (2)<br/>
+                            </p>
+                          <p class="p_indent"> 
+                            ddt[luxI]=a5Kn55Kn55+[CI]n5−dlux[luxI]  (3)<br/>
+                            </p>
+                          <p class="p_indent"> 
+                            ddt[RhlI]=a6Kn66Kn66+[lacI]n6−drhl[RhlI] (4)<br/>
+                            </p>
+                          <p class="p_indent"> 
+                            dzdt=∑λz[luxI]i−dzz  (5)<br/>
+                            </p>
+                          <p class="p_indent"> 
+                            dwdt=∑λw[RhlI]i−dww  (6)<br/>
+                            </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">   
+                            \( 
+                              1 + 2 = 3 \\
+                              2 - 3 = 5 \\
+                              3 \times 2 = 6 \\
+                              6 \div 3 = 2
+                               \)                        
+                          </P>
+                          <p class="p_indent">  
+                            <p>
+                              \begin{eqnarray}
+                              \frac{ d }{ dt } [LacI] & = & \frac{\alpha_1 z^{n_1} }{ K_1^{n_1} + z^{n_1} } + \frac{ \alpha_2 K^{n_2} }{ K_2^{n_2} + [CI]^{n_2} } - d_{Lac} [LacI] \\
+                              \frac{ d }{ dt } [CI] & = & \frac{ \alpha_3 w^{n_3} }{ K_3^{n_3} + w^{n_3} } + \frac{ \alpha_4 K^{n_4} }{ K_4^{n_4} + [LacI]^{n_4} } - d_{CI} [CI] \\
+                              \frac{ d }{ dt } [LuxI] & = & \frac{ \alpha_5 w^{n_5} }{ K_5^{n_5} + w^{n_5} } - d_{LuxI} [LuxI] \\
+                              \frac{ d }{ dt } [RhlI] & = & \frac{ \alpha_6 w^{n_6} }{ K_6^{n_6} + w^{n_6} } - d_{RhlI} [RhlI] \\
+                              \frac{ d }{ dt } z & = & \sum_{i=1}^N{ \lambda_z [LuxI]_i } - d_{z} z \\
+                              \frac{ d }{ dt } w & = & \sum_{i=1}^N{ \lambda_w [RhlI]_i } - d_{w} w
+                              \end{eqnarray}
+
+                            </p>                            
+                          
+                        </v-col>
+                      </v-row>
+
+                      <div>
+                        $$
+                        x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+                        $$
+                      </div>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row><v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+                
+
+
+
                     <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_05"><v-col class="last_message"></v-col></v-template>
+
  
                 </v-col>
             </v-row>
@@ -49,15 +344,30 @@
     
   <!-- </v-layout> -->
 </template>
+
+
+
+
 <script>
 export default {
+  head() {
+    return {
+      script: [
+        {
+          src: "https://2020.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_SVG"
+        }
+      ],
+    }
+  },
   data: () => {
     return {
       fab: false,
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false,],
+      check: [false, false, false, false,],
+
+
 
     };
   },
@@ -80,7 +390,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'section_0','section_02','section_03','section_04','section_05'
+        'section_01','section_02','section_03','section_04',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -91,9 +401,9 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 

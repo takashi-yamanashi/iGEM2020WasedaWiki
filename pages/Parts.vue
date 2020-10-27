@@ -370,6 +370,13 @@ export default {
             link: 'http://parts.igem.org/Part:BBa_K3580003',
           },         
           {
+            name: 'BBa_K3580101',
+            des: 'Ptrc-trGPPS-LS',
+            type: 'Generato',
+            Lengt: '4030',
+            link: 'http://parts.igem.org/Part:BBa_K3580101',
+          },  
+          {
             name: 'BBa_K3580102',
             des: 'Ptrc-trGPPS-SS',
             type: 'Generato',
