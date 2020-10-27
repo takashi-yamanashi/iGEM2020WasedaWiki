@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Excellence_in_Another_Area", {data:[{}],fetch:[],mutations:void 0});

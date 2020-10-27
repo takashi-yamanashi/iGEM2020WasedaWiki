@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Racemase", {data:[{}],fetch:[],mutations:void 0});
