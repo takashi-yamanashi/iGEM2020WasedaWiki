@@ -36,11 +36,20 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
 
+
+
+
+
+
+
+
+                  
+
                     <v-row v-scroll="pushScrollY" id="Monoterpene"> 
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Cell-free monoterpene synthesis</h2>
                       </v-row>
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <h3>Background</h3>
                             <P class="p_indent">
@@ -52,12 +61,12 @@
                           
                         </v-col>
                       </v-row>
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <h3>Experiment</h3>
                         </v-col>
                       </v-row>
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" 
                           src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--monoterpene_2-2-1_Parts_and_metabolic_pathways_in_this_experiment_and_a_schematic_diagram_of_the_experiment.png" alt="Parts_and_metabolic_pathways_in_this_experiment_and_a_schematic_diagram_of_the_experiment">
@@ -65,7 +74,7 @@
                         </figure>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <p class="p_indent">
                             In this cell-free monoterpene synthesis, we mixed two <i>E. coli</i> extracts each of which has either first 7 or last 2 enzymes of a pathway from Ac-CoA, which is a major intermediate of cell central metabolism.
@@ -77,7 +86,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row ols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row ols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <h3>Results</h3>
                           <p class="p_indent"> 
@@ -90,7 +99,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/f/f7/T--Waseda--monoterpene_2-2-2_GCMS_analysis_results_of_limonene_synthesis_system.png" alt="Fig. 2-2-2 GC/MS analysis results of limonene synthesis system">
                         <figcaption class="fig_title">Fig. 2-2-2 GC/MS analysis results of limonene synthesis system</figcaption>
@@ -98,7 +107,7 @@
                       </v-row>
                     
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           
                           <p class="p_indent"> 
@@ -108,7 +117,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/f/f2/T--Waseda--monoterpene_2-2-3_GCMS_analysis_results_of_sabinene_synthesis_system.png" alt="Fig. 2-2-3 GC/MS analysis results of sabinene synthesis system">
                         <figcaption class="fig_title">Fig. 2-2-3 GC/MS analysis results of sabinene synthesis system</figcaption>
@@ -117,7 +126,7 @@
 
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <h3></h3>
                           <p class="p_indent"> 
@@ -139,7 +148,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/f/fa/T--Waseda--monoterpene_2-2-4_Yields_of_monoterpene_per_reaction_solution_in_this_experiment_.png" alt="Fig. 2-2-4 Yields of monoterpene per reaction solution in this experiment">
                         <figcaption class="fig_title">Fig. 2-2-4 Yields of monoterpene per reaction solution in this experiment</figcaption>
@@ -148,12 +157,12 @@
 
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           
                           <p class="p_indent">     
                             Finally, each of monoterpenes were quantified based on peaks of substance having 93 m/z and each monoterpene standard curves.  Taking advantage of the modularity of the combination of extracts, we confirmed whether the yield of monoterpenes could be changed by changing the mixing ratio of the extract containing the enzyme of the mevalonate pathway and the extract containing GPP synthase and monoterpene synthase.
-                              As a result, changes in the yield of monoterpenes due to the mixing ratio of the extracts were observed (Figure. 2-2-4).  The best yield of limonene per reaction solution with limonene synthase contained system was 0.73 µmol/L, and the best yield of sabinene per reaction solution with sabinene synthase contained system was 4.6 µmol/L.                        
+                              As a result, changes in the yield of monoterpenes due to the mixing ratio of the extracts were observed (Figure. 2-2-4).  The best yield of limonene per reaction solution with limonene synthase contained system was 0.73 µM, and the best yield of sabinene per reaction solution with sabinene synthase contained system was 4.6 µM.                        
                           </P>
                           <p class="p_indent">                              
                           </p>
@@ -162,7 +171,7 @@
 
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <h3>Reference</h3>
                           <p>    
@@ -182,11 +191,11 @@
 
                     </v-row>
 
-                    <v-row v-scroll="pushScrollY" id="Racemase"> 
+                    <v-row id="Racemase"> 
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Racemase ~War In The Mirror~</h2>
                       </v-row>
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <h3>Introduction</h3>
                             <P class="p_indent">
@@ -197,9 +206,11 @@
                           
                         </v-col>
                       </v-row>
+                    </v-row>
+                    
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/c/c7/T--Waseda--racemase_war_1st.png" alt="Fig.2-4-1 Images of War In The Mirror in the Zombie vs Samurai storyline">
                         <figcaption class="fig_title">Fig.2-4-1 Images of War In The Mirror in the Zombie vs Samurai storyline</figcaption>
@@ -207,7 +218,7 @@
                       </v-row>
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
 
                           <p class="p_indent">  
@@ -226,7 +237,7 @@
                       </v-row>
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <h3>Summary & Experiment</h3>
                           <p class="p_indent"> 
@@ -237,7 +248,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/b/b8/T--Waseda--racemase_expression.png" alt="Fig.2-4-2 Purification of alanine racemase expressed in E. Coli">
                         <figcaption class="fig_title">Fig.2-4-2 Purification of alanine racemase expressed in <i>E. Coli</i></figcaption>
@@ -245,7 +256,7 @@
                       </v-row>
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <p class="p_indent">  
                             To assess the activity of purified racemase, fluorescence values of GFPS1 synthesized by a combination of GFPS1 plasmid, L-alanine, D-alanine, and purified AR were measured in the Pure System, a reconstituted CFPS that contains no enzymes other than the translation system [Shimizu et.al 2001] (Fig.2-4-3).
@@ -253,7 +264,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/a/a1/T--Waseda--racemase_puresystem.png" alt="Fig.2-4-3 Cell-free protein synthesis in the PURE system">
                         <figcaption class="fig_title">Fig.2-4-3 Cell-free protein synthesis in the PURE system</figcaption>
@@ -261,7 +272,7 @@
                       </v-row>
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <p class="p_indent">     
                             The natural translation system is difficult to take up D-amino acids.[Kuncha 2019].19 amino acids other than alanine are L-bodies, so if only alanine is D-body, even if the sequence is correct, it has no activity as an enzyme (Fig.2-4-4).                         
@@ -269,7 +280,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/2/2a/T--Waseda--racemase_pure_alanine.png" alt="Fig.2-4-4 Cell-free protein synthesis under each alanine conditions">
                         <figcaption class="fig_title">Fig.2-4-4 Cell-free protein synthesis under each alanine conditions</figcaption>
@@ -277,7 +288,7 @@
                       </v-row>
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <p class="p_indent">   
                             Since GFP is composed of L-amino acids, when GFPS1 takes up L-alanine, the system would give off fluorescent effect, and when D-alanine and AR are added, the racemized L-alanine can be used for translation and the fluorescence value was expected to be restored(Fig.2-4-5). The evaluation of the effect of amino acids on the synthesis of a reporter protein is the most appropriate methodology for this scenario as a "food source".
@@ -286,7 +297,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/e/e5/T--Waseda--racemase_pure_racemase.png" alt="Fig.2-4-5 Cell-free protein synthesis using racemization of alanine by racemase">
                         <figcaption class="fig_title">Fig.2-4-5 Cell-free protein synthesis using racemization of alanine by racemase</figcaption>
@@ -294,7 +305,7 @@
                       </v-row>
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <p class="p_indent">
                             We decided to assay AR by adopting PURE frex donated by GeneFrontier, Inc. After identifying L-alanine contamination problems of commercial D-alanine, the assay with AR was confirmed by the combination of each alanine and racemase as well as the assay with extracts. The results of this experiment are as follows (Fig.2-4-6).                              
@@ -302,7 +313,7 @@
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/3/36/T--Waseda--racemase_201023_bar.png" alt="Fig.2-4-6 Effect of L-alanine substrate repletion for translation by racemase">
                         <figcaption class="fig_title">Fig.2-4-6 Effect of L-alanine substrate repletion for translation by racemase</figcaption>
@@ -310,7 +321,7 @@
                       </v-row>
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <p class="p_indent">
                             The results demonstrated that GFP could not be synthesized by D-alanine alone, but L-alanine produced by racemase-mediated racemization of D-alanine and L-alanine could be used for translation, creating a situation in which fluorescence was restored by the synthesized GFP.                              
@@ -323,7 +334,7 @@
                       </v-row>
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <h3>Reference</h3>
                           <p >
@@ -344,18 +355,123 @@
                       </v-row>
 
 
+                    <v-row v-scroll="pushScrollY" id="Education"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Education</h2>
+                      </v-row>
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col >
+                          <h3>Overview</h3>
+                            <P class="p_indent">
+                              At initial stage of our iGEM activity, we realized that not only those with little scientific knowledge but also students who aspired to be scientists didn’t recognize synthetic biology. As iGEMers, who mainly work with synthetic biology, we felt the need to spread the knowledge of its potential to produce world-changing results in both engineering and physiological sciences.  This year, we’re attracting attention with an interesting story whose subject is gene circuit.  We tried to spread toggle switch, which was core of the circuit and starting point of synthetic biology.
+                            </p>
+                          
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--Education_Application_student.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 2-6-1 EducationApplication student</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                            We decided to develop a smartphone application (Fig. 2-6-1) for better understanding of mathematical modeling of synthetic biology for the synthetic biology beginners. Mathematical modeling is fundamental in synthetic biology, for engineering principle requires such modeling.  We fortunately had a chance to lecture Waseda University High School students. The lecture was held through a widely used video communication service, zoom.
+                                                  
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/f/f0/T--Waseda--Education_Application_Explanation.png" alt="fig 2.7 toggle switch simulator">
+                        <figcaption class="fig_title">fig 2-6-2 toggle switch simulator</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">   
+
+                            The application shows how genetic circuit works, especially about toggle switch. Rates of change in repressor concentrations move according to parameter values(⑤).  Resulting in visual information such as graph or color transitions(③,④,⑥).  Each student can move the parameter values(⑤),  watching the feedback, and learn how each parameter affects the result.   
+                            By operating the app hands-on, we received positive comments from the students.   Some said they felt fresh about the way they recognized organisms by using mathematical model, and others said they found utility in this method.
+                            Afterwards, this smartphone application was incorporated in a university class because of its usefulness.
+                                                      
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <h3></h3>
-                          <p class="p_indent">                            
+                          <p class="p_indent">      
+                                                  
                           </P>
                           <p class="p_indent">                              
                           </p>
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">      
+                                                  
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">      
+
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="" alt="Logo">
                         <figcaption class="fig_title"></figcaption>

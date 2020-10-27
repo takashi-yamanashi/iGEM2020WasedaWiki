@@ -230,10 +230,9 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
-                Our iGEM wet and modeling studies has interacted with human practice activity throughout the year.  
-                As described above and on human practice page ( Go to Human Practice page ) , our initial interaction with society made us confident to center our project around cell-free system.  Note that we, cell-free iGMEers, have to consider safety in recombinant DNA and other experiments, as cell-based iGEMers.
-                  Our plasmid and extract preparations were in compliance with domestic laws.
-
+                Our iGEM wet and modeling studies has interacted with human practice activity throughout the year.
+                  As described above and on human practice page ( GO to human practice page ), our initial interaction with society made us confident to center our project around cell-free system.
+                    Note that we, cell-free iGMEers, have to consider safety in recombinant DNA and other experiments, as cell-based iGEMers.  Our plasmid and extract preparations were in compliance with domestic laws.
               </p>
               <p class="p_indent">    
                   Another HP activity was education to high school students. ( Go to the Education page.) 
