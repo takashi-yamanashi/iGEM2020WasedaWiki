@@ -255,7 +255,7 @@ p{
     height: 100vh;
     position: fixed;
     width: 17%;
-    background-image: url("https://2020.igem.org/wiki/images/e/e9/T--Waseda--Tasukinisakura1.png");
+    background-image: url("https://2020.igem.org/wiki/images/4/4e/T--Waseda--MakiRed.png");
     background-size: 100% auto;
     background-repeat: repeat;
 }

@@ -22,9 +22,9 @@
 
             
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
+                        <a href="Model#ZScircuit"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Zombi vs samurai</v-row></a>
+                        <a href="Model#IFFL"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">IFFL</v-row></a>
+                        <!-- <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
                         <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
                         <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
                         <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
@@ -38,7 +38,7 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                   
-                    <v-row justify="center" text-align="left">
+                    <v-row justify="center" text-align="left" id="ZScircuit">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
                             <h1 class='h1_text' pushElementOffsetTop>Modeliing</h1>
@@ -55,11 +55,11 @@
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
+                          
+                          <p class="p_indent">           
+                            Our team is eligible for this prize because we actively used dry-wet cycles.  We designed a genetic circuit that realizes a bistable system switched by the number of cells.  Before implementing the genetic circuit in a wet experiment, we modeled it and simulated the behavior.  Through the simulation, we discovered some problems like degradation time and crosstalk ratio, so we introduced new technology and verified its usefulness by conducting wet experiments.  Based on the results, we re-simulated and confirmed that the designed system works. Moreover, we devised a way to explain this modeling ingeniously. Modeling plays an essential role in synthetic biology, but it is difficult to explain it accurately.  To solve this problem, we likened this bi-stable system to the war between zombies and humans.  We are convinced that this interesting story attract anyone, including the general public, and make the system easier to understand.                  
                           </P>
-                          <p class="p_indent">                              
-                          </p>
+                          
                         </v-col>
                       </v-row>
 
@@ -262,6 +262,9 @@
                         </figure>
                       </v-row>
 
+
+                         <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                          </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
@@ -508,7 +511,7 @@
 
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" >
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--R_Pcrosswarincellfree.png" alt=" Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and ">
                         <figcaption class="fig_title"> Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and </figcaption>
@@ -517,15 +520,263 @@
 
 
                       <v-row> 
-                        <v-row class="row_max-box">
+                        <v-row class="row_max-box" id="IFFL">
                           <h2 class="h2_text">Multi IFFL</h2>
                         </v-row>
                       </v-row>
 
 
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/a/a1/T--Waseda--IFFL_about.png" alt="Fig 4-2-1 Incoherent feed forward loop">
+                        <figcaption class="fig_title">Fig 4-2-1 Incoherent feed forward loop</figcaption>
+                        </figure>
+                      </v-row>
+
                       
                       
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">       
+                            In the incoherent feed forward loop(Fig 4-2-1), the expressions of each gene: x,y, and z are formulated as the differential-equation (1), (2) and to (3).                     
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p>Table 4-2-1 description of each parameter of IFFL</p>
+
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    Variables
+                                  </th>
+                                  <th class="table-font-size">
+                                    Description
+                                  </th>
+                                  <th class="table-font-size">
+                                    unit
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts5"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                  <td class="table-font-sizet">{{ item.unit }}</td>
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    Parameters
+                                  </th>
+                                  <th class="table-font-size">
+                                    Description
+                                  </th>
+                                  <th class="table-font-size">
+                                    unit
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts6"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                  <td class="table-font-sizet">{{ item.unit }}</td>
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+
+
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--Muitl_IFFL.png" alt="Fig 4-2-2 Multi IFFL">
+                        <figcaption class="fig_title">Fig 4-2-2 Multi IFFL</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent"> 
+                            We designed an expanded IFFL system containing two target genes (Z1,Z2) each of which withhas different peak time to the other. We call this Multi -target- IFFL, or Multi IFFL. By adjusting the parameters for each activation and repression, we can provide a time difference in the generation of each pulse. To check whether the designed multi-target IFFL can really generate two pulses with a time delay, we extensively searched for parameter space for the system.                           
+                          </P>
+                          <p class="p_indent">   
+                            We first investigated how the concentration of Z changes overwith time when the parameters Kx and Ky are changed independently in Formula (3).
+                            When searching, we varied Kx and Ky from 1 to 1000 every 100 and other parameters were fixed as shown on Table-4-2-2, Table-4-2-3 respectively.
+                           
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_mid_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/d/d1/T--Waseda--Kx-search.png" alt="Fig 4-2-3 Kx and Ky search independently">
+                        
+                        </figure>
+                        <figure class="fig_mid_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/66/T--Waseda--Ky-search.png" alt="Fig 4-2-3 Kx and Ky search independently">
+                        <figcaption class="fig_title">Fig 4-2-3 Kx and Ky search independently</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p>Table 4-2-2 Fixed parameters in the Kx search</p>
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    parameter
+                                  </th>
+                                  <th class="table-font-size">
+                                    value
+                                  </th>
+                                 
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts7"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                  
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+
+                        </v-col>
+                      </v-row>
+
+                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p>Table 4-2-3 Fixed parameters in the Ky search</p>
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    parameter
+                                  </th>
+                                  <th class="table-font-size">
+                                    value
+                                  </th>
+                                 
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts8"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                  
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">     
+                            Next, we constructed a heatmap to check how much time (t) of the pulse peak is delayed as we simultaneously changed the parameters Kx and Ky in the formlula (3). Fig. 4-2-4 is the results. 
+                            Other parameters are fixed as shown on Table 4-2-4.                        
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p>Table.4-1-4 parameter set to AHL-R protein crosstalk</p>
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    parameter
+                                  </th>
+                                  <th class="table-font-size">
+                                    value
+                                  </th>
+                                  
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts9"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                 
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+                      <!-- <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
                           <h3></h3>
@@ -541,36 +792,18 @@
                           <img class="image_max" src="" alt="Logo">
                         <figcaption class="fig_title"></figcaption>
                         </figure>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
-                          </P>
-                          <p class="p_indent">                              
-                          </p>
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
+                      </v-row> -->
 
 
                       
                 
 
 
-
+<!-- 
                     <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template> -->
                     <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template> -->
 
  
                 </v-col>
@@ -601,7 +834,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false,],
+      check: [false, false, false, ],
 
       desserts: [
           {
@@ -817,7 +1050,104 @@ export default {
             value: '1',
             unit:'-',
           },
+      ],
+      desserts5: [
+          {
+            name: '[x]',
+            value: 'Concentration of protein x',
+            unit:'µM',
+          },{
+            name: '[y]',
+            value: 'Concentration of protein y',
+            unit:'µM',
+          },{
+            name: '[z]',
+            value: 'Concentration of protein z',
+            unit:'µM',
+          },
+       ],
+      desserts6: [   
+          {
+            name: 'a1',
+            value: 'Maximum expression rate of protein X',
+            unit:'µM/min',
+          },{
+            name: 'a2',
+            value: 'Mamimum expression rate of protein Y, when promoter of z is activated by protein X',
+            unit:'µM/min',
+          },{
+            name: 'αx',
+            value: 'Mamimum expression rate of protein Z, when promoter of z is activated by protein X',
+            unit:'µM/min',
+          },{
+            name: 'αy',
+            value: 'Mamimum expression rate of z, when promoter of protein Z is activated by protein Y',
+            unit:'µM/min',
+          },{
+            name: 'K1',
+            value: 'x concentration at which the expression rate of y is half of α2',
+            unit:'µM',
+          },{
+            name: 'Kx',
+            value: 'x concentration at which the expression rate of y is half of αx',
+            unit:'µM',
+          },{
+            name: 'Ky',
+            value: 'x concentration at which the expression rate of y is half of αy',
+            unit:'µM',
+          },{
+            name: 'β_k(k=1,x,y)',
+            value: 'Hill coefficient',
+            unit:'-',
+          },{
+            name: 'd_k(k=x,y,z)',
+            value: 'Degradation rate',
+            unit:'/min',
+          },
+      ],
+      desserts7: [   
+          {
+            name: 'ax',
+            value: '4000',
+          },{
+            name: 'βx',
+            value: '1',
+          },{
+            name: 'βy',
+            value: '2',
+          },{
+            name: 'Ky',
+            value: '50',
+          },
+      ],
+      desserts8: [   
+          {
+            name: 'ax',
+            value: '4000',
+          },{
+            name: 'βx',
+            value: '1',
+          },{
+            name: 'βy',
+            value: '2',
+          },{
+            name: 'Kx',
+            value: '8',
+          },
+      ],
+       desserts9: [   
+          {
+            name: 'ax',
+            value: '4000',
+          },{
+            name: 'βx',
+            value: '1',
+          },{
+            name: 'βy',
+            value: '2',
+          },
       ]
+
 
     };
   },
@@ -840,7 +1170,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'section_01','section_02','section_03','section_04',
+        'ZScircuit','IFFL','section_03',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -868,7 +1198,7 @@ p{
     height: 100vh;
     position: fixed;
     width: 17%;
-    background-image: url("https://2020.igem.org/wiki/images/e/e9/T--Waseda--Tasukinisakura1.png");
+    background-image: url("https://2020.igem.org/wiki/images/7/73/T--Waseda--MakiGold.png");
     background-size: 100% auto;
     background-repeat: repeat;
 }

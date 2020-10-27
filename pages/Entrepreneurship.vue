@@ -34,7 +34,146 @@
                     </v-col>
                 </v-col>
 
+
+
                 <v-col class="main_text" cols="12" lg="10" xl="10">
+                  
+                    <v-row justify="center" text-align="left">
+                        <v-row cols="12" class='h1_box'>
+                          <v-col class='h1_box_text'> 
+                            <h1 class='h1_text' pushElementOffsetTop>Entrepreneurship</h1>
+                          </v-col>
+                        </v-row>
+                    </v-row>
+                    
+                    <v-row v-scroll="pushScrollY" id="OverviewTop"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">What is business model?</h2>
+                      </v-row>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                      
+                          <p class="p_indent">
+                            In order to implement our project in the real world, we've been working on the business model from early on.                            
+                          </P>
+                          <p class="p_indent">  
+                            To learn the basics of business model, we first went to interview Mr. Watanabe, a representative director of Maximize, inc. and is an expert in business model creation., Through the interview with him, we learned the basics of business model creation. The critical elements of a business model are 4 points: The What, Why, How and Who (Fig 6-5-1).                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c7/T--Waseda--InpriFig1.png" alt="Fig 6-5-1 The 4 important point of business model">
+                        <figcaption class="fig_title">Fig 6-5-1 The 4 important point of business model</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">
+                            Like planning for a scientific research, business model creation should learn from previous success. From Mr. Watanabe’s point of view, a business have a higher probability of success when two of the four points are modified from the existing successful business. This is called a business model innovation.                            
+                          </P>
+                          <p class="p_indent">  
+                            After the interview regarding the basics of business model creation, we brainstormed on new business models derived from our cell-free based iGEM project and designed several business models. To brush up the models, we applied the four points of a business model.                            
+                          </p>
+
+
+                          <p class="p_indent"> 
+                            We decided creating monoterpenes on a large scale and using them as insect repellents as our best business model. Monoterpenes are toxic in the cell and are difficult to synthesize on a large scale. However, a cell-free system allows mass synthesis of monoterpenes, hence,                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+
+
+
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+                
+
+
+
+                      <v-row> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Overview</h2>
+                      </v-row>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+                
+
+
+
+
+
+                    <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
 
  
                 </v-col>
@@ -53,7 +192,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false, false, false],
+      check: [false, false, false, false,],
 
     };
   },
@@ -61,22 +200,22 @@ export default {
   methods: {
     pushScrollY(e) {
       this.scrollY = window.scrollY;
-    //   for (var i = 0; i < this.check.length; i++) {
-    //     this.check[i] = false
-    //   };
-    //   for (var j=0; j < this.check.length; j++) {
-    //     if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
-    //       this.check[j] = true
-    //     }
-    //   };
-    //   const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //   this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+      for (var i = 0; i < this.check.length; i++) {
+        this.check[i] = false
+      };
+      for (var j=0; j < this.check.length; j++) {
+        if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
+          this.check[j] = true
+        }
+      };
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
 
     },
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
+        'section_01','section_02','section_03','section_04',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -87,9 +226,9 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 
@@ -104,7 +243,7 @@ p{
     height: 100vh;
     position: fixed;
     width: 17%;
-    background-image: url("https://2020.igem.org/wiki/images/e/e9/T--Waseda--Tasukinisakura1.png");
+    background-image: url("https://2020.igem.org/wiki/images/1/18/T--Waseda--MakiBlack.png");
     background-size: 100% auto;
     background-repeat: repeat;
 }
