@@ -36,6 +36,32 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
 
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+                
+
+
+
+                    <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
+
  
                 </v-col>
             </v-row>
@@ -53,7 +79,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false, false, false],
+      check: [false, false, false, false,],
 
     };
   },
@@ -61,22 +87,22 @@ export default {
   methods: {
     pushScrollY(e) {
       this.scrollY = window.scrollY;
-    //   for (var i = 0; i < this.check.length; i++) {
-    //     this.check[i] = false
-    //   };
-    //   for (var j=0; j < this.check.length; j++) {
-    //     if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
-    //       this.check[j] = true
-    //     }
-    //   };
-    //   const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //   this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+      for (var i = 0; i < this.check.length; i++) {
+        this.check[i] = false
+      };
+      for (var j=0; j < this.check.length; j++) {
+        if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
+          this.check[j] = true
+        }
+      };
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
 
     },
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
+        'section_01','section_02','section_03','section_04',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -87,9 +113,9 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 

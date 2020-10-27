@@ -249,6 +249,12 @@ export default {
 h2 {
   font-size: 40px;
 }
+.h2_text {
+  font-size: 50px;
+  padding: 0;
+  margin: 20px 0 0 0;
+  border-bottom: 5px solid black;
+}
 h3 {
   font-size: 30px;
 }
