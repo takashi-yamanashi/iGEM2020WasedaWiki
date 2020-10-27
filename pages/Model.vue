@@ -91,34 +91,7 @@
                         </figure>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent"> 
-                            Before modeling of in vitro systems with cell-cell communication, we established differential-equation (1) to (6) based modeling for the same circuit which works in living E coli cells because of accumulated cases for such in vivo models.
-                             We formulated equations assuming that the system has a sufficient amount of R protein and the concentration of I protein activates the corresponding promoter directly (Fig.4-1-3). The meaning of each parameter is as shown in Table.4-1-1.                            
-                          </P>
-                          <p class="p_indent">    
-                            ddt[lacI]=a1zn1Kn11+zn1+a2Kn22Kn22+[CI]n2−dlac[lacI]     (1)<br/>
-                            </p>
-                          <p class="p_indent"> 
-                            ddt[CI]=a3wn3Kn33+wn3+a4Kn44Kn44+[lacI]n4−dCI[CI]   (2)<br/>
-                            </p>
-                          <p class="p_indent"> 
-                            ddt[luxI]=a5Kn55Kn55+[CI]n5−dlux[luxI]  (3)<br/>
-                            </p>
-                          <p class="p_indent"> 
-                            ddt[RhlI]=a6Kn66Kn66+[lacI]n6−drhl[RhlI] (4)<br/>
-                            </p>
-                          <p class="p_indent"> 
-                            dzdt=∑λz[luxI]i−dzz  (5)<br/>
-                            </p>
-                          <p class="p_indent"> 
-                            dwdt=∑λw[RhlI]i−dww  (6)<br/>
-                            </p>
-                        </v-col>
-                      </v-row>
+                    
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 

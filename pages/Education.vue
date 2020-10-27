@@ -34,7 +34,23 @@
                     </v-col>
                 </v-col>
 
+
+
                 <v-col class="main_text" cols="12" lg="10" xl="10">
+                  
+                    <v-row justify="center" text-align="left">
+                        <v-row cols="12" class='h1_box'>
+                          <v-col class='h1_box_text'> 
+                            <h1 class='h1_text' pushElementOffsetTop>Education</h1>
+                          </v-col>
+                        </v-row>
+                    </v-row>
+                    
+                    <v-row v-scroll="pushScrollY" id="OverviewTop"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Overview</h2>
+                      </v-row>
+                      </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
@@ -255,10 +271,5 @@ a:hover {
 a:active {
   color: black;
 }
-
-
-
-
 </style>
-
 

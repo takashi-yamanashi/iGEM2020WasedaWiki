@@ -54,13 +54,9 @@
               
               <h3>How do you like our story?</h3>
               <p class="p_indent">     
-                We love easy-to-modulate cell-free system. However, during the initial phase of our iGEM project, we realized that Synbio and cell-free system is unrecognized from general public through our Human practice activities.  
-                Thus, we selected the theme which is not only interesting as a story but also biologically important. Here was beginning of the story for information processing where mathematical modeling and wet experiment interacted each other through Design-Build-Test-Learn (DBTL) cycle. 
-                This battle story also expanded into war in the mirror which can be broken by racemase.  
-                Our success in monoterpene productions for Zombie and Samurai also gave us an entry point for creation of our business model which was pivoted by interviews to experts.  
-                Our experience in Synbio modeling was implanted in a smartphone application which we utilized when we had a chance to educate high school students.  
-                By using our user-friendly application, they could understand a behavior of toggle switch circuit, which was one of the first successes in Synbio and important to understand cell-fate decision in developmental biology and regenerative medicine. 
-
+                We love easy-to-modulate cell-free system. However, through our human practice activities during the initial phase of our iGEM project, we realized that Synbio and cell-free system are unrecognized from general public.
+                  Thus, we selected the theme which is not only interesting as a story but also biologically important. Here was beginning of the story for information processing where mathematical modeling and wet experiment interacted each other through Design-Build-Test-Learn (DBTL) cycle. This battle story also expanded into war in the mirror which can be broken by racemase.  Our success in monoterpene productions for Zombie and Samurai also gave us an entry point for creation of our business model which was pivoted by interviews to experts.
+                    Our experience in Synbio modeling was implanted in a smartphone application which we utilized when we had a chance to educate high school students.  By using our user-friendly application, they could understand a behavior of toggle switch circuit, which was one of the first successes in Synbio and important to understand cell-fate decision in developmental biology and regenerative medicine.
               </p>
               
 
@@ -107,7 +103,7 @@
 
       <v-row justify="center" align="Top">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center" class="top_bg_top3_5_42">
-          <h2 class="h2_text">ssrA degradation tag assay</h2>
+          <h2 class="h2_text">Improvement in degradation both<br/> in vitro and in vivo</h2>
       </v-col>
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_43">
           <v-row class="row_max-box">
@@ -125,7 +121,7 @@
 
 
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center" >
-          <h2 class="h2_text">Cross talk assay</h2>
+          <h2 class="h2_text">cross talk of cell-cell communication molecules when they work in vitro </h2>
       </v-col>
 
         <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
@@ -146,7 +142,7 @@
 
     <v-row justify="center" align="Top">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
-          <h2 class="h2_text">Monoterpenes</h2>
+          <h2 class="h2_text">cell-free monoterpene synthesis</h2>
       </v-col>
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_52">
 
@@ -156,7 +152,7 @@
             In contrast with monoterpene synthesis using engineered microorganisms, cell-free synthesis can avoid the restriction caused by using living cells which is suffered from toxicity of monoterpenes. 
             The second strong point of the cell-free systems is its modularity of reaction solution. 
             When you make <i>E.coli</i> synthesizing monoterpenes, you have to introduce all kinds of gene required to synthesize monoterpenes into one cell. 
-            In contrast, cell-free reaction allow mixing of multiple cell extract in any ratio and many combinations.. You can see our success here. (Go to Monoterpenes page) We think these strong points can achieve the engineering spirit of iGEM.
+            In contrast, cell-free reaction allow mixing of multiple cell extract in any ratio and many combinations. You can see our success in synthesis of monoterpenes (limonene and sabinene) here. (Go to Monoterpenes page) We think these strong points can achieve the engineering spirit of iGEM.
 
           </p>
 
@@ -176,7 +172,7 @@
     
     <v-row justify="center" align="Top">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
-          <h2 class="h2_text">IFFL</h2>
+          <h2 class="h2_text">Generating two pulses through modeling</h2>
       </v-col>
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
@@ -203,13 +199,13 @@
   <v-container fluid pa-0 class="top_bg_top6">
     <v-row justify="center" align="Top">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
-          <h2 class="h2_text">Racemase</h2>
+          <h2 class="h2_text">War in the mirror: racemase</h2>
       </v-col>
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 In the zombie vs. Samurai storyline, we envisioned a scenario in which one side deprives their opponent of the food they need. That is to say, one side consumes D-amino acid and the other consumes L-amino acid derived food, and both sides converts their opponent’s amino acid to make them edible only for themselves. 
-                We especially focused on alanine racemase (AR), known as an attractive target for the antibacterial drug development. We confirmed the conversion by using cell-free protein  synthesis dependent on D-alanine and racemase.
+                We especially focused on alanine racemase (AR), known as an attractive target for the antibacterial drug development. We confirmed the conversion by using cell-free protein synthesis dependent on D-alanine and racemase.
 
               </p>
           </v-row>
@@ -228,21 +224,24 @@
 
     <v-row justify="center" align="Top">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
-          <h2 class="h2_text">Human Practices</h2>
+          <h2 class="h2_text_hp">Intreactions between reseaech activities and Human Practice activities <br/>
+            Feedbacks from Human Practice activities to our reseaech activities </h2>
       </v-col>
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
-                When we started our project, we wanted to make sure that it was something that would be understood by society.  In our survey, we found that cell-free protein synthesis and synthetic biology have come to be linked in recent years.  We thought that we could tell biotechnology properly because a project in a cell-free system wouldn't be linked to bioethics. 
-                We conducted further research on this project, which is very attractive to iGEMers.  Then, we decided to summarize our findings and present them. 
-                We did lectures to a total of 272 people and conducted questionnaires before and after the lecture on the cognition of synthetic biology and cell-free system. 
-                After the lecture, those with vague concerns got to have clear opinions compared to before. (Go to HumanPractice)
-                Next, based on the evaluations we received from general public, we started basic experiments related to the project.  This year, due to the strong influence of COVID-19, we decided to focus on cell-free projects. 
-                The relevance and scientific value of the project were established through expert opinions and discussions at the Spring Japan Meetup. 
-                In addition, the project was designed with the utmost consideration for safety under the supervision of the PI, Professor Daisuke Kiga, who is an expert in synthetic biology. 
-                Since the project started, we have continued to connect with the public. 
-                At times, as educators, we have taught high school students what synthetic biology is. (Go to the Education page.) 
-                At other times, as an entrepreneur, we carefully researched and brushed up on real-world problems, discussing them with people and experts in the field who were facing real-world problems. (Go to Entrepreneurship page. )
+                Our iGEM wet and modeling studies has interacted with human practice activity throughout the year.  
+                As described above and on human practice page ( Go to Human Practice page ) , our initial interaction with society made us confident to center our project around cell-free system.  Note that we, cell-free iGMEers, have to consider safety in recombinant DNA and other experiments, as cell-based iGEMers.
+                  Our plasmid and extract preparations were in compliance with domestic laws.
+
+              </p>
+              <p class="p_indent">    
+                  Another HP activity was education to high school students. ( Go to the Education page.) 
+                  Their feedbacks were important to apply our project to entrepreneurship activity.  
+                  Additionally, although our app for modeling of synthetic genetic circuit was initially for the students, not only modeling-oriented team members but the other members came to understand each piece of our project from modeling point of view (Go to the software page.).  Such point of view is also important for daily design of experiments. 
+              </p>
+              <p class="p_indent">   
+              At other times, as an entrepreneur, we carefully researched and brushed up applications of cell free system on real-world problems, discussing them with general public and experts in the field who were facing real-world problems. (Go to Entrepreneurship page. ) Sometimes, our Entrepreneurship active asked new experiments and modeling which also expanded scope of our research.
 
               </p>
           </v-row>
@@ -329,10 +328,11 @@ export default {
       background-image: url("https://2020.igem.org/wiki/images/f/fc/T--Waseda--MonotoneHuujinnoOnCloud.png");
     }
     &_42{
-      margin-top: -21%;
+      margin-top: -23%;
     }    
     &_43{
-      margin-top: -16%;
+      padding-top: 20px;
+      margin-top: -12%;
     }
     &_51{
       height: 0;
@@ -372,6 +372,10 @@ export default {
 
 .h2_text {
   font-size: 50px;
+  border-bottom: 5px solid black;
+}
+.h2_text_hp {
+  font-size: 30px;
   border-bottom: 5px solid black;
 }
 </style>

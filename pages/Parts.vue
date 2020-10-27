@@ -119,7 +119,7 @@
                             To see the improvement in degradation effect by ssrA tag, we constructed an improved part (BBa_K3580003) by modifying an existing part: Plux/tet-GFP(BBa_K934025).
                              Reduction of the concentration of proteins by degradation and dilution as well as production plays an important role in the behavior of the gene circuit.
                               Although cells can decrease their concentration by dilution according to growth, cell-free systems cannot because it doesn’t grow. Therefore,
-                               this improvement was necessary to incorporate degradation into the cell-free system. In order to compare these parts (BBa_K358003 and BBa_K934025),
+                               this improvement was necessary to incorporate degradation into the cell-free system. In order to compare these parts (BBa_K3580003 and BBa_K934025),
                                 we first measured the fluorescence of GFP in vivo for 240 minutes. The fluorescence of tagged GFP(BBa_K3580003) was lower than that of normal GFP(BBa_K934025) at 240 min point (Fig 5-1-1).
                                  Although GFP is a stable protein with a β-barrel and much difficult to be degraded, this result shows that tagged GFP was successfully degraded as we desired.                          
                           </P>
