@@ -27,7 +27,7 @@
                         <a href="Implementation#Intro"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Intorduction</v-row></a>
                         <a href="Implementation#Learn"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Learn</v-row></a>
                         <a href="Implementation#bs"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Brainstorming</v-row></a>
-                        <a href="Implementation#Interview"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
+                        <a href="Implementation#Interview"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Interview</v-row></a>
                         <!-- <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
                         <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
                          -->
@@ -47,9 +47,7 @@
                     </v-row>
                     
                     <v-row v-scroll="pushScrollY"> 
-                      <v-row class="row_max-box">
-                        <h2 class="h2_text">Overview</h2>
-                      </v-row>
+
     
 
                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_01">
