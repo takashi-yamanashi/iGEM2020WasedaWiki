@@ -183,6 +183,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/7/73/T--Waseda--HeaderHp.png',
           lists:[
             { title: 'Human_Practices', to: 'Human_Practices'},
+            { title: 'Implementation', to: 'Implementation'},
             { title: 'Entrepreneurship', to: 'Entrepreneurship'},
             { title: 'Education', to: 'Education'},
           ]

@@ -24,7 +24,7 @@
                     <v-row class="navi_text">
                          <a href="Parts#OverviewTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Overview</v-row></a>
                         <a href="Parts#ImproveTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Improve </v-row></a>
-                        <a href="Parts#NewTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">New</v-row></a> -->
+                        <a href="Parts#NewTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">New</v-row></a> 
                         <!-- <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a> -->
                         <!-- <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a> -->
                         <!-- <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a> -->
