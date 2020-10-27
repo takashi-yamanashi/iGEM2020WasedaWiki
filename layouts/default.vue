@@ -15,7 +15,7 @@
                   <v-icon>mdi-speedometer</v-icon>
                 </v-list-item-action>
                 <v-list-item-content>
-                  <v-list-item-title v-text="'Home'" />
+                  <v-list-item-title v-text="'Project'" />
                 </v-list-item-content>
         </v-list-item>
         <v-list-item :to="'/Parts'" router exact>
@@ -23,7 +23,7 @@
                   <v-icon>mdi-palette</v-icon>
                 </v-list-item-action>
                 <v-list-item-content>
-                  <v-list-item-title v-text="'Home'" />
+                  <v-list-item-title v-text="'Parts'" />
                 </v-list-item-content>
         </v-list-item>
 
@@ -172,9 +172,9 @@ export default {
           icon: 'mdi-vuetify',
           img: 'https://2020.igem.org/wiki/images/2/24/T--Waseda--button_experiment.png',
           lists:[
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Monoterpene', to: 'Monoterpene'},
+            // { title: 'Quick Start', to: 'inspire'},
+            { title: 'Protocol', to: 'Protocol'},
           ]
         },
         {

@@ -154,7 +154,7 @@
                     <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-row>
                           <video width="100%" height="auto" controls>
-                            <source src="https://2020.igem.org/wiki/images/b/b4/T--Waseda--ToggleSwitchsimulatorExplain.mp4" type="video/mp4">
+                            <source src="https://2020.igem.org/wiki/images/8/8a/T--Waseda--Education_application_usage_example.mp4" type="video/mp4">
                           Your browser does not support the video tag.
                           </video>
                         </v-row>
