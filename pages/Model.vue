@@ -22,7 +22,7 @@
 
             
                     <v-row class="navi_text">
-                        <a href="Model#ZScircuit"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Zombi vs samurai</v-row></a>
+                        <a href="Model#ZScircuit"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Zombie vs Samurai</v-row></a>
                         <a href="Model#IFFL"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">IFFL</v-row></a>
                         <!-- <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
                         <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
@@ -41,7 +41,7 @@
                     <v-row justify="center" text-align="left" id="ZScircuit">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
-                            <h1 class='h1_text' pushElementOffsetTop>Modeliing</h1>
+                            <h1 class='h1_text' pushElementOffsetTop>Modeling</h1>
                           </v-col>
                         </v-row>
                     </v-row>

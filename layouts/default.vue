@@ -173,7 +173,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/2/24/T--Waseda--button_experiment.png',
           lists:[
             { title: 'Monoterpene', to: 'Monoterpene'},
-            // { title: 'Quick Start', to: 'inspire'},
+            { title: 'Racemase', to: 'Racemase'},
             { title: 'Protocol', to: 'Protocol'},
           ]
         },
@@ -186,6 +186,7 @@ export default {
             { title: 'Implementation', to: 'Implementation'},
             { title: 'Entrepreneurship', to: 'Entrepreneurship'},
             { title: 'Education', to: 'Education'},
+            { title: 'Excellence_in_Another_Area', to: 'Excellence_in_Another_Area'},
           ]
         },
         {
