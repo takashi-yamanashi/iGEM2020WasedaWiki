@@ -115,7 +115,7 @@
               <p class="p_indent"><br/></p>
                 <p class="p_indent">     
                     Rapid protein degradation is required to achieve working ZOMBIE vs SRAMURAI gene circuit in a cell-free system.
-                     Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K9340025">BBa_K9340025</a> ) and test the effect of degradation tag in quorum sensing system.
+                     Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K934025">BBa_K934025</a> ) and test the effect of degradation tag in quorum sensing system.
                       We compared the fluorescence value of the GFP and tagged GFP both in vivo and in vitro. As a result, the value of tagged GFP was lower than that of normal GFP in both vivo and vitro, indication that degradation of GFP accelerated by the ssrA tag.
                   </p>
             </v-col>
@@ -125,16 +125,14 @@
 
 
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="6" justify="center" align="center" >
-          <h2 class="h2_text">ssrA degradation tag assay</h2>
+          <h2 class="h2_text">Cross talk assay</h2>
       </v-col>
 
         <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="8">
           <v-row class="row_max-box">
             <v-col>
                 <p class="p_indent">     
-                    Rapid protein degradation is required to achieve working ZOMBIE vs SRAMURAI gene circuit in a cell-free system.
-                     Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580025">BBa_K3580025</a> ) and test the effect of degradation tag in quorum sensing system.
-                      We compared the fluorescence value of the GFP and tagged GFP both in vivo and in vitro. As a result, the value of tagged GFP was lower than that of normal GFP in both vivo and vitro, indication that degradation of GFP accelerated by the ssrA tag.
+                    There is one more factor to be considered for a working genetic circuit. That is crosstalk between the quorum sensing (QS) systems. We tested the crosstalk between the lux and rhl QSsystem in Cell-free to see if it is an acceptable amount to accomplish the gene circuit.
                   </p>
             </v-col>
           </v-row>
@@ -164,7 +162,7 @@
 
             <figure class="fig_full_width" >
               <img class="image_max" 
-                  src="https://2020.igem.org/wiki/images/a/aa/T--Waseda--TopFig3.png" alt="Fig. 1-3 Monoterpenes Overview">
+                  src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--monoterpene_2-2-1_Parts_and_metabolic_pathways_in_this_experiment_and_a_schematic_diagram_of_the_experiment.png" alt="Fig. 1-3 Monoterpenes Overview">
               <figcaption class="fig_title">Fig. 1-3 Monoterpenes Overview</figcaption>
           </figure>
 
@@ -331,10 +329,10 @@ export default {
       background-image: url("https://2020.igem.org/wiki/images/f/fc/T--Waseda--MonotoneHuujinnoOnCloud.png");
     }
     &_42{
-      margin-top: -20%;
+      margin-top: -21%;
     }    
     &_43{
-      margin-top: -17%;
+      margin-top: -16%;
     }
     &_51{
       height: 0;

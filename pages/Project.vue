@@ -68,9 +68,9 @@
                       <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
                         <v-col >
                           <p class="p_indent">
-                            In this cell-free monoterpene synthesis, we mixed two <i>E. coli</i> extracts each of which has either first 8 or last 2 enzymes of a pathway from Ac-CoA, which is a major intermediate of cell central metabolism.
+                            In this cell-free monoterpene synthesis, we mixed two <i>E. coli</i> extracts each of which has either first 7 or last 2 enzymes of a pathway from Ac-CoA, which is a major intermediate of cell central metabolism.
                                 Through mevalonate pathway, the former extract one (derived from <i>E. coli</i> into which pBbA5c-MevT-MBI has been introduced) can provide IPP and DMAPP, which can also be used as intermediates for other important biosynthesis.
-                                  Here we indeed supplemented only glucose and acetate as carbon sources.  We obtained expression system for those eight genes from addgene and have converted this into Biobrick RFC 1000 format by synonymous replacement (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580103"> BBa_K3580103</a>).
+                                  Here we indeed supplemented only glucose and acetate as carbon sources.  We obtained expression system for those seven genes from addgene and have converted this into Biobrick RFC 1000 format by synonymous replacement (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580103"> BBa_K3580103</a>).
                                     In order to take advantage of an engineering principle of synthetic biology we provided two biobrick parts ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a>, <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580102">BBa_K3580102</a> ) for the source for the latter extract.  <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a> has GPP synthase (GPPS) and limonene synthase.
                                       Although GPP synthase is shared with <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a> , <a class="link_style"  href="http://parts.igem.org/Part: ">BBa_K3580102</a> has sabinene synthase, which has one point mutation in limonene synthase (Srividya Narayanan et al 2015) and a new coding sequence for Parts registry of iGEM (See here for more details on this experiments).
                           </P>
@@ -103,7 +103,7 @@
                           
                           <p class="p_indent"> 
                             We confirmed limonene synthesis GC/MS analysis with SIM.  In this SIM analysis, ions with four m/z values  characteristic in limonene (68 and 93) and sabinene (77 and 91, 93) were analyzed.   By using authentic limonene standard, we confirmed a retention time for GC and the characteristic limonene SIM signal at the specific m/z values.  At the same retention time with the standard, limonene-specific m/z value (68, 93) ions were detected in the selected ions (The upper right figure of Figure. 2-2-2).
-                              We also darw a GC chart by summation of the signals from the selected ions (The lower left figure of Figure. 2-2-2).  By comparison with a negative control experiment which we omitted the extract containing GPP synthase and limonene synthase, we found clear peak from our limonene synthesis.                           
+                              We also draw a GC chart by summation of the signals from the selected ions (The lower left figure of Figure. 2-2-2).  By comparison with a negative control experiment which we omitted the extract containing GPP synthase and limonene synthase, we found clear peak from our limonene synthesis.                           
                           </P>
                         </v-col>
                       </v-row>
@@ -122,7 +122,7 @@
                           <h3></h3>
                           <p class="p_indent"> 
                             By similar GC/MS analysis with SIM, we confirmed the world's first report of sabinene synthesis using cell extracts.  Although elaborative reconstituted system by mixing of purified enzymes has been reported (Srividya Narayanan et al 2015), (Korman Tyler P et al 2017).
-                              Extract-base sytem with not only simple but engineering principle must provide much contribution to iGEM and DIY biology which as large number of players. Furthermore, extract systems do not require expensive coenzymes (Dudly et al 2019). As well as limonene detection in Fig 2-2-2,
+                              Extract-base system with not only simple but engineering principle must provide much contribution to iGEM and DIY biology which as large number of players. Furthermore, extract systems do not require expensive coenzymes (Dudly et al 2019). As well as limonene detection in Fig 2-2-2,
                                we firstly confirmed sabinene retention time and SIM signal at the m/z values (77, 91, and 93).  From our cell-free production, we then detected sabinene SIM signal and chromatogram peak which cannot find from the negative control.  Also, from the system containing sabinene synthase and GPP synthase,
                                 a peak with the same retention time as the standard limonene product and ions with m/z values characteristic in limonene at that retention time were detected.
                                  This was consistent with the fact that the paper that referred to the sabinene synthase used in this experiment also reported the synthesis of limonene as a by-product (Srividya Narayanan. et al 2015).                           
