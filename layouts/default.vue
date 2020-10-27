@@ -206,7 +206,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/8/8d/T--Waseda--Judgingformbutton.png',
           lists:[
             { title: 'Quick Start', to: 'inspire'},
-            { title: 'Quick Start', to: 'inspire'},
+            { title: 'Engineering', to: 'Engineering'},
             { title: 'Quick Start', to: 'inspire'},
           ]
         },
