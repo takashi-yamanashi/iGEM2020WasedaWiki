@@ -183,6 +183,7 @@ export default {
           img: 'https://2020.igem.org/wiki/images/7/73/T--Waseda--HeaderHp.png',
           lists:[
             { title: 'Human_Practices', to: 'Human_Practices'},
+            { title: 'Implementation', to: 'Implementation'},
             { title: 'Entrepreneurship', to: 'Entrepreneurship'},
             { title: 'Education', to: 'Education'},
           ]
@@ -247,6 +248,12 @@ font-size: 24px;
 
 h2 {
   font-size: 40px;
+}
+.h2_text {
+  font-size: 50px;
+  padding: 0;
+  margin: 20px 0 0 0;
+  border-bottom: 5px solid black;
 }
 h3 {
   font-size: 30px;

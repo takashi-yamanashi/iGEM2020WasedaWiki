@@ -92,8 +92,8 @@
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/f/f7/T--Waseda--monoterpene_2-2-2_GCMS_analysis_results_of_limonene_synthesis_system.png" alt="Fig. 2-2-2 GC / MS analysis results of limonene synthesis system">
-                        <figcaption class="fig_title">Fig. 2-2-2 GC / MS analysis results of limonene synthesis system</figcaption>
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/f/f7/T--Waseda--monoterpene_2-2-2_GCMS_analysis_results_of_limonene_synthesis_system.png" alt="Fig. 2-2-2 GC/MS analysis results of limonene synthesis system">
+                        <figcaption class="fig_title">Fig. 2-2-2 GC/MS analysis results of limonene synthesis system</figcaption>
                         </figure>
                       </v-row>
                     
@@ -437,7 +437,9 @@ export default {
 .fig_title {
   text-align:center;
 }
-
+.h2_text{
+  font-size: 30px;
+}
 a:link {
   color: black;
   text-decoration: none;

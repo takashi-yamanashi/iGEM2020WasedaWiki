@@ -318,12 +318,7 @@ a:active {
     font-size: 60px;
   }
 }
-.h2_text {
-  font-size: 50px;
-  padding: 0;
-  margin: 20px 0 0 0;
-  border-bottom: 5px solid black;
-}
+
 .image_max {
   width:100%;
 }

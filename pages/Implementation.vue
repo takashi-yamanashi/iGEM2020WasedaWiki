@@ -20,13 +20,15 @@
             
                         </v-row>
 
-            
+
+
+                                
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
-                        <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
-                        <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
+                        <a href="Implementation#Intro"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Intorduction</v-row></a>
+                        <a href="Implementation#Learn"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Learn</v-row></a>
+                        <a href="Implementation#bs"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Brainstorming</v-row></a>
+                        <a href="Implementation#Interview"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
+                        <!-- <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
                         <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
                          -->
 
@@ -34,9 +36,216 @@
                     </v-col>
                 </v-col>
 
-                <v-col class="main_text" cols="12" lg="10" xl="10">
 
- 
+                <v-col class="main_text" cols="12" lg="10" xl="10">
+                     <v-row justify="center" text-align="left">
+                        <v-row cols="12" class='h1_box'>
+                          <v-col class='h1_box_text' id="Intro"> 
+                            <h1 class='h1_text' pushElementOffsetTop>Implementation</h1>
+                          </v-col>
+                        </v-row>
+                    </v-row>
+                    
+                    <v-row v-scroll="pushScrollY"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Overview</h2>
+                      </v-row>
+    
+
+                     <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_01">
+                        <v-col>
+                          <h3>Intorduction</h3>
+                          <p class="p_indent">  
+                            Scientists in Synthetic biology always need to communicate with society.
+                            We thought about how our project could contribute to society.
+                          </P>
+                          <p class="p_indent" id="Learn"> 
+                            First, We interviewed citizens and experts to verify the validity, safety, and ethics of the project. As a results, we confilmed the validity, safety, and ethics of the project. ( Go to Human Practice page)
+                            We decided to create our business model because we were very interested in the social implementation of our project.  It's not a good idea to implement your research project directly into real-world. It's important to adapt the implementation to the real-world needs.
+                             
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_02">
+                        <v-col>
+                          <h3>Learn business model</h3>
+                          <p class="p_indent">  
+                            To learn the basics of business model, first, we went to interview Mr. Watanabe, who is the representative director of Maximize, inc. and is an expert in business model creation, we learned the basics of business model creation from them. The important things of the business model are 4 points: The What, Why, How and Who.
+                            As well as planning for scientific research, business model creation should learn from previous success.  From Mr. Watanabe’s point of view, a business has a higher probability of success when two of a four points are changed from the existing business success. The kind of change is called business model innovation.
+                          </P>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="bs"> 
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c7/T--Waseda--InpriFig1.png" alt="Fig. 6-5-1 The important things of the business model are 4 points">
+                        <figcaption class="fig_title">Fig. 6-5-1 The important things of the business model are 4 points</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_03">
+                        <v-col>
+                          <h3>Brainstorming</h3>
+                          <p class="p_indent">  
+                            
+                          
+                          </P>
+                          <p class="p_indent"> 
+                            After the interview, we brainstormed to create a business model based on “SAMURAI” System (GO to Modelling page)
+                          </p>
+                          <p class="p_indent"> 
+                            The smell of monoterpenes has the ability to repellents insects. These are natural and are less likely to cause allergies than currently the non-natural products in use. People living with animals and families with small children have needed our products based on natural products. 
+                            
+                            Monoterpene synthesis can take advantage of cell-free system. Monoterpenes are toxic in the cell and difficult to synthesize on a large scale. However, the cell-free system avoids toxicity and allows the mass synthesis of monoterpenes. (Go to monoterpen page)
+                          </p>
+                          <p class="p_indent"> 
+                            These are the "How" and "Who" of the four points of the business model. We have also made strong changes in the "What".
+                            
+                            We would like to use the advantage of the safe biotechnological properties of the cell-free system.
+
+                            We thought about producing the insect repellent of monoterpene in real-time, when we want to use it. The effectiveness of the insect repellent is reduced due to evaporation, using a monoterpene that has already been created. By producing it in real-time, contrary, the effect of the insect repellent could keep constant and for a longer time.
+                            To implement those features, we use the SAMURAI System using the mulit IFFL system.
+                             
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/44/T--Waseda--InpriFig2.png" alt="Fig. 6-5-2 Our business model concept">
+                        <figcaption class="fig_title">Our business model concept</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p class="p_indent" id="Interview">    
+                            We would like to challenge the already established insect repellent market by updating the "How" and "Who" and "What" of existing better business model.                        
+                          </P>
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_04">
+
+                        <v-col>
+                          <h3>Interview</h3>
+                          <p class="p_indent">   
+                            　The most important thing about business success is matching the business model you create with the real-world issues.
+                              Many early business models are unsuccessful because they do not match the real-world needs.
+                              In order to improve the business model, it is important to repeat steps to verify the real-world needs and restructure the business model.
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/28/T--Waseda--InpriFig3.png" alt="Fig. 6-5-3 Hypothesis-Verification Step">
+                        <figcaption class="fig_title">Fig. 6-5-3 Hypothesis-Verification Step</figcaption>
+                        </figure>
+                      </v-row>      
+
+                                        
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+
+                        <v-col>
+                          <p class="p_indent">  
+                            We interviewed a wide range of people, including friends around us, business model experts, with allergies, and pet owners who could be customers. 
+                            By interviewing many people, we were able to examine the business model from a variety of perspectives.
+                            Then, our business model was more improved while addressing the challenges that emerged from the interview. 
+                          </P>                      
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/8/81/T--Waseda--InpriFig4.png" alt="Fig. 6-5-4 online interview image">
+                        <figcaption class="fig_title">Fig. 6-5-4 online interview image</figcaption>
+                        </figure>
+                      </v-row>    
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p class="p_indent"> 
+                            Through this verification, we were able to confirm that there is a definite need for our business model. (Fig. 6-5-5 )                                                      
+                          </P>
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/5/5d/T--Waseda--InpriFig5.png" alt="Fig. 6-5-5 Brushed business model">
+                        <figcaption class="fig_title">Fig. 6-5-5 Brushed business model</figcaption>
+                        </figure>
+                      </v-row>                  
+                      
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+
+                          <p class="p_indent">  
+                            But, surprisingly, in those interviews, we found that there was another great need.
+                            People who are concerned about whether or not they contain the substance that causes allergies are careful to determine whether or not they contain the source of their allergies.
+                          </p>
+                          <p class="p_indent">  
+                            We got the inspiration for detecting allergens and pivoted to a business model for substance detection using the cell-free system. (Go to integrate)
+                            
+                          </p>
+                        </v-col>
+                      </v-row>
+                      
+                      
+
+
+
+
+
+
+                      <!-- <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row> -->
+                      
+                    </v-row>
+
+
+            
+
+                
+                <v-template  v-scroll="pushScrollY" id="section_06"><v-col class="last_message"></v-col></v-template>
+                
+                
+      
+             
                 </v-col>
             </v-row>
         </v-container>
@@ -53,7 +262,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false, false, false],
+      check: [false, false, false],
 
     };
   },
@@ -61,22 +270,22 @@ export default {
   methods: {
     pushScrollY(e) {
       this.scrollY = window.scrollY;
-    //   for (var i = 0; i < this.check.length; i++) {
-    //     this.check[i] = false
-    //   };
-    //   for (var j=0; j < this.check.length; j++) {
-    //     if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
-    //       this.check[j] = true
-    //     }
-    //   };
-    //   const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //   this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+      for (var i = 0; i < this.check.length; i++) {
+        this.check[i] = false
+      };
+      for (var j=0; j < this.check.length; j++) {
+        if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
+          this.check[j] = true
+        }
+      };
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
 
     },
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
+        "section_01","section_02","section_03","section_04", 'section_06'
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -87,62 +296,15 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 
 <style lang="scss" scoped>
-.p_indent {
+p{
   font-size: 24px;
-  text-indent: 50px;
-}
-.fig_title {
-  text-align:center;
-}
-
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
-
-.link_style {
-  color: rgb(80,126,164);
-}
-
-.link_style:active {
-  color: rgb(80,126,164);
-}
-
-.link_style:visited {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
- 
-.link_style:link {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
-
-.last_message {
-  margin: 400px;
 }
 .left_box {
     padding :0;
