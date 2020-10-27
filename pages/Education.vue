@@ -22,12 +22,12 @@
 
             
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
-                        <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
-                        <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
-                        <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
+                        <a href="Education#section_01"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Overview</v-row></a>
+                        <a href="Education#section_02"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Motivation</v-row></a>
+                        <a href="Education#section_03"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Method</v-row></a>
+                        <!-- <a href="Education#section_04"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
+                        <a href="Education#section_05"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
+                        <a href="Education#section_06"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
                          -->
 
                     </v-row>
@@ -35,6 +35,235 @@
                 </v-col>
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
+                  
+                  
+                    <v-row justify="center" text-align="left">
+                        <v-row cols="12" class='h1_box'>
+                          <v-col class='h1_box_text'> 
+                            <h1 class='h1_text' pushElementOffsetTop>Education</h1>
+                          </v-col>
+                        </v-row>
+                    </v-row>
+                    
+                    <v-row v-scroll="pushScrollY" id="section_01"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Overview</h2>
+                      </v-row>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            At initial stage of our iGEM activity, we realized that not only those with little scientific knowledge but also students who aspired to be scientists didn’t recognize synthetic biology.  As iGEMers, who mainly work with synthetic biology, we felt the need to spread the knowledge of its potential to produce world-changing results in both engineering and physiological sciences. This year, we’re attracting attention with an interesting story whose subject is gene circuit. We tried to spread toggle switch, which was core of the circuit and starting point of synthetic biology.                           
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--Education_Application_student.png" alt="Fig. 6-3-1 Education Application Student">
+                        <figcaption class="fig_title">Fig. 6-3-1 Education Application Student</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                            We decided to develop a smartphone application (fig. 6-3-1) for better understanding of mathematical modeling of synthetic biology for the synthetic biology beginners. Mathematical modeling is fundamental in synthetic biology, for engineering principle requires such modeling.  We fortunately had a chance to lecture Waseda University High School students. The lecture was held through a widely used video communication service, zoom.                        
+                          </p>
+                        </v-col>
+                      </v-row>
+                
+                
+                <v-row> 
+                      <v-row class="row_max-box" id="section_02">
+                        <h2 class="h2_text">Motivation</h2>
+                      </v-row>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            In Japanese curricula, we rarely use mathematical methods in high school biology.  Therefore, biology using mathematical models, including synthetic biology is unfortunately not known well.  However, we thought that we might be able to teach synthetic biology intuitively and clearly to high school students depending on our ingenuity. Hence, we lectured synthetic biology to students at Waseda University high school.                            
+                          </p>
+                        </v-col>
+                      </v-row>
+                
+                
+                
+                <v-row id="section_03"> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Method</h2>
+                      </v-row>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>-About the lecture-</h3>
+                          <p class="p_indent">  
+                            One of our main goals was to promote synthetic biology, so we needed an easy to understand way to teach synthetic biology. We designed a curriculum for students who aren't familiar with synthetic biology to understand intuitively. Specifically, we used a lot of visual expressions such as pictures, diagrams and tables in lecture slides fig 6-3-2                          
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                    
+
+  
+
+                        <v-row class="fig_full_width">
+                        <object data="https://2020.igem.org/wiki/images/b/be/T--Waseda--Slide_material_for_education.pdf" type="application/pdf" width="100%" height="500px">
+                          <p><b>Fig 6-3-2 lecture slides</b>: <a href="pdf.pdf">Download</a>.</p>
+                        </object>
+                        </v-row>
+
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p class="p_indent"> 
+                            Also, we developed an easy to use application, with which students experience hands-on modeling. In this application, students can easily understand the mechanism of toggle switch instinctively.                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/f/f0/T--Waseda--Education_Application_Explanation.png" alt="fig 6-3-3 toggle switch simulator">
+                        <figcaption class="fig_title">fig 6-3-3 toggle switch simulator</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-row>
+                          <video width="100%" height="auto" controls>
+                            <source src="https://2020.igem.org/wiki/images/b/b4/T--Waseda--ToggleSwitchsimulatorExplain.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                        </v-row>
+                    </v-row>
+
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            If you want to try this, you can find it <a class="link_style"  href="https://tomoino.github.io/education-tool/">Here</a> !                             
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            The application shows how genetic circuit works, especially about toggle switch. Rates of change in repressor concentrations move according to parameter values(⑤).  Resulting in visual information such as graph or color transitions (③, ④, ⑥).  Each student can move the parameter values(⑤), watching the feedback, and learn how each parameter affects the result.                          
+                          </P>
+                          <p class="p_indent">       
+                            We also thought that education should be equal.  In recent years, educational gaps have been widening. Especially, the digital divide has become a growing problem, especially with the nowadays increase in home learning due to COVID-19. We discussed to aim for a better way to implement broad and equal education. As an example, we made sure that the application we developed was available in everyone's smartphone. This allowed students who didn't have a computer to use the application.                        
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            We also carefully make allowance for the teaching format. Conscious of current issues like COVID-19, we explored online education, using ZOOM to connect with students in real time. In addition, we made it possible for students to work in small groups so that they could actively respond to each other. By assigning one iGEMers for every four students, we made it easier for them to ask questions to the iGEMer. We got several positive comments from the students at this time such as, "I felt fresh to understand organisms using mathematical models" or "I knew the usefulness of mathematical models in biology."                           
+                          </P>
+                 
+                        </v-col>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>-other activities-</h3>
+                          <p class="p_indent">    
+                            To advance this project, we consulted with a number of experts, including our PI Dr. Kiga. 
+                            After the lecture to high school students, we further developed our activities based on the experience and the application we made.
+                        
+                          </P>
+                          <p class="p_indent">     
+                            The tools we used in our lecture such as application and lecture slides were also used in synthetic biology classes at university.  
+                            In addition, we held many seminars and workshops ourselves, as well as dialogues with experts. 
+                            In online meetups with Japanese iGEMers, we introduced our application and encouraged them to use it.
+                                                    
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            We also worked hard to get the word out about iGEM. In japan, the only team that has existed so far is the team consisting of international students. Therefore, we explained iGEM to the aforementioned Waseda high school, as well as other schools like Waseda Honjo, Waseda Saga. As a result, we made a contribution to establish a high school team for coming year.                          
+                          </P>
+                          <p class="p_indent">                              
+                            It is important to survey past iGEM projects before starting a new team or establishing a new project. We developed tools to look for past projects, and we taught iGEMers and future iGEMers how to use them.<br />
+                            Besides, throughout our iGEM activities, we have had many opportunities to explain iGEM to venture capitalists and business courses.
+
+                          </p>
+
+                          <p class="p_indent">  
+                            Interacting with many people and developing knowledge with  each other is very important. Accordingly, we have been working with Niwa Ryo, our iGEM ambassador, to organize irregular reading circles of the iGEM wiki. There, iGEMers and future iGEMers from all over Japan get together to read iGEM wiki. We got lecture how to read iGEM wiki and what is the main point of wiki, conducting discussions to exchange ideas with many of our colleagues to deepen our knowledge.                          
+                          </P>
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>Reference</h3>
+                          <p>
+                            (1) Gardner, T. et al. (2000). Construction of a genetic toggle switch in Escherichia coli. <i>Nature</i>, 403(6767), 339-342.<br />
+                            (2) Ishimatsu, K. et al.  (2014). General applicability of synthetic gene-overexpression for cell-type ratio control via reprogramming. <i>ACS synthetic biology</i>, 3(9), 638-644.
+  
+                            
+                          </P>
+                       
+                        </v-col>
+                      </v-row>
+
+
+
+
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template> -->
+                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
+
 
  
                 </v-col>
@@ -228,6 +457,25 @@ a:hover {
 /* selected link */
 a:active {
   color: black;
+}
+
+
+.link_style {
+  color: rgb(80,126,164);
+}
+
+.link_style:active {
+  color: rgb(80,126,164);
+}
+
+.link_style:visited {
+  color: rgb(80,126,164);
+  text-decoration: underline;
+}
+ 
+.link_style:link {
+  color: rgb(80,126,164);
+  text-decoration: underline;
 }
 </style>
 
