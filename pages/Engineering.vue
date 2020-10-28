@@ -68,7 +68,7 @@
 
                       <v-row v-scroll="pushScrollY" id="section_02"> 
                       <v-row class="row_max-box" id="topsection_03">
-                        <h2 class="h2_text">New Partsw</h2>
+                        <h2 class="h2_text">New Parts</h2>
                       </v-row>
                     </v-row>
 

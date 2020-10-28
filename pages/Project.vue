@@ -41,11 +41,411 @@
 
 
 
-
-
-                  
-
                     <v-row v-scroll="pushScrollY" id="Monoterpene"> 
+
+
+
+
+                        <v-row class="row_max-box">
+                        <h2 class="h2_text">zombie model</h2>
+                      </v-row>
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            In this COVID-19 crisis, we, iGEM Waseda, tried to attract high school students and general public to synthetic biology through three tactics.   First, since cell-free system is relatively easy to operate, we wanted to provide an opportunity high school students and general public to experience synthetic biology hands-on. We thus proceeded with our iGEM project adopting the cell-free system. This was an advantage for us to continue with our wet lab experiment in this COVID-19 pandemic situation. Second, we have developed a comprehensible tool and given an interesting story to modeling. Modeling plays an essential role in synthetic biology, but it is difficult to explain accurately to the general public. These stories and tools will help them to understand and enjoy synthetic biology. Last but not least, the theme we are dealing with must not only be interesting as a story, but also biologically. This year, we thus decided to study decision making by the toggle switch gene circuit, which is an important basis in developmental biology and regenerative medicine; in those research fields, cell-fate decision making is quite an important notion.     
+                                                  
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/ca/T--Waseda--cellfreebenefit_illustration.png" alt="Fig.2-1-1 Benefit of cell-free system ">
+                        <figcaption class="fig_title">Fig.2-1-1 Benefit of cell-free system </figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/a/a5/T--Waseda--zombievssamuraimovie.png" alt="Fig.2-1-2 Image ou our project">
+                        <figcaption class="fig_title">Fig.2-1-2 Image ou our projec</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/ed/T--Waseda--waddingtonlandscape.png" alt="Fig.2-1-3 Image of landscape of cell fate">
+                        <figcaption class="fig_title">Fig.2-1-3 Image of landscape of cell fate</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            The story we developed was the war between zombies and Samurai. Both Zombie and Samurai are essentially human beings, but their states switch by some factor  (Fig.2-1-4 top).  Zombies are able to make Samurai join their group by releasing communication molecules (Fig.2-1-4 middle).  On the other hand, Samurai also try to save the companion.  At the end of the battle, the winner side is defined by the concentration of communication molecules in the field (Fig.2-1-4 bottom).       
+
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/3/38/T--Waseda--stateswitchwithfactor.png" alt="Fig.2-1-4 State switching with factors">
+                        <figcaption class="fig_title">Fig.2-1-4 State switching with factors</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/6d/T--Waseda--SamuraiandZombieanime3.gif" alt="Fig.2-1-5 our genetic circuit">
+                        <figcaption class="fig_title">Fig.2-1-5 our genetic circuit</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent">      
+                            A genetic circuit for the Zombies and Samurai war (or cell-fate decision system) consists of two sub-systems: toggle switch and cell-cell communication module.  The two states, Samurai and Zombie, are achieved by two stable states of a toggle switch circuit composed of two repressors each of which inhibiting gene expression of the other (Fig.2-1-6 left).   A Zombie-state cell produces not only Zombie repressor but also Zombie communication molecule produced by an enzyme encoded downstream of the repressor. The increase of the Zombie cells increase the concentration of Zombie communication molecule designed to convert a Samurai cell.  For that conversion mechanism, all of the cells, even a cell in a Samurai state has Zombie repressor gene regulated by Zombie communication molecule.  For the symmetry of the scenario, all of the cells have genes for Samurai repressor and enzyme producing Samurai communication molecule. 
+
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/4e/T--Waseda--idealresult4.png " alt="Fig.2-1-6 The ideal results of our gene circuit">
+                        <figcaption class="fig_title">Fig.2-1-6 The ideal results of our gene circuit</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                              To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms.  The ideal result for the war between Samurai and Zombie is in the right panel of Fig.2-1-6 If there are more samurai cells in the initial state, almost all cells will be samurai at the end point, and vice versa.  This has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication. 
+                          </P>
+                        
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+Before modeling of in vitro systems with cell-cell communication, we established differential-equation based modeling for the same circuit which works in living <i>E. Coli</i> cells (Fig.2-1-7) because of accumulated cases for such in vivo models. In this modeling, we assumed the behavior of E. coli in vivo, and used parameters adjusted somewhat to behave as designed.  From the appearance of the nullcline (Fig.2-1-7), the equilibrium points are arranged in the same way as a normal toggle switch.  Thus, once our parameter search found the adjusted parameters for cell-free systems, we were able to realize bistable system. 
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/8/86/T--Waseda--equationandnull2.png" alt="Fig.2-1-7 the equation of our modeling and nullcline">
+                        <figcaption class="fig_title">Fig.2-1-7 the equation of our modeling and nullcline</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent"> 
+                            Fig.2-1-8 illustrates the behavior of our gene circuit. When the zombie state cell is induced with a samurai signal, the cell fate will change depending on the size of the signal. If the zombie receives a large number of samurai signals, the zombie will not be able to withstand the signal and will turn into a samurai. However, if samurai signal received by the zombie state cell is not enough, the zombie can revert back to being a zombie again, without completely transforming into a samurai. As a result, we were able to create two final states simply by changing the initial concentration of communication molecules.                             
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/a/ac/T--Waseda--behaviornullandtime2.png" alt="Fig.2-1-8 The concept behavior of our gene circuit ">
+                        <figcaption class="fig_title">Fig.2-1-8 The concept behavior of our gene circuit </figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                              In contrast to cellular system, a cell-free system lacks cell growth and has much smaller degradation- dilution term, which lead to longer operating time.  By using parameters from reference (Maurizi MR,1992), we thus estimated operating time for state-switch between zombie and samurai in our cell-free system. 
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c9/T--Waseda--degradationandpicture.png" alt="Fig.2-1-9 Degradation ratio and time of transition between equilibrium points">
+                        <figcaption class="fig_title">Fig.2-1-9 Degradation ratio and time of transition between equilibrium points</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent">    
+                            Fig.2-1-9 shows the the relationship between this degradation rate and operation time for state switching. The blue point is about normal protein degradation, and the green point shows the case of the LVA degradation tag are introduced on the protein. Considering a system based only on normal protein degradation（1%/hour =1.6*10^-4/min ）of a cell-free system without growth of volume, it takes too much time (approximatery 2x104 min = 300 hours) to operate a state-switch between Samurai and Zombie.  To solve this problem, we first investigated the size of the required degradation term.  Operation time for the state switch was estimated from the time that high concentration of Samurai repressors at one equilibrium point are reduced by degradation to the repressor concentration at another equilibrium point. Although we did not consider the term of protein synthesis in this calculation, there is no problem because this assumption without protein synthesis shows shorter operation time than a case with protein synthesis                          
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent"> 
+                            Although cell-free system is selected as our project platform for implementation of the zombie vs. samurai scenario using a toggle switch circuit, cell-growth rate is known to be important for in vivo toggle switch. Its behavior can be predicted by a mathematical modeling which include a dilution-dependent decrease of concentration of repressors. For cell-free system, our modeling described above indeed have shown that cell-free toggle switch will not work if the system has low degradation rate.     
+
+                          </P>
+                          <p class="p_indent"> 
+                             In order to increase the degradation rate for specific proteins in our cell-free system, we decided to add LVA degradation tag to the repressor proteins. LVA degradation tag is a 9~11 amino acids sequence attached to the end of a protein. The tagged proteins are well degraded by a certain combination of proteins: clpX, clpP and sspB                               
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+To see the improvement in degradation effect by LVA degradation tagging, we constructed an improved part (BBa_K3580003) by a modification of an existing part: Plux/tet-GFP(BBa_K934025). Reduction of the concentration of proteins by both degradation/ dilution and increase of the concentration by production play an important role in the behavior of gene circuit. Although protein concentration decrease by dilution caused by the growth of the cell, cell-free systems can’t because its volume is fixed. Therefore, an improvement is necessary to incorporate degradation into the cell-free system. 
+                          </P>
+                          <p class="p_indent">   
+                            In order to compare in vivo activity of these parts (BBa_K3580003 and BBa_K934025), we first measured the fluorescence of GFP 240 minutes after the start of induction. The fluorescence of tagged GFP (BBa_K3580003) was lower than that of normal GFP (BBa_K934025) at 240 min point (fig 2-1-10). Although GFP is a stable protein with a β-barrel and difficult to be degraded, this result shows that tagged GFP was successfully degraded as we planned.                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--Plux-tet-GFPssrA-vivo-comment.png  " alt="Fig 2-1-10 ssrA degradation tag assay in vivo">
+                        <figcaption class="fig_title">Fig 2-1-10 ssrA degradation tag assay in vivo</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            Then, we compared the fluorescence of GFP in a cell-free system which consisted of cruedextract of E.coli containing luxR protein (Fig 2-1-11). Because of the programmed degradation, the fluorescence of tagged GFP(BBa_K3580003) showed slight signal nearly equal to a negative control where neither the template GFP DNA nor the inducer AHL existed. The results show that LVA degradation tagged protein can be degraded exceptionally both <i> in vivo</i> and <i>in vitro</i>.  We will be able to enjoy state switching in a test tube. So we further promoted our modeling.     
+
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--Plux-tet-GFPssrA-vitro-comment.png" alt="Fig 2-1-11 ssrA degradationtag assay in vitro">
+                        <figcaption class="fig_title">Fig 2-1-11 ssrA degradationtag assay in vitro</figcaption>
+                        </figure>
+                      </v-row>
+
+                     
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/f/f3/T--Waseda--basicwarincellfree.png" alt="Fig.2-1-12 Basic war in cell-free system">
+                        <figcaption class="fig_title">Fig.2-1-12 Basic war in cell-free system</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            Our simulation showed fate of the battle between zombies and samurais in the test tube Fig.2-1-12 Depending on initial concentration of components, we can prepare a zombie test tube and a samurai test tube which are stable state. Then, by mixing zombie and samurai cell-free solutions in various ratios, the battle started. When zombie state cell-free solution and samurai state cell-free solution were mixed at a ratio of 2:8, the mixed solution was stable in the samurai state. This means that the samurais have beaten the zombies. However, a slight change of the ratio completely turned their fate. When the zombie and samurai solutions were mixed at a ratio of 3:7, the mixed solution was stable in the zombie state and the zombies willdestroyed the Samurai.                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          <h3>Cross talk assay in vitro</h3>
+                          <p class="p_indent">      
+                              When we construct and model the “zombie vs samurai” system, a potential problem was crosstalk, by which a promoter in a quorum sensing (QS) systems is activated unexpectedly by another type of QS components. Consequently, we some experiments to reveal which combination of QS systems have less crosstalk ability in a cell-free system.
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/e5/T--Waseda--crosstalk_explain.png" alt="Fig 2-1-13  Crosstalk in the Zombie vs Samurai system">
+                        <figcaption class="fig_title">Fig 2-1-13  Crosstalk in the Zombie vs Samurai system</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/d/d4/T--Waseda--crosstalk_question.PNG" alt="Fig 2-1-14  the possible crosstalks">
+                        <figcaption class="fig_title">Fig 2-1-14  the possible crosstalks</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                        
+                          <p class="p_indent">  
+                            Among quorum sensing systems, we put focus on rhl system because of absence for in vitro crosstalk regarding Rhl system. Our candidate for the counterpart for Rhl system is lux system because Rhl system in Pseudomonas aeruginosa is known to be acticvated by Las system. Although combination between Las and Lux is also attractive candidate, Andrew.D et., al have shown crosstalk between them. (2018, Andrew.D). Therefore, we investigated whether there is a crosstalk between the lux and rhl QS systems <i>in vitro</i>. As RhlR-responsible promoters, we used a promoter set which showed improvement in S/N ratio in vivo (Tokyo tech iGEM 2014).                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="http://parts.igem.org/File:Titech2014_parts_rhl_promoter_main_Fig1.png" alt="2-1-15  kinds of Prhl">
+                        <figcaption class="fig_title"2-1-15  kinds of Prhl></figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent">
+                            For the crosstalk experiments, we constructed two kinds of cell-free translation systems containing a substantial amount of R protein (luxR,rhlR). In those systems, we put signaling molecule (3OHSL-C4 or 3OHSL-C6) and target genes (plux/tet-GFP or prhl-RR-GFP), respectively. We measured the fluorescence of GFP expressed from plux/tet-GFP and prhl(RR)-GFP on a RT-qPCR machine. By measuring the fluorescence of FITC atthe same time, we were able to quantitatively compare the fluorescence values of GFP in different runs.       
+
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/5/58/T--Waseda--crosstalk_results_rhlR.png" alt="2-1-16 Result of crosstalk assay of the RhlR in cell-free system">
+                        <figcaption class="fig_title">2-1-16 Result of crosstalk assay of the RhlR in cell-free system</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          <h3>Resultsz</h3>
+                          <p class="p_indent">      
+                              Firstly, we did not fined crosstalk between RhlR activator and Plux promoter Fig 2-1-16. In contrast to strong activation in the combination among 3OC4HSL , RhlR, and Prhl(RR) promoter, the other combinations showed little fluorescence.
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/9/9e/T--Waseda--crosstalk_results_luxR.png" alt="2-1-17 Result of crosstalk assay of the luxR in cell-free system">
+                        <figcaption class="fig_title">2-1-17 Result of crosstalk assay of the luxR in cell-free system</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent">   
+                            Unfortunately, however, we found Severe crosstalk from LuxR activator. As shown in two red bars, LuxR protein with OC6HSL activates not only Lux promoter but Rhl promoter. Althogh we tested another LuxR-responsible promoter, PRhlLR, it showd another cross talk from RhlR protein (三階層リンク).  This project thus rejected this promoter variant.                           
+                          </p>
+                        </v-col>
+
+
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/7/77/T--Waseda--crosstalk_summary.png" alt=" Fig 2-1-18 summarize our crosstalk analysis using cell-free system. ">
+                        <figcaption class="fig_title"> Fig 2-1-18 summarize our crosstalk analysis using cell-free system. </figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent">      
+                            Even with the identified severe crosstalks between Rhl promoter and LuxR-3OC6HSL complex, reduction of maximum activity of Rhl promoter allowed us to prepare test tubes for Samurai and Zombie. Because of the same activation by samurai signaling molecule for the both repressors, Samurai state seems to be not stable. As describe above, nullclines for our system without crosstalk showed three intersections and thus implied bistability (Fig.2-1-19 left).  By additional effect from the messy cross talk, shape of nullclines changes dramatically. Now, two null clines have only one intersection. This means loss of bistability and we cannot discriminate zombie and samurai state (Fig.2-1-19 center). 
+                          </P>
+                          <p class="p_indent"> 
+                            However, we could reduce CI repressor production from Rhl promoter by mutations at its DNA sequence. Even though such reduction had a risk of unitability of Zombie state, adequate modulation of maximum activity of Rhl promoter kept the stability. When we reduce the maximum expression by Rhl promoter to 1/10 compared with Lux promoter activity, phase space analysis show both stabilities of Zombie and Samurai state; the reduction did not change the number of intersections of nullclines from the case without crosstalk (Fig.2-1-19 right).  Moreover, for this model we drew Fig.2-1-20 as a time course of mixed Zombie and Samurai. We found that even if we consider the crosstalk, the two powers can compete and be biased to either side depending on their ratios. In other words,                             
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--R_Pcrosswarincellfree.png" alt=" Fig.2-1-20 War in the cell-free system containing crosstalk between R proteins and Promotes">
+                        <figcaption class="fig_title"> Fig.2-1-20 War in the cell-free system containing crosstalk between R proteins and Promotes</figcaption>
+                        </figure>
+                      </v-row>
+
+                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p>      
+                          [1] Maurizi MR. Proteases and protein degradation in Escherichia coli. Experientia. 1992 Feb 15 48(2):178-201<br/>
+                          [2] Kigawa, T., Yabuki, T., Matsuda, N. et al. Preparation of Escherichia coli cell extract for highly productive cell-free protein expression. J Struct Func Genom 5, 63–68 (2004).<br/>
+
+
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+                     
+
+
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Cell-free monoterpene synthesis</h2>
                       </v-row>
