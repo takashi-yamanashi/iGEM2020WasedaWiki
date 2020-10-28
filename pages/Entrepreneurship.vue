@@ -47,87 +47,419 @@
                     </v-row>
                     
                     <v-row v-scroll="pushScrollY" id="OverviewTop"> 
-                      <v-row class="row_max-box">
-                        <h2 class="h2_text">What is business model?</h2>
-                      </v-row>
-                      </v-row>
+
+
+                    </v-row>
+
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                      
-                          <p class="p_indent">
-                            In order to implement our project in the real world, we've been working on the business model from early on.                            
+                          <h3>Introduction</h3>
+                          <p class="p_indent">   
+                            It is important to consider how we implement our project in the real world. Thus, to give back to society through our iGEM activities, we organized educational activities and entrepreneurship. It is not realistic to think about worldwide problems, so we tackled issues which are close to us and try to realize in fact.
+Here, we would like to introduce our business activities.
+
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">         
+                            First, we interviewed citizens and experts to verify the validity, safety, and ethics of the project. Consequently, all the aspects were confirmed. ( Go to Human Practice page) 
+
+We decided to create our business model because we were interested in the social implementation of our project.  It's not a good idea to implement your research project directly into real-world. It's important to adapt the implementation to the real-world needs. 
+
+
+                   
                           </P>
-                          <p class="p_indent">  
-                            To learn the basics of business model, we first went to interview Mr. Watanabe, a representative director of Maximize, inc. and is an expert in business model creation., Through the interview with him, we learned the basics of business model creation. The critical elements of a business model are 4 points: The What, Why, How and Who (Fig 6-5-1).                            
+                          <p class="p_indent"> 
+                            To learn the basics of business model, we first went to interview Mr. Watanabe, who is the representative director of Maximize, inc. as well as an expert in business model creation, we learned the basics of business model creation from them. The important things of the business model are 4 points: The What, Why, How and Who (Fig).                                
                           </p>
                         </v-col>
                       </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c7/T--Waseda--InpriFig1.png" alt="Fig 6-5-1 The 4 important point of business model">
-                        <figcaption class="fig_title">Fig 6-5-1 The 4 important point of business model</figcaption>
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c7/T--Waseda--InpriFig1.png" alt="Logo">
+                        
+                        </figure>
+                      </v-row>
+                
+
+
+
+                   
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">  
+                            Like planning for scientific research, business model creation should also learn from previous success.  From Mr. Watanabe’s point of view, a business has a higher chance of success when two of four points are changed from the existing successful business. These is called a business model innovation.                            
+                          </P>
+                          <p class="p_indent">  
+                            After the interview, we brainstormed to create a business model based on “SAMURAI” System                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                    
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent"> 
+                            The smell of monoterpenes has the ability to repel insects. These are natural and are less likely to cause allergies than commonly used artificial products. People living with animals and families with small children have needed our products based on natural products.                           
+                          </P>
+                          <p class="p_indent"> 
+                            Monoterpene synthesis can take advantage of cell-free system. Monoterpenes are toxic in the cell and difficult to synthesize on a large scale. However, the cell-free system avoids toxicity and allows the mass synthesis of monoterpenes. (Go to monoterpenes synthesis)                              
+                          </p>
+                        </v-col>
+                      </v-row>
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">     
+                            These are the "How" and "Who" of the four points of the business model. We have also made strong changes in the "What".                        
+                          </P>
+                          <p class="p_indent">
+                            We would like to take the advantage of the safe biotechnological properties of the cell-free system.                                
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                 
+                          <p class="p_indent">     
+                            We thought about producing the insect repellent of monoterpene in real-time, when we want to use it. The effectiveness of the insect repellent is reduced due to evaporation, using a monoterpene that has already been created. By producing it in real-time, contrary, the effect of the insect repellent could keep constant and for a longer time. 
+To implement those features, we use the SAMURAI System using the mulit IFFL system.  
+(GO to Model page)  
+                         
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/44/T--Waseda--InpriFig2.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-2  The insect repellent of monoterpene</figcaption>
+                        </figure>
+                      </v-row>
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">    
+                            We would like to challenge the already established insect repellent market by updating the "How" and "Who" and "What" of existing better business model.  
+The most important thing about business success is matching the business model you create with the real-world issues. 
+                        
+                          </P>
+                          <p class="p_indent">  
+                            Many early business models are unsuccessful because they do not match the real-world needs. 
+In order to improve the business model, it is important to repeat steps to verify the real-world needs and restructure the business model.
+                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/28/T--Waseda--InpriFig3.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-3 The process of business model improvement</figcaption>
+                        </figure>
+                      </v-row>
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            We interviewed many people to explore the needs of our business model. The business model was more improved while addressing the challenges that emerged from the interview.                           
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/8/81/T--Waseda--InpriFig4.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-4 Improved business model </figcaption>
                         </figure>
                       </v-row>
 
+
+                        <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/5/5d/T--Waseda--InpriFig5.png" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+
+
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                     
+                          <p class="p_indent">  
+                            Through this verification, we were able to confirm that there is a definite need for our business model. But, surprisingly, in those interviews, we found that there was another great need. 
+People who are concerned about whether or not they contain the substance that causes allergies are careful to determine whether or not they contain the source of their allergies. 
+We got the inspiration for detecting allergens and pivoted to a business model for substance detection using the cell-free system. 
+                          
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                    
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>Integrated Human Practice </h3>
+                           <h3>1. Improve our business model</h3>
+                          <p class="p_indent"> 
+                            The need for substance detection was discovered through interviews with primary human practice. The potential need for material detection is strong in three market segments : medical, soil and water. Therefore, we pivoted our business model and created a new business model for substance detection along with business model canvas (nine axes format).                            
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/1/1c/T--Waseda--BusinessModel_Canvas.png " alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-5　 Business model canvas on Detection kit (nine axes format) </figcaption>
+                        </figure>
+                      </v-row>
+                
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
                           
                           <p class="p_indent">
-                            Like planning for a scientific research, business model creation should learn from previous success. From Mr. Watanabe’s point of view, a business have a higher probability of success when two of the four points are modified from the existing successful business. This is called a business model innovation.                            
-                          </P>
+                            Although existing substance detection kits such as pH assay kits, flu test kits and pack tests are mass-produced and are inexpensive, their usage are limited to detection of ordinary conditions and familiar substances. As a result, only a small number of kits are available for the detection of special substances. Therefore, we had decided to develop a cell-free detection kit that can be used for the detection of special substances with minor demand.                               
+                          </p>
+                        </v-col>
+                      </v-row>
+
+        
+            
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                        
                           <p class="p_indent">  
-                            After the interview regarding the basics of business model creation, we brainstormed on new business models derived from our cell-free based iGEM project and designed several business models. To brush up the models, we applied the four points of a business model.                            
+                            It has already been proven that many substances can be detected using the cell-free system. On the other hand, because of the limited needs in the market, it is difficult to make a business out of selling the kit alone. Therefore, we have decided to provide a software package to support the necessary DNA designing process for detection along with the kit. Additionally, our software can be systematized to automatically select what is needed for the detection, allowing each person to create customized detection kit.
+
+                          
+                          </P>
+                        
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/6e/T--Waseda--Detection_kit.png " alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-6  Our Detection kit idea </figcaption>
+                        </figure>
+                      </v-row>
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                       
+                          <p class="p_indent">    
+                            We validated the detection kit to make it more concrete. 
+First, the construction of the cell-free system as hardware was validated by conducting a project which adopted a number of cell-free systems. 
+Secondly, the verification of the software creation required a comparison of the modeling results with experimental results to accurately understand the behavior of the modules. We verified the behavior of the system in a cell-free system by using several systems.                         
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                       
+                          <p class="p_indent">     
+                            
+	For example, with respect to spinach growth, an imbalance of potassium and magnesium in the soil can lead to the development of yellowing symptoms in the leaves. [Ministry of Agriculture, Forestry and Fisheries of Japan, 2019]
+                       
+                          </P>
+                          <p class="p_indent">   
+                            Like this, enabling an effortless measuring process of substance balance is a major advantage of our hardware.                            
                           </p>
+                        </v-col>
+                      </v-row>
 
+                  
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
+                        <v-col>
+                          <h3>2. Start searching our target substances </h3>
+                          <p class="p_indent">      
+                            
+After creating a business model canvas based on this idea, we realized that we needed to create an established detection kit and enhance our software in the early stages. 
+The first substances that should be established for detection were characterized by the following characteristics. 
+                      
+                          </P>
                           <p class="p_indent"> 
-                            We decided creating monoterpenes on a large scale and using them as insect repellents as our best business model. Monoterpenes are toxic in the cell and are difficult to synthesize on a large scale. However, a cell-free system allows mass synthesis of monoterpenes, hence,                            
-                          </P>
-                          <p class="p_indent">                              
+                            1. Substances that need to be tested regularly 
+2. Substances that are needed on a local municipal basis rather than on an individual basis 
+                             
                           </p>
-
-
-
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-
+                 
+                
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
+                          
+                          <p class="p_indent">   
+                            We interviewed a number of people in order to examine what substances were appropriate as the primary targets of our kit. 
+Here we would like to introduce the detection of substances in sewage treatment, for which there was a particularly large demand.
+                         
                           </P>
                           <p class="p_indent">                              
                           </p>
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-
+                
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
+                          <h3>Interview </h3>
+                          <p class="p_indent">   
+                            We interviewed several local agencies and experts, believing that resolving the issues that exist locally would best share their awareness of themselves and their problems and increase the success rate of the project.                          
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                    
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>(A) Interview with the Environmental Policy Division of the Chuo City  </h3>
+                          <h3>1. Pre-interview hypothesis</h3>
+                          <p class="p_indent">      
+                            We thought that there would be a demand for water quality testing because there are many rivers in our hometown (Chuo City, Tokyo) and because the area faces Tokyo Bay. In addition, we thought that the city has tourist attractions such as Nihonbashi, Ginza, and Tsukiji, so the city would be willing to test water quality from the perspective of scenery. Therefore, we interviewed the person in charge of environmental policy in Chuo City.                       
+                          </P>
+                     
+                        </v-col>
+                      </v-row>
+
+                    
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>2. Interviews on the current status of river water quality surveys</h3>
+                          <p class="p_indent"> 
+                            The Environmental Policy Division of Chuo City examines the legally required criterion of rivers. The criteria categories include pH, biochemical oxygen demand (BOD), chemical oxygen demand (COD), suspended solids (SS), dissolved oxygen (DO), and suspended solids (SS).  Since these principles have direct effects on our living environment, the emphasis is on whether or not they make the city residents feel uncomfortable when they use the waterfront.  
+Besides, sudden deterioration of water quality is rare, and the criterion are met in most cases. However, there are occasional deterioration of BOD and DO levels and as a long-term measure, the Sewerage Department has requested that the sewage treatment capacity be increased.  
+In addition, obtained information from such examination by Chuo City is provided to the Tokyo Metropolitan Government in the event of large-scale environmental problems such as red tide. The Tokyo Metropolitan Government is responsible for surveys and responses across multiple administrative areas.  
+The survey itself is outsourced to a contractor and is conducted about four times a year at six locations in the ward.  The base of survey method is also set by law. The Environmental Policy Division feels that there is no problem with the established method. 
+                           
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+               
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>3. Matching our projects with the needs of the field</h3>
+                          <p class="p_indent">  
+                            This local agency has found that there is not much demand for our kits in terms of water quality testing. However, they noted the fact that our kits can quickly examine large numbers of samples and advised us that there would be a demand for our kits where they are responsibility in the safety of the citizens. (e.g., water department, fire and sewer department, dealing with water quality safety, health department where quick actions are needed in the event of food poisoning, etc. and that a need for our project may exist for problems caused by wild cat droppings in parks.                           
+                          </P>
+                        
+                        </v-col>
+                      </v-row>
+
+
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>4. Interview Summary  </h3>
+                          <p class="p_indent">   
+                            Water quality testing is mainly conducted in the city of Tokyo as an environmental measure, and the method and criterion are strictly regulated by law.
+In the field of water quality testing, the Tokyo Metropolitan Government, which is a broad-based government agency, is also conducting research and taking measures to address categories that may affect health and the environment.
+With our testing kits, samples can be tested quickly and in large scale, and there will be demand where safety is concerned.  We also found that there may be a need in terms of safety assurance in parks.  
+
+                         
+                          </P>
+                       
+                        </v-col>
+                      </v-row>
+
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>(B) Interview with the Sewerage Department of Tokyo  </h3>
+                          <h3>1. Pre-interview hypothesis </h3>
+                          <p class="p_indent">
+                            From interviews with local government officials, we considered further project matching and interviewed the Technology Development Division of the Tokyo Metropolitan Government's Bureau of Sewerage.  The team is an expert on the validation of new technologies and ideas related to sewerage projects, and we figured that an interaction with the team would significantly improve our project.                             
+                          </P>
+                        
+                        </v-col>
+                      </v-row>
+
+                
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>2. Interviews on the current status of sewage treatment</h3>
+                          <p class="p_indent">   
+                            The Sewerage Bureau tests the quality of water discharged into public waters (rivers and seas) 2-24 times a year based on the Sewerage Law (the frequency varies depending on the analysis item). On the other hand, if abnormalities are suspected in the sewage inflow, a pack test is also used to quickly measure the water quality.  
+These pack tests are a fairly popular and inexpensive method. Tokyo's tap water is of such high quality that it can be used as drinking water. In order to keep high quality of the water, great care is taken to control the quality of the water. For example, Gas chromatography is used for detection and measurement of 2-MIB (2-Methylisoborneol), which causes moldy odors of water. 
+Water quality investigations at sewage treatment plants are performed chemically on the sewage inflow after the sewage has been treated through a tank containing activated sludge.  
+Those in the treatment process and the treated water are measured in real time using sensors and other instruments, and the condition of the activated sludge is adjusted by changing the operating conditions in response to changes in the condition of sludge. 
+However, it takes 0.5 to 1 day to adjust the condition of the activated sludge and to improve the conditions of the compounds after detecting abnormalities in the compounds in the wastewater.  During this time, the treated water quality may deteriorate.  
+
+                         
                           </P>
                           <p class="p_indent">                              
                           </p>
+                        </v-col>
+                      </v-row>
+
+                
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>3.Matching our projects with the needs of the field  </h3>
+                          <p class="p_indent"> 
+                            It has been found that sewage treatment plants are plagued with sewage treatment problems due to the condition of the activated sludge. To address the problem, it is important to measure the condition of the activated sludge tank accordingly. 
+Consequently, there was a strong need for our project to be able to detect compounds and bacteria. So we discussed the issue in more detail.  
+                           
+                          </P>
+                          
                         </v-col>
                       </v-row>
 
@@ -138,34 +470,6 @@
                         </figure>
                       </v-row>
                 
-
-
-
-                      <v-row> 
-                      <v-row class="row_max-box">
-                        <h2 class="h2_text">Overview</h2>
-                      </v-row>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
-                          </P>
-                          <p class="p_indent">                              
-                          </p>
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-                
-
 
 
 
