@@ -726,11 +726,38 @@
 
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
+                    
+
+  
+
+                        <v-row class="fig_full_width">
+                        <object data="https://2020.igem.org/wiki/images/b/ba/T--Waseda--Judgemodelinginfomation.pdf" type="application/pdf" width="100%" height="500px">
+                          <p><b>add information</b>: <a href="pdf.pdf">Download</a>.</p>
+                        </object>
+                        </v-row>
+
                       </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                    
+
+  
+
+                        <v-row class="fig_full_width">
+                        <object data="https://2020.igem.org/wiki/images/5/5e/T--Waseda--Zombie%EF%BC%BFwet.pdf" type="application/pdf" width="100%" height="500px">
+                          <p><b>add information</b>: <a href="pdf.pdf">Download</a>.</p>
+                        </object>
+                        </v-row>
+
+                      </v-row>
+
+
+
+
+
+
 
                       <!-- <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 

@@ -463,13 +463,140 @@ Consequently, there was a strong need for our project to be able to detect compo
                         </v-col>
                       </v-row>
 
+
+                      
+
+
+                          <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>4. Specific strategies </h3>
+                          <p class="p_indent">   
+                                                    AO (ANAEROBIC OXIC) AND A2O (ANAEROBIC ANOXIC OXIC) METHODS ARE USED FOR SEWAGE WATER TREATMENT
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/3/32/T--Waseda--Integrate_HP_AO.png " alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-7  AO method and A2O method </figcaption>
                         </figure>
                       </v-row>
-                
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/48/T--Waseda--Integrate_HP_A2O.png " alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-7  AO method and A2O method </figcaption>
+                        </figure>
+                      </v-row>
+                          <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">    
+                            In these methods, phosphorus-storing bacteria are used to remove phosphorous (P) and nitrifying and denitrifying bacteria are used to remove nitrogen (N). However, both P and N are removed by the AO method. However, the removal of P and N are opposite functions. Therefore, if one of them becomes too strong, the removal of the other becomes insufficient. Under normal conditions, the rate of change is slow, but precipitation significantly changes the situation. Precipitation causes three to five times as much sewage to flow into the sewage treatment plant at once. When this happen, the condition of the activated sludge tank changes greatly due to changes in the balance of the sewage components.  There are many problems caused by the condition of activated sludge tanks in particular. 
+One major problem is the growth of malignant bacteria, such as actinomycetes.  Actinomycetes surround the bacteria with mycolic acid, which prevents the bubbles from popping and causes bubbles to increase on the surface of the water. Since the acid is a substance that cannot be biologically treated, it remains floating on the surface of the water together with the activated sludge, which is unfavorable for solid-liquid separation in the sedimentation basin. In addition, suppressing the amount of air supply to prevent foaming causes problems such as not being able to supply the oxygen necessary for treatment, which worsens the quality of treated water, and the scum that remains on the surface of the water causes flies and odors to be generated.  
+                        
+                          </P>
+                          <p class="p_indent">  
+                            In order to prevent these problems, there was a need to determine the amount of actinomycetes and mycolic acid in the activated sludge and to measure the balance between them and various bacteria.  
+They also pointed out that the kit may also be used as household tap water quality checking device.  
+                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>5. Interview Summary</h3>
+                          <p class="p_indent">   
+                            In our sewage treatment, we found a great need that matched our project.   
+Possible usage of our kit:  
+①Check the balance of the Bacteria used in sewage treatment s   
+②Measure the Balance of malignant Substances in sewage treatment  
+③Simple kit for each household to ensure high quality tap water.  
+We then held discussions with experts in the field to discuss specific issues to be addressed in the future.  
+
+                         
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+ <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>(C) Advice from the academic side </h3>
+                          <p class="p_indent"> 
+                            In answering this demand, we asked Dr. Nishida, an expert on environmental bacteria, for advice on whether our detection kit is technically unfeasible and what we should consider in the future.                           
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/3/31/T--Waseda--Interview.png " alt="Logo">
+                        <figcaption class="fig_title">Fig 6-5-8 Interview </figcaption>
+                        </figure>
+                      </v-row>
+
+
+ <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">  
+                            Dr. Nishida said that he did not see any apparent technical problems that were absolutely unattainable and we were ready to conduct a demonstration of our kit. He also advised us to focus on the operation in a confined environment (e.g., sewage) and the quantitative nature of the materials to be tested.                          
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+ <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3>Summary</h3>
+                          <p class="p_indent">   
+                            We constructed our business model through discussing with a business expert. With our primary monoterpene insect repellent business model, we found the need for substance detection and pivoted our business model.
+As our new business model, we devised a cell-free substance detection kit and a software package to support the necessary DNA designing process for detection.
+To make our business model more concrete, we interviewed with professional institution which manages water quality examination. After that, we asked an expert for some advices from the academic viewpoint.
+Now, we are ready to conduct a demonstration of our kit.
+                         
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+ <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+
+
 
 
 

@@ -341,7 +341,13 @@
                         </v-col>
                       </v-row>
                     
-                    
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/f/f2/T--Waseda--monoterpene_2-2-3_GCMS_analysis_results_of_sabinene_synthesis_system.png " alt="Fig. 3-3-3-2 GC / MS analysis results of limonene synthesis system ">
+                        <figcaption class="fig_title">Fig. 3-3-3-3 GC/MS analysis results of sabinene synthesis system </figcaption>
+                        </figure>
+                      </v-row>
+                
                     
                     
                     
