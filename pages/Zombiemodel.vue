@@ -41,7 +41,7 @@
                     <v-row justify="center" text-align="left" id="ZScircuit">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
-                            <h1 class='h1_text' pushElementOffsetTop>Modeling</h1>
+                            <h1 class='h1_text' pushElementOffsetTop>Zombie Modeling</h1>
                           </v-col>
                         </v-row>
                     </v-row>
@@ -52,16 +52,7 @@
                       </v-row>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
-                        <v-col>
-                          
-                          <p class="p_indent">           
-                            Our team is eligible for this prize because we actively used dry-wet cycles.  We designed a genetic circuit that realizes a bistable system switched by the number of cells.  Before implementing the genetic circuit in a wet experiment, we modeled it and simulated the behavior.  Through the simulation, we discovered some problems like degradation time and crosstalk ratio, so we introduced new technology and verified its usefulness by conducting wet experiments.  Based on the results, we re-simulated and confirmed that the designed system works. Moreover, we devised a way to explain this modeling ingeniously. Modeling plays an essential role in synthetic biology, but it is difficult to explain it accurately.  To solve this problem, we likened this bi-stable system to the war between zombies and humans.  We are convinced that this interesting story attract anyone, including the general public, and make the system easier to understand.                  
-                          </P>
-                          
-                        </v-col>
-                      </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
@@ -70,15 +61,18 @@
                         </figure>
                       </v-row>
 
-
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
-                          <p class="p_indent"> 
-                            Our Zombie vs Samurai Circuit is as shown in Fig.4-1-1. To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms. The ideal results for the war between Zombies and Samurai are in the Fig.4-1-2. This ideal result has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication, so we tried to develop this simulation and realize a toggle switch including cell-cell communication. Since the nullcline indicates the concentration when it does not change with time, the number of shared points of two nullclines corresponds to the number of stable states. As shown in Fig.4-1-2, there are three shared points on the nullcline and two of them are stable equilibrium points, so the system is bistable. </P>
+                          
+                          <p class="p_indent">           
+                            Our Zombie vs Samurai Circuit is as shown in Fig.4-1-1. To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms. The ideal results for the war between Zombies and Samurai are in the Fig.4-1-2. This ideal result has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication, so we tried to develop this simulation and realize a toggle switch including cell-cell communication. Since the nullcline indicates the concentration when it does not change with time, the number of shared points of two nullclines corresponds to the number of stable states. As shown in Fig.4-1-2, there are three shared points on the nullcline and two of them are stable equilibrium points, so the system is bistable.
+                          </P>
+                          
                         </v-col>
                       </v-row>
+
+        
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
@@ -87,9 +81,35 @@
                         </figure>
                       </v-row>
 
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="8" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/4a/T--Waseda--zombi_R_NoAHL_Nopro_image.PNG" alt="Fig.4-1-1 Zombie vs Samurai circuit">
+                        <figcaption class="fig_title">Fig.4-1-1 Zombie vs Samurai circuit</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="8" class="row_max-box">
+    
+
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="7" class="row_max-box">
+                            
+                        <v-col>
+                          <h3> 4.2 The basic mothod and results of our genetical circuit</h3>
+                          <p class="p_indent">           
+                            Our Zombie vs Samurai Circuit is as shown in Fig.4-1-1. To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms. The ideal results for the war between Zombies and Samurai are in the Fig.4-1-2. This ideal result has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication, so we tried to develop this simulation and realize a toggle switch including cell-cell communication. Since the nullcline indicates the concentration when it does not change with time, the number of shared points of two nullclines corresponds to the number of stable states. As shown in Fig.4-1-2, there are three shared points on the nullcline and two of them are stable equilibrium points, so the system is bistable.
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
                     
 
-                                            <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/4/4a/T--Waseda--zombieequation1.png" alt="Fig.4-1-3 assumed Circuit; I protein directly activates promoter ">
                         <figcaption class="fig_title">Fig.4-1-3 Basic equations of our gene circuit</figcaption>
@@ -159,7 +179,7 @@
                       </v-row>
 
 
-                                  <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/0/0e/T--Waseda--zombieequation2.png" alt="Fig.4-1-3 assumed Circuit; I protein directly activates promoter ">
                         <figcaption class="fig_title">Fig.4-1-5  Basic equation for nullcline </figcaption>
@@ -289,17 +309,16 @@
                              The blue point is about normal protein degradation, and the green point shows the case of the LVA degradation tag are introduced on the protein. This estimation of switching time implies the importance of repressor production in our system.
 
                           </P>
-                        
+                         
                         </v-col>
                       </v-row>
 
-                                            <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_mid_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/8/83/T--Waseda--zombieequation3.png" alt="Fig.4-1-4 the basic nullcline of LacI and CI">
                         <figcaption class="fig_title">Fig.4-1-9 The equation fow analysis of degradation</figcaption>
                         </figure>
                       </v-row>
-
 
 
 
@@ -369,13 +388,14 @@
                       </v-row>
 
 
-
-                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                                            <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_mid_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/3/33/T--Waseda--zombieequation4.png" alt="Fig.4-1-4 the basic nullcline of LacI and CI">
                         <figcaption class="fig_title">Fig.4-1-13 The Equation for containing crostalk between R protein and promoter</figcaption>
                         </figure>
                       </v-row>
+
+
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
@@ -478,260 +498,7 @@
                       </v-row>
 
 
-                      <v-row> 
-                        <v-row class="row_max-box" id="IFFL">
-                          <h2 class="h2_text">Multi IFFL</h2>
-                        </v-row>
-                      </v-row>
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_mid_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/a/a1/T--Waseda--IFFL_about.png" alt="Fig 4-2-1 Incoherent feed forward loop">
-                        <figcaption class="fig_title">Fig 4-2-1 Incoherent feed forward loop</figcaption>
-                        </figure>
-                      </v-row>
-
                       
-                      
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          
-                          <p class="p_indent">       
-                            In the incoherent feed forward loop(Fig 4-2-1), the expressions of each gene: x,y, and z are formulated as the differential-equation (1), (2) and to (3).                     
-                          </P>
-                          
-                        </v-col>
-                      </v-row>
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <p>Table 4-2-1 description of each parameter of IFFL</p>
-
-                        <template>
-                          <v-simple-table>
-                            <template v-slot:default>
-                              <thead>
-                                <tr>
-                                  <th class="table-font-size">
-                                    Variables
-                                  </th>
-                                  <th class="table-font-size">
-                                    Description
-                                  </th>
-                                  <th class="table-font-size">
-                                    unit
-                                  </th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr
-                                  v-for="item in  desserts5"
-                                  :key="item.name"
-                                >
-                                  <td class="table-font-sizet">{{item.name}}</td>
-                                  <td class="table-font-sizet">{{ item.value }}</td>
-                                  <td class="table-font-sizet">{{ item.unit }}</td>
-                                </tr>
-                              </tbody>
-                            </template>
-                          </v-simple-table>
-                        </template>
-                        <template>
-                          <v-simple-table>
-                            <template v-slot:default>
-                              <thead>
-                                <tr>
-                                  <th class="table-font-size">
-                                    Parameters
-                                  </th>
-                                  <th class="table-font-size">
-                                    Description
-                                  </th>
-                                  <th class="table-font-size">
-                                    unit
-                                  </th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr
-                                  v-for="item in  desserts6"
-                                  :key="item.name"
-                                >
-                                  <td class="table-font-sizet">{{item.name}}</td>
-                                  <td class="table-font-sizet">{{ item.value }}</td>
-                                  <td class="table-font-sizet">{{ item.unit }}</td>
-                                </tr>
-                              </tbody>
-                            </template>
-                          </v-simple-table>
-                        </template>
-
-
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--Muitl_IFFL.png" alt="Fig 4-2-2 Multi IFFL">
-                        <figcaption class="fig_title">Fig 4-2-2 Multi IFFL</figcaption>
-                        </figure>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent"> 
-                            We designed an expanded IFFL system containing two target genes (Z1,Z2) each of which withhas different peak time to the other. We call this Multi -target- IFFL, or Multi IFFL. By adjusting the parameters for each activation and repression, we can provide a time difference in the generation of each pulse. To check whether the designed multi-target IFFL can really generate two pulses with a time delay, we extensively searched for parameter space for the system.                           
-                          </P>
-                          <p class="p_indent">   
-                            We first investigated how the concentration of Z changes overwith time when the parameters Kx and Ky are changed independently in Formula (3).
-                            When searching, we varied Kx and Ky from 1 to 1000 every 100 and other parameters were fixed as shown on Table-4-2-2, Table-4-2-3 respectively.
-                           
-                          </p>
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        
-                        <figure class="fig_mid_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/67/T--Waseda--IFFL_independent_search_kxandky.png" alt="Fig 4-2-3 Kx and Ky search independently">
-                        <figcaption class="fig_title">Fig 4-2-3 Kx and Ky search independently</figcaption>
-                        </figure>
-                      </v-row>
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <p>Table 4-2-2 Fixed parameters in the Kx search</p>
-                        <template>
-                          <v-simple-table>
-                            <template v-slot:default>
-                              <thead>
-                                <tr>
-                                  <th class="table-font-size">
-                                    parameter
-                                  </th>
-                                  <th class="table-font-size">
-                                    value
-                                  </th>
-                                 
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr
-                                  v-for="item in  desserts7"
-                                  :key="item.name"
-                                >
-                                  <td class="table-font-sizet">{{item.name}}</td>
-                                  <td class="table-font-sizet">{{ item.value }}</td>
-                                  
-                                </tr>
-                              </tbody>
-                            </template>
-                          </v-simple-table>
-                        </template>
-
-                        </v-col>
-                      </v-row>
-
-                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <p>Table 4-2-3 Fixed parameters in the Ky search</p>
-                        <template>
-                          <v-simple-table>
-                            <template v-slot:default>
-                              <thead>
-                                <tr>
-                                  <th class="table-font-size">
-                                    parameter
-                                  </th>
-                                  <th class="table-font-size">
-                                    value
-                                  </th>
-                                 
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr
-                                  v-for="item in  desserts8"
-                                  :key="item.name"
-                                >
-                                  <td class="table-font-sizet">{{item.name}}</td>
-                                  <td class="table-font-sizet">{{ item.value }}</td>
-                                  
-                                </tr>
-                              </tbody>
-                            </template>
-                          </v-simple-table>
-                        </template>
-
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          
-                          <p class="p_indent">     
-                            Next, we constructed a heatmap to check how much time (t) of the pulse peak is delayed as we simultaneously changed the parameters Kx and Ky in the formlula (3). Fig. 4-2-4 is the results. 
-                            Other parameters are fixed as shown on Table 4-2-4.                        
-                          </p>
-                        </v-col>
-                      </v-row>
-
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <p>Table.4-1-4 parameter set to AHL-R protein crosstalk</p>
-                        <template>
-                          <v-simple-table>
-                            <template v-slot:default>
-                              <thead>
-                                <tr>
-                                  <th class="table-font-size">
-                                    parameter
-                                  </th>
-                                  <th class="table-font-size">
-                                    value
-                                  </th>
-                                  
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr
-                                  v-for="item in  desserts9"
-                                  :key="item.name"
-                                >
-                                  <td class="table-font-sizet">{{item.name}}</td>
-                                  <td class="table-font-sizet">{{ item.value }}</td>
-                                 
-                                </tr>
-                              </tbody>
-                            </template>
-                          </v-simple-table>
-                        </template>
-
-                        </v-col>
-                      </v-row>
-
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-
                       <!-- <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>

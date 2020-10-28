@@ -247,7 +247,7 @@
           <figure class="fig_full_width" >
               <img class="image_max" 
                   src="https://2020.igem.org/wiki/images/1/11/T--Waseda--TopFig7.png" alt="Fig. 1-7 Human Practice">
-              <figcaption class="fig_title">Fig. 1-7 Human Practice</figcaption>
+              <figcaption class="fig_title">Fig. 1-6 Human Practice</figcaption>
           </figure>
       </v-col>
 

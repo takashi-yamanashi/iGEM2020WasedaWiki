@@ -163,8 +163,8 @@ export default {
           img: 'https://2020.igem.org/wiki/images/1/11/T--Waseda--HeaderModel.png',
           lists:[
             { title: 'Model', to: 'Model'},
-            { title: 'Quick Start', to: 'inspire'},
-            { title: 'Software', to: 'SoftWare'},
+            { title: 'Zombie Model', to: 'Zombiemodel'},
+            // { title: 'Software', to: 'SoftWare'},
           ]
         },
         {
@@ -202,7 +202,7 @@ export default {
           ]
         },
         {
-          title: 'JudgeingForm',
+          title: 'JudgingForm',
           icon: 'mdi-vuetify',
           img: 'https://2020.igem.org/wiki/images/8/8d/T--Waseda--Judgingformbutton.png',
           lists:[

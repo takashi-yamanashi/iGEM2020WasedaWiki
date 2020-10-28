@@ -110,6 +110,22 @@
                             He was responsible for Monoterpene and Gene circuit project and experimented in Wet Lab.
                         </p>
                       </v-row>
+
+
+                         <v-row>
+                          <P class="p_style">
+                            <b>Satoshi Miyanaga </b><br />
+                            - He taught us how to use GC.
+                            
+                          </p>
+                        </v-row>
+
+                        <v-row>
+                          <P class="p_style">
+                            <b>Junichi Saito</b><br />
+                            - He conducted GC/MS measurement.
+                          </p>
+                        </v-row>
                       
                       </v-col>
                     </v-row>
@@ -144,7 +160,7 @@
 
                         <v-row>
                           <P class="p_style">
-                            <b>Tomohiro Inoue (Special support)</b><br />
+                            <b>Tomohiro Inoue</b><br />
                             - Electrical Engineering and Bioscience student.
                             He helped us developing software tools 
                           </p>
@@ -180,7 +196,7 @@
 
                         <v-row>
                           <P class="p_style">
-                            <b>ASOBIchanson.inc (Special support)</b><br />
+                            <b>ASOBIchanson.inc </b><br />
                             - They helped us making video which explains our projects.
                           </p>
                         </v-row>
@@ -287,7 +303,7 @@
                         </v-row>
                         <v-row>
                           <P class="p_style">
-                            <b>Maximize, Inc. (Special support)</b><br />
+                            <b>Maximize, Inc.</b><br />
                             - They taught us how to plan business models and gave advise.
                           </p>
                         </v-row>
@@ -300,6 +316,35 @@
                         <v-row>
                           <h2>Other</h2>
                         </v-row>
+
+
+                                                <v-row>
+                          <P class="p_style">
+                            <b>Toru Asahi</b><br />
+                            - We received a great support in the business aspect of our project.
+                          </p>
+                        </v-row>
+                    
+
+
+                        <v-row>
+                          <P class="p_style">
+                            <b>Kosuke Kataoka</b><br />
+                            - A member of Asahi Laboratory. Supported us in the business aspect of our project.
+                          </p>
+                        </v-row>
+
+                                                                     <v-row>
+                          <P class="p_style">
+                            <b> Akifumi  Nishida </b><br />
+                            - A member of Kiga Laboratory. Supported us especially in the water quality aspect of our project.
+                          </p>
+                        </v-row>
+
+
+
+
+
                         <v-row>
                           <P class="p_style">
                             <b>Takashi Yamanashi</b><br />
@@ -337,7 +382,7 @@
                       </v-col>
                     </v-row>
 
-                    
+    
                     
                     <v-row v-scroll="pushScrollY" id="NaviLast" > 
                       <v-col>

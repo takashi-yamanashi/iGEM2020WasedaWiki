@@ -64,7 +64,7 @@
                       </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
+                        <figure class="fig_mid_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--Education_Application_student.png" alt="Fig. 6-3-1 Education Application Student">
                         <figcaption class="fig_title">Fig. 6-3-1 Education Application Student</figcaption>
                         </figure>
