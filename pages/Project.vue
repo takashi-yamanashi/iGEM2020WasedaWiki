@@ -496,7 +496,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Fix 2-3-2 Explanation of incoherent feed forward loop">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/3/34/T--Waseda--IFFL-fig1.png" alt="Fix 2-3-2 Explanation of incoherent feed forward loop">
                         <figcaption class="fig_title">Fig 2-3-2 Explanation of incoherent feed forward loop</figcaption>
                         </figure>
                       </v-row>
@@ -564,7 +564,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                     <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--IFFL_independent_search_kxandky.png" alt="Fix 2-3-6 Independent param search of Kx(left) and Ky(right)">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/ea/T--Waseda--IFFL-fig3.png" alt="Fix 2-3-6 Independent param search of Kx(left) and Ky(right)">
                         <figcaption class="fig_title">Fig 2-3-6 Independent param search of Kx(left) and Ky(right)</figcaption>
                         </figure>
                       </v-row>
@@ -598,7 +598,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--time-heatmap-add.png" alt="Logo">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/ed/T--Waseda--IFFL_result_final.png" alt="Logo">
                         <figcaption class="fig_title">Fig 2-3-7　time heatmap</figcaption>
                         </figure>
                       </v-row>
@@ -664,7 +664,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/ed/T--Waseda--IFFL_result_final.png" alt="Logo">
                         <figcaption class="fig_title">Fig 2-3-10 results</figcaption>
                         </figure>
                       </v-row>

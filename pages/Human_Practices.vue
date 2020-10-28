@@ -275,9 +275,20 @@
                         <v-col>
                           <p class="p_indent">   
                             The survey results demonstrate that we were successful in attracting people interested in synthetic biology.  As for the cell-free system, 27% of the respondents said they completely understood it, 64% said they almost understood it.  We are able to raise the understanding of cell-free system, a total of 90%.  Spreading the correct knowledge of synthetic biology leads to better understanding and approval by the general public. Therefore, by teaching factual information on synthetic biology, those who visited our exhibition were able to achieve a positive perception of the safety of synthetic biology.                         
+
+                            
                           </P>
                         </v-col>
                       </v-row>
+
+
+
+
+<v-row cols="12" sm="12" xs="12" md="12" lg="6" xl="6" class="row_max-box">
+<h2>Integreate Human Practice is <nuxt-link to='Entrepreneurship'>GO to Entrepreneurship page !!!! </nuxt-link></h2>
+                      </v-row>
+
+                      
 
 
 
