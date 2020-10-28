@@ -446,6 +446,305 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                      
 
 
+
+
+
+
+
+                    <v-row class="row_max-box">
+                        <h2 class="h2_text">SAMURAI System</h2>
+                      </v-row>
+
+
+                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/a/af/T--Waseda--SAMURAI_overview.png" alt="Fig2-3-1 Overview of SAMURAI system">
+                        <figcaption class="fig_title">Fig2-3-1 Overview of SAMURAI system</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent"> 
+                            The smells we have synthesized is not only for Zombie and Samurai in the story but for us in real-world. From initial stage of our project, our team has thought that synthetic biology can attract general public if we establish an interesting system. Combined with our synthesis of limonene and sabinene, the incoherent feedforward loop (IFFL) system allowed us to design “Switching And Modulated Utilization of Refreshing Aroma Integration system”,SAMURAI system, where pulse expression of each of the two monoterpene synthases switches time-dependently.     
+                                                  
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                     
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          <h3>IFFL </h3>
+                          <p class="p_indent">   
+                            in order to change the scents with a time lag, we designed fragrance production regulated by  IFFL(Incoherent Feed Forword loop), which can generate pulse activation of a gene. A typical IFFL consists of an activator protein  (X), and a repressor protein (Y) ,and a taget gene (Z).   
+
+                          </P>
+                          <p class="p_indent">   
+                             A target gene Z is directly activated by protein X.  Aditionally, gene Z is indirectly repressed by protein X due to accumulation of repressor Y produced by X.  Because this direct inhibition requres longer time than direct activtion, the time course of Z production shows a pulse                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Fix 2-3-2 Explanation of incoherent feed forward loop">
+                        <figcaption class="fig_title">Fig 2-3-2 Explanation of incoherent feed forward loop</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/7/7e/T--Waseda--pulse-explanation.png" alt="Fig2-3-3 Explanation of some point of the concentration pulse">
+                        <figcaption class="fig_title">Fig2-3-3 Explanation of some point of the concentration pulse</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            For time-dependent change of fragrances, we designed an expanded IFFL system containing two target genes (Z1,Z2) each of which has different peak time to the other.　By adjusting the parameters for each activation and repression, we can provide a time difference in the generation of each pulse.                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/b/b3/T--Waseda--Muitl_IFFL.png" alt="Fig2-3-4 Multi IFFL gene circuit">
+                        <figcaption class="fig_title">Fig2-3-4 Multi IFFL gene circuit</figcaption>
+                        </figure>
+                      </v-row>
+                      
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c2/T--Waseda--IFFL_ideal.png" alt="Fig 2-3-5 ideal behavier of multi IFFL">
+                        <figcaption class="fig_title">Fig 2-3-5 ideal behavier of multi IFFL</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            By using that system, we can change fragrance automatically as time passed                             
+                          </p>
+                        </v-col>
+                     
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">
+                             In order to check whether the designed multi-target IFFL can really generate two pulse with a time delay, we extensively searched parameter space for the system                             
+                          </P>
+                          
+                        </v-col>
+
+                         </v-row>
+
+                   
+
+
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--IFFL_independent_search_kxandky.png" alt="Fix 2-3-6 Independent param search of Kx(left) and Ky(right)">
+                        <figcaption class="fig_title">Fig 2-3-6 Independent param search of Kx(left) and Ky(right)</figcaption>
+                        </figure>
+                      </v-row>
+                      
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title"></figcaption>
+                        </figure>
+                      </v-row>
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            We first investigated how the concentration of Z changes with time when the parameters Kx and Ky are changed independently in Formula xx.1.                            
+                          </P>
+                          <p class="p_indent">  
+                             Kx, Ky, are the binding coefficients of X and Y to the promoter of gene z. We varied those parameters because actual coefficient values can be controlled by changing the sequence of promoter.                            
+                          </p>
+
+                          <p class="p_indent">  
+                            As a result, we found that when the parameter Kx is high, the peak of the pulse become small, and when Ky is high, the sharpness of the peak is lost.                          
+                          </P>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--time-heatmap-add.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 2-3-7　time heatmap</figcaption>
+                        </figure>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                        
+                          
+                          <p class="p_indent"> 
+                            Next, we constructed a heatmap to check how much time (t) of the pulse peak is delayed as we change the parameters Kx and Ky simultaneously. Fig. 2-3-7 is the  results, which show that the lighter the heatmap’s color is, the more the peak time delays. However, when the values of parameters become too large, pulse lost it’s sharpness as the the difference between the maximum value and the steady-state concentration decreases.                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/9/96/T--Waseda--ratio_heatmap.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 2-3-8 ratio heatmap </figcaption>
+                        </figure>
+                      </v-row>
+
+                      
+                    
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/9/91/T--Waseda--cross_heatmap.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 2-3-9 cross heatmap </figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">  
+                            Furthermore, in order to evaluate the balance of the pulse shape, we calculated the ratio of the peak concentration and the following steady-state concentration for each parameter and presented it in a heat map. This is called the ratio heatmap. (Fig 2-3-8). The darker the color, the smaller the ratio is and the pulse will be in an indistinct form as shown in Fig 2-3-7, Kx=1000.
+                            Fig 2-3-8 shows that the ratio becomes smaller when the Kx value is too high. We evaluated each parameter based on the peak duration in Fig 2-3-7 and the balance of the pulse shape in Fig 2-3-8, respectively. Based on these two indicators, we multiplied the cross heatmap by the value of the time heatmap and the ratio heatmap for each parameter in order to find out which parameter has both time difference and balance, comprehensively (Fig 2-3-9). To make this cross heatmap,
+                             we subtracted a certain constant number of time values from the time heatmap because we have to make the time delay above a certain level. If the time heatmap is negative, it is treated as 0 (fig. 3階層). This is called the time processed heatmap. Then, when multiplying the values of the time processed heatmap and the ratio heatmap, the value of the time processed heatmap was raised to the power of 1.2 and the value of the ratio heatmap was raised to the power of 10 to adjust for the contribution of the respective heatmap values. We selected the optimal parameter for the multi IFFL in the resulting match heatmap as the one with the highest score. Two pulses were generated using the optimal parameter in practice(Fig 2-3-10). Yellow indicates the temporal variation of the concentration of Z1 and green indicates that of Z2. As a result, We have succeeded in creating pulses with a time difference. This demonstrates the feasibility of our SAMURAI system.
+
+                          
+                          </P>
+                        
+                        </v-col>
+                      </v-row>
+
+
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">
+                            Although we sure that you have enjoyed our SAMURAI, however, we also know that real-world implementation requires another effort: business model creation. This is why we've been working on the business model from the early time of the project.                            
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="" alt="Logo">
+                        <figcaption class="fig_title">Fig 2-3-10 results</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <h3></h3>
+                          <p class="p_indent">                            
+                          </P>
+                          <p class="p_indent">                              
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/6/6c/T--Waseda--buisiness_overview.png" alt="Logo">
+                        <figcaption class="fig_title">2-3-11 Overview of business model innovation</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                            As well as planning for scientific research, business model creation should learn from previous success.  From Mr. Watanabe’s point of view, a business has a higher probability of success when two of a four points are changed from the existing business success. The kind of change is called business model innovation.                           
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/8/8e/T--Waseda--business_interview.png" alt="Logo">
+                        <figcaption class="fig_title">Fig 2-3-12 Interview of business model</figcaption>
+                        </figure>
+                      </v-row>
+
+
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">    
+                            With with the knowledge we acquired from lectures on business model planning, we created some business models based on our cell-free based iGEM project. Although we created detailed plan which can take advantage of our success in monoterpene syntheses , another interview to experts during the above planning gave us more attractive and valuable business model where a cell-free system is used for substance detection.                          
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Cell-free monoterpene synthesis</h2>
                       </v-row>
@@ -714,7 +1013,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                       </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
+                        <figure class="fig_mid_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/3/36/T--Waseda--racemase_201023_bar.png" alt="Fig.2-4-6 Effect of L-alanine substrate repletion for translation by racemase">
                         <figcaption class="fig_title">Fig.2-4-6 Effect of L-alanine substrate repletion for translation by racemase</figcaption>
                         </figure>
@@ -771,7 +1070,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
+                        <figure class="fig_mid_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--Education_Application_student.png" alt="Logo">
                         <figcaption class="fig_title">Fig 2-6-1 EducationApplication student</figcaption>
                         </figure>
@@ -842,41 +1141,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                       </v-row>
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent">      
-                                                  
-                          </P>
-                          <p class="p_indent">                              
-                          </p>
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent">      
-
-                          </P>
-                          <p class="p_indent">                              
-                          </p>
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
+  
 
 
 
