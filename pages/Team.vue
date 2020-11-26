@@ -69,7 +69,7 @@
 
 
                         <v-dialog
-                        v-model="dialog"
+                        :v-model="'dialog'+n"
                         width="500px"
                         >
                         <template v-slot:activator="{ on, attrs }">
@@ -95,7 +95,7 @@
                                 align="center"
                                 justify="center"
                             >
-                                
+     
                             </v-row>
                             </template>
                         <!-- </v-img> -->
@@ -123,7 +123,7 @@
                                 <v-card-text class="text--primary">
                                 <div><p><b>Motivation</b><br/>{{n.des}}</p></div>
                                 </v-card-text>
-
+            
 
                         </v-card>
                         </v-dialog>
@@ -158,7 +158,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      dialog: false,
+      // dialog: false,
       check: [false, false, false],
 
       items:[

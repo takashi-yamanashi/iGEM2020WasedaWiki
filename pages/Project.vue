@@ -574,12 +574,6 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
                           
