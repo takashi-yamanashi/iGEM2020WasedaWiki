@@ -77,7 +77,7 @@
                         <v-col>
                           <p>    
 
-                            <a class="link_style"  href="http://parts.igem.org/Part:K3580200">BBa_K3580200</a><sapn> </sapn>     &      <span></span>  <a class="link_style"  href="http://parts.igem.org/Part:K3580102">BBa_K3580200</a> !
+                            <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580102">BBa_K3580102</a><sapn> </sapn>     &      <span></span>  <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580200">BBa_K3580200</a> !
                           </P>
 
                         </v-col>

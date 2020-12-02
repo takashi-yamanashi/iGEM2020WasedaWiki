@@ -454,15 +454,14 @@
                       </v-row>
                       
                       
-                      
+                
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" >
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt=" Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and ">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--R_Pcrosswarincellfree.png" alt=" Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and ">
                         <figcaption class="fig_title"> Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and </figcaption>
                         </figure>
                       </v-row>
-                      
                       
                       
                       
@@ -488,14 +487,6 @@
                         </v-col>
                       </v-row>
 
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" >
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/21/T--Waseda--R_Pcrosswarincellfree.png" alt=" Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and ">
-                        <figcaption class="fig_title"> Fig.4-1-12 war in the cell-free system containing crosstalk between R proteins and </figcaption>
-                        </figure>
-                      </v-row>
 
 
                       
@@ -525,6 +516,7 @@
 <!-- 
                     <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template> -->
+                    <v-template  v-scroll="pushScrollY" id="IFFL"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
                     <!-- <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template> -->
 

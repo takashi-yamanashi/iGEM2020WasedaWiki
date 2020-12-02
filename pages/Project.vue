@@ -242,7 +242,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--Plux-tet-GFPssrA-vivo-comment.png  " alt="Fig 2-1-10 ssrA degradation tag assay in vivo">
+                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--Plux-tet-GFPssrA-vivo-comment.png" alt="Fig 2-1-10 ssrA degradation tag assay in vivo">
                         <figcaption class="fig_title">Fig 2-1-10 ssrA degradation tag assay in vivo</figcaption>
                         </figure>
                       </v-row>
@@ -261,7 +261,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--Plux-tet-GFPssrA-vitro-comment.png" alt="Fig 2-1-11 ssrA degradationtag assay in vitro">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/eb/T--Waseda--Plux-tet-GFPssrA-vitro-comment.png" alt="Fig 2-1-11 ssrA degradationtag assay in vitro">
                         <figcaption class="fig_title">Fig 2-1-11 ssrA degradationtag assay in vitro</figcaption>
                         </figure>
                       </v-row>
@@ -325,8 +325,8 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="http://parts.igem.org/File:Titech2014_parts_rhl_promoter_main_Fig1.png" alt="2-1-15  kinds of Prhl">
-                        <figcaption class="fig_title"2-1-15  kinds of Prhl></figcaption>
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/1/16/T--Waseda--parts_rhl_promoter_main_Fig1.png" alt="2-1-15  kinds of Prhl">
+                        <figcaption class="fig_title">2-1-15  kinds of Prhl</figcaption>
                         </figure>
                       </v-row>
 
