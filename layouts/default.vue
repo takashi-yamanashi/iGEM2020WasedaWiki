@@ -119,7 +119,7 @@
 
 
     <v-footer
-    color="primary lighten-1" style="margin: 0 0 0 20px;"
+    color="primary lighten-1" style="margin: 0 0 -32px 0;"
     >
       <v-row
         justify="center"
