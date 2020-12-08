@@ -33,15 +33,9 @@
                     </v-row>
                     </v-col>
                 </v-col>
-
+              
                 <v-col class="main_text" cols="12" lg="10" xl="10">
-
-
-
-
-
-
-                    <v-row v-scroll="pushScrollY" id="Monoterpene"> 
+                    <v-row v-scroll="pushScrollY" id="section_01"> 
 
 
 
@@ -53,7 +47,7 @@
                         <v-col>
                           
                           <p class="p_indent">  
-                            In this COVID-19 crisis, we, iGEM Waseda, tried to attract high school students and general public to synthetic biology through three tactics.   First, since cell-free system is relatively easy to operate, we wanted to provide an opportunity high school students and general public to experience synthetic biology hands-on. We thus proceeded with our iGEM project adopting the cell-free system. This was an advantage for us to continue with our wet lab experiment in this COVID-19 pandemic situation. Second, we have developed a comprehensible tool and given an interesting story to modeling. Modeling plays an essential role in synthetic biology, but it is difficult to explain accurately to the general public. These stories and tools will help them to understand and enjoy synthetic biology. Last but not least, the theme we are dealing with must not only be interesting as a story, but also biologically. This year, we thus decided to study decision making by the toggle switch gene circuit, which is an important basis in developmental biology and regenerative medicine; in those research fields, cell-fate decision making is quite an important notion.     
+                            In this COVID-19 crisis, we, iGEM Waseda, tried to attract high school students and general public to synthetic biology through three tactics.  First, since cell-free system is relatively easy to operate, we wanted to provide an opportunity high school students and general public to experience synthetic biology hands-on. We thus proceeded with our iGEM project adopting the cell-free system. This was an advantage for us to continue with our wet lab experiment in this COVID-19 pandemic situation. Second, we have developed a comprehensible tool and given an interesting story to modeling. Modeling plays an essential role in synthetic biology, but it is difficult to explain accurately to the general public. These stories and tools will help them to understand and enjoy synthetic biology. Last but not least, the theme we are dealing with must not only be interesting as a story, but also biologically. This year, we thus decided to study decision making by the toggle switch gene circuit, which is an important basis in developmental biology and regenerative medicine; in those research fields, cell-fate decision making is quite an important notion.     
                                                   
                           </P>
                           
@@ -242,7 +236,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/File:T--Waseda--Plux-tet-GFPssrA-vivo-comment.png" alt="Fig 2-1-10 ssrA degradation tag assay in vivo">
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/b/b1/T--Waseda--Plux-tet-GFPssrA-vivo-comment.png" alt="Fig 2-1-10 ssrA degradation tag assay in vivo">
                         <figcaption class="fig_title">Fig 2-1-10 ssrA degradation tag assay in vivo</figcaption>
                         </figure>
                       </v-row>
@@ -368,7 +362,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
-                          <h3>Resultsz</h3>
+                          <h3>Results</h3>
                           <p class="p_indent">      
                               Firstly, we did not fined crosstalk between RhlR activator and Plux promoter Fig 2-1-16. In contrast to strong activation in the combination among 3OC4HSL , RhlR, and Prhl(RR) promoter, the other combinations showed little fluorescence.
                           </P>
@@ -413,13 +407,6 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                             However, we could reduce CI repressor production from Rhl promoter by mutations at its DNA sequence. Even though such reduction had a risk of unitability of Zombie state, adequate modulation of maximum activity of Rhl promoter kept the stability. When we reduce the maximum expression by Rhl promoter to 1/10 compared with Lux promoter activity, phase space analysis show both stabilities of Zombie and Samurai state; the reduction did not change the number of intersections of nullclines from the case without crosstalk (Fig.2-1-19 right).  Moreover, for this model we drew Fig.2-1-20 as a time course of mixed Zombie and Samurai. We found that even if we consider the crosstalk, the two powers can compete and be biased to either side depending on their ratios. In other words,                             
                           </p>
                         </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
                       </v-row>
 
 
@@ -664,16 +651,8 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                       </v-row>
 
 
-                      
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
-                          </P>
-                          <p class="p_indent">                              
-                          </p>
-                        </v-col>
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Entrepreneurship</h2>
                       </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
@@ -1031,17 +1010,17 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <v-col>
                           <h3>Reference</h3>
                           <p >
-                            (1) [Milton et.al 1992] Milton, R., Milton, S., & Kent, S. (1992). Total chemical synthesis of a D-enzyme: The enantiomers of HIV-1 protease show reciprocal chiral substrate specificity [corrected]. Science, 256(5062), 1445-1448. doi:10.1126/science.1604320 <br />
-                            (2) [Tugyi et.al 2005] Tugyi, R., Uray, K., Iván, D., Fellinger, E., Perkins, A., & Hudecz, F. (2005). Partial d-amino acid substitution: Improved enzymatic stability and preserved ab recognition of a MUC2 epitope peptide. Proceedings of the National Academy of Sciences, 102(2), 413-418. doi:10.1073/pnas.0407677102<br />
-                            (3) [Garton et.al 2018] Garton, M., Nim, S., Stone, T. A., Wang, K. E., Deber, C. M., & Kim, P. M. (2018). Method to generate highly stable D-amino acid analogs of bioactive helical peptides using a mirror image of the entire PDB. Proceedings of the National Academy of Sciences, 115(7), 1505-1510. doi:10.1073/pnas.1711837115<br />
-                            (4) [Oberthür et.al 2015] Oberthür, D., Achenbach, J., Gabdulkhakov, A., Buchner, K., Maasch, C., Falke, S., Rehders, D., Klussmann, S., Betzel, C. (2015). Crystal structure of a mirror-image L-RNA aptamer (spiegelmer) in complex with the natural L-protein target CCL2. Nature Communications, 6(1), 6923. doi:10.1038/ncomms7923<br />
-                            (5) [Majier et.al 2016] Maier, K., & Levy, M. (2016). From selection hits to clinical leads: Progress in aptamer discovery. Molecular Therapy.Methods & Clinical Development, 5, 16014. doi:10.1038/mtm.2016.14<br />
-                            (6) [Schumacher et.al 1996] Schumacher, T. N. M., Mayr, L. M., Minor, D. L., Milhollen, M. A., Burgess, M. W., & Kim, P. S. (1996). Identification of d-peptide ligands through mirror-image phage display. Science, 271(5257), 1854-1857. doi:10.1126/science.271.5257.1854<br />
-                            (7) [Funke et.al 2009] Funke, S. A., & Willbold, D. (2009). Mirror image phage display—a method to generate d-peptideligands for use in diagnostic or therapeutical applications. Mol.BioSyst., 5(8), 783-786. doi:10.1039/B904138A"<br />
+                            (1) [Milton et.al 1992] Milton, R., Milton, S., & Kent, S. (1992). Total chemical synthesis of a D-enzyme: The enantiomers of HIV-1 protease show reciprocal chiral substrate specificity [corrected]. Science, 256(5062), 1445-1448. doi: 10.1126/science.1604320 <br />
+                            (2) [Tugyi et.al 2005] Tugyi, R., Uray, K., Iván, D., Fellinger, E., Perkins, A., & Hudecz, F. (2005). Partial d-amino acid substitution: Improved enzymatic stability and preserved ab recognition of a MUC2 epitope peptide. Proceedings of the National Academy of Sciences, 102(2), 413-418. doi: 10.1073/pnas.0407677102<br />
+                            (3) [Garton et.al 2018] Garton, M., Nim, S., Stone, T. A., Wang, K. E., Deber, C. M., & Kim, P. M. (2018). Method to generate highly stable D-amino acid analogs of bioactive helical peptides using a mirror image of the entire PDB. Proceedings of the National Academy of Sciences, 115(7), 1505-1510. doi: 10.1073/pnas.1711837115<br />
+                            (4) [Oberthür et.al 2015] Oberthür, D., Achenbach, J., Gabdulkhakov, A., Buchner, K., Maasch, C., Falke, S., Rehders, D., Klussmann, S., Betzel, C. (2015). Crystal structure of a mirror-image L-RNA aptamer (spiegelmer) in complex with the natural L-protein target CCL2. Nature Communications, 6(1), 6923. doi: 10.1038/ncomms7923<br />
+                            (5) [Majier et.al 2016] Maier, K., & Levy, M. (2016). From selection hits to clinical leads: Progress in aptamer discovery. Molecular Therapy.Methods & Clinical Development, 5, 16014. doi: 10.1038/mtm.2016.14<br />
+                            (6) [Schumacher et.al 1996] Schumacher, T. N. M., Mayr, L. M., Minor, D. L., Milhollen, M. A., Burgess, M. W., & Kim, P. S. (1996). Identification of d-peptide ligands through mirror-image phage display. Science, 271(5257), 1854-1857. doi: 10.1126/science.271.5257.1854<br />
+                            (7) [Funke et.al 2009] Funke, S. A., & Willbold, D. (2009). Mirror image phage display—a method to generate d-peptideligands for use in diagnostic or therapeutical applications. Mol.BioSyst., 5(8), 783-786. doi: 10.1039/B904138A"<br />
                             (8) [Walish 1989] Walsh, C. T. (1989). Enzymes in the D-alanine branch of bacterial cell wall peptidoglycan assembly. The Journal of Biological Chemistry, 264(5), 2393-2396.<br />
-                            (8) [Azam et.al 2016] Azam, M. A., & Jayaram, U. (2016). Inhibitors of alanine racemase enzyme: A review. Journal of Enzyme Inhibition and Medicinal Chemistry, 31(4), 517-526. doi:10.3109/14756366.2015.1050010<br />
-                            (9) [Shimizu et.al 2001] Shimizu, Y., Inoue, A., Tomari, Y., Suzuki, T., Yokogawa, T., Nishikawa, K., & Ueda, T. (2001). Cell-free translation reconstituted with purified components. Nature Biotechnology, 19(8), 751-755. doi:10.1038/90802<br />
-                            (10) [Kuncha et.al 2019] Kuncha, S. K., Kruparani, S. P., & Sankaranarayanan, R. (2019). Chiral checkpoints during protein biosynthesis. The Journal of Biological Chemistry, 294(45), 16535-16548. doi:10.1074/jbc.REV119.008166<br />
+                            (8) [Azam et.al 2016] Azam, M. A., & Jayaram, U. (2016). Inhibitors of alanine racemase enzyme: A review. Journal of Enzyme Inhibition and Medicinal Chemistry, 31(4), 517-526. doi: 10.3109/14756366.2015.1050010<br />
+                            (9) [Shimizu et.al 2001] Shimizu, Y., Inoue, A., Tomari, Y., Suzuki, T., Yokogawa, T., Nishikawa, K., & Ueda, T. (2001). Cell-free translation reconstituted with purified components. Nature Biotechnology, 19(8), 751-755. doi: 10.1038/90802<br />
+                            (10) [Kuncha et.al 2019] Kuncha, S. K., Kruparani, S. P., & Sankaranarayanan, R. (2019). Chiral checkpoints during protein biosynthesis. The Journal of Biological Chemistry, 294(45), 16535-16548. doi: 10.1074/jbc.REV119.008166<br />
 
                           </P>
                         </v-col>
@@ -1108,32 +1087,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         </v-col>
                       </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <v-col>
-                          <h3></h3>
-                          <p class="p_indent">      
-                                                  
-                          </P>
-                          <p class="p_indent">                              
-                          </p>
-                        </v-col>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
-                        </figure>
-                      </v-row>
-
+          
 
   
 
@@ -1145,9 +1099,11 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                     </v-row>
                     
                   
+                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
+
                   
-                  
-                  <v-template  v-scroll="pushScrollY" id="section_06"><v-col class="last_message"></v-col></v-template>
                 </v-col>
             </v-row>
         </v-container>
@@ -1157,14 +1113,33 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
   <!-- </v-layout> -->
 </template>
 <script>
+const pageTitle = 'Project';
+const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
+const pageUrl = 'https://2020.igem.org/Team:Waseda/Project';
+
+
 export default {
+  
+  head: {
+
+    title: pageTitle,
+    meta: [
+      //Change each page
+      { hid: 'description', name: 'description', content: pageDes},
+      { hid: 'og:title', property: 'og:title', content: pageDes },
+      { hid: 'og:description', property: 'og:description', content: pageDes },
+      { hid: 'og:url', property: 'og:url', content: pageUrl },
+    ],
+  },
+
+
   data: () => {
     return {
       fab: false,
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false, false, false],
+      check: [false, false, false,false],
 
     };
   },
@@ -1172,22 +1147,22 @@ export default {
   methods: {
     pushScrollY(e) {
       this.scrollY = window.scrollY;
-    //   for (var i = 0; i < this.check.length; i++) {
-    //     this.check[i] = false
-    //   };
-    //   for (var j=0; j < this.check.length; j++) {
-    //     if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
-    //       this.check[j] = true
-    //     }
-    //   };
-    //   const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //   this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+      for (var i = 0; i < this.check.length; i++) {
+        this.check[i] = false
+      };
+      for (var j=0; j < this.check.length; j++) {
+        if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
+          this.check[j] = true
+        }
+      };
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
 
     },
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
+        'section_01','section_02','section_03','section_04',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -1198,9 +1173,6 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
 }
 </script>
 

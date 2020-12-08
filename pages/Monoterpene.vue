@@ -293,7 +293,7 @@
                           </P> 
 
                           <p class="p_indent">  
-                              Transformed DH5-α strains were grown in 2xYT medium containing 25 ng/µl chloramphenicol and 1% glucose concentration. This is the same as in vivo monoterpene synthesis.  After culturing overnight (37℃, 180 rpm, 14 h) on 6 ml scales, 6 ml culture were added to 100 ml 2xYT medium containing 25 ng / µl chloramphenicol and 1% glucose concentration. Then, the culture was continued at 37 ℃ and 250 rpm, and when OD600 exceeded 0.6, 500 µM IPTG and 500 µL dodecane overlay were added.  After that, the strains into which BBa_K3580102 (Ptrc-trGPPS-SS) or pBbA5c-MevT-MBI was introduced were continuously cultured for 30℃, 250rpm, 22 h, and the strains into which BBa_K3580101 (Ptrc-trGPPS-LS) was introduced were continuously cultured for 30℃, 250rpm, 22 h, 6 h.  After culturing, a cell extract was prepared according to step 3 and subsequent steps of the extract preparation protocol. ( <nuxt-link to='Protocol'>Here</nuxt-link> ) However, the Buffer E used did not contain dithiothreitol.                          
+                              Transformed DH5-α strains were grown in 2xYT medium containing 25 ng/µl chloramphenicol and 1% glucose concentration. This is the same as in vivo monoterpene synthesis.  After culturing overnight (37℃, 180 rpm, 14 h) on 6 ml scales, 6 ml culture were added to 100 ml 2xYT medium containing 25 ng / µl chloramphenicol and 1% glucose concentration. Then, the culture was continued at 37 ℃ and 250 rpm, and when OD600 exceeded 0.6, 500 µM IPTG and 500 µL dodecane overlay were added.  After that, the strains into which BBa_K3580102 (Ptrc-trGPPS-SS) or pBbA5c-MevT-MBI was introduced were continuously cultured for 30℃, 250rpm, 22 h, and the strains into which BBa_K3580101 (Ptrc-trGPPS-LS) was introduced were continuously cultured for 30℃, 250rpm, 6 h.  After culturing, a cell extract was prepared according to step 3 and subsequent steps of the extract preparation protocol. ( <nuxt-link to='Protocol'>Here</nuxt-link> ) However, the Buffer E used did not contain dithiothreitol.                          
                           </P>                   
                         </v-col>
                       </v-row>
@@ -404,7 +404,7 @@
                         <v-col>
                           
                           <p class="p_indent">   
-                              Finally, each of monoterpenes were quantified based on peaks of substance having 93 m/z and each monoterpene standard curves.  Taking advantage of the modularity of the combination of extracts, we confirmed whether the yield of monoterpenes could be changed by changing the mixing ratio of the extract containing the enzyme of the mevalonate pathway and the extract containing GPP synthase and monoterpene synthase.  As a result, changes in the yield of monoterpenes due to the mixing ratio of the extracts were observed (Figure. 3-3-3-5).  The best yield of limonene per reaction solution with limonene synthase contained system was 0.73 µM, and the best yield of sabinene per reaction solution with sabinene synthase contained system was 4.60 µM.  From the relationship between the mixing ratio of the extracts and the yield of sabinene, the optimum mixing ratio of the extract containing the mevalonate pathway enzyme and the extract containing GPP synthase + sabinene synthase considered to exist between 5: 5 and 2: 8.  It was also considered that the yields of the limonene synthesis system were lower than the yields of the sabinene synthesis system because the amount of GPP synthase and limonene synthase expression were small because the culture time after induction of expression was short.  Therefore, increasing the mixing ratio of the extract containing GPP synthase and limonene synthase, or increasing the culture time after expression induction during the preparation of the extract, is expected to increase the yield of limonene.                           
+                              Finally, each of monoterpenes were quantified based on peaks of substance having 93 m/z and each monoterpene standard curves.  Taking advantage of the modularity of the combination of extracts, we confirmed whether the yield of monoterpenes could be changed by changing the mixing ratio of the extract containing the enzyme of the mevalonate pathway and the extract containing GPP synthase and monoterpene synthase.  As a result, changes in the yield of monoterpenes due to the mixing ratio of the extracts were observed (Figure. 3-3-3-5).  The best yield of limonene per reaction solution with limonene synthase contained system was 0.73 µM, and the best yield of sabinene per reaction solution with sabinene synthase contained system was 4.60 µM.  From the relationship between the mixing ratio of the extracts and the yield of sabinene, the optimum mixing ratio of the extract containing the mevalonate pathway enzyme and the extract containing GPP synthase + sabinene synthase considered to exist between 8 : 2 and 2 : 8.  It was also considered that the yields of the limonene synthesis system were lower than the yields of the sabinene synthesis system because the amount of GPP synthase and limonene synthase expression were small because the culture time after induction of expression was short.  Therefore, increasing the mixing ratio of the extract containing GPP synthase and limonene synthase, or increasing the culture time after expression induction during the preparation of the extract, is expected to increase the yield of limonene.                           
                           </p>
                         </v-col>
                       </v-row>
@@ -452,9 +452,28 @@
   <!-- </v-layout> -->
 </template>
 <script>
+const pageTitle = 'Monoterpene';
+const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
+const pageUrl = 'https://2020.igem.org/Team:Waseda/Monoterpene';
+
+
 export default {
+  
+  head: {
+
+    title: pageTitle,
+    meta: [
+      //Change each page
+      { hid: 'description', name: 'description', content: pageDes},
+      { hid: 'og:title', property: 'og:title', content: pageDes },
+      { hid: 'og:description', property: 'og:description', content: pageDes },
+      { hid: 'og:url', property: 'og:url', content: pageUrl },
+    ],
+  },
+
   data: () => {
     return {
+
       fab: false,
       scrollY: 0,
       scrollPer: 510.293,

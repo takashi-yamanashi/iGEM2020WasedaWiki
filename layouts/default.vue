@@ -236,7 +236,10 @@ export default {
 /* for iGEM */
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 #HQ_page p {
-font-size: 24px;
+
+  font-size: initial;
+  font-size: 24px;
+  overflow-wrap: normal;
 }
 #bodyContent h1, #bodyContent h2 {
     margin-bottom: 0;
@@ -293,7 +296,7 @@ p {
     background-color: #B09161;
 }
 .navi_home_logo {
-  width: 130px;
+  width: 100px;
 }
 .navi_logo {
   width: 85px;

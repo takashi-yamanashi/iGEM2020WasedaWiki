@@ -15,7 +15,7 @@
     <v-row justify="center" align="Top"  class="top_bg_top2_1"> 
     </v-row>
     <v-row justify="center" align="Top">
-      <v-col cols="12" xs="11" sm="8" md="7" lg="8" xl="7" class="top_bg_top2_2">
+      <v-col cols="11" xs="11" sm="8" md="7" lg="8" xl="7" class="top_bg_top2_2">
         <v-row>
           <video width="100%" height="auto" controls>
             <source src="https://2020.igem.org/wiki/images/d/d5/T--Waseda--StoryShortMovie.mp4" type="video/mp4">
@@ -48,7 +48,7 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Project Overview</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               
               
@@ -83,7 +83,7 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">ZOMBIE vs. SAMURAI gene circuit</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7">
           <figure class="fig_full_width" >
               <img class="image_max" 
                   src="https://2020.igem.org/wiki/images/5/54/T--Waseda--TopFig2.png" alt="fig. 1-2  DBTL - ZOMBIE vs. SAMURAI gene circuit">
@@ -105,7 +105,7 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center" class="top_bg_top3_5_42">
           <h2 class="h2_text">Improvement in degradation both<br/> in vitro and in vivo</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_43">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_43">
           <v-row class="row_max-box">
             <v-col>
               <p class="p_indent"><br/></p>
@@ -124,7 +124,7 @@
           <h2 class="h2_text">cross talk of cell-cell communication molecules when they work in vitro </h2>
       </v-col>
 
-        <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
+        <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row class="row_max-box">
             <v-col>
                 <p class="p_indent">     
@@ -144,7 +144,7 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">cell-free monoterpene synthesis</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_52">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_52">
 
           <p class="p_indent"></p>
           <p class="p_indent">     
@@ -174,7 +174,7 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Generating two pulses through modeling</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 To construct a system in which the scent automatically change over time, we have developed a multi-target IFFL, an extension of the incoherent feed forward loop (IFFL).
@@ -201,7 +201,7 @@
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">War in the mirror: racemase</h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 In the zombie vs. Samurai storyline, we envisioned a scenario in which one side deprives their opponent of the food they need. That is to say, one side consumes D-amino acid and the other consumes L-amino acid derived food, and both sides converts their opponent’s amino acid to make them edible only for themselves. 
@@ -227,7 +227,7 @@
           <h2 class="h2_text_hp">Intreactions between reseaech activities and Human Practice activities <br/>
             Feedbacks from Human Practice activities to our reseaech activities </h2>
       </v-col>
-      <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
+      <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
               <p class="p_indent">     
                 Our iGEM wet and modeling studies has interacted with human practice activity throughout the year.
@@ -259,12 +259,24 @@
 
 <script>
 
+const pageTitle = 'Main';
+const pageDes = "iGEM2020 Team Waseda's Wiki";
+const pageUrl = 'https://2020.igem.org/Team:Waseda';
 
 
 export default {
-  components: {
+  
+  head: {
 
-  }
+    title: pageTitle,
+    meta: [
+      //Change each page
+      { hid: 'description', name: 'description', content: pageDes},
+      { hid: 'og:title', property: 'og:title', content: pageDes },
+      { hid: 'og:description', property: 'og:description', content: pageDes },
+      { hid: 'og:url', property: 'og:url', content: pageUrl },
+    ],
+  },
 }
 </script>
 
@@ -281,12 +293,12 @@ export default {
     &_1{
       height: 0;
       margin-top: -80px;
-      padding-top: 57%;
+      padding-top: 58%;
       background-size: contain;
       background-image: url("https://2020.igem.org/wiki/images/9/94/T--Waseda--TopMainImage.png");
     }
     &_2{
-      margin-top: -57%;
+      margin-top: -58%;
     }
   }
 
