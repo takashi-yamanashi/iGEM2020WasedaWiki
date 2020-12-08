@@ -197,9 +197,29 @@
   <!-- </v-layout> -->
 </template>
 <script>
+
+const pageTitle = 'Engineering';
+const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
+const pageUrl = 'https://2020.igem.org/Team:Waseda/Engineering';
+
+
 export default {
+  
+  head: {
+
+    title: pageTitle,
+    meta: [
+      //Change each page
+      { hid: 'description', name: 'description', content: pageDes},
+      { hid: 'og:title', property: 'og:title', content: pageDes },
+      { hid: 'og:description', property: 'og:description', content: pageDes },
+      { hid: 'og:url', property: 'og:url', content: pageUrl },
+    ],
+  },
+
   data: () => {
     return {
+
       fab: false,
       scrollY: 0,
       scrollPer: 510.293,

@@ -238,6 +238,7 @@ export default {
 #HQ_page p {
   font-size: initial;
   font-size: 24px;
+  overflow-wrap: normal;
 }
 #bodyContent h1, #bodyContent h2 {
     margin-bottom: 0;
@@ -294,7 +295,7 @@ p {
     background-color: #B09161;
 }
 .navi_home_logo {
-  width: 130px;
+  width: 100px;
 }
 .navi_logo {
   width: 85px;
