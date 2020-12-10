@@ -340,9 +340,9 @@ export default {
 
 
   },
-//   mounted() {
-//     this.pushElementOffsetTop();
-//   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 
