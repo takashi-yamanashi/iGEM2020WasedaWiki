@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@mdi/font": "^5.8.55",
     "@nuxt/content": "^1.8.1",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/sitemap": "^2.4.0",

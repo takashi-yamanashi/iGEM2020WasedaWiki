@@ -11,23 +11,20 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#ACC1D3" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/7/72/T--Waseda--iGEM2020wikiicons-04.svg">
             
                         </v-row>
 
             
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
-                        <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
-                        <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
-                        <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a> -->
+                        <a href="Racemase#section_01"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Introduction</v-row></a>
+                        <a href="Racemase#section_02"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Material and methods</v-row></a>
+                        
                         
 
                     </v-row>
@@ -38,7 +35,7 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                   
-                    <v-row justify="center" text-align="left">
+                    <v-row justify="center" text-align="left" id="section_01">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
                             <h1 class='h1_text' pushElementOffsetTop>Racemase ~War in the mirror~</h1>
@@ -46,11 +43,11 @@
                         </v-row>
                     </v-row>
                     
-                    <v-row v-scroll="pushScrollY" id="section_01"> 
+                    <v-row v-scroll="pushScrollY" > 
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Introduction</h2>
                       </v-row>
-                      </v-row>
+                    </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
@@ -340,7 +337,7 @@
                           <p class="p_indent">   
                               In our project, alanine racemase was expressed in<i> E. coli</i> and purified to create a situation with and without L-alanine as a substrate required for the cell-free protein synthesis of the reporter protein. Different situations resulted in different expression of GFP in the cell-free system, which indirectly assayed racemization by racemase. Our experiments were performed in the PURE system and achieved theoretical results in each condition, consistent with the 'war in the mirror' scenario. Furthermore, the system was confirmed to be sensitive to substrate amount.                         
                           </P>
-                          <p class="p_indent">    
+                          <p class="p_indent" id="section_02">    
                               Alanine racemase is generally absent in higher eukaryotes such as human but is ubiquitous throughout bacteria. Some bacteria are known to be resistant in a variety of settings (optimal pH[Watanabe et.al 2002], etc) and should be considered when performing drug discovery assays.                           
                           </p>
                         </v-col>
@@ -368,8 +365,8 @@
                               The composition of buffers used was as follows: <br/>
                                            Buffer S, 50mM Tris-Cl pH 7.6, 300mM NaCl, 0.05% TritonX-100, 1mM DTT; <br/>
                                            Buffer W, 50mM Tris-Cl pH 7.6, 300mM NaCl, 1mM imidazole, 1mM DTT; <br/>
-Buffer E, 50mM Tris-Cl pH 7.6, 300mM NaCl, 100mM imidazole, 1mM DTT; <br/>
-Buffer D, 50mM Tris-Cl pH 8.0, 100mM NaCl, 100µM EDTA, 1mM DTT;<br/>
+                                            Buffer E, 50mM Tris-Cl pH 7.6, 300mM NaCl, 100mM imidazole, 1mM DTT; <br/>
+                                            Buffer D, 50mM Tris-Cl pH 8.0, 100mM NaCl, 100µM EDTA, 1mM DTT;<br/>
                           </P>
                           <p class="p_indent">  
                               For the purification of alanine racemase, our new part (BBa_K3580201) on the <i>E. coli</i> BL21(DE3)star strain on a T5 promoter-controlled, chloramphenicl-resistant pCA24N vector was transformed by the heat shock method on LB agar media. The transformed BL21(DE3)star was grown overnight on 3 ml of LB media with 25ng/µl chloramphenicol(LB-Cm). The culture medium was diluted 100-fold in 200 ml of fresh LB-Cm and incubated at 37°C, 140 rpm until OD 600nm =0.7-0.8. IPTG was then added to the culture medium to a final concentration of 1mM and incubated at 30°C, 140 rpm for 19 hours. After incubation, the cells were collected by centrifugation and frozen at -80°C. The bacteria suspended in Buffer S was sonicated and the lysate was centrifuged for 10 min at 12,000 rpm and the supernatant was collected. The supernatant was rotated with equilibrated Ni beads (50% slurry, His 60 Ni super flow resin, takara) for 1 hour at 4°C. Rotated material was passed through a 20 ml Open column (Econopak, biorad) and washed twice with Buffer W. The alanine racemase His-Tag was purified by elution of 1 ml each with Buffer E. SDS-PAGE confirmed a concentrated fraction and the sample was dialyzed with Buffer D. The dialyzed samples were stored at -80°C. The concentration of the purified racemase was quantified by the Bradford method using a dilution series of BSA(Bio-Rad).                           
@@ -441,7 +438,7 @@ Buffer D, 50mM Tris-Cl pH 8.0, 100mM NaCl, 100µM EDTA, 1mM DTT;<br/>
                           <h3> Cell extract(S12) preparation for Racemase assay</h3>
                           <p class="p_indent">  
                              
-The preparation of <i>E. coli</i> extracts for the racemase assay essentially followed the method described on extract protocol( <nuxt-link to='Protocol'> Go to Protocol page </nuxt-link>)
+                            The preparation of <i>E. coli</i> extracts for the racemase assay essentially followed the method described on extract protocol( <nuxt-link to='Protocol'> Go to Protocol page </nuxt-link>)
 
                           </P>
                           <p class="p_indent">  
@@ -488,26 +485,26 @@ The preparation of <i>E. coli</i> extracts for the racemase assay essentially fo
                         <v-col>
                           <h3>Reference</h3>
                           <p >
-                              [Milton et.al 1992] Milton, R., Milton, S., & Kent, S. (1992). Total chemical synthesis of a D-enzyme: The enantiomers of HIV-1 protease show reciprocal chiral substrate specificity [corrected]. Science, 256(5062), 1445-1448. doi:10.1126/science.1604320
-[Tugyi et.al 2005] Tugyi, R., Uray, K., Iván, D., Fellinger, E., Perkins, A., & Hudecz, F. (2005). Partial d-amino acid substitution: Improved enzymatic stability and preserved ab recognition of a MUC2 epitope peptide. Proceedings of the National Academy of Sciences, 102(2), 413-418. doi:10.1073/pnas.0407677102
-[Garton et.al 2018] Garton, M., Nim, S., Stone, T. A., Wang, K. E., Deber, C. M., & Kim, P. M. (2018). Method to generate highly stable D-amino acid analogs of bioactive helical peptides using a mirror image of the entire PDB. Proceedings of the National Academy of Sciences, 115(7), 1505-1510. doi:10.1073/pnas.1711837115
-[Oberthür et.al 2015] Oberthür, D., Achenbach, J., Gabdulkhakov, A., Buchner, K., Maasch, C., Falke, S., Rehders, D., Klussmann, S., Betzel, C. (2015). Crystal structure of a mirror-image L-RNA aptamer (spiegelmer) in complex with the natural L-protein target CCL2. Nature Communications, 6(1), 6923. doi:10.1038/ncomms7923
-[Majier et.al 2016] Maier, K., & Levy, M. (2016). From selection hits to clinical leads: Progress in aptamer discovery. Molecular Therapy.Methods & Clinical Development, 5, 16014. doi:10.1038/mtm.2016.14
-[Schumacher et.al 1996] Schumacher, T. N. M., Mayr, L. M., Minor, D. L., Milhollen, M. A., Burgess, M. W., & Kim, P. S. (1996). Identification of d-peptide ligands through mirror-image phage display. Science, 271(5257), 1854-1857. doi:10.1126/science.271.5257.1854
-[Funke et.al 2009] Funke, S. A., & Willbold, D. (2009). Mirror image phage display—a method to generate d-peptideligands for use in diagnostic or therapeutical applications. Mol.BioSyst., 5(8), 783-786. doi:10.1039/B904138A"
-[Walish 1989] Walsh, C. T. (1989). Enzymes in the D-alanine branch of bacterial cell wall peptidoglycan assembly. The Journal of Biological Chemistry, 264(5), 2393-2396.
-[Azam et.al 2016] Azam, M. A., & Jayaram, U. (2016). Inhibitors of alanine racemase enzyme: A review. Journal of Enzyme Inhibition and Medicinal Chemistry, 31(4), 517-526. doi:10.3109/14756366.2015.1050010
-[Shimizu et.al 2001]Shimizu, Y., Inoue, A., Tomari, Y., Suzuki, T., Yokogawa, T., Nishikawa, K., & Ueda, T. (2001). Cell-free translation reconstituted with purified components. Nature Biotechnology, 19(8), 751-755. doi:10.1038/90802
-[Kuncha et.al 2019] Kuncha, S. K., Kruparani, S. P., & Sankaranarayanan, R. (2019). Chiral checkpoints during protein biosynthesis. The Journal of Biological Chemistry, 294(45), 16535-16548. doi:10.1074/jbc.REV119.008166
-[Whalen et,al 1985] Whalen WA, Wang MD, Berg CM. beta-Chloro-L-alanine inhibition of the Escherichia coli alanine-valine transaminase. J Bacteriol. 1985;164(3):1350-1352. doi:10.1128/JB.164.3.1350-1352.1985
-[Arfin et.al 1971] Arfin, S., & Koziell, D. (1971). Inhibition of growth of salmonella typhimurium and of threonine deaminase and transaminase B by beta-chloroalanine. Journal of Bacteriology, 105(2), 519—522. doi:10.1128/jb.105.2.519-522.1971
-[Manning et.al 1974] Manning JM, Merrifield NE, Jones WM, Gotschlich EC. Inhibition of bacterial growth by beta-chloro-D-alanine. Proc Natl Acad Sci U S A. 1974;71(2):417-421. doi:10.1073/pnas.71.2.417
+                              [Milton et.al 1992] Milton, R., Milton, S., & Kent, S. (1992). Total chemical synthesis of a D-enzyme: The enantiomers of HIV-1 protease show reciprocal chiral substrate specificity [corrected]. Science, 256(5062), 1445-1448. doi: 10.1126/science.1604320 <br>
+                            [Tugyi et.al 2005] Tugyi, R., Uray, K., Iván, D., Fellinger, E., Perkins, A., & Hudecz, F. (2005). Partial d-amino acid substitution: Improved enzymatic stability and preserved ab recognition of a MUC2 epitope peptide. Proceedings of the National Academy of Sciences, 102(2), 413-418. doi: 10.1073/pnas.0407677102 <br>
+                            [Garton et.al 2018] Garton, M., Nim, S., Stone, T. A., Wang, K. E., Deber, C. M., & Kim, P. M. (2018). Method to generate highly stable D-amino acid analogs of bioactive helical peptides using a mirror image of the entire PDB. Proceedings of the National Academy of Sciences, 115(7), 1505-1510. doi: 10.1073/pnas.1711837115 <br>
+                            [Oberthür et.al 2015] Oberthür, D., Achenbach, J., Gabdulkhakov, A., Buchner, K., Maasch, C., Falke, S., Rehders, D., Klussmann, S., Betzel, C. (2015). Crystal structure of a mirror-image L-RNA aptamer (spiegelmer) in complex with the natural L-protein target CCL2. Nature Communications, 6(1), 6923. doi: 10.1038/ncomms7923 <br>
+                            [Majier et.al 2016] Maier, K., & Levy, M. (2016). From selection hits to clinical leads: Progress in aptamer discovery. Molecular Therapy.Methods & Clinical Development, 5, 16014. doi:10.1038/mtm.2016.14 <br>
+                            [Schumacher et.al 1996] Schumacher, T. N. M., Mayr, L. M., Minor, D. L., Milhollen, M. A., Burgess, M. W., & Kim, P. S. (1996). Identification of d-peptide ligands through mirror-image phage display. Science, 271(5257), 1854-1857. doi:10.1126/science.271.5257.1854 <br>
+                            [Funke et.al 2009] Funke, S. A., & Willbold, D. (2009). Mirror image phage display—a method to generate d-peptideligands for use in diagnostic or therapeutical applications. Mol.BioSyst., 5(8), 783-786. doi:10.1039/B904138A" <br>
+                            [Walish 1989] Walsh, C. T. (1989). Enzymes in the D-alanine branch of bacterial cell wall peptidoglycan assembly. The Journal of Biological Chemistry, 264(5), 2393-2396. <br>
+                            [Azam et.al 2016] Azam, M. A., & Jayaram, U. (2016). Inhibitors of alanine racemase enzyme: A review. Journal of Enzyme Inhibition and Medicinal Chemistry, 31(4), 517-526. doi:10.3109/14756366.2015.1050010 <br>
+                            [Shimizu et.al 2001]Shimizu, Y., Inoue, A., Tomari, Y., Suzuki, T., Yokogawa, T., Nishikawa, K., & Ueda, T. (2001). Cell-free translation reconstituted with purified components. Nature Biotechnology, 19(8), 751-755. doi: 10.1038/90802 <br>
+                            [Kuncha et.al 2019] Kuncha, S. K., Kruparani, S. P., & Sankaranarayanan, R. (2019). Chiral checkpoints during protein biosynthesis. The Journal of Biological Chemistry, 294(45), 16535-16548. doi: 10.1074/jbc.REV119.008166 <br>
+                            [Whalen et,al 1985] Whalen WA, Wang MD, Berg CM. beta-Chloro-L-alanine inhibition of the Escherichia coli alanine-valine transaminase. J Bacteriol. 1985;164(3):1350-1352. doi: 10.1128/JB.164.3.1350-1352.1985 <br>
+                            [Arfin et.al 1971] Arfin, S., & Koziell, D. (1971). Inhibition of growth of salmonella typhimurium and of threonine deaminase and transaminase B by beta-chloroalanine. Journal of Bacteriology, 105(2), 519—522. doi: 10.1128/jb.105.2.519-522.1971 <br>
+                            [Manning et.al 1974] Manning JM, Merrifield NE, Jones WM, Gotschlich EC. Inhibition of bacterial growth by beta-chloro-D-alanine. Proc Natl Acad Sci U S A. 1974;71(2):417-421. doi:10.1073/pnas.71.2.417 <br>
 
-[Mobashery et.al 1987] Mobashery, S., & Johnston, M. (1987). Inactivation of alanine racemase by .beta.-chloro-L-alanine released enzymically from amino acid and peptide C10-esters of deacetylcephalothin.Biochemistry, 26(18), 5878-5884. doi:10.1021/bi00392a045
-[Watanabe et.al 2002] Watanabe, A., Yoshimura, T., Mikami, B., Hayashi, H., Kagamiyama, H., & Esaki, N. (2002). Reaction mechanism of alanine racemase from bacillus stearothermophilus: X-ray crystallographic studies of the enzyme bound with N-(5'-phosphopyridoxyl)alanine. The Journal of Biological Chemistry, 277(21), 19166-19172. doi:M201615200
-[Strych et.al 2007] Strych U, Davlieva M, Longtin JP, et al. Purification and preliminary crystallization of alanine racemase from Streptococcus pneumoniae. BMC Microbiol. 2007;7:40. Published 2007 May 17. doi:10.1186/1471-2180-7-40
-[Ju et.al 2010]Ju, J., Xu, S., Furukawa, Y., Zhang, Y., Misono, H., Minamino, T., Nambe, K. Zhao, B. Ohnishi, K. (2010). Correlation between catalytic activity and monomer–dimer equilibrium of bacterial alanine racemases. The Journal of Biochemistry, 149(1), 83-89. doi:10.1093/jb/mvq120
-[Silverman et.al 2019]Silverman, A. D., Kelley-Loughnane, N., Lucks, J. B., & Jewett, M. C. (2019). Deconstructing cell-free extract preparation for in vitro activation of transcriptional genetic circuitry. ACS Synthetic Biology, 8(2), 403-414. doi:10.1021/acssynbio.8b00430
+                            [Mobashery et.al 1987] Mobashery, S., & Johnston, M. (1987). Inactivation of alanine racemase by .beta.-chloro-L-alanine released enzymically from amino acid and peptide C10-esters of deacetylcephalothin.Biochemistry, 26(18), 5878-5884. doi: 10.1021/bi00392a045 <br>
+                            [Watanabe et.al 2002] Watanabe, A., Yoshimura, T., Mikami, B., Hayashi, H., Kagamiyama, H., & Esaki, N. (2002). Reaction mechanism of alanine racemase from bacillus stearothermophilus: X-ray crystallographic studies of the enzyme bound with N-(5'-phosphopyridoxyl)alanine. The Journal of Biological Chemistry, 277(21), 19166-19172. doi: M201615200<br>
+                            [Strych et.al 2007] Strych U, Davlieva M, Longtin JP, et al. Purification and preliminary crystallization of alanine racemase from Streptococcus pneumoniae. BMC Microbiol. 2007;7:40. Published 2007 May 17. doi: 10.1186/1471-2180-7-40<br>
+                            [Ju et.al 2010]Ju, J., Xu, S., Furukawa, Y., Zhang, Y., Misono, H., Minamino, T., Nambe, K. Zhao, B. Ohnishi, K. (2010). Correlation between catalytic activity and monomer–dimer equilibrium of bacterial alanine racemases. The Journal of Biochemistry, 149(1), 83-89. doi: 10.1093/jb/mvq120<br>
+                            [Silverman et.al 2019]Silverman, A. D., Kelley-Loughnane, N., Lucks, J. B., & Jewett, M. C. (2019). Deconstructing cell-free extract preparation for in vitro activation of transcriptional genetic circuitry. ACS Synthetic Biology, 8(2), 403-414. doi: 10.1021/acssynbio.8b00430<br>
 
 
                           </p>
@@ -525,9 +522,9 @@ The preparation of <i>E. coli</i> extracts for the racemase assay essentially fo
 
 
                     <!-- <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template> -->
-                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template> -->
                     <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template> -->
 
  
                 </v-col>
@@ -564,7 +561,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false,],
+      check: [false, false, false],
 
     };
   },
@@ -587,7 +584,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'section_01','section_02','section_03','section_04',
+        'section_01','section_02','section_03',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);

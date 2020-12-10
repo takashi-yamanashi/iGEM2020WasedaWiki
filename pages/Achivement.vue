@@ -38,80 +38,75 @@
 
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                   
-                    <v-row justify="center" text-align="left">
+                    <v-row justify="center" text-align="left" id="section_01">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
-                            <h1 class='h1_text' pushElementOffsetTop>Contribution</h1>
+                            <h1 class='h1_text' pushElementOffsetTop>Achivement</h1>
                           </v-col>
                         </v-row>
                     </v-row>
                     
-                    <v-row v-scroll="pushScrollY" id="section_01"> 
-                      <v-row class="row_max-box">
-                        <h2 class="h2_text"></h2>
-                      </v-row>
-                    </v-row>
-
+      
                     <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col cols="12" class="row_max-box">
-                            <h3></h3>
-                            <p><b>
-                                Add new documentation to an existing Part on that Part's Registry page:
-                            </b></p>
-                            <p class="p_indent"> 
-                                <a class="link_style"  href="http://parts.igem.org/Part:BBa_K1529321">BBa_K1529321</a> (PrhlRR-GFP) and 
-                                by improving plux/tet-GFP <a class="link_style"  href="http://parts.igem.org/Part:BBa_K1529311">BBa_K1529311</a> (PluxLR-GFP) has been analyzed in vivo activity. Here, we added new data obtained by cell-free protein synthesis.
-                            </p>
-                            <p class="p_indent"> 
-                                For the crosstalk experiments, we constructed two kinds of cell-free translation systems containing substantial amount of R proteins (luxR,rhlR). In those systems, we put signaling molecules (3OHSL-C4 or 3OHSL-C6) and target genes (plux/tet-GFP or prhl-RR-GFP), respectively. We measured the fluorescence of GFP expressed from plux/tet-GFP and prhl(RR)-GFP on a RT-qPCR machine.
-                            </p>
-                            <p class="p_indent"> 
-                                Fig 1 shows the result of the crosstalk test in a cell-free system containing sufficient amount of LuxR protein.   In the results, non-cognate Prhl(RR) promoter was highly activated by luxR-3OC6HSL complex as well as the cognate Plux/tet promoter.
-                                Fig 2 shows the result of the crosstalk test in a cell-free system containing sufficient amount of RhlR protein.
+                            <h2>Award</h2>
+                                <h3>&nbsp;&nbsp;Information Processing Track award !</h3>
+                                <h3>&nbsp;&nbsp;Best Education (Nomination)</h3>
 
+
+                            <p><br></p>
+                            <h2>Criteria</h2>
+                            <h3>Special achievement - World's first report!</h3>
+                            <p>* Confirmed rhl system activity and crosstalk in a cell-free system.<br>
+                                * Modeled in the cell-free system including crosstalk.<br>
+                                * Sabinene synthesis using cell extracts.<br>
+                                * Our original methodology, based on the substrate specificity of the racemase, was able to demonstrate the high accuracy of the experimental PURE system.<br>
+                                * Proposal of substance detection kit to detect balance. (Business)<br>
                             </p>
 
-                            <p class="p_indent"> <br></p>
-
-
-                            <figure class="fig_full_width" >
-                            <img class="image_max" src="https://2020.igem.org/wiki/images/9/98/T--Waseda--crosstalk_luxR.png"
-                            alt="Fig1 Prhl(RR)-GFP assay in a cell-free system containing LuxR">
-                            <figcaption class="fig_title">Fig1 Prhl(RR)-GFP assay in a cell-free system containing LuxR</figcaption>
-                            </figure>
-                            <p class="p_indent"> <br></p>
-
-                            <figure class="fig_full_width" >
-                            <img class="image_max" src="https://2020.igem.org/wiki/images/e/ec/T--Waseda--crosstalk_rhlR.png"
-                            alt="Fig2 Prhl(RR)-GFP assay in a cell-free system containing rhlR">
-                            <figcaption class="fig_title">Fig2 Prhl(RR)-GFP assay in a cell-free system containing rhlR</figcaption>
-                            </figure>
-                            <p class="p_indent"> <br></p>
-
-
-
-                            <p><b> 
-                                We have also described monotelpensynthesis by using either 
-                                <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a> (improved part) or 
-                                <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580102">BBa_K3580102</a> (new part). 
-                            </b></p>
-
-                            <p class="p_indent"> <br></p>
-
-
-                            <figure class="fig_full_width" >
-                            <img class="image_max" src="https://2020.igem.org/wiki/images/f/f7/T--Waseda--monoterpene_2-2-2_GCMS_analysis_results_of_limonene_synthesis_system.png"
-                            alt="Fig. 2-2-2 GC / MS analysis results of limonene synthesis system">
-                            <figcaption class="fig_title">Fig. 2-2-2 GC / MS analysis results of limonene synthesis system</figcaption>
-                            </figure>
-
-                            <p class="p_indent"> <br></p>
-                            <p class="p_indent"> 
-                                We confirmed limonene synthesis GC/MS analysis with SIM.  In this SIM analysis, ions with four m/z values characteristic in limonene (68 and 93) and sabinene (77 and 91, 93) were analyzed.   By using authentic limonene standard, we confirmed a retention time for GC and the characteristic limonene SIM signal at the specific m/z values.  At the same retention time with the standard, limonene-specific m/z value (68, 93) ions were detected in the selected ions (The upper right figure of Figure. 2-2-2).  We also draw a GC chart by summation of the signals from the selected ions (The lower left figure of Figure. 2-2-2).  By comparison with a negative control experiment which we omitted the extract containing GPP synthase and limonene synthase, we found clear peak from our limonene synthesis.
-                            
+                            <h3>Bronze</h3>
+                            <p>
+                                <b>1. Competition Deliverables</b><br>
+                                    We have created a Wiki page and a Poster page, released a Presentation Video and a Project Promotion Video, submitted the judging form.<br><br>
+                                <b>2. Attributions</b><br>
+                                    We have received lots of help from professors and other people during the development of our project.<br><br>
+                                <b>3. Project Description</b><br>
+                                    We conducted the project through DBTL, such a dialogue with general public, modeling, and wet experiments.<br><br>
+                                <b>4. Contribution</b><br>
+                                    We revealed that Prhl(RR)-GFP (BBa_K1529321) can work in vitro.
                             </p>
-                
+
+
+                            <h3>Silver</h3>
+                            <p>
+                                <b>1. Engineering Success</b><br>
+                                    We have proven that the functions of a constructed Alanine Racemase (BBa_K3580200) parts work as expected.<br><br>
+                                <b>2. Collaboration</b><br>
+                                    We collaborated with the 2019 iGEM Qdai Team to help each other's modeling.<br><br>
+                                <b>3. Human Practices</b><br>
+                                    Since the project began, we talked with the general public and confirmed the “safety” and “ethics” of our project around cell-free system. For more info, please refer to our Human Practices page (Wiki & Poster).<br><br>
+                                <b>4. Proposed Implementation</b><br>
+                                    We have proposed a business model based on the "SAMURAI System" (our project). For more info, please refer to our Implementation page (Wiki), Entrepreneurship page (Wiki & Poster).<br><br>
+`
+
+
+                            </p>
+
+                            <h3>Gold</h3>
+                            <p>
+                                <b>1. Improvement of an Existing Part</b><br>
+                                        To see the improvement in degradation effect by ssrA tagging, we construct a improved part (BBa_K3580003) by modification of an existing part: Plux/tet-GFP (BBa_K934025). For more info, please refer to our Degradation-tag page (Poster, Zombie vs Samurai 4).<br><br>
+                                    <b>2. Project Modeling</b><br>
+                                        We modeled the genetic circuit for the Zombie and Samurai war. Then, We have also achieved more robust modeling that reflects the results of the wet experiment. For more info, please refer to our Zombie vs Samurai page (Wiki & Poster).<br><br>
+                                    <b>3. Integrated Human Practices</b><br>
+                                        We have repeated dialogs and created a business model for socially implementing the project. For more info, please refer to our Entrepreneurship page (Wiki & Poster).<br><br>
+                                    <b>4. Science Communication</b><br>
+                                        We have taught high school students what synthetic biology is. For more info, please refer to our Education page (Wiki & Poster).<br><br>
+                                    <b>5. Excellence in Another Area</b><br>
+                                        We have created a concept art work to help many people get inspiration for our projects and synthetic biology.<br><br>
+
+                            </p>
 
                         </v-col>
 
@@ -139,9 +134,9 @@
 </template>
 <script>
 
-const pageTitle = 'Contribution';
+const pageTitle = 'Achivement';
 const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
-const pageUrl = 'https://2020.igem.org/Team:Waseda/Contribution';
+const pageUrl = 'https://2020.igem.org/Team:Waseda/Achivement';
 
 
 export default {

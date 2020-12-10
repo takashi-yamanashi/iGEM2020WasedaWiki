@@ -11,18 +11,18 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#ACC1D3" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#F4CCCB" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/7/72/T--Waseda--iGEM2020wikiicons-04.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/2/2f/T--Waseda--iGEM2020wikiicons-award.svg">
             
                         </v-row>
 
             
                     <v-row class="navi_text">
-                        <a href="Protocol#S12"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Cell extract(S12)</v-row></a>
+                        <!-- <a href="Protocol#S12"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Cell extract(S12)</v-row></a> -->
                         <!-- <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
                         <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
                         <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
@@ -41,59 +41,42 @@
                     <v-row justify="center" text-align="left">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
-                            <h1 class='h1_text' pushElementOffsetTop>Protocol</h1>
+                            <h1 class='h1_text' pushElementOffsetTop>Video</h1>
                           </v-col>
                         </v-row>
                     </v-row>
                     
-                    <v-row v-scroll="pushScrollY" id="OverviewTop"> 
+                    <v-row v-scroll="pushScrollY" id="section_01"> 
                       <v-row class="row_max-box">
-                        <h2 class="h2_text">Cell extract(S12) preparation protocol </h2>
+                        <h2 class="h2_text"></h2>
                       </v-row>
-                      </v-row>
+                    </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
-                        <v-col>
-                          
-                          <p class="p_indent" id="S12"> 
-                              We based the preparation of E. coli extracts for cell-free reactions on a paper by Jewett [Kwon et.al 2015]. The basic protocol is as follows.                            
-                          </P>
-                          <p >
-                                1. Cells were cultured in overnight as pre culture. <br/>
+                        <v-col cols="12" class="row_max-box">
+                            <h3>Promotion Video</h3>
+                            <div class="iframe">
+                                <iframe width="100%" height="100%" sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.igem.org/videos/embed/9864a4c8-8f01-4065-9ce4-a16e245b2408?loop=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
 
-                                2. Diluted overnight cell culture were cultured in fresh medium to OD=3.0 (3~4h) <br/>
+                            <p class="p_indent"> <br></p>
+                            <h3>Presentation Video</h3>
+                            <div class="iframe">
+                                <iframe width="100%" height="100%" sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.igem.org/videos/embed/9026762d-cab0-434b-92c2-82b4d0ed8cec?loop=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
 
-                                3. The cells were harvested by centrifuging(7200x g) and washed with S12 Buffer.  <br/>
 
-                                4. Cells were sonicated 1 min 50 sec in total( 900 ~ 1200 J) <br/>
+                
+                            
 
-                                5. Lysate were centrifuged. (12000 x g) <br/>
-
-                                6. The supernatant after centrifugation was frozen at -80°C ( keep -80 C)         <br/>                      
-                          </p>
-
-                          <p class="p_indent"> 
-                              S12 Buffer  contained 10 mM Tris-acetate (pH 8.2), 14 mM magnesium acetate, 60 mM potassium glutamate and 2 mM dithiothreitol. 
-
-                                We sonicated cells by sonicator (Sonicator 3000,Qsonia) with microtip(microtip4118, Wakenbtech) 
-                              </p>
-                              <p class="p_indent"> 
-                                  The culture medium and strains used at the time of culture vary from one experiment to another.
-                              </p>
+                            <p class="p_indent"> <br></p>
+                
 
                         </v-col>
-                      </v-row>
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
-                        <v-col>
-                          <h3>Reference </h3>
-                          <p>
-                              [Kwon et.al 2015] Kwon, Y., & Jewett, M. C. (2015). High-throughput preparation methods of crude extract for robust cell-free protein synthesis. Scientific Reports, 5(1), 8663. doi:10.1038/srep08663                           
-                          </p>
-                        </v-col>
-                      </v-row>
+                    </v-row>
 
 
          
@@ -101,9 +84,9 @@
 
 
                     <!-- <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template> -->
-                    <!-- <v-template  v-scroll="pushScrollY" id="sectio/n_02"><v-col class="last_message"></v-col></v-template> -->
+                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template> -->
 
  
                 </v-col>
@@ -116,9 +99,9 @@
 </template>
 <script>
 
-const pageTitle = 'Protocol';
+const pageTitle = 'Video';
 const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
-const pageUrl = 'https://2020.igem.org/Team:Waseda/Protocol';
+const pageUrl = 'https://2020.igem.org/Team:Waseda/Video';
 
 
 export default {
@@ -167,7 +150,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'S12','section_03','section_04',
+        'section_01','section_02','section_03',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -195,7 +178,7 @@ p{
     height: 100vh;
     position: fixed;
     width: 17%;
-    background-image: url("https://2020.igem.org/wiki/images/e/e9/T--Waseda--Tasukinisakura1.png");
+    background-image: url("https://2020.igem.org/wiki/images/4/4e/T--Waseda--MakiRed.png");
     background-size: 100% auto;
     background-repeat: repeat;
 }
@@ -266,9 +249,9 @@ h2 {
         background-color: white;
   }
   &_svg {
-      position:absolute; top:40px; left:20px; 
-      width: 160px;
-      height: 160px;
+      position:absolute; top:35px; left:15px; 
+      width: 170px;
+      height: 170px;
   }
 }
 #triangle {
@@ -301,25 +284,19 @@ h2 {
   margin-bottom: 400px;
 }
 
-a:link {
-  color: black;
-  text-decoration: none;
+
+.iframe {
+    position:relative;
+    width:100%;
+    height:0;
+    padding-top:75%;
 }
-
-/* visited link */
-a:visited {
-  color: black;
+.iframe iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
-
 </style>
+

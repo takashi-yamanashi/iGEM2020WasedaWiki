@@ -1,9 +1,9 @@
 <template>
+<!-- </v-layout> -->
 <v-container fluid ma-0 pa-0 fill-height class="top_bg"> 
   <v-container fluid ma-0 pa-0 class="top_bg_top1">
     <v-row justify="center" align="center" class="top_bg_top1_1">
       <v-col cols="12" sm="8" md="6" class="top_bg_top1_2">
-
 
       </v-col>
     </v-row>
@@ -12,9 +12,9 @@
 
 
   <v-container fluid pa-0 class="top_bg_top2"> 
-    <v-row justify="center" align="Top"  class="top_bg_top2_1"> 
-    </v-row>
-    <v-row justify="center" align="Top">
+    <v-row justify="center" class="top_bg_top2_1"></v-row>
+
+    <v-row justify="center">
       <v-col cols="11" xs="11" sm="8" md="7" lg="8" xl="7" class="top_bg_top2_2">
         <v-row>
           <video width="100%" height="auto" controls>
@@ -44,7 +44,7 @@
   </v-container>
 
   <v-container fluid pa-0 class="top_bg_top3_5">
-    <v-row justify="center" align="Top" class="top_bg_top3_5_32">
+    <v-row justify="center" class="top_bg_top3_5_32">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Project Overview</h2>
       </v-col>
@@ -77,9 +77,9 @@
 
   </v-container>
 
-    <v-container fluid pa-0 class="top_bg_top3_5">
+  <v-container fluid pa-0 class="top_bg_top3_5">
 
-    <v-row justify="center" align="Top">
+    <v-row justify="center">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">ZOMBIE vs. SAMURAI gene circuit</h2>
       </v-col>
@@ -93,7 +93,7 @@
           <p class="p_indent"></p>
           <p class="p_indent">     
             For Zombie vs. Samurai war, we completed information processing project in which Modeling and wet experiments interacted in turn.
-              Detailed information of the wet-dry interaction can be found here (Go to Gene Circuit page).
+              Detailed information of the wet-dry interaction can be found here (Go to <nuxt-link to='Model'>Model page</nuxt-link>).
           </p>
 
       </v-col>
@@ -101,9 +101,9 @@
       </v-row>
       <v-row justify="center" align="center" class="top_bg_top3_5_41"></v-row>
 
-      <v-row justify="center" align="Top">
+      <v-row justify="center">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center" class="top_bg_top3_5_42">
-          <h2 class="h2_text">Improvement in degradation both<br/> in vitro and in vivo</h2>
+          <h2 class="h2_text">Improvement in degradation both in vitro and in vivo</h2>
       </v-col>
       <v-col cols="11" xs="11" sm="11" md="10" lg="8" xl="7" class="top_bg_top3_5_43">
           <v-row class="row_max-box">
@@ -113,6 +113,7 @@
                     Rapid protein degradation is required to achieve working ZOMBIE vs SRAMURAI gene circuit in a cell-free system.
                      Therefore, we constructed plux/tet-GFPssrA ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) by improving plux/tet-GFP ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K934025">BBa_K934025</a> ) and test the effect of degradation tag in quorum sensing system.
                       We compared the fluorescence value of the GFP and tagged GFP both in vivo and in vitro. As a result, the value of tagged GFP was lower than that of normal GFP in both vivo and vitro, indication that degradation of GFP accelerated by the ssrA tag.
+                      (Go to <nuxt-link to='QS'>Gene Circuit Experiment</nuxt-link>).
                   </p>
             </v-col>
           </v-row>
@@ -138,9 +139,9 @@
       </v-row>
     </v-container>
 
-    <v-container fluid pa-0 class="top_bg_top3_5">
+  <v-container fluid pa-0 class="top_bg_top3_5">
 
-    <v-row justify="center" align="Top">
+    <v-row justify="center">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">cell-free monoterpene synthesis</h2>
       </v-col>
@@ -152,7 +153,8 @@
             In contrast with monoterpene synthesis using engineered microorganisms, cell-free synthesis can avoid the restriction caused by using living cells which is suffered from toxicity of monoterpenes. 
             The second strong point of the cell-free systems is its modularity of reaction solution. 
             When you make <i>E.coli</i> synthesizing monoterpenes, you have to introduce all kinds of gene required to synthesize monoterpenes into one cell. 
-            In contrast, cell-free reaction allow mixing of multiple cell extract in any ratio and many combinations. You can see our success in synthesis of monoterpenes (limonene and sabinene) here. (Go to Monoterpenes page) We think these strong points can achieve the engineering spirit of iGEM.
+            In contrast, cell-free reaction allow mixing of multiple cell extract in any ratio and many combinations. 
+            You can see our success in synthesis of monoterpenes (limonene and sabinene) here. (Go to  <nuxt-link to='Monoterpene'> Monoterpenes </nuxt-link>) We think these strong points can achieve the engineering spirit of iGEM.
 
           </p>
 
@@ -170,7 +172,7 @@
 
     <v-row justify="center" align="center" class="top_bg_top3_5_51"></v-row>
     
-    <v-row justify="center" align="Top">
+    <v-row justify="center">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">Generating two pulses through modeling</h2>
       </v-col>
@@ -180,6 +182,7 @@
                 To construct a system in which the scent automatically change over time, we have developed a multi-target IFFL, an extension of the incoherent feed forward loop (IFFL).
                 The IFFL is a kind of basic gene circuit in which concentration of gene Z change like a pulse over time. In Multi IFFL, we planned to control the expression timing of multiple genes Z with the same gene X and gene Y. 
                 We have extensively explored the model parameters to see if this system can actually create a time difference in the expression of the two genes. By balancing the shape of the two pulses and the time difference between the two peaks, we were able to create two pulses with a time lag in the model.
+                ( GO to <nuxt-link to='IFFL'>IFFL</nuxt-link> page )
 
               </p>
           </v-row>
@@ -194,10 +197,10 @@
 
         
     
-     </v-container>
+  </v-container>
 
   <v-container fluid pa-0 class="top_bg_top6">
-    <v-row justify="center" align="Top">
+    <v-row justify="center" >
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text">War in the mirror: racemase</h2>
       </v-col>
@@ -205,7 +208,7 @@
           <v-row>
               <p class="p_indent">     
                 In the zombie vs. Samurai storyline, we envisioned a scenario in which one side deprives their opponent of the food they need. That is to say, one side consumes D-amino acid and the other consumes L-amino acid derived food, and both sides converts their opponent’s amino acid to make them edible only for themselves. 
-                We especially focused on alanine racemase (AR), known as an attractive target for the antibacterial drug development. We confirmed the conversion by using cell-free protein synthesis dependent on D-alanine and racemase.
+                We especially focused on alanine racemase (AR), known as an attractive target for the antibacterial drug development. We confirmed the conversion by using cell-free protein synthesis dependent on D-alanine and racemase. ( Go to <nuxt-link to='Racemase'>Racemase</nuxt-link> page.) 
 
               </p>
           </v-row>
@@ -222,7 +225,7 @@
      
     <v-row justify="center" align="center" class="top_bg_top6_1"></v-row>
 
-    <v-row justify="center" align="Top">
+    <v-row justify="center">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
           <h2 class="h2_text_hp">Intreactions between reseaech activities and Human Practice activities <br/>
             Feedbacks from Human Practice activities to our reseaech activities </h2>
@@ -231,16 +234,16 @@
           <v-row>
               <p class="p_indent">     
                 Our iGEM wet and modeling studies has interacted with human practice activity throughout the year.
-                  As described above and on human practice page ( GO to human practice page ), our initial interaction with society made us confident to center our project around cell-free system.
+                  As described above and on human practice page ( GO to <nuxt-link to='Human_Practices'>Human Practices</nuxt-link> page ), our initial interaction with society made us confident to center our project around cell-free system.
                     Note that we, cell-free iGMEers, have to consider safety in recombinant DNA and other experiments, as cell-based iGEMers.  Our plasmid and extract preparations were in compliance with domestic laws.
               </p>
               <p class="p_indent">    
-                  Another HP activity was education to high school students. ( Go to the Education page.) 
+                  Another HP activity was education to high school students. ( Go to <nuxt-link to='Education'>Education</nuxt-link> page.) 
                   Their feedbacks were important to apply our project to entrepreneurship activity.  
-                  Additionally, although our app for modeling of synthetic genetic circuit was initially for the students, not only modeling-oriented team members but the other members came to understand each piece of our project from modeling point of view (Go to the software page.).  Such point of view is also important for daily design of experiments. 
+                  Additionally, although our app for modeling of synthetic genetic circuit was initially for the students, not only modeling-oriented team members but the other members came to understand each piece of our project from modeling point of view.  Such point of view is also important for daily design of experiments. 
               </p>
               <p class="p_indent">   
-              At other times, as an entrepreneur, we carefully researched and brushed up applications of cell free system on real-world problems, discussing them with general public and experts in the field who were facing real-world problems. (Go to Entrepreneurship page. ) Sometimes, our Entrepreneurship active asked new experiments and modeling which also expanded scope of our research.
+              At other times, as an entrepreneur, we carefully researched and brushed up applications of cell free system on real-world problems, discussing them with general public and experts in the field who were facing real-world problems. (Go to <nuxt-link to='Entrepreneurship'>Entrepreneurship</nuxt-link> page. ) Sometimes, our Entrepreneurship active asked new experiments and modeling which also expanded scope of our research.
 
               </p>
           </v-row>
@@ -254,7 +257,19 @@
     </v-row>
   </v-container>
 
+
+  <!-- <div class="medalfix" :class="{del: isActive}">
+    <img class="image_max" src="https://2020.igem.org/wiki/images/2/29/T--Waseda--TrackIcon_Information.svg" alt="Medal">
+    We are the proud winners of the iGEM 2020
+    <button v-on:click="isActive = !isActive"><span class="close">×</span></button>
+
+    <b>Information Processing Track award!</b>
+    Check out our other
+    <nuxt-link to="Achivement"> achievements.</nuxt-link>
+  </div> -->
+
 </v-container>
+<!-- </v-layout> -->
 </template>
 
 <script>
@@ -280,6 +295,17 @@ export default {
 
   components: {
 
+  },
+  data: () => {
+    return {
+      isActive: false,
+    };
+  },
+  
+  methods:{
+    change:function(){
+     this.isActive = !this.isActive;
+    }
   }
 }
 </script>
@@ -392,6 +418,35 @@ export default {
 .h2_text_hp {
   font-size: 30px;
   border-bottom: 5px solid black;
+}
+
+
+
+.medalfix {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    border: 3px solid black;
+    z-index: 999;
+    background-color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 15px;
+    color: black;
+    line-height: 1.2em;
+    font-weight: 300;
+    padding: 10px;
+}
+.close {
+    color: #111111;
+    right: 8px;
+    top: 10px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+}
+.del {
+  display: none;
 }
 </style>
 

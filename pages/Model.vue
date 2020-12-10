@@ -16,7 +16,7 @@
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/c/c3/T--Waseda--iGEM2020wikiicons-model.svg">
             
                         </v-row>
 
@@ -484,6 +484,14 @@
                         </figure>
                       </v-row>
 
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <p class="p_indent"> <br></p>
+                        <figure class="fig_mid_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/1/1a/T--Waseda--yamaiffl_ode_1.png" alt="Fig yamaiffl">
+                        
+                        </figure>
+                      </v-row>
+
                       
                       
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
@@ -491,7 +499,7 @@
                         <v-col>
                           
                           <p class="p_indent">       
-                            In the incoherent feed forward loop(Fig 4-2-1), the expressions of each gene: x,y, and z are formulated as the differential-equation (1), (2) and to (3).                     
+                            In the incoherent feed forward loop(Fig 4-2-1), the expressions of each gene: x,y, and z are formulated as the differential-equation (1), (2) and (3).
                           </P>
                           
                         </v-col>
@@ -578,12 +586,12 @@
                         <v-col>
                           <h3></h3>
                           <p class="p_indent"> 
-                            We designed an expanded IFFL system containing two target genes (Z1,Z2) each of which withhas different peak time to the other. We call this Multi -target- IFFL, or Multi IFFL. By adjusting the parameters for each activation and repression, we can provide a time difference in the generation of each pulse. To check whether the designed multi-target IFFL can really generate two pulses with a time delay, we extensively searched for parameter space for the system.                           
+                            We designed an expanded IFFL system containing two target genes (Z1,Z2) each of which with different peak time to the other. We call this Multi -target- IFFL, or Multi IFFL. By adjusting the parameters for each activation and repression, we can provide a time difference in the generation of each pulse. To check whether the designed multi-target IFFL can really generate two pulses with a time delay, we extensively searched for parameter space for the system.
                           </P>
                           <p class="p_indent">   
-                            We first investigated how the concentration of Z changes overwith time when the parameters Kx and Ky are changed independently in Formula (3).
+                            We first investigated how the concentration of Z changes over time when the parameters Kx and Ky are changed independently in Formula (3).
                             When searching, we varied Kx and Ky from 1 to 1000 every 100 and other parameters were fixed as shown on Table-4-2-2, Table-4-2-3 respectively.
-                           
+
                           </p>
                         </v-col>
                       </v-row>
@@ -595,7 +603,8 @@
                         <figcaption class="fig_title">Fig 4-2-3 Kx and Ky search independently</figcaption>
                         </figure>
                       </v-row>
-
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box"><br></v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
@@ -631,9 +640,10 @@
 
                         </v-col>
                       </v-row>
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box"><br></v-row>
+                      
 
-                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           <p>Table 4-2-3 Fixed parameters in the Ky search</p>
                         <template>
@@ -672,8 +682,8 @@
                         <v-col>
                           
                           <p class="p_indent">     
-                            Next, we constructed a heatmap to check how much time (t) of the pulse peak is delayed as we simultaneously changed the parameters Kx and Ky in the formlula (3). Fig. 4-2-4 is the results. 
-                            Other parameters are fixed as shown on Table 4-2-4.                        
+                            Next, we constructed a heatmap to check how much time (t) of the pulse peak is delayed as we simultaneously changed the parameters Kx and Ky in the formula (3). Fig. 4-2-4 is the results.                    
+                            Other parameters are fixed as shown on Table 4-2-4.
                           </p>
                         </v-col>
                       </v-row>
@@ -724,21 +734,6 @@
 
                         <v-row class="fig_full_width">
                         <object data="https://2020.igem.org/wiki/images/b/ba/T--Waseda--Judgemodelinginfomation.pdf" type="application/pdf" width="100%" height="500px">
-                          <p><b>add information</b>: <a href="pdf.pdf">Download</a>.</p>
-                        </object>
-                        </v-row>
-
-                      </v-row>
-
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                    
-
-  
-
-                        <v-row class="fig_full_width">
-                        <object data="https://2020.igem.org/wiki/images/5/5e/T--Waseda--Zombie%EF%BC%BFwet.pdf" type="application/pdf" width="100%" height="500px">
                           <p><b>add information</b>: <a href="pdf.pdf">Download</a>.</p>
                         </object>
                         </v-row>
@@ -862,13 +857,13 @@ export default {
             name: 'K6',
             des: 'LacI concentration at which the expression rate of RhlI is half ofα6',
           },{
-            name: 'N<sub>k</sub> (k=1,2,3,4,5,6)',
+            name: 'Nk (k=1,2,3,4,5,6)',
             des: 'Hill coefficient',
           },{
-            name: 'D<sub>k</sub> (k= LacI, CI LuxI RhlI, z, w)',
+            name: 'Dk (k= LacI, CI LuxI RhlI, z, w)',
             des: 'Degradation rate',
           },{
-            name: 'Λz,λw',
+            name: 'λz,λw',
             des: 'ratio of AHL produced by cell i depending on the concentration of I protein',
           },
 
@@ -923,15 +918,15 @@ export default {
             value: '50',
             unit:'ｎM',
           },{
-            name: 'n<sub>k</sub>(k=1,2,3,4,5,6)',
+            name: 'nk (k=1,2,3,4,5,6)',
             value: '2',
             unit:'-',
           },{
-            name: 'd<sub>k</sub> (k= LacI, CI LuxI RhlI, z, w)',
+            name: 'dk (k= LacI, CI LuxI RhlI, z, w)',
             value: '1',
             unit:'/min',
           },{
-            name: 'Λz,λw',
+            name: 'λz,λw',
             value: '1',
             unit:'-',
           },
@@ -1024,15 +1019,15 @@ export default {
             value: '27',
             unit:'ｎM',
           },{
-            name: 'n_k(k=1,2,3,4,5,6)',
+            name: 'nk(k=1,2,3,4,5,6)',
             value: '2',
             unit:'-',
           },{
-            name: 'd_k(k= LacI, CI LuxI RhlI, z, w)',
+            name: 'dk(k= LacI, CI LuxI RhlI, z, w)',
             value: '1',
             unit:'/min',
           },{
-            name: 'Λz,λw',
+            name: 'λz,λw',
             value: '1',
             unit:'-',
           },
@@ -1082,11 +1077,11 @@ export default {
             value: 'x concentration at which the expression rate of y is half of αy',
             unit:'µM',
           },{
-            name: 'β_k(k=1,x,y)',
+            name: 'βk(k=1,x,y)',
             value: 'Hill coefficient',
             unit:'-',
           },{
-            name: 'd_k(k=x,y,z)',
+            name: 'dk(k=x,y,z)',
             value: 'Degradation rate',
             unit:'/min',
           },

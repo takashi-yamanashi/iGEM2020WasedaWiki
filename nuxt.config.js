@@ -22,7 +22,6 @@ export default {
 
       //Change each page
       // { hid: 'description', name: 'description', content: "iGEM2020 Team Waseda's Wiki" },
-      // { hid: 'og:site_name', property: 'og:site_name', content: "iGEM2020 Team Waseda's Wiki" }, 
       // { hid: 'og:title', property: 'og:title', content: "iGEM2020 Team Waseda's Wiki" },
       // { hid: 'og:description', property: 'og:description', content: "iGEM2020 Team Waseda's Wiki" },
       // { hid: 'og:url', property: 'og:url', content: 'https://2020.igem.org/Team:Waseda'},
@@ -90,7 +89,13 @@ export default {
           success: colors.green.accent3
         }
       }
+    },
+
+    defaultAssets: {
+      // icons: false,
+      font: false
     }
+
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
