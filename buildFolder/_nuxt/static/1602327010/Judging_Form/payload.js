@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Judging_Form", {data:[{}],fetch:[],mutations:void 0});

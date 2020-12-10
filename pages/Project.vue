@@ -22,39 +22,59 @@
 
             
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a> -->
-                        <!-- <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a> -->
-                        <!-- <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a> -->
-                        <!-- <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a> -->
-                        <!-- <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a> -->
-                        <!-- <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a> -->
+                        <a href="Project#section_01"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Zombie Model</v-row></a>
+                        <a href="Project#section_02"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }" style="font-size: 12px;">Entrepreneurship</v-row></a>
+                        <a href="Project#section_03"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Monoterpene</v-row></a>
+                        <a href="Project#section_04"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Racemase</v-row></a>
+                        <a href="Project#section_05"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">Education</v-row></a>
+                        
                         
 
                     </v-row>
                     </v-col>
                 </v-col>
-              
+
+
+
                 <v-col class="main_text" cols="12" lg="10" xl="10">
-                    <v-row v-scroll="pushScrollY" id="section_01"> 
-
-
-
-
-                        <v-row class="row_max-box">
+                  
+                    <v-row justify="center" text-align="left">
+                        <v-row cols="12" class='h1_box' id="section_01">
+                          <v-col class='h1_box_text'> 
+                            <h1 class='h1_text' pushElementOffsetTop>Project</h1>
+                          </v-col>
+                        </v-row>
+                    </v-row>
+                    
+                    <v-row v-scroll="pushScrollY" id="OverviewTop"> 
+                      <v-row class="row_max-box">
                         <h2 class="h2_text">zombie model</h2>
                       </v-row>
-                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
                         <v-col>
                           
-                          <p class="p_indent">  
-                            In this COVID-19 crisis, we, iGEM Waseda, tried to attract high school students and general public to synthetic biology through three tactics.  First, since cell-free system is relatively easy to operate, we wanted to provide an opportunity high school students and general public to experience synthetic biology hands-on. We thus proceeded with our iGEM project adopting the cell-free system. This was an advantage for us to continue with our wet lab experiment in this COVID-19 pandemic situation. Second, we have developed a comprehensible tool and given an interesting story to modeling. Modeling plays an essential role in synthetic biology, but it is difficult to explain accurately to the general public. These stories and tools will help them to understand and enjoy synthetic biology. Last but not least, the theme we are dealing with must not only be interesting as a story, but also biologically. This year, we thus decided to study decision making by the toggle switch gene circuit, which is an important basis in developmental biology and regenerative medicine; in those research fields, cell-fate decision making is quite an important notion.     
-                                                  
+                          <p class="p_indent"> 
+                              We based the preparation of E. coli extracts for cell-free reactions on a paper by Jewett [Kwon et.al 2015]. The basic protocol is as follows.                            
                           </P>
-                          
+
                         </v-col>
                       </v-row>
 
-                      
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                          <v-col>
+                            
+                            <p class="p_indent">  
+                              In this COVID-19 crisis, we, iGEM Waseda, tried to attract high school students and general public to synthetic biology through three tactics.  First, since cell-free system is relatively easy to operate, we wanted to provide an opportunity high school students and general public to experience synthetic biology hands-on. We thus proceeded with our iGEM project adopting the cell-free system. This was an advantage for us to continue with our wet lab experiment in this COVID-19 pandemic situation. Second, we have developed a comprehensible tool and given an interesting story to modeling. Modeling plays an essential role in synthetic biology, but it is difficult to explain accurately to the general public. These stories and tools will help them to understand and enjoy synthetic biology. Last but not least, the theme we are dealing with must not only be interesting as a story, but also biologically. This year, we thus decided to study decision making by the toggle switch gene circuit, which is an important basis in developmental biology and regenerative medicine; in those research fields, cell-fate decision making is quite an important notion.     
+                                                    
+                            </P>
+                            
+                          </v-col>
+                      </v-row>
+
                       
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
@@ -62,8 +82,6 @@
                         <figcaption class="fig_title">Fig.2-1-1 Benefit of cell-free system </figcaption>
                         </figure>
                       </v-row>
-
-
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
@@ -91,10 +109,6 @@
                           
                         </v-col>
                       </v-row>
-
-
-
-
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
@@ -130,6 +144,7 @@
 
 
 
+
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/4/4e/T--Waseda--idealresult4.png " alt="Fig.2-1-6 The ideal results of our gene circuit">
@@ -151,7 +166,7 @@
                         <v-col>
                           
                           <p class="p_indent">      
-Before modeling of in vitro systems with cell-cell communication, we established differential-equation based modeling for the same circuit which works in living <i>E. Coli</i> cells (Fig.2-1-7) because of accumulated cases for such in vivo models. In this modeling, we assumed the behavior of E. coli in vivo, and used parameters adjusted somewhat to behave as designed.  From the appearance of the nullcline (Fig.2-1-7), the equilibrium points are arranged in the same way as a normal toggle switch.  Thus, once our parameter search found the adjusted parameters for cell-free systems, we were able to realize bistable system. 
+                            Before modeling of in vitro systems with cell-cell communication, we established differential-equation based modeling for the same circuit which works in living <i>E. Coli</i> cells (Fig.2-1-7) because of accumulated cases for such in vivo models. In this modeling, we assumed the behavior of E. coli in vivo, and used parameters adjusted somewhat to behave as designed.  From the appearance of the nullcline (Fig.2-1-7), the equilibrium points are arranged in the same way as a normal toggle switch.  Thus, once our parameter search found the adjusted parameters for cell-free systems, we were able to realize bistable system. 
                           </P>
                          
                         </v-col>
@@ -215,21 +230,128 @@ Before modeling of in vitro systems with cell-cell communication, we established
 
                           </P>
                           <p class="p_indent"> 
-                             In order to increase the degradation rate for specific proteins in our cell-free system, we decided to add LVA degradation tag to the repressor proteins. LVA degradation tag is a 9~11 amino acids sequence attached to the end of a protein. The tagged proteins are well degraded by a certain combination of proteins: clpX, clpP and sspB                               
+                             In order to increase the degradation rate for specific proteins in our cell-free system, we decided to add LVA degradation tag to the repressor proteins. LVA degradation tag is a 9~11 amino acids sequence attached to the end of a protein. The tagged proteins are well degraded by a certain combination of proteins: clpX, clpP and sspB.       
                           </p>
                         </v-col>
                       </v-row>
 
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/4e/T--Waseda--idealresult4.png " alt="Fig.2-1-6 The ideal results of our gene circuit">
+                        <figcaption class="fig_title">Fig.2-1-6 The ideal results of our gene circuit</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                              To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms.
+                                The ideal result for the war between Samurai and Zombie is in the right panel of Fig.2-1-6 If there are more samurai cells in the initial state, almost all cells will be samurai at the end point, and vice versa. 
+                                 This has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication. 
+                          </P>
+                        
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                            Before modeling of in vitro systems with cell-cell communication, we established differential-equation based modeling for the same circuit which works in living <i>E. Coli</i> cells (Fig.2-1-7) because of accumulated cases for such in vivo models. In this modeling, we assumed the behavior of E. coli in vivo, and used parameters adjusted somewhat to behave as designed.  From the appearance of the nullcline (Fig.2-1-7), the equilibrium points are arranged in the same way as a normal toggle switch.  Thus, once our parameter search found the adjusted parameters for cell-free systems, we were able to realize bistable system. 
+                          </P>
+                         
+                        </v-col>
+                      </v-row>
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/8/86/T--Waseda--equationandnull2.png" alt="Fig.2-1-7 the equation of our modeling and nullcline">
+                        <figcaption class="fig_title">Fig.2-1-7 the equation of our modeling and nullcline</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent"> 
+                            Fig.2-1-8 illustrates the behavior of our gene circuit. When the zombie state cell is induced with a samurai signal, the cell fate will change depending on the size of the signal. If the zombie receives a large number of samurai signals, the zombie will not be able to withstand the signal and will turn into a samurai. However, if samurai signal received by the zombie state cell is not enough, the zombie can revert back to being a zombie again, without completely transforming into a samurai. As a result, we were able to create two final states simply by changing the initial concentration of communication molecules.                             
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/a/ac/T--Waseda--behaviornullandtime2.png" alt="Fig.2-1-8 The concept behavior of our gene circuit ">
+                        <figcaption class="fig_title">Fig.2-1-8 The concept behavior of our gene circuit </figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">      
+                              In contrast to cellular system, a cell-free system lacks cell growth and has much smaller degradation- dilution term, which lead to longer operating time.  By using parameters from reference (Maurizi MR,1992), we thus estimated operating time for state-switch between zombie and samurai in our cell-free system. 
+                          </P>
+                          
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/c9/T--Waseda--degradationandpicture.png" alt="Fig.2-1-9 Degradation ratio and time of transition between equilibrium points">
+                        <figcaption class="fig_title">Fig.2-1-9 Degradation ratio and time of transition between equilibrium points</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent">    
+                            Fig.2-1-9 shows the the relationship between this degradation rate and operation time for state switching.
+                             The blue point is about normal protein degradation, and the green point shows the case of the LVA degradation tag are introduced on the protein.
+                             </P>
+                             <p>
+                             
+                              Considering a system based only on normal protein degradation（1%/hour =1.6*10^-4/min ）of a cell-free system without growth of volume, it takes too much time (approximatery 2x104 min = 300 hours) to operate a state-switch between Samurai and Zombie.
+                                To solve this problem, we first investigated the size of the required degradation term.
+                             </p>
+                             <p>
+                                
+                                  Operation time for the state switch was estimated from the time that high concentration of Samurai repressors at one equilibrium point are reduced by degradation to the repressor concentration at another equilibrium point.
+                             Although we did not consider the term of protein synthesis in this calculation, there is no problem because this assumption without protein synthesis shows shorter operation time than a case with protein synthesis.
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                         
+                          <p class="p_indent"> 
+                            Although cell-free system is selected as our project platform for implementation of the zombie vs. samurai scenario using a toggle switch circuit, cell-growth rate is known to be important for in vivo toggle switch. Its behavior can be predicted by a mathematical modeling which include a dilution-dependent decrease of concentration of repressors. For cell-free system, our modeling described above indeed have shown that cell-free toggle switch will not work if the system has low degradation rate.     
+
+                          </P>
+                          <p class="p_indent"> 
+                             In order to increase the degradation rate for specific proteins in our cell-free system, we decided to add LVA degradation tag to the repressor proteins. LVA degradation tag is a 9~11 amino acids sequence attached to the end of a protein. The tagged proteins are well degraded by a certain combination of proteins: clpX, clpP and sspB.
+                          </p>
+                        </v-col>
+                      </v-row>
 
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           
                           <p class="p_indent">      
-To see the improvement in degradation effect by LVA degradation tagging, we constructed an improved part (BBa_K3580003) by a modification of an existing part: Plux/tet-GFP(BBa_K934025). Reduction of the concentration of proteins by both degradation/ dilution and increase of the concentration by production play an important role in the behavior of gene circuit. Although protein concentration decrease by dilution caused by the growth of the cell, cell-free systems can’t because its volume is fixed. Therefore, an improvement is necessary to incorporate degradation into the cell-free system. 
+                            To see the improvement in degradation effect by LVA degradation tagging, we constructed an improved part (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a>) by a modification of an existing part:
+                             Plux/tet-GFP( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K934025">BBa_K934025</a>).
+                             Reduction of the concentration of proteins by both degradation/ dilution and increase of the concentration by production play an important role in the behavior of gene circuit.
+                              Although protein concentration decrease by dilution caused by the growth of the cell, cell-free systems can’t because its volume is fixed. Therefore, an improvement is necessary to incorporate degradation into the cell-free system. 
                           </P>
                           <p class="p_indent">   
-                            In order to compare in vivo activity of these parts (BBa_K3580003 and BBa_K934025), we first measured the fluorescence of GFP 240 minutes after the start of induction. The fluorescence of tagged GFP (BBa_K3580003) was lower than that of normal GFP (BBa_K934025) at 240 min point (fig 2-1-10). Although GFP is a stable protein with a β-barrel and difficult to be degraded, this result shows that tagged GFP was successfully degraded as we planned.                            
+                            In order to compare in vivo activity of these parts (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> and  <a class="link_style"  href="http://parts.igem.org/Part:BBa_K934025">BBa_K934025</a>)), we first measured the fluorescence of GFP 240 minutes after the start of induction. 
+                            The fluorescence of tagged GFP (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> ) was lower than that of normal GFP (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K934025">BBa_K934025</a>)) at 240 min point (fig 2-1-10). Although GFP is a stable protein with a β-barrel and difficult to be degraded, this result shows that tagged GFP was successfully degraded as we planned.                            
                           </p>
                         </v-col>
                       </v-row>
@@ -245,7 +367,8 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <v-col>
                           
                           <p class="p_indent"> 
-                            Then, we compared the fluorescence of GFP in a cell-free system which consisted of cruedextract of E.coli containing luxR protein (Fig 2-1-11). Because of the programmed degradation, the fluorescence of tagged GFP(BBa_K3580003) showed slight signal nearly equal to a negative control where neither the template GFP DNA nor the inducer AHL existed. The results show that LVA degradation tagged protein can be degraded exceptionally both <i> in vivo</i> and <i>in vitro</i>.  We will be able to enjoy state switching in a test tube. So we further promoted our modeling.     
+                            Then, we compared the fluorescence of GFP in a cell-free system which consisted of cruedextract of E.coli containing luxR protein (Fig 2-1-11).
+                             Because of the programmed degradation, the fluorescence of tagged GFP(<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a>) showed slight signal nearly equal to a negative control where neither the template GFP DNA nor the inducer AHL existed. The results show that LVA degradation tagged protein can be degraded exceptionally both <i> in vivo</i> and <i>in vitro</i>.  We will be able to enjoy state switching in a test tube. So we further promoted our modeling.     
 
                           </P>
                           <p class="p_indent">                              
@@ -259,7 +382,17 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <figcaption class="fig_title">Fig 2-1-11 ssrA degradationtag assay in vitro</figcaption>
                         </figure>
                       </v-row>
-
+                      
+                      
+                      
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <v-col>
+                          
+                          <p class="p_indent">          
+                            <br>                    
+                          </p>
+                        </v-col>
+                      </v-row>
                      
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
@@ -325,22 +458,6 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                       </v-row>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                          
@@ -358,6 +475,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <figcaption class="fig_title">2-1-16 Result of crosstalk assay of the RhlR in cell-free system</figcaption>
                         </figure>
                       </v-row>
+
 
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
@@ -417,7 +535,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         </figure>
                       </v-row>
 
-                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_02">
                         <v-col>
                          
                           <p>      
@@ -430,20 +548,18 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                       </v-row>
 
 
-                     
 
-
-
-
-
-
-
-                    <v-row class="row_max-box">
-                        <h2 class="h2_text">SAMURAI System</h2>
+                  <v-row> 
+                      <v-row class="row_max-box">
+                        <h2 class="h2_text">Entrepreneurship</h2>
                       </v-row>
+                  </v-row>
+
+            
 
 
                        <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                         <h3>SAMURAI System</h3>
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/a/af/T--Waseda--SAMURAI_overview.png" alt="Fig2-3-1 Overview of SAMURAI system">
                         <figcaption class="fig_title">Fig2-3-1 Overview of SAMURAI system</figcaption>
@@ -454,14 +570,18 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
 
 
-                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                          
                           <p class="p_indent"> 
-                            The smells we have synthesized is not only for Zombie and Samurai in the story but for us in real-world. From initial stage of our project, our team has thought that synthetic biology can attract general public if we establish an interesting system. Combined with our synthesis of limonene and sabinene, the incoherent feedforward loop (IFFL) system allowed us to design “Switching And Modulated Utilization of Refreshing Aroma Integration system”,SAMURAI system, where pulse expression of each of the two monoterpene synthases switches time-dependently.     
+                            The smells we have synthesized is not only for Zombie and Samurai in the story but for us in real-world.
+                             From initial stage of our project, our team has thought that synthetic biology can attract general public if we establish an interesting system.
+                             
+                             
                                                   
                           </P>
-                          <p class="p_indent">                              
+                          <p class="p_indent">    
+                             Combined with our synthesis of limonene and sabinene, the incoherent feedforward loop (IFFL) system allowed us to design “Switching And Modulated Utilization of Refreshing Aroma Integration system”, SAMURAI system, where pulse expression of each of the two monoterpene synthases switches time-dependently.                               
                           </p>
                         </v-col>
                       </v-row>
@@ -472,7 +592,8 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <v-col>
                           <h3>IFFL </h3>
                           <p class="p_indent">   
-                            in order to change the scents with a time lag, we designed fragrance production regulated by  IFFL(Incoherent Feed Forword loop), which can generate pulse activation of a gene. A typical IFFL consists of an activator protein  (X), and a repressor protein (Y) ,and a taget gene (Z).   
+                            in order to change the scents with a time lag, we designed fragrance production regulated by  IFFL(Incoherent Feed Forword loop), which can generate pulse activation of a gene.
+                             A typical IFFL consists of an activator protein  (X), and a repressor protein (Y) ,and a taget gene (Z).   
 
                           </P>
                           <p class="p_indent">   
@@ -537,7 +658,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                      
 
                         <v-col>
-                          <h3></h3>
+                          
                           <p class="p_indent">
                              In order to check whether the designed multi-target IFFL can really generate two pulse with a time delay, we extensively searched parameter space for the system                             
                           </P>
@@ -549,7 +670,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                    
 
 
-                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/e/ea/T--Waseda--IFFL-fig3.png" alt="Fix 2-3-6 Independent param search of Kx(left) and Ky(right)">
                         <figcaption class="fig_title">Fig 2-3-6 Independent param search of Kx(left) and Ky(right)</figcaption>
@@ -620,12 +741,21 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <v-col>
                           
                           <p class="p_indent">  
-                            Furthermore, in order to evaluate the balance of the pulse shape, we calculated the ratio of the peak concentration and the following steady-state concentration for each parameter and presented it in a heat map. This is called the ratio heatmap. (Fig 2-3-8). The darker the color, the smaller the ratio is and the pulse will be in an indistinct form as shown in Fig 2-3-7, Kx=1000.
-                            Fig 2-3-8 shows that the ratio becomes smaller when the Kx value is too high. We evaluated each parameter based on the peak duration in Fig 2-3-7 and the balance of the pulse shape in Fig 2-3-8, respectively. Based on these two indicators, we multiplied the cross heatmap by the value of the time heatmap and the ratio heatmap for each parameter in order to find out which parameter has both time difference and balance, comprehensively (Fig 2-3-9). To make this cross heatmap,
-                             we subtracted a certain constant number of time values from the time heatmap because we have to make the time delay above a certain level. If the time heatmap is negative, it is treated as 0 (fig. 3階層). This is called the time processed heatmap. Then, when multiplying the values of the time processed heatmap and the ratio heatmap, the value of the time processed heatmap was raised to the power of 1.2 and the value of the ratio heatmap was raised to the power of 10 to adjust for the contribution of the respective heatmap values. We selected the optimal parameter for the multi IFFL in the resulting match heatmap as the one with the highest score. Two pulses were generated using the optimal parameter in practice(Fig 2-3-10). Yellow indicates the temporal variation of the concentration of Z1 and green indicates that of Z2. As a result, We have succeeded in creating pulses with a time difference. This demonstrates the feasibility of our SAMURAI system.
+                            Furthermore, in order to evaluate the balance of the pulse shape, we calculated the ratio of the peak concentration and the following steady-state concentration for each parameter and presented it in a heat map.
+                             This is called the ratio heatmap. (Fig 2-3-8). The darker the color, the smaller the ratio is and the pulse will be in an indistinct form as shown in Fig 2-3-7, Kx=1000.
 
+                          </p>
+                          <p class="p_indent">  
+                             Fig 2-3-8 shows that the ratio becomes smaller when the Kx value is too high. We evaluated each parameter based on the peak duration in Fig 2-3-7 and the balance of the pulse shape in Fig 2-3-8, respectively.
+                              Based on these two indicators, we multiplied the cross heatmap by the value of the time heatmap and the ratio heatmap for each parameter in order to find out which parameter has both time difference and balance, comprehensively (Fig 2-3-9). To make this cross heatmap,
+                             we subtracted a certain constant number of time values from the time heatmap because we have to make the time delay above a certain level. If the time heatmap is negative, it is treated as 0.
+                             
                           
                           </P>
+                          <p class="p_indent">  
+                           This is called the time processed heatmap. Then, when multiplying the values of the time processed heatmap and the ratio heatmap, the value of the time processed heatmap was raised to the power of 1.2 and the value of the ratio heatmap was raised to the power of 10 to adjust for the contribution of the respective heatmap values.
+                            We selected the optimal parameter for the multi IFFL in the resulting match heatmap as the one with the highest score. Two pulses were generated using the optimal parameter in practice(Fig 2-3-10). Yellow indicates the temporal variation of the concentration of Z1 and green indicates that of Z2. As a result, We have succeeded in creating pulses with a time difference. This demonstrates the feasibility of our SAMURAI system.
+                          </p>
                         
                         </v-col>
                       </v-row>
@@ -649,13 +779,22 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <figcaption class="fig_title">Fig 2-3-10 results</figcaption>
                         </figure>
                       </v-row>
+                    
 
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
-                      <v-row class="row_max-box">
-                        <h2 class="h2_text">Entrepreneurship</h2>
+                        <v-col>
+                          
+                          <p class="p_indent"> 
+                           <br>
+                          </P>
+                         
+                        </v-col>
                       </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <h3>Entrepreneurship</h3>
+
                         <figure class="fig_full_width" >
                           <img class="image_max" src="https://2020.igem.org/wiki/images/6/6c/T--Waseda--buisiness_overview.png" alt="Logo">
                         <figcaption class="fig_title">2-3-11 Overview of business model innovation</figcaption>
@@ -684,7 +823,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_03">
 
                         <v-col>
                           
@@ -693,34 +832,17 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                           </p>
                         </v-col>
                       </v-row>
+                    
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  <v-row>
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Cell-free monoterpene synthesis</h2>
                       </v-row>
+                  </v-row>                      
+
+
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <h3>Background</h3>
@@ -751,6 +873,9 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                           <p class="p_indent">
                             In this cell-free monoterpene synthesis, we mixed two <i>E. coli</i> extracts each of which has either first 7 or last 2 enzymes of a pathway from Ac-CoA, which is a major intermediate of cell central metabolism.
                                 Through mevalonate pathway, the former extract one (derived from <i>E. coli</i> into which pBbA5c-MevT-MBI has been introduced) can provide IPP and DMAPP, which can also be used as intermediates for other important biosynthesis.
+
+                                 </P>
+                          <p class="p_indent">
                                   Here we indeed supplemented only glucose and acetate as carbon sources.  We obtained expression system for those seven genes from addgene and have converted this into Biobrick RFC 1000 format by synonymous replacement (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580103"> BBa_K3580103</a>).
                                     In order to take advantage of an engineering principle of synthetic biology we provided two biobrick parts ( <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a>, <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580102">BBa_K3580102</a> ) for the source for the latter extract.  <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a> has GPP synthase (GPPS) and limonene synthase.
                                       Although GPP synthase is shared with <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a> , <a class="link_style"  href="http://parts.igem.org/Part: ">BBa_K3580102</a> has sabinene synthase, which has one point mutation in limonene synthase (Srividya Narayanan et al 2015) and a new coding sequence for Parts registry of iGEM (See here for more details on this experiments).
@@ -783,7 +908,10 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <v-col>
                           
                           <p class="p_indent"> 
-                            We confirmed limonene synthesis GC/MS analysis with SIM.  In this SIM analysis, ions with four m/z values  characteristic in limonene (68 and 93) and sabinene (77 and 91, 93) were analyzed.   By using authentic limonene standard, we confirmed a retention time for GC and the characteristic limonene SIM signal at the specific m/z values.  At the same retention time with the standard, limonene-specific m/z value (68, 93) ions were detected in the selected ions (The upper right figure of Figure. 2-2-2).
+                            We confirmed limonene synthesis GC/MS analysis with SIM.  In this SIM analysis, ions with four m/z values  characteristic in limonene (68 and 93) and sabinene (77 and 91, 93) were analyzed.   By using authentic limonene standard, we confirmed a retention time for GC and the characteristic limonene SIM signal at the specific m/z values. 
+                             </P>
+                          <p class="p_indent">
+                             At the same retention time with the standard, limonene-specific m/z value (68, 93) ions were detected in the selected ions (The upper right figure of Figure. 2-2-2).
                               We also draw a GC chart by summation of the signals from the selected ions (The lower left figure of Figure. 2-2-2).  By comparison with a negative control experiment which we omitted the extract containing GPP synthase and limonene synthase, we found clear peak from our limonene synthesis.                           
                           </P>
                         </v-col>
@@ -804,7 +932,11 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                           <p class="p_indent"> 
                             By similar GC/MS analysis with SIM, we confirmed the world's first report of sabinene synthesis using cell extracts.  Although elaborative reconstituted system by mixing of purified enzymes has been reported (Srividya Narayanan et al 2015), (Korman Tyler P et al 2017).
                               Extract-base system with not only simple but engineering principle must provide much contribution to iGEM and DIY biology which as large number of players. Furthermore, extract systems do not require expensive coenzymes (Dudly et al 2019). As well as limonene detection in Fig 2-2-2,
-                               we firstly confirmed sabinene retention time and SIM signal at the m/z values (77, 91, and 93).  From our cell-free production, we then detected sabinene SIM signal and chromatogram peak which cannot find from the negative control.  Also, from the system containing sabinene synthase and GPP synthase,
+                               we firstly confirmed sabinene retention time and SIM signal at the m/z values (77, 91, and 93). 
+                            </P>
+                          <p class="p_indent">
+                               
+                                From our cell-free production, we then detected sabinene SIM signal and chromatogram peak which cannot find from the negative control.  Also, from the system containing sabinene synthase and GPP synthase,
                                 a peak with the same retention time as the standard limonene product and ions with m/z values characteristic in limonene at that retention time were detected.
                                  This was consistent with the fact that the paper that referred to the sabinene synthase used in this experiment also reported the synthesis of limonene as a by-product (Srividya Narayanan. et al 2015).                           
                           </P>
@@ -843,7 +975,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
 
 
                       
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_04">
                         <v-col>
                           <h3>Reference</h3>
                           <p>    
@@ -858,15 +990,15 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         </v-col>
                       </v-row>
 
+                  
 
-
-
-                    </v-row>
-
-                    <v-row id="Racemase"> 
+                  <v-row> 
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Racemase ~War In The Mirror~</h2>
                       </v-row>
+
+                  </v-row>
+
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <h3>Introduction</h3>
@@ -878,7 +1010,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                           
                         </v-col>
                       </v-row>
-                    </v-row>
+                    
                     
 
 
@@ -913,7 +1045,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         <v-col>
                           <h3>Summary & Experiment</h3>
                           <p class="p_indent"> 
-                            In this experiment, alanine racemase (AR) gene carried on our new part (BBa_K3580200) on a T5 promoter-controlled pCA24N vector was transformed into the BL21(DE3) star strain. After expression induction by IPTG, the BL21 cells were harvested by centrifugation, then sonicated and His-Tag purification was performed (Fig.2-4-2).                           
+                            In this experiment, alanine racemase (AR) gene carried on our new part (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580200">BBa_K3580200</a> ) on a T5 promoter-controlled pCA24N vector was transformed into the BL21(DE3) star strain. After expression induction by IPTG, the BL21 cells were harvested by centrifugation, then sonicated and His-Tag purification was performed (Fig.2-4-2).                           
                           </P>
                           <p class="p_indent">                              
                           </p>
@@ -1006,7 +1138,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                       </v-row>
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box" id="section_05">
                         <v-col>
                           <h3>Reference</h3>
                           <p >
@@ -1025,12 +1157,17 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                           </P>
                         </v-col>
                       </v-row>
+                  
 
 
-                    <v-row v-scroll="pushScrollY" id="Education"> 
+                  <v-row> 
                       <v-row class="row_max-box">
                         <h2 class="h2_text">Education</h2>
                       </v-row>
+
+                  </v-row>
+
+
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col >
                           <h3>Overview</h3>
@@ -1087,23 +1224,28 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
                         </v-col>
                       </v-row>
 
+
+
+
           
 
-  
 
 
 
 
 
 
-                    </v-row>
-                    
-                  
-                    <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
 
-                  
+         
+
+
+
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template> -->
+                    <!-- <v-template  v-scroll="pushScrollY" id="sectio/n_02"><v-col class="last_message"></v-col></v-template> -->
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template> -->
+                    <v-template  v-scroll="pushScrollY" id="section_06"><v-col class="last_message"></v-col></v-template>
+
+ 
                 </v-col>
             </v-row>
         </v-container>
@@ -1113,6 +1255,7 @@ To see the improvement in degradation effect by LVA degradation tagging, we cons
   <!-- </v-layout> -->
 </template>
 <script>
+
 const pageTitle = 'Project';
 const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
 const pageUrl = 'https://2020.igem.org/Team:Waseda/Project';
@@ -1135,11 +1278,13 @@ export default {
 
   data: () => {
     return {
+
+
       fab: false,
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false,false],
+      check: [false, false, false,false,false,false,],
 
     };
   },
@@ -1162,7 +1307,7 @@ export default {
 
     pushElementOffsetTop() {
       const targets = [
-        'section_01','section_02','section_03','section_04',
+        'section_01','section_02','section_03','section_04','section_05','section_06',
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
@@ -1173,61 +1318,15 @@ export default {
 
 
   },
+  mounted() {
+    this.pushElementOffsetTop();
+  },
 }
 </script>
 
 <style lang="scss" scoped>
-.p_indent {
+p{
   font-size: 24px;
-  text-indent: 50px;
-}
-.fig_title {
-  text-align:center;
-}
-.h2_text{
-  font-size: 30px;
-}
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
-
-.link_style {
-  color: rgb(80,126,164);
-}
-
-.link_style:active {
-  color: rgb(80,126,164);
-}
-
-.link_style:visited {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
- 
-.link_style:link {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
-
-.last_message {
-  margin: 400px;
 }
 .left_box {
     padding :0;
@@ -1236,7 +1335,7 @@ a:active {
     height: 100vh;
     position: fixed;
     width: 17%;
-    background-image: url("https://2020.igem.org/wiki/images/e/e9/T--Waseda--Tasukinisakura1.png");
+    background-image: url("https://2020.igem.org/wiki/images/3/32/T--Waseda--MakiGreen.png");
     background-size: 100% auto;
     background-repeat: repeat;
 }
@@ -1274,6 +1373,9 @@ h2 {
 }
 
 
+.image_max {
+  width:100%;
+}
 
 .image_top {
   height: 0;
@@ -1339,24 +1441,5 @@ h2 {
   margin-bottom: 400px;
 }
 
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
 </style>
 

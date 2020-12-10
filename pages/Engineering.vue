@@ -11,12 +11,12 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#F4CCCB" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/2/2f/T--Waseda--iGEM2020wikiicons-award.svg">
             
                         </v-row>
 
@@ -265,6 +265,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 p{
   font-size: 24px;
 }
@@ -293,7 +294,7 @@ p{
     }
   }
   &_text {
-    font-size: 45px;
+    font-size: 60px;
   }
   &_imbox {
     display: block;
@@ -346,9 +347,9 @@ h2 {
         background-color: white;
   }
   &_svg {
-      position:absolute; top:40px; left:20px; 
-      width: 160px;
-      height: 160px;
+      position:absolute; top:35px; left:15px; 
+      width: 170px;
+      height: 170px;
   }
 }
 #triangle {
@@ -378,47 +379,7 @@ h2 {
 }
 
 .last_message {
-  margin-bottom: 700px;
-}
-
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
-
-
-.link_style {
-  color: rgb(80,126,164);
-}
-
-.link_style:active {
-  color: rgb(80,126,164);
-}
-
-.link_style:visited {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
- 
-.link_style:link {
-  color: rgb(80,126,164);
-  text-decoration: underline;
+  margin-bottom: 400px;
 }
 
 </style>

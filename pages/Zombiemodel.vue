@@ -16,14 +16,14 @@
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/c/c3/T--Waseda--iGEM2020wikiicons-model.svg">
             
                         </v-row>
 
             
                     <v-row class="navi_text">
                         <a href="Model#ZScircuit"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Zombie vs Samurai</v-row></a>
-                        <a href="Model#IFFL"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">IFFL</v-row></a>
+                        <!-- <a href="Model#IFFL"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">IFFL</v-row></a> -->
                         <!-- <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
                         <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
                         <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
@@ -606,13 +606,13 @@ export default {
             name: 'K6',
             des: 'LacI concentration at which the expression rate of RhlI is half ofα6',
           },{
-            name: 'N<sub>k</sub> (k=1,2,3,4,5,6)',
+            name: 'Nk (k=1,2,3,4,5,6)',
             des: 'Hill coefficient',
           },{
-            name: 'D<sub>k</sub> (k= LacI, CI LuxI RhlI, z, w)',
+            name: 'Dk (k= LacI, CI LuxI RhlI, z, w)',
             des: 'Degradation rate',
           },{
-            name: 'Λz,λw',
+            name: 'λz,λw',
             des: 'ratio of AHL produced by cell i depending on the concentration of I protein',
           },
 
@@ -667,15 +667,15 @@ export default {
             value: '50',
             unit:'ｎM',
           },{
-            name: 'n<sub>k</sub>(k=1,2,3,4,5,6)',
+            name: 'nk (k=1,2,3,4,5,6)',
             value: '2',
             unit:'-',
           },{
-            name: 'd<sub>k</sub> (k= LacI, CI LuxI RhlI, z, w)',
+            name: 'dk (k= LacI, CI LuxI RhlI, z, w)',
             value: '1',
             unit:'/min',
           },{
-            name: 'Λz,λw',
+            name: 'λz,λw',
             value: '1',
             unit:'-',
           },
@@ -768,15 +768,15 @@ export default {
             value: '27',
             unit:'ｎM',
           },{
-            name: 'n_k(k=1,2,3,4,5,6)',
+            name: 'nk(k=1,2,3,4,5,6)',
             value: '2',
             unit:'-',
           },{
-            name: 'd_k(k= LacI, CI LuxI RhlI, z, w)',
+            name: 'dk(k= LacI, CI LuxI RhlI, z, w)',
             value: '1',
             unit:'/min',
           },{
-            name: 'Λz,λw',
+            name: 'λz,λw',
             value: '1',
             unit:'-',
           },
@@ -826,11 +826,11 @@ export default {
             value: 'x concentration at which the expression rate of y is half of αy',
             unit:'µM',
           },{
-            name: 'β_k(k=1,x,y)',
+            name: 'βk(k=1,x,y)',
             value: 'Hill coefficient',
             unit:'-',
           },{
-            name: 'd_k(k=x,y,z)',
+            name: 'dk(k=x,y,z)',
             value: 'Degradation rate',
             unit:'/min',
           },

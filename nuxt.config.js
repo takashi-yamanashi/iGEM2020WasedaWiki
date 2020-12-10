@@ -21,11 +21,12 @@ export default {
       { name: 'twitter:card', content: 'summary' },　
 
       //Change each page
-      { hid: 'description', name: 'description', content: "iGEM2020 Team Waseda's Wiki" },
-      { hid: 'og:site_name', property: 'og:site_name', content: "iGEM2020 Team Waseda's Wiki" }, 
-      { hid: 'og:title', property: 'og:title', content: "iGEM2020 Team Waseda's Wiki" },
-      { hid: 'og:description', property: 'og:description', content: "iGEM2020 Team Waseda's Wiki" },
-      { hid: 'og:url', property: 'og:url', content: 'https://2020.igem.org/Team:Waseda'},
+
+      // { hid: 'description', name: 'description', content: "iGEM2020 Team Waseda's Wiki" },
+      // { hid: 'og:title', property: 'og:title', content: "iGEM2020 Team Waseda's Wiki" },
+      // { hid: 'og:description', property: 'og:description', content: "iGEM2020 Team Waseda's Wiki" },
+      // { hid: 'og:url', property: 'og:url', content: 'https://2020.igem.org/Team:Waseda'},
+      
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -56,7 +57,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
-    '@nuxtjs/sitemap',
+    // '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -65,13 +66,12 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/content-config)
   content: {},
 
-  // only igem server mode
-  sitemap: {
-    path: '/sitemap.xml',
-    hostname: 'https://2020.igem.org/Team:Waseda',
-    gzip: true,
-    generate: false,
-  },
+  // sitemap: {
+  //   path: '/sitemap.xml',
+  //   hostname: 'https://2020.igem.org/Team:Waseda',
+  //   gzip: true,
+  //   generate: false,
+  // },
 
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
@@ -90,7 +90,13 @@ export default {
           success: colors.green.accent3
         }
       }
+    },
+
+    defaultAssets: {
+      // icons: false,
+      // font: false
     }
+
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

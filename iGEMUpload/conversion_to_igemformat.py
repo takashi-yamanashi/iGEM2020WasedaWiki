@@ -60,7 +60,7 @@ def rewrite_jsload(all_file_name):
                     add_text += '<script src="/Team:Waseda/_nuxt/pages/{}?action=raw&amp;ctype=text/javascript" defer as="script"></script>'.format(add_file_name)
         
              # for Waseda team               
-                add_text +='<script src="/Team:Waseda/_nuxt/vendors/pages/TeamJS?action=raw&amp;ctype=text/javascript" defer as="script">'
+                add_text +='<script src="/Team:Waseda/_nuxt/vendors/pages/TeamJS?action=raw&amp;ctype=text/javascript" defer as="script"></script>'
 
                 add_text += after5_f[start_pos:end_pos]
                 after6_f = after5_f.replace('</body>',add_text+'</body>')

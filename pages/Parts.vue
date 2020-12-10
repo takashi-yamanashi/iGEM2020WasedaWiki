@@ -11,12 +11,12 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#D4A115" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/d/d6/T--Waseda--iGEM2020wikiicons-parts.svg">
             
                         </v-row>
 
@@ -116,13 +116,19 @@
 
                         <v-col>
                           <p class="p_indent">  
-                            To see the improvement in degradation effect by ssrA tag, we constructed an improved part (BBa_K3580003) by modifying an existing part: Plux/tet-GFP(BBa_K934025).
+                            To see the improvement in degradation effect by ssrA tag, we constructed an improved part 
+                            (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a>) by modifying an existing part: Plux/tet-GFP
+                            (<a class="link_style"  href="http://parts.igem.org/Part:BBa_BBa_K934025">BBa_K934025</a>).
                              Reduction of the concentration of proteins by degradation and dilution as well as production plays an important role in the behavior of the gene circuit.
                               Although cells can decrease their concentration by dilution according to growth, cell-free systems cannot because it doesn’t grow. Therefore,
-                               this improvement was necessary to incorporate degradation into the cell-free system. In order to compare these parts (BBa_K3580003 and BBa_K934025),
-                                we first measured the fluorescence of GFP in vivo for 240 minutes. The fluorescence of tagged GFP(BBa_K3580003) was lower than that of normal GFP(BBa_K934025) at 240 min point (Fig 5-1-1).
+                               this improvement was necessary to incorporate degradation into the cell-free system. In order to compare these parts 
+                               (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a> and 
+                               <a class="link_style"  href="http://parts.igem.org/Part:BBa_BBa_K934025">BBa_K934025</a>),
+                                we first measured the fluorescence of GFP in vivo for 240 minutes. The fluorescence of tagged GFP
+                                (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a>) was lower than that of normal GFP
+                                (<a class="link_style"  href="http://parts.igem.org/Part:BBa_BBa_K934025">BBa_K934025</a>) at 240 min point (Fig 5-1-1).
                                  Although GFP is a stable protein with a β-barrel and much difficult to be degraded, this result shows that tagged GFP was successfully degraded as we desired.                          
-                          </P>
+                          </p>
                         </v-col>
                       </v-row>
 
@@ -141,8 +147,9 @@
                         <v-col>
                           <p class="p_indent">
                             Then, we compared the fluorescence of GFP in a cell-free system which was extracted from the E.coli containing luxR protein. Fig 5-1-2 is the result of the experiment.
-                             The fluorescence of tagged GFP(BBa_K3580003) couldn’t be measured because the value was too low. The results indicate that excessive degredation occur with ssrA tagged protein both in vivo and in vitro. Based on this data, we modified the degradation terms in the model.                            
-                          </P>
+                             The fluorescence of tagged GFP
+                             (<a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580003">BBa_K3580003</a>) couldn’t be measured because the value was too low. The results indicate that excessive degredation occur with ssrA tagged protein both in vivo and in vitro. Based on this data, we modified the degradation terms in the model.                            
+                          </p>
                           
                         </v-col>
                       </v-row>
@@ -157,8 +164,13 @@
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box"> 
                        <v-col>
                           <p class="p_indent">      
-                            We regard our BBa_K3580101 as an improved version from pre-existing BBa_K3052001, which has only limonene synthase.   Our improved part can use the set of Isopentenyl Diphosphate (IPP), and Dimethylallyl Diphosphate (DMAPP) both of which are synthesized through not only mevalonate pathway used here but also the other famous non-mevalonate pathway.
-                              Thus, the set is produced in so many engineered pathways, including the addgene plasmid used here, as an important intermediate set for bioproduction.  From this view point, we are sure that the simple combination of the two enzymes in this part satisfied convienience and modularity in synthetic biology than pre-existing BBa_K3052001.                        
+                            We regard our 
+                            <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3580101">BBa_K3580101</a>
+                             as an improved version from pre-existing 
+                             <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3052001">BBa_K3052001</a>
+                             , which has only limonene synthase.   Our improved part can use the set of Isopentenyl Diphosphate (IPP), and Dimethylallyl Diphosphate (DMAPP) both of which are synthesized through not only mevalonate pathway used here but also the other famous non-mevalonate pathway.
+                              Thus, the set is produced in so many engineered pathways, including the addgene plasmid used here, as an important intermediate set for bioproduction.  From this view point, we are sure that the simple combination of the two enzymes in this part satisfied convienience and modularity in synthetic biology than pre-existing 
+                              <a class="link_style"  href="http://parts.igem.org/Part:BBa_K3052001">BBa_K3052001</a>.
                           </p>
                         </v-col>
                       </v-row>
@@ -204,7 +216,7 @@
                           <p class="p_indent">                              
                             In our project, we inserted this part between bacteriophage T5 promoter for <i>E. coli</i> RNA polymerase and lambda t0 terminator of pCA24N(-gfp) planmid.
                              This plasmid was transformed into the BL21(DE3) star strain. As this vector is chloramphenicol resistant, we cultured the bacteria in media containing chloramphenicol.
-                              After expression induction by IPTG, the BL21 cells were collected by centrifugation, then sonicated and His-Tag purification was performed. (wikiマテメソハイパーリンク) The His-Tag purified Alr was confirmed with SDS-PAGE(Fig.5-1-7). The concentration of purified racemase was quantified with the Bradford method. 
+                              After expression induction by IPTG, the BL21 cells were collected by centrifugation, then sonicated and His-Tag purification was performed. The His-Tag purified Alr was confirmed with SDS-PAGE(Fig.5-1-7). The concentration of purified racemase was quantified with the Bradford method. 
 
                           </p>
                         </v-col>
@@ -225,8 +237,8 @@
 
                         <v-col>
                           <p class="p_indent">     
-                            We decided to assay AR by using PURE frex provided by GeneFrontier, Inc. As PURE frex does not contain any extra metabolic enzymes other than those involved in transcription and translation, we would be able to perform the assays without considering the problems of controlling the metabolic system. (wikiマテメソハイパーリンク)                        
-                          </P>
+                            We decided to assay AR by using PURE frex provided by GeneFrontier, Inc. As PURE frex does not contain any extra metabolic enzymes other than those involved in transcription and translation, we would be able to perform the assays without considering the problems of controlling the metabolic system.  
+                          </p>
                           <p class="p_indent">     
                             Consequently, to assay the activity of purified AR, the racemization reaction was performed with the following solution(Table.1) and incubated at 37°C for 1 h. The sample was Filtered using centrifugal filter device at 14,000g for 30min (Amicon Ultra-0.5 Centrifugal Filter Devices 3K) and the filtered sample was collected.
                              The filter device was washed prior to centrifugation of the sample using the buffer used in the AR reaction. the sample was centrifuged to collect the filtered product. Filtering allowed us to collect substances other than AR from the incubated product.
@@ -310,7 +322,7 @@
                         <v-col>
                           <h3></h3>
                           <p class="p_indent">                            
-                          </P>
+                          </p>
                           <p class="p_indent">                              
                           </p>
                         </v-col>

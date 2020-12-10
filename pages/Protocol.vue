@@ -11,12 +11,12 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#ACC1D3" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/7/72/T--Waseda--iGEM2020wikiicons-04.svg">
             
                         </v-row>
 
@@ -320,5 +320,6 @@ a:hover {
 a:active {
   color: black;
 }
-</style>
 
+
+</style>

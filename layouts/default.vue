@@ -164,7 +164,7 @@ export default {
           lists:[
             { title: 'Model', to: 'Model'},
             { title: 'Zombie Model', to: 'Zombiemodel'},
-            // { title: 'Software', to: 'SoftWare'},
+            { title: 'IFFL', to: 'IFFL'},
           ]
         },
         {
@@ -172,6 +172,7 @@ export default {
           icon: 'mdi-vuetify',
           img: 'https://2020.igem.org/wiki/images/2/24/T--Waseda--button_experiment.png',
           lists:[
+            { title: 'Gene Circuit', to: 'QS'},
             { title: 'Monoterpene', to: 'Monoterpene'},
             { title: 'Racemase', to: 'Racemase'},
             { title: 'Protocol', to: 'Protocol'},
@@ -207,8 +208,14 @@ export default {
           img: 'https://2020.igem.org/wiki/images/8/8d/T--Waseda--Judgingformbutton.png',
           lists:[
             { title: 'Description', to: 'Description'},
+            { title: 'Contribution', to: 'Contribution'},
             { title: 'Engineering', to: 'Engineering'},
-            // { title: 'Quick Start', to: 'Description'},
+            { title: 'Video', to: 'Video'},
+            // { title: 'Poster', to: 'Poster'}, //iGEM server only
+            { title: 'Achivement', to: 'Achivement'},
+            { title: 'Safety', to: 'Safety'},
+            { title: 'Judging Form', to: 'Judging_Form'},
+            { title: 'Feedback', to: 'Feedback'},
           ]
         },
       ],
@@ -234,12 +241,19 @@ export default {
 </script>
 <style>
 /* for iGEM */
+
 #sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 #HQ_page p {
-
   font-size: initial;
   font-size: 24px;
   overflow-wrap: normal;
+  text-align: start;
+}
+p {
+  font-size: initial;
+  font-size: 24px;
+  overflow-wrap: normal;
+  text-align: start;
 }
 #bodyContent h1, #bodyContent h2 {
     margin-bottom: 0;
@@ -334,5 +348,44 @@ p {
 .fade-enter, .fade-leave-to {
   opacity: 0;
   transform: scale(0);
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
+.link_style {
+  color: rgb(80,126,164);
+}
+
+.link_style:active {
+  color: rgb(80,126,164);
+}
+
+.link_style:visited {
+  color: rgb(80,126,164);
+  text-decoration: underline;
+}
+ 
+.link_style:link {
+  color: rgb(80,126,164);
+  text-decoration: underline;
 }
 </style>

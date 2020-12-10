@@ -11,24 +11,22 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#3E4651" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/7/71/T--Waseda--iGEM2020wikiicons-hp.svg">
             
                         </v-row>
 
             
                     <v-row class="navi_text">
-                        <!-- <a href="Attributions#WetLabTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Wet Lab</v-row></a>
-                        <a href="Attributions#ModelingTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }">Modeling </v-row></a>
-                        <a href="Attributions#VideoTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Video</v-row></a>
-                        <a href="Attributions#WikiTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[3] }">Wiki</v-row></a>
-                        <a href="Attributions#HPTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[4] }">HP</v-row></a>
-                        <a href="Attributions#OtherTop"><v-row :class="{ 'title_text': true, 'title_text_active': check[5] }">Other</v-row></a>
-                         -->
+                        <a href="Entrepreneurship#section_01"><v-row :class="{ 'title_text': true, 'title_text_active': check[0] }">Introduction</v-row></a>
+                        <a href="Entrepreneurship#section_02"><v-row :class="{ 'title_text': true, 'title_text_active': check[1] }" style="font-size: 14px;">Integrated   Human Practice </v-row></a>
+                        <a href="Entrepreneurship#section_03"><v-row :class="{ 'title_text': true, 'title_text_active': check[2] }">Interview</v-row></a>
+                       
+                        
 
                     </v-row>
                     </v-col>
@@ -39,7 +37,7 @@
                 <v-col class="main_text" cols="12" lg="10" xl="10">
                   
                     <v-row justify="center" text-align="left">
-                        <v-row cols="12" class='h1_box'>
+                        <v-row cols="12" class='h1_box' id="section_01">
                           <v-col class='h1_box_text'> 
                             <h1 class='h1_text' pushElementOffsetTop>Entrepreneurship</h1>
                           </v-col>
@@ -55,7 +53,7 @@
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3>Introduction</h3>
+                          <h2>Introduction</h2>
                           <p class="p_indent">   
                             It is important to consider how we implement our project in the real world. Thus, to give back to society through our iGEM activities, we organized educational activities and entrepreneurship. It is not realistic to think about worldwide problems, so we tackled issues which are close to us and try to realize in fact.
 Here, we would like to introduce our business activities.
@@ -68,7 +66,7 @@ Here, we would like to introduce our business activities.
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
+                          
                           <p class="p_indent">         
                             First, we interviewed citizens and experts to verify the validity, safety, and ethics of the project. Consequently, all the aspects were confirmed. ( Go to Human Practice page) 
 
@@ -98,7 +96,7 @@ We decided to create our business model because we were interested in the social
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
+                          
                           <p class="p_indent">  
                             Like planning for scientific research, business model creation should also learn from previous success.  From Mr. Watanabe’s point of view, a business has a higher chance of success when two of four points are changed from the existing successful business. These is called a business model innovation.                            
                           </P>
@@ -214,7 +212,7 @@ In order to improve the business model, it is important to repeat steps to verif
 
                         <v-col>
                      
-                          <p class="p_indent">  
+                          <p class="p_indent" id="section_02">  
                             Through this verification, we were able to confirm that there is a definite need for our business model. But, surprisingly, in those interviews, we found that there was another great need. 
 People who are concerned about whether or not they contain the substance that causes allergies are careful to determine whether or not they contain the source of their allergies. 
 We got the inspiration for detecting allergens and pivoted to a business model for substance detection using the cell-free system. 
@@ -229,7 +227,7 @@ We got the inspiration for detecting allergens and pivoted to a business model f
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3>Integrated Human Practice </h3>
+                          <h2>Integrated Human Practice </h2>
                            <h3>1. Improve our business model</h3>
                           <p class="p_indent"> 
                             The need for substance detection was discovered through interviews with primary human practice. The potential need for material detection is strong in three market segments : medical, soil and water. Therefore, we pivoted our business model and created a new business model for substance detection along with business model canvas (nine axes format).                            
@@ -338,7 +336,7 @@ The first substances that should be established for detection were characterized
 Here we would like to introduce the detection of substances in sewage treatment, for which there was a particularly large demand.
                          
                           </P>
-                          <p class="p_indent">                              
+                          <p class="p_indent" id="section_03">                              
                           </p>
                         </v-col>
                       </v-row>
@@ -347,7 +345,7 @@ Here we would like to introduce the detection of substances in sewage treatment,
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3>Interview </h3>
+                          <h2>Interview </h2>
                           <p class="p_indent">   
                             We interviewed several local agencies and experts, believing that resolving the issues that exist locally would best share their awareness of themselves and their problems and increase the success rate of the project.                          
                           </P>
@@ -601,9 +599,9 @@ Now, we are ready to conduct a demonstration of our kit.
 
 
 
-                    <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
+                    <!-- <v-template  v-scroll="pushScrollY" id="section_01"><v-col class="last_message"></v-col></v-template>
                     <v-template  v-scroll="pushScrollY" id="section_02"><v-col class="last_message"></v-col></v-template>
-                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template>
+                    <v-template  v-scroll="pushScrollY" id="section_03"><v-col class="last_message"></v-col></v-template> -->
                     <v-template  v-scroll="pushScrollY" id="section_04"><v-col class="last_message"></v-col></v-template>
 
  
