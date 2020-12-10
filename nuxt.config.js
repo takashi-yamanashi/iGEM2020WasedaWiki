@@ -94,7 +94,7 @@ export default {
 
     defaultAssets: {
       // icons: false,
-      // font: false
+      font: false
 
     }
 

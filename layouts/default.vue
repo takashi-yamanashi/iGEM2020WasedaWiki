@@ -211,7 +211,7 @@ export default {
             { title: 'Contribution', to: 'Contribution'},
             { title: 'Engineering', to: 'Engineering'},
             { title: 'Video', to: 'Video'},
-            // { title: 'Poster', to: 'Poster'}, //iGEM server only
+            { title: 'Poster', to: 'Poster'}, //iGEM server only
             { title: 'Achivement', to: 'Achivement'},
             { title: 'Safety', to: 'Safety'},
             { title: 'Judging Form', to: 'Judging_Form'},
@@ -242,7 +242,7 @@ export default {
 <style>
 /* for iGEM */
 
-#sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu, #HQ_page { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
+#sideMenu, #top_title, .patrollink, #firstHeading, #home_logo, #sideMenu { display:none; } #content { padding:0px; width:100%; margin-top:-7px; margin-left:0px; border:none;}
 #HQ_page p {
   font-size: initial;
   font-size: 24px;
