@@ -497,6 +497,10 @@ export default {
   },
 }
 </script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 <style lang="scss" scoped>
 p{
   font-size: 24px;

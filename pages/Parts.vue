@@ -318,7 +318,6 @@
 
 
                       <!-- <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-
                         <v-col>
                           <h3></h3>
                           <p class="p_indent">                            
@@ -327,7 +326,6 @@
                           </p>
                         </v-col>
                       </v-row>
-
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
                           <img class="image_max" src="" alt="Logo">
@@ -354,12 +352,9 @@
 const pageTitle = 'Parts';
 const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
 const pageUrl = 'https://2020.igem.org/Team:Waseda/Parts';
-
-
 export default {
   
   head: {
-
     title: pageTitle,
     meta: [
       //Change each page
@@ -369,11 +364,8 @@ export default {
       { hid: 'og:url', property: 'og:url', content: pageUrl },
     ],
   },
-
-
   data: () => {
     return {
-
       fab: false,
       scrollY: 0,
       scrollPer: 510.293,
@@ -417,7 +409,7 @@ export default {
           },         
           {
             name: 'BBa_K3580103',
-            des: 'enzymes of mevalonate pathway that synthesize IPP and DMAPP from Ac-CoA ',
+            des: 'enzymes of mevalonate pathway that synthesize IPP and DMAPP from Ac-CoA ',
             type: 'Generator',
             Lengt: '10293',
             link: 'http://parts.igem.org/Part:BBa_K3580103',
@@ -446,9 +438,7 @@ export default {
       };
       const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
-
     },
-
     pushElementOffsetTop() {
       const targets = [
         'section_01','section_02','section_03','section_04'
@@ -459,8 +449,6 @@ export default {
         this.sectionOffsetTop.push(offsetTop);
       });
     },
-
-
   },
   mounted() {
     this.pushElementOffsetTop();
@@ -515,27 +503,20 @@ h2 {
   border-bottom: 5px solid black;
   margin: 20px 0;
 }
-
-
 .image_max {
   width:100%;
 }
-
-
-
 .image_top {
   height: 0;
   padding-top: 66%;
   background-size: contain;
   background-image: url("https://2020.igem.org/wiki/images/6/63/T--Waseda--AttributionsTop.png")
 }
-
 .navi {
   &_icon {
     width: 200px;
     height: 200px;
   }
-
   &_image {
         display: block;
         position: relative;
@@ -563,8 +544,6 @@ h2 {
   stroke-dasharray: 510.293; 
   // stroke-dashoffset: 420.293 - scrollY;
 }
-
-
 .title_text {
     display: block;
     margin: 10px auto;
@@ -582,31 +561,9 @@ h2 {
   padding: 0;
   margin: 0;
 }
-
 .last_message {
   margin-bottom: 400px;
 }
-
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
 .table-font-size {
  font-size: 40px !important;
 }
@@ -616,13 +573,9 @@ table.v-table thead th {
 table.v-table tbody td {
     font-size: 40px !important;
 }
-
-
-
 .table_main{
   border-collapse:collapse;
   margin:0 auto;
-
   margin: auto
 }
 .th_main{
@@ -640,4 +593,3 @@ table.v-table tbody td {
   border-bottom:2px solid #000;
 }
 </style>
-
