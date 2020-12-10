@@ -211,7 +211,7 @@ export default {
             { title: 'Contribution', to: 'Contribution'},
             { title: 'Engineering', to: 'Engineering'},
             { title: 'Video', to: 'Video'},
-            { title: 'Poster', to: 'Poster'}, //iGEM server only
+            // { title: 'Poster', to: 'Poster'}, //iGEM server only
             { title: 'Achivement', to: 'Achivement'},
             { title: 'Safety', to: 'Safety'},
             { title: 'Judging Form', to: 'Judging_Form'},
