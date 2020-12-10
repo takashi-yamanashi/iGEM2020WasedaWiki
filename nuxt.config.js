@@ -55,7 +55,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
-    '@nuxtjs/sitemap',
+    // '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
