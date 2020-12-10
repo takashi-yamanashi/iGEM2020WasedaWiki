@@ -21,7 +21,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 Deploy (netlify), connected main branch
 
-https://tender-sammet-44e510.netlify.app/
+https://igemwaseda2020wiki.netlify.app
 
 # iGEM Server Deploy
 Branch : igem_server
