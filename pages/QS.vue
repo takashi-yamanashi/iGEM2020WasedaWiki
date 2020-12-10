@@ -257,8 +257,8 @@
 
                             <figure class="fig_mid_width" >
                                 <img class="image_max" src="https://2020.igem.org/wiki/images/3/3e/T--Waseda--crosstalk_prhlLR.png"
-                                alt="Fig 3-1-6 Result of Prhl (LR)-GFP and Prhl (RR)-GFP crosstalk assayz">
-                                <figcaption class="fig_title">Fig 3-1-6 Result of Prhl (LR)-GFP and Prhl (RR)-GFP crosstalk assayz</figcaption>
+                                alt="Fig 3-1-6 Result of Prhl (LR)-GFP and Prhl (RR)-GFP crosstalk assay">
+                                <figcaption class="fig_title">Fig 3-1-6 Result of Prhl (LR)-GFP and Prhl (RR)-GFP crosstalk assay</figcaption>
                             </figure>
 
                             <p class="p_indent"> 

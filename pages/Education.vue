@@ -461,43 +461,5 @@ h2 {
   margin-bottom: 400px;
 }
 
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
-
-.link_style {
-  color: rgb(80,126,164);
-}
-
-.link_style:active {
-  color: rgb(80,126,164);
-}
-
-.link_style:visited {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
- 
-.link_style:link {
-  color: rgb(80,126,164);
-  text-decoration: underline;
-}
 </style>
 
