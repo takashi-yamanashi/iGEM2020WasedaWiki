@@ -11,14 +11,15 @@
                         <v-row class="navi_image">
                                <svg class="navi_icon" z-index='99'>
                                  <circle fill="#363636" cx="100" cy="100" r="80" stroke="#ffffff" stroke-width="18"/>
-                                <circle fill="none" cx="100" cy="100" r="80" stroke="#008080" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
+                                <circle fill="none" cx="100" cy="100" r="80" stroke="#3E4651" stroke-width="18" id="triangle" :style="{ 'stroke-dashoffset': scrollPer}" transform='rotate(270 100 100)'/>  
                                 <!-- style="stroke-dasharray: 420.293; stroke-dashoffset: 210.293;" -->
                                 
                                 Sorry, your browser does not support inline SVG. 
                               </svg>
-                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/6/6a/T--Waseda--iGEMprojectIcon.svg">
+                              <img z-indx="10" class="navi_svg" src="https://2020.igem.org/wiki/images/7/71/T--Waseda--iGEM2020wikiicons-hp.svg">
             
                         </v-row>
+
 
             
                     <v-row class="navi_text">
@@ -304,7 +305,7 @@ export default {
       scrollY: 0,
       scrollPer: 510.293,
       sectionOffsetTop: [],
-      check: [false, false, false, false, false, false, false, false],
+      check: [false, false, false, false],
 
     };
   },
@@ -312,22 +313,22 @@ export default {
   methods: {
     pushScrollY(e) {
       this.scrollY = window.scrollY;
-    //   for (var i = 0; i < this.check.length; i++) {
-    //     this.check[i] = false
-    //   };
-    //   for (var j=0; j < this.check.length; j++) {
-    //     if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
-    //       this.check[j] = true
-    //     }
-    //   };
-    //   const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //   this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
+      for (var i = 0; i < this.check.length; i++) {
+        this.check[i] = false
+      };
+      for (var j=0; j < this.check.length; j++) {
+        if(this.scrollY >= this.sectionOffsetTop[j] && this.scrollY < this.sectionOffsetTop[j+1]) {
+          this.check[j] = true
+        }
+      };
+      const windowHigh = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      this.scrollPer = 510.293*(1 - (this.scrollY/(windowHigh)));
 
     },
 
     pushElementOffsetTop() {
       const targets = [
-        'WetLab', 'Modeling', 'NaviVideo', 'Wiki','HP', 'NaviOther', 'NaviLast'
+        'section_01','section_02','section_03','section_04'
       ];
       targets.forEach(target => {
         const element = document.getElementById(target);
