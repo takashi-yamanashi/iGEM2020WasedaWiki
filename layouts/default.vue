@@ -308,7 +308,7 @@ p {
     padding: 20px 16px 4px 16px; /* igem header 20px */
 }
 .theme--light.v-app-bar.v-toolbar.v-sheet {
-    background-color: #B09161;
+    background-color: #B09161 !important;
 }
 .navi_home_logo {
   width: 100px;
