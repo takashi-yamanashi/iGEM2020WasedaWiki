@@ -265,7 +265,7 @@
 
     <b>Information Processing Track award!</b>
     Check out our other
-    <nuxt-link to="Achivement"> achievements.</nuxt-link>
+    <nuxt-link to="Achievement"> achievements.</nuxt-link>
   </div> -->
 
 </v-container>

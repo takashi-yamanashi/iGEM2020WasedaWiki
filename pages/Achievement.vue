@@ -41,7 +41,7 @@
                     <v-row justify="center" text-align="left" id="section_01">
                         <v-row cols="12" class='h1_box'>
                           <v-col class='h1_box_text'> 
-                            <h1 class='h1_text' pushElementOffsetTop>Achivement</h1>
+                            <h1 class='h1_text' pushElementOffsetTop>Achievement</h1>
                           </v-col>
                         </v-row>
                     </v-row>
@@ -134,9 +134,9 @@
 </template>
 <script>
 
-const pageTitle = 'Achivement';
+const pageTitle = 'Achievement';
 const pageDes = "iGEM2020 Team Waseda's" + pageTitle + "page";
-const pageUrl = 'https://2020.igem.org/Team:Waseda/Achivement';
+const pageUrl = 'https://2020.igem.org/Team:Waseda/Achievement';
 
 
 export default {
