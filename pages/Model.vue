@@ -87,6 +87,18 @@
                         </figure>
                       </v-row>
 
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="7" class="row_max-box">
+                            
+                        <v-col>
+                          <h3> 4.2 The basic mothod and results of our genetical circuit</h3>
+                          <p class="p_indent">           
+                            Before modeling of  <i>in vitro</i> systems with cell-cell communication, we established differential-equations (1) to (6) (Fig.4-1-3) based on modeling for the same circuit which works in living <i>E. Coli</i> cells because of accumulated cases for such  <i>in vivo</i> models [Ryoji S. et al., 2011 and iGEM tokyo_tech, 2013]. We formulated equations assuming that the system has a sufficient amount of R protein and I proteins activate the corresponding promoters directly (Fig.4-1-4). The meaning of each parameter is as shown in Table.4-1-1. 
+                          </p>
+                          
+                        </v-col>
+                      </v-row>
+
+
                     
 
                                             <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
