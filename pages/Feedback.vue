@@ -99,6 +99,7 @@
                                         <li style='padding-right:60px;'>Very excited to see young entrepreneurs. However, I would recommend taking a hard look at your business canvas and figuring how much it would cost to achieve an MVP, and evaluate how you can scale up production. If you were to create a successful business, strong tech alone is not enough. You will need to really dive into the economics of your market and your manufacturing/supply chain. I think you guys are on the right track, but definitely think deeper about your product market fit.</li>
                                         </ul>
                                 </div>
+                                <div>Comments from the Waseda team : The Wiki error has now been fixed.</div>
                             </div>
                                                                     
                                     

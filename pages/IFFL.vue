@@ -270,7 +270,7 @@
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <p>Table.4-1-4 parameter set to AHL-R protein crosstalk</p>
+                          <p>Table.4-2-4 parameter set to AHL-R protein crosstalk</p>
                         <template>
                           <v-simple-table>
                             <template v-slot:default>
@@ -304,42 +304,156 @@
 
 
 
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                    
-
-  
-
-                        <v-row class="fig_full_width">
-                        <object data="https://2020.igem.org/wiki/images/b/ba/T--Waseda--Judgemodelinginfomation.pdf" type="application/pdf" width="100%" height="500px">
-                          <p><b>add information</b>: <a href="pdf.pdf">Download</a>.</p>
-                        </object>
-                        </v-row>
-
-                      </v-row>
-
-
-
-
-
-
-
-                      <!-- <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                    <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
 
                         <v-col>
-                          <h3></h3>
-                          <p class="p_indent">                            
-                          </P>
-                          <p class="p_indent">                              
+                          
+                          <p class="p_indent">   
+                            Furthermore, in order to evaluate the balance of the pulse shape, we calculated the ratio of the peak concentration to the following steady-state concentration for each parameter and presented it in a heat map. This is called the ratio heatmap. (Fig 4-2-5)                          
+                          
                           </p>
                         </v-col>
                       </v-row>
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <figure class="fig_full_width" >
-                          <img class="image_max" src="" alt="Logo">
-                        <figcaption class="fig_title"></figcaption>
+                          <figcaption class="fig_title">The ratio is calculated as formula (4).</figcaption>
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/c/cb/T--Waseda--yamaIFFL_ODE_2.png" alt="The ratio is calculated as formula">
+                        
                         </figure>
-                      </v-row> -->
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/9/96/T--Waseda--ratio_heatmap.png" alt="Fig 4-2-5 Ratio heatmap">
+                        <figcaption class="fig_title">Fig 4-2-5 Ratio heatmap</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                         
+                          <p class="p_indent">
+                            Based on these two indicators, we multiplied the cross heatmap by the value of the time heatmap and the ratio heatmap for each parameter to find out which parameter has both time difference and balance, comprehensively .To make this cross heatmap, we subtracted a certain constant number of time values from the time heatmap because we have to make the time delay above a certain level. If the time heatmap is negative, it is treated as 0. This is called time processed heatmap. Fig 4-2-6 is the time processed heat map, calculated by subtracting 4 from the all values of the time heatmap.                            
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/0/04/T--Waseda--time_heatmap_processed.png" alt="Fig 4-2-6 time processed heatmap">
+                        <figcaption class="fig_title">Fig 4-2-6 time processed heatmap</figcaption>
+                        </figure>
+                      </v-row>
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <figcaption class="fig_title">The values of the cross heatmap were calculated as the formula (5)</figcaption>
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/2/24/T--Waseda--yamaIFFL_ODE_3.png" alt="formula (5)">
+                        
+                        </figure>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          
+                          <p class="p_indent">   
+                            We selected the optimal parameter for the multi IFFL in the resulting match heatmap as the one with the highest score.  Two pulses were generated using the optimal parameter in practice (Fig 4-2-7)(Table 4-2-5, 4-2-6).  Yellow indicates the temporal variation of the concentration of Z1 and green indicates that of Z2.  As a result, we succeeded in creating pulses with a time difference.                         
+                          </p>
+                        </v-col>
+                      </v-row>
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p>Table 4-2-5</p>
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    parameter
+                                  </th>
+                                  <th class="table-font-size">
+                                    value
+                                  </th>
+                                  
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts10"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                 
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+
+                        </v-col>
+                      </v-row>
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+
+                        <v-col>
+                          <p>Table 4-2-6</p>
+                        <template>
+                          <v-simple-table>
+                            <template v-slot:default>
+                              <thead>
+                                <tr>
+                                  <th class="table-font-size">
+                                    parameter
+                                  </th>
+                                  <th class="table-font-size">
+                                    value
+                                  </th>
+                                  
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr
+                                  v-for="item in  desserts11"
+                                  :key="item.name"
+                                >
+                                  <td class="table-font-sizet">{{item.name}}</td>
+                                  <td class="table-font-sizet">{{ item.value }}</td>
+                                 
+                                </tr>
+                              </tbody>
+                            </template>
+                          </v-simple-table>
+                        </template>
+
+                        </v-col>
+                      </v-row>
+
+
+
+
+
+
+                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
+                        <figure class="fig_full_width" >
+                          <img class="image_max" src="https://2020.igem.org/wiki/images/e/ed/T--Waseda--IFFL_result_final.png" alt="Fig 4-2-7 Multi IFFL with the optimal parameters">
+                        <figcaption class="fig_title">Fig 4-2-7 Multi IFFL with the optimal parameters</figcaption>
+                        </figure>
+                      </v-row>
 
 
                       
@@ -488,6 +602,48 @@ export default {
             value: '1',
           },{
             name: 'βy',
+            value: '2',
+          },
+      ],
+       desserts10: [   
+          {
+            name: 'αx',
+            value: '2500',
+          },{
+            name: 'βx',
+            value: '1',
+          },{
+            name: 'βy',
+            value: '2',
+          },{
+            name: 'kx',
+            value: '8',
+          },{
+            name: 'ky',
+            value: '10',
+          },{
+            name: 'dz',
+            value: '1',
+          },
+      ],
+       desserts11: [   
+          {
+            name: 'αx',
+            value: '3500',
+          },{
+            name: 'βx',
+            value: '1',
+          },{
+            name: 'βy',
+            value: '2',
+          },{
+            name: 'kx',
+            value: '650',
+          },{
+            name: 'ky',
+            value: '600',
+          },{
+            name: 'dz',
             value: '2',
           },
       ]
