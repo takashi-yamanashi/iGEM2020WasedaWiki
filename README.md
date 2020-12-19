@@ -33,7 +33,7 @@ export IGEM_PASSWORD=youriGEMpassword
 ```
 
 ```bash
-$ git checkour igem_server
+$ git checkout igem_server
 $ git merge main
 
 # generate static project
@@ -41,10 +41,10 @@ $ yarn generate
 
 # rewrite for iGEM Format
 $ cd iGEMUpload
-$ python deploy_igem_server.py
+$ python conversion_to_igemformat.py
 
 # Deploy iGEM Server
-$ python conversion_to_igemformat.py
+$ python deploy_igem_server.py
 ```
 
 Please check this : https://2020.igem.org/Team:Waseda
