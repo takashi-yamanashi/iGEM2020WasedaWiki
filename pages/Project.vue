@@ -142,16 +142,6 @@
                       </v-row>
 
 
-
-
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/4e/T--Waseda--idealresult4.png " alt="Fig.2-1-6 The ideal results of our gene circuit">
-                        <figcaption class="fig_title">Fig.2-1-6 The ideal results of our gene circuit</figcaption>
-                        </figure>
-                      </v-row>
-
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <v-col>
                           
@@ -217,7 +207,7 @@
                         <v-col>
                          
                           <p class="p_indent">    
-                            Fig.2-1-9 shows the the relationship between this degradation rate and operation time for state switching. The blue point is about normal protein degradation, and the green point shows the case of the LVA degradation tag are introduced on the protein. Considering a system based only on normal protein degradation（1%/hour =1.6*10^-4/min ）of a cell-free system without growth of volume, it takes too much time (approximatery 2x104 min = 300 hours) to operate a state-switch between Samurai and Zombie.  To solve this problem, we first investigated the size of the required degradation term.  Operation time for the state switch was estimated from the time that high concentration of Samurai repressors at one equilibrium point are reduced by degradation to the repressor concentration at another equilibrium point. Although we did not consider the term of protein synthesis in this calculation, there is no problem because this assumption without protein synthesis shows shorter operation time than a case with protein synthesis                          
+                            Fig.2-1-9 shows the the relationship between this degradation rate and operation time for state switching. The blue point is about normal protein degradation, and the green point shows the case of the LVA degradation tag are introduced on the protein. Considering a system based only on normal protein degradation（1%/hour =1.6*10^-4/min ）of a cell-free system without growth of volume, it takes too much time (approximatery 2x104 min = 300 hours) to operate a state-switch between Samurai and Zombie.  To solve this problem, we first investigated the size of the required degradation term.  Operation time for the state switch was estimated from the time that high concentration of Samurai repressors at one equilibrium point are reduced by degradation to the repressor concentration at another equilibrium point. Although we did not consider the term of protein synthesis in this calculation, there is no problem because this assumption without protein synthesis shows shorter operation time than a case with protein synthesis.                          
                           </p>
                         </v-col>
                       </v-row>
@@ -654,10 +644,7 @@
                           <p class="p_indent">  
                             By using that system, we can change fragrance automatically as time passed                             
                           </p>
-                        </v-col>
-                     
-
-                        <v-col>
+                
                           
                           <p class="p_indent">
                              In order to check whether the designed multi-target IFFL can really generate two pulse with a time delay, we extensively searched parameter space for the system                             

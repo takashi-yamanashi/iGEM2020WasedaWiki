@@ -67,7 +67,7 @@
                           
                           <p class="p_indent">           
                             Our Zombie vs Samurai Circuit is as shown in Fig.4-1-1. To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms. The ideal results for the war between Zombies and Samurai are in the Fig.4-1-2. This ideal result has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication, so we tried to develop this simulation and realize a toggle switch including cell-cell communication. Since the nullcline indicates the concentration when it does not change with time, the number of shared points of two nullclines corresponds to the number of stable states. As shown in Fig.4-1-2, there are three shared points on the nullcline and two of them are stable equilibrium points, so the system is bistable.
-                          </P>
+                          </p>
                           
                         </v-col>
                       </v-row>
@@ -82,27 +82,13 @@
                       </v-row>
 
 
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="8" class="row_max-box">
-                        <figure class="fig_full_width" >
-                          <img class="image_max" src="https://2020.igem.org/wiki/images/4/4a/T--Waseda--zombi_R_NoAHL_Nopro_image.PNG" alt="Fig.4-1-1 Zombie vs Samurai circuit">
-                        <figcaption class="fig_title">Fig.4-1-1 Zombie vs Samurai circuit</figcaption>
-                        </figure>
-                      </v-row>
-
-                      <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="8" class="row_max-box">
-    
-
-                      </v-row>
-
-
                       <v-row cols="12" sm="12" xs="12" md="12" lg="8" xl="7" class="row_max-box">
                             
                         <v-col>
                           <h3> 4.2 The basic mothod and results of our genetical circuit</h3>
                           <p class="p_indent">           
-                            Our Zombie vs Samurai Circuit is as shown in Fig.4-1-1. To demonstrate this model, we solved the ordinary differential equations containing Hill repression and activation terms. The ideal results for the war between Zombies and Samurai are in the Fig.4-1-2. This ideal result has previously been achieved with ordinary toggle switch genetic circuits without cell-cell communication, so we tried to develop this simulation and realize a toggle switch including cell-cell communication. Since the nullcline indicates the concentration when it does not change with time, the number of shared points of two nullclines corresponds to the number of stable states. As shown in Fig.4-1-2, there are three shared points on the nullcline and two of them are stable equilibrium points, so the system is bistable.
-                          </P>
+                            Before modeling of  <i>in vitro</i> systems with cell-cell communication, we established differential-equations (1) to (6) (Fig.4-1-3) based on modeling for the same circuit which works in living <i>E. Coli</i> cells because of accumulated cases for such  <i>in vivo</i> models [Ryoji S. et al., 2011 and iGEM tokyo_tech, 2013]. We formulated equations assuming that the system has a sufficient amount of R protein and I proteins activate the corresponding promoters directly (Fig.4-1-4). The meaning of each parameter is as shown in Table.4-1-1. 
+                          </p>
                           
                         </v-col>
                       </v-row>
@@ -129,7 +115,7 @@
 
                       <v-row cols="12" sm="12" xs="12" md="12" lg="7" xl="7" class="row_max-box">
                         <p class="p_indent">  <br/>                         
-                          </P>
+                          </p>
                       </v-row>
 
                       
@@ -172,7 +158,7 @@
                         <v-col>
                           <h3></h3>
                           <p class="p_indent">                            
-                          </P>
+                          </p>
                           <p class="p_indent">                              
                           </p>
                         </v-col>
@@ -235,7 +221,7 @@
                           
                           <p class="p_indent">   
                             At the same time, we drew Fig.4-1-5 as the time-course of each molecular concentration by using the same parameter set. It also showed there were two final stable states when the initial concentration of AHL was changed. Other initial values of this simulation were as shown in Table.4-1-3.                         
-                          </P>
+                          </p>
                           <p class="p_indent">   
                             Fig.4-1-6 illustrates the behavior of our gene circuit. When the zombie state cell is induced with a samurai signal, the cell fate will change depending on the size of the signal. If the zombie receives a large number of samurai signals, the zombie will not be able to withstand the signal and will turn into a samurai. However, if samurai signal received by the zombie state cell is not enough, the zombie can revert back to being a zombie again, without completely transforming into a samurai. As a result, we were able to create two final states simply by changing the initial concentration of communication molecules.                           
                           </p>
@@ -308,7 +294,7 @@
                             We used the value of the equilibrium point of CI in Fig.4-1-5 and hold the equations (13) to (15). The time t1 at which the system reached one equilibrium point and the time t2 at which the system reached the other equilibrium point are expressed by equations (13) and (14), respectively. Besides, the difference between t1 and t2 is expressed as t by equation (15). We illustrated Fig.4-1-7 as the relationship between this degradation and time (equation (15)) and found that it takes too much time (approximately 20x104 min = 300 hours) to operate a state-switch between Samurai and Zombie.
                              The blue point is about normal protein degradation, and the green point shows the case of the LVA degradation tag are introduced on the protein. This estimation of switching time implies the importance of repressor production in our system.
 
-                          </P>
+                          </p>
                          
                         </v-col>
                       </v-row>
@@ -337,7 +323,7 @@
                           <p class="p_indent">  
                              Our simulation can show the fate of the battle between Zombie and Samurai in the test tube(Fig.4-1-8).  Depending on initial concentration of components, we can prepare a Zombie test tube and a Samurai test tube which are stable state. Then, by mixing Zombie and Samurai cell-free solutions in various ratios, the battle started. To realize this battle, we used the same parameter as Table.4-1-2 and Table.4-1-3, and created datasets which were stabilized in two states with different values.  We took the final point of dataset, added it together in various ratios such as 8:2 or 7:3, and then had it calculated again as a new initial value.                           
                              As a result, we succeeded in showing that the mixing ratios produced two states. When Samurai state cell-free solution and Zombie state cell-free solution were mixed at a ratio of 8:2, the mixed solution was stable in the Samurai state. This means that the Samurai have beaten the Zombie. However, a slight change of the ratio completely turned their fate. When the Samurai and Zombie solutions were mixed at a ratio of 7:3, the mixed solution was stable in the Zombie state and the Zombie will destroyed the Samurai.
-                          </P>
+                          </p>
                         </v-col>
                       </v-row>
 
@@ -354,7 +340,7 @@
                           
                           <p class="p_indent">   
                             For artificial genetic circuits intercellular communication, we had to consider two types of signal crosstalks; one is the activation of the R protein with different communication molecules and the other is the activation of the promoter with different R proteins.  Especially, we dealt with and modeled R　protein and Promoter crosstalk.                         
-                          </P>
+                          </p>
                           <p class="p_indent">        
                             We needed to set the R protein concentration to see the crosstalk between AHL and R protein, so the Fig.4-1-3 was modified to Fig.4-1-9, and we consider the new reaction shown in Fig.4-1-10.                      
                           </p>
@@ -376,7 +362,7 @@
                           
                           <p class="p_indent">  
                              We hold formulated equations (16) to (21), which is similar to equations (1) to (6), but we changed the first terms of equations (16) and (17) compared to equations (1) and (2). Thinking of R protein binding to DNA, we were able to regard R proteins as competitive inhibition each other. We assumed there was no great difference in promoter activation between any activated proteins, so we simply summed them up, forming equations (16) to (17). Using the parameters shown as Table.4-1-4, we drew a nullcline as Fig.4-1-11 by setting the change with time 0 of equations (16) to (21).                          
-                          </P>
+                          </p>
                         </v-col>
                       </v-row>
 
@@ -441,7 +427,7 @@
                         <v-col>
                           <p class="p_indent"> 
                             The actual measurements of the wet experiments showed that there was severe crosstalks between R proteins and promoters. Even with the identified severe crosstalks between Rhl promoter and LuxR-3OC6HSL complex, reduction of maximum activity of  Rhl promoter allowed us to prepare test tubes for Samurai and Zombie. Because of the same activation by samurai signaling molecule for the both repressors, Samurai state seemed not to be stable (Fig.4-1-11 center). However, we could reduce CI repressor production from Rhl promoter by mutations at its DNA sequence. Even though such reduction had a risk of unitability of Zombie state, adequate modulation of maximum activity of Rhl promoter kept the stability. When we reduce the maximum expression by Rhl promoter to 1/10 compared with Lux promoter activity, phase space analysis show both stabilities of Zombie and Samurai state; the reduction did not change the number of intersections of nullclines (Fig.4-1-11 right).  Moreover, for this model we drew Fig.4-1-12 as a time course of mixed Zombie and Samurai. We found that even if we consider crosstalk, the two powers can compete and be biased to either side depending on their ratios.                           
-                          </P>
+                          </p>
                         </v-col>
                       </v-row>
 
@@ -471,7 +457,7 @@
 
                           <p class="p_indent">  
                             Considering these modeling results, Wet-Dry cycle showed that our cell-free system works as intended in the scenario.                          
-                          </P>
+                          </p>
                           
                         </v-col>
                       </v-row>
@@ -482,7 +468,7 @@
                           <h3>Reference</h3>
                           <p>
                             [1] Maurizi MR. Proteases and protein degradation in Escherichia coli. Experientia. 1992 Feb 15 48(2):178-201                            
-                          </P>
+                          </p>
                           
                         </v-col>
                       </v-row>
@@ -495,7 +481,7 @@
                         <v-col>
                           <h3></h3>
                           <p class="p_indent">                            
-                          </P>
+                          </p>
                           <p class="p_indent">                              
                           </p>
                         </v-col>
