@@ -224,8 +224,7 @@
 
     <v-row justify="center" align="Top">
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7" justify="center" align="center">
-          <h2 class="h2_text_hp">Interactions Between Reseaech Activities and Human Practice Activities <br/>
-            Feedbacks from Human Practice activities to our reseaech activities </h2>
+          <h2 class="h2_text_hp">Interactions Between Reseaech Activities and Human Practice Activities </h2>
       </v-col>
       <v-col cols="12" xs="11" sm="11" md="10" lg="8" xl="7">
           <v-row>
